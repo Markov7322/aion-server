@@ -23,7 +23,7 @@ public class SM_WARDROBE_INFO extends AionServerPacket {
 
         @Override
         protected void writeImpl(AionConnection con) {
-                writeC(fullList ? 0 : 1);
+                writeC(fullList ? 1 : 0);
                 writeH(entries.size());
                 for (WardrobeEntry entry : entries) {
                         writeD(entry.getSkinId());
