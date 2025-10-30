@@ -14,6 +14,7 @@ import com.aionemu.gameserver.configs.main.ShutdownConfig;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.GameTimeService;
 import com.aionemu.gameserver.services.PeriodicSaveService;
+import com.aionemu.gameserver.services.mail.SystemMailEndpointService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.World;
@@ -69,7 +70,8 @@ public class ShutdownHook extends Thread {
 			}
 		}
 
-		GameServer.shutdownNioServer(); // shuts down network, disconnects cs/ls/all players and saves them
+                GameServer.shutdownNioServer(); // shuts down network, disconnects cs/ls/all players and saves them
+                SystemMailEndpointService.getInstance().stop();
 
 		RunnableStatsManager.dumpClassStats(SortBy.AVG);
 		PeriodicSaveService.getInstance().onShutdown();

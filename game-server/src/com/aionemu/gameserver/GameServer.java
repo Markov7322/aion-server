@@ -55,6 +55,7 @@ import com.aionemu.gameserver.services.conquerorAndProtectorSystem.ConquerorAndP
 import com.aionemu.gameserver.services.drop.DropRegistrationService;
 import com.aionemu.gameserver.services.event.EventService;
 import com.aionemu.gameserver.services.instance.PeriodicInstanceManager;
+import com.aionemu.gameserver.services.mail.SystemMailEndpointService;
 import com.aionemu.gameserver.services.player.PlayerLimitService;
 import com.aionemu.gameserver.services.transfers.PlayerTransferService;
 import com.aionemu.gameserver.spawnengine.SpawnEngine;
@@ -238,8 +239,10 @@ public class GameServer {
 		GameTimeService.getInstance().startClock();
 
 		PvpMapService.getInstance().init();
-		CustomInstanceService.getInstance();
-		DataManager.waitForValidationToFinishAndShutdownOnFail();
+                CustomInstanceService.getInstance();
+                DataManager.waitForValidationToFinishAndShutdownOnFail();
+
+                SystemMailEndpointService.getInstance().start();
 
 		System.gc();
 

@@ -2,23 +2,18 @@
 declare(strict_types=1);
 
 /**
- * Minimal PHP helper that mimics the in-game shop gift delivery logic.
+ * Minimal PHP helper that proxies a web shop purchase to the in-game {@code SystemMailService}.
  *
- * It reads the recipient name and item id/count from a simple HTML form,
- * creates an inventory entry in the MAILBOX storage and enqueues a letter
- * that the game server will pick up on the next mailbox refresh.
- *
- * ⚠️  Important: because the Java game server keeps an in-memory ID factory,
- *     execute this script only when the game server is offline or expose
- *     a small RPC inside the server that calls SystemMailService.sendMail(...)
- *     on your behalf. Running it while the server is online can lead to
- *     duplicate IDs. See the README block at the bottom for more context.
+ * It reads the recipient name and item id/count from a simple HTML form and calls the
+ * lightweight HTTP endpoint exposed by the game server. The endpoint performs all safety checks
+ * (ID generation, mailbox counters, logging) and immediately delivers the mail to the player if
+ * they are online.
  */
 
 $config = [
-    'dsn' => 'mysql:host=127.0.0.1;dbname=aion_gs;charset=utf8mb4',
-    'user' => 'root',
-    'password' => '',
+    'endpoint' => 'http://127.0.0.1:9020/api/system-mail',
+    'auth_token' => '',
+    'timeout' => 5,
 ];
 
 $errors = [];
@@ -58,104 +53,77 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($errors === []) {
         try {
-            $pdo = new PDO($config['dsn'], $config['user'], $config['password'], [
-                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-                PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-            ]);
+            $payload = [
+                'recipient' => $input['recipient'],
+                'item_id' => $input['item_id'],
+                'item_count' => $input['item_count'],
+                'sender' => mb_strimwidth($input['sender'], 0, 16, ''),
+                'title' => mb_strimwidth($input['title'], 0, 20, ''),
+                'message' => mb_strimwidth($input['message'], 0, 1000, ''),
+            ];
 
-            $pdo->beginTransaction();
-
-            $recipientStmt = $pdo->prepare('SELECT id, mailbox_letters FROM players WHERE name = ? LIMIT 1 FOR UPDATE');
-            $recipientStmt->execute([$input['recipient']]);
-            $recipient = $recipientStmt->fetch();
-
-            if (!$recipient) {
-                throw new RuntimeException('Персонаж с таким именем не найден.');
+            $response = sendMailRequest($payload, $config);
+            if (($response['success'] ?? false) === true) {
+                $success = true;
+            } else {
+                $errors[] = $response['error'] ?? 'Не удалось получить положительный ответ от игрового сервера.';
             }
-            if ((int) $recipient['mailbox_letters'] >= 200) {
-                throw new RuntimeException('Почтовый ящик переполнен (200 писем).');
-            }
-
-            $itemTemplateStmt = $pdo->prepare('SELECT 1 FROM ingameshop WHERE item_id = ? LIMIT 1');
-            $itemTemplateStmt->execute([$input['item_id']]);
-            if (!$itemTemplateStmt->fetch()) {
-                // Мы не блокируем выполнение, но выдаём предупреждение.
-                $warnings[] = 'В каталоге ingameshop нет записи с таким item_id. Проверьте ID вручную.';
-            }
-
-            $itemUniqueId = nextUniqueId($pdo, 'inventory', 'item_unique_id');
-            $mailUniqueId = nextUniqueId($pdo, 'mail', 'mail_unique_id');
-
-            $insertItem = $pdo->prepare(
-                'INSERT INTO inventory (
-                    item_unique_id, item_id, item_count, item_color, color_expires,
-                    item_creator, expire_time, activation_count, item_owner, is_equipped,
-                    is_soul_bound, slot, item_location, enchant, enchant_bonus, item_skin,
-                    fusioned_item, optional_socket, optional_fusion_socket, charge, tune_count,
-                    rnd_bonus, fusion_rnd_bonus, tempering, pack_count, is_amplified, buff_skill,
-                    rnd_plume_bonus
-                ) VALUES (
-                    :item_unique_id, :item_id, :item_count, NULL, 0,
-                    :item_creator, 0, 0, :item_owner, 0,
-                    0, 0, 127, 0, 0, 0,
-                    0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0,
-                    0
-                )'
-            );
-            $insertItem->execute([
-                ':item_unique_id' => $itemUniqueId,
-                ':item_id' => $input['item_id'],
-                ':item_count' => $input['item_count'],
-                ':item_creator' => $input['sender'],
-                ':item_owner' => $recipient['id'],
-            ]);
-
-            $insertMail = $pdo->prepare(
-                'INSERT INTO mail (
-                    mail_unique_id, mail_recipient_id, sender_name, mail_title, mail_message,
-                    unread, attached_item_id, attached_kinah_count, express, recieved_time
-                ) VALUES (
-                    :mail_unique_id, :mail_recipient_id, :sender_name, :mail_title, :mail_message,
-                    1, :attached_item_id, 0, 2, NOW()
-                )'
-            );
-            $insertMail->execute([
-                ':mail_unique_id' => $mailUniqueId,
-                ':mail_recipient_id' => $recipient['id'],
-                ':sender_name' => mb_strimwidth($input['sender'], 0, 16, ''),
-                ':mail_title' => mb_strimwidth($input['title'], 0, 20, ''),
-                ':mail_message' => mb_strimwidth($input['message'], 0, 1000, ''),
-                ':attached_item_id' => $itemUniqueId,
-            ]);
-
-            $updateMailbox = $pdo->prepare('UPDATE players SET mailbox_letters = mailbox_letters + 1 WHERE id = ?');
-            $updateMailbox->execute([$recipient['id']]);
-
-            $pdo->commit();
-            $success = true;
         } catch (Throwable $e) {
-            if (isset($pdo) && $pdo->inTransaction()) {
-                $pdo->rollBack();
-            }
             $errors[] = $e->getMessage();
         }
     }
 }
 
-function nextUniqueId(PDO $pdo, string $table, string $column): int
+function sendMailRequest(array $payload, array $config): array
 {
-    $stmt = $pdo->query(sprintf(
-        'SELECT %s FROM %s ORDER BY %s DESC LIMIT 1 FOR UPDATE',
-        $column,
-        $table,
-        $column
-    ));
-    $row = $stmt->fetch(PDO::FETCH_NUM);
-    if (!$row) {
-        return 1;
+    $endpoint = $config['endpoint'];
+    if (!is_string($endpoint) || $endpoint === '') {
+        throw new InvalidArgumentException('Не задан URL endpoint-а игрового сервера.');
     }
-    return ((int) $row[0]) + 1;
+
+    $body = http_build_query($payload, '', '&', PHP_QUERY_RFC3986);
+
+    $headers = [
+        'Content-Type: application/x-www-form-urlencoded',
+        'Content-Length: ' . strlen($body),
+    ];
+
+    $authToken = (string) ($config['auth_token'] ?? '');
+    if ($authToken !== '') {
+        $headers[] = 'X-Auth-Token: ' . $authToken;
+    }
+
+    $context = stream_context_create([
+        'http' => [
+            'method' => 'POST',
+            'header' => implode("\r\n", $headers) . "\r\n",
+            'content' => $body,
+            'timeout' => (int) ($config['timeout'] ?? 5),
+            'ignore_errors' => true,
+        ],
+    ]);
+
+    $result = @file_get_contents($endpoint, false, $context);
+    if ($result === false) {
+        $error = error_get_last();
+        throw new RuntimeException('Не удалось обратиться к игровому серверу: ' . ($error['message'] ?? 'неизвестная ошибка'));
+    }
+
+    $statusLine = $http_response_header[0] ?? '';
+    if (preg_match('#^HTTP/\S+\s+(\d{3})#', $statusLine, $matches)) {
+        $statusCode = (int) $matches[1];
+    } else {
+        $statusCode = 0;
+    }
+
+    $decoded = json_decode($result, true, 512, JSON_THROW_ON_ERROR);
+
+    if ($statusCode !== 200) {
+        $errorMessage = $decoded['error'] ?? ('Игровой сервер вернул код ' . $statusCode);
+        throw new RuntimeException($errorMessage);
+    }
+
+    return is_array($decoded) ? $decoded : ['success' => false, 'error' => 'Некорректный ответ от игрового сервера.'];
 }
 
 ?>
@@ -228,18 +196,12 @@ function nextUniqueId(PDO $pdo, string $table, string $column): int
     <section>
         <h2>Что делает скрипт</h2>
         <ol>
-            <li>Находит ID персонажа в таблице <code>players</code> и блокирует запись на время транзакции.</li>
-            <li>Создаёт предмет в таблице <code>inventory</code> со складом <code>item_location = 127</code> (почтовый ящик).</li>
-            <li>Добавляет письмо в таблицу <code>mail</code> с типом <code>LetterType.BLACKCLOUD</code> (значение 2).</li>
-            <li>Увеличивает счётчик <code>players.mailbox_letters</code>.</li>
+            <li>Собирает данные формы и отправляет POST-запрос на <code>/api/system-mail</code> игрового сервера.</li>
+            <li>Сервер проверяет токен, валидирует параметры и вызывает <code>SystemMailService.sendMail(...)</code>.</li>
+            <li>Письмо создаётся штатными DAO, счётчики обновляются через <code>updateRecipientMailbox(...)</code>, а активный игрок сразу получает уведомление.</li>
         </ol>
         <p>
-            Скрипт повторяет ограничения <a href="../game-server/src/com/aionemu/gameserver/services/mail/SystemMailService.java">SystemMailService</a>
-            из игрового сервера и подходит как временный мост между сайтом и сервером.
-        </p>
-        <p>
-            Чтобы избежать конфликтов ID, используйте его только когда сервер выключен или заведите небольшой HTTP/RPC слой
-            в самом сервере, который будет вызывать <code>SystemMailService.sendMail()</code> напрямую.
+            Убедитесь, что задали секрет и ограничили доступ к endpoint-у на уровне веб-сервера или файрвола.
         </p>
     </section>
 </body>

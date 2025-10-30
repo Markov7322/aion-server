@@ -21,4 +21,16 @@ public class InGameShopConfig {
 
 	@Property(key = "gameserver.ingameshop.allow.gift", defaultValue = "true")
 	public static boolean ALLOW_GIFTS;
+
+	@Property(key = "gameserver.ingameshop.mailrpc.enable", defaultValue = "false")
+	public static boolean ENABLE_MAIL_RPC_ENDPOINT;
+
+	@Property(key = "gameserver.ingameshop.mailrpc.host", defaultValue = "127.0.0.1")
+	public static String MAIL_RPC_HOST;
+
+	@Property(key = "gameserver.ingameshop.mailrpc.port", defaultValue = "9020")
+	public static int MAIL_RPC_PORT;
+
+	@Property(key = "gameserver.ingameshop.mailrpc.secret", defaultValue = "")
+	public static String MAIL_RPC_SECRET;
 }
