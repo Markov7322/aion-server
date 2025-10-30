@@ -15779,9 +15779,94 @@
 		<name>STR_VIP_CHARINFO_VIPDETAIL_TITLE</name>
 		<body>VIP details</body>
 	</string>
-	<string>
-		<id>913069</id>
-		<name>STR_VIP_CHARINFO_VIPDETAIL_GRADE_EFFECT_INFO</name>
-		<body>VIP levels</body>
-	</string>
+        <string>
+                <id>913069</id>
+                <name>STR_VIP_CHARINFO_VIPDETAIL_GRADE_EFFECT_INFO</name>
+                <body>VIP levels</body>
+        </string>
+        <string>
+                <id>913070</id>
+                <name>STR_START_DIALOG__TOOLTIP_WARDROBE</name>
+                <body>Wardrobe</body>
+        </string>
+        <string>
+                <id>913071</id>
+                <name>STR_WARDROBE_DIALOG</name>
+                <body>Wardrobe</body>
+        </string>
+        <string>
+                <id>913072</id>
+                <name>STR_WARDROBE_DIALOG__FILTER</name>
+                <body>Category</body>
+        </string>
+        <string>
+                <id>913073</id>
+                <name>STR_WARDROBE_DIALOG__CATEGORY_ALL</name>
+                <body>All skins</body>
+        </string>
+        <string>
+                <id>913074</id>
+                <name>STR_WARDROBE_DIALOG__CATEGORY_ARMOR</name>
+                <body>Armor</body>
+        </string>
+        <string>
+                <id>913075</id>
+                <name>STR_WARDROBE_DIALOG__CATEGORY_WEAPON</name>
+                <body>Weapons</body>
+        </string>
+        <string>
+                <id>913076</id>
+                <name>STR_WARDROBE_DIALOG__CATEGORY_ACCESSORY</name>
+                <body>Accessories</body>
+        </string>
+        <string>
+                <id>913077</id>
+                <name>STR_WARDROBE_DIALOG__CATEGORY_COSTUME</name>
+                <body>Costumes</body>
+        </string>
+        <string>
+                <id>913078</id>
+                <name>STR_WARDROBE_DIALOG__SEARCH</name>
+                <body>Search</body>
+        </string>
+        <string>
+                <id>913079</id>
+                <name>STR_WARDROBE_DIALOG__COLUMN_NAME</name>
+                <body>Skin</body>
+        </string>
+        <string>
+                <id>913080</id>
+                <name>STR_WARDROBE_DIALOG__REGISTER_SLOT</name>
+                <body>Register Skin</body>
+        </string>
+        <string>
+                <id>913081</id>
+                <name>STR_WARDROBE_DIALOG__TARGET_SLOT</name>
+                <body>Target Item</body>
+        </string>
+        <string>
+                <id>913082</id>
+                <name>STR_WARDROBE_DIALOG__PREVIEW</name>
+                <body>Preview</body>
+        </string>
+        <string>
+                <id>913083</id>
+                <name>STR_WARDROBE_DIALOG__REGISTER</name>
+                <body>Register</body>
+        </string>
+        <string>
+                <id>913084</id>
+                <name>STR_WARDROBE_DIALOG__APPLY</name>
+                <body>Apply</body>
+        </string>
+        <string>
+                <id>913085</id>
+                <name>STR_WARDROBE_DIALOG__CLOSE</name>
+                <body>Close</body>
+        </string>
+        <string>
+                <id>913086</id>
+                <name>STR_WARDROBE_DIALOG__INFO</name>
+                <body>Drag items here to register skins or apply unlocked looks.</body>
+        </string>
 </strings>

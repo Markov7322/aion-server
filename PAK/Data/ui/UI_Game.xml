@@ -182,12 +182,14 @@
 	</Dialog>
 	<Dialog name="resurrectother_dialog">
 	</Dialog>
-	<Dialog name="remove_option_dialog">
-	</Dialog>
-	<Dialog name="skin_change_dialog">
-	</Dialog>
-	<Dialog name="add_proc_dialog">
-	</Dialog>
+        <Dialog name="remove_option_dialog">
+        </Dialog>
+        <Dialog name="skin_change_dialog">
+        </Dialog>
+        <Dialog name="wardrobe_dialog">
+        </Dialog>
+        <Dialog name="add_proc_dialog">
+        </Dialog>
 	<Dialog name="skill_delay_dialog">
 	</Dialog>
 	<Dialog name="enchant_delay_dialog">

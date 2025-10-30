@@ -151,8 +151,10 @@
 		</Widget>
 	</Dialog>
 	<Dialog flag="not_movable;visible" frame="1059,539,165,118" h_pos_align="center" name="start_dialog" preset="v5_hud_start_s1" type="dlg_start" v_pos_align="proportion">
-		<Widget frame="68,61,39,39" name="start_button" preset="v5_start_button" tooltip="STR_START_DIALOG__TOOLTIP_MENU" type="button" v_pos_align="bottom">
-		</Widget>
+                <Widget frame="37,61,39,39" name="wardrobe_button" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button" v_pos_align="bottom">
+                </Widget>
+                <Widget frame="68,61,39,39" name="start_button" preset="v5_start_button" tooltip="STR_START_DIALOG__TOOLTIP_MENU" type="button" v_pos_align="bottom">
+                </Widget>
 		<Widget frame="99,61,39,39" name="prophet_button" preset="v5_propet_button" tooltip="STR_START_DIALOG__TOOLTIP_WORLD_INFLUENCE" type="button" v_pos_align="bottom">
 		</Widget>
 		<Widget flag="visible" frame="3,36,59,59" name="fly_gauge" preset="v5_fly_gauge" type="flygauge">
