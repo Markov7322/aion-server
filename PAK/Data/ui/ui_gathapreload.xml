@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkinLibrary last_modified="2014-05-16 13:36:02" name="UI_GathaPreLoad" version="47">
+	<Category name="gatha01">
+		<Skin name="gatha01_frame" size_left_bottom="102,52" size_left_middle="102,0" size_left_top="102,56" size_middle_bottom="0,52" size_middle_middle="0,0" size_middle_top="0,56" size_right_bottom="101,52" size_right_middle="101,0" size_right_top="101,56" src_left_bottom="8,115,102,52" src_left_middle="8,59,102,56" src_left_top="8,3,102,56" src_middle_bottom="110,115,49,52" src_middle_middle="110,59,49,56" src_middle_top="110,3,49,56" src_right_bottom="159,115,101,52" src_right_middle="159,59,101,56" src_right_top="159,3,101,56" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_frame2" size_left_bottom="102,52" size_left_middle="102,0" size_left_top="102,56" size_middle_bottom="0,52" size_middle_middle="0,0" size_middle_top="0,56" size_right_bottom="101,52" size_right_middle="101,0" size_right_top="101,56" src_left_bottom="8,266,102,52" src_left_middle="8,227,102,39" src_left_top="8,171,102,56" src_middle_bottom="110,266,49,52" src_middle_middle="110,227,49,39" src_middle_top="110,171,49,56" src_right_bottom="159,266,101,52" src_right_middle="159,227,101,39" src_right_top="159,171,101,56" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_frame_fx" size_left_bottom="102,52" size_left_middle="102,0" size_left_top="102,56" size_middle_bottom="0,52" size_middle_middle="0,0" size_middle_top="0,56" size_right_bottom="101,52" size_right_middle="101,0" size_right_top="101,56" src_left_bottom="654,436,102,52" src_left_middle="654,380,102,56" src_left_top="654,324,102,56" src_middle_bottom="756,436,49,52" src_middle_middle="756,380,49,56" src_middle_top="756,324,49,56" src_right_bottom="805,436,101,52" src_right_middle="805,380,101,56" src_right_top="805,324,101,56" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_bg" src_image="8,436,261,261" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_cover" src_image="8,700,261,261" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_rank_bg" src_image="142,327,104,77" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_bg_empty" src_image="273,83,368,170" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_bg_c" src_image="273,256,368,170" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_bg_b" src_image="273,429,368,170" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_bg_a" src_image="273,603,368,170" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_bg_s" src_image="273,777,368,170" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_c" src_image="273,3,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_b" src_image="347,3,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_a" src_image="421,3,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_s" src_image="495,3,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_c_over" src_image="273,953,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_b_over" src_image="347,953,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_a_over" src_image="421,953,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_s_over" src_image="495,953,71,64" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_up" size_left_middle="29,0" size_middle_middle="0,0" size_right_middle="29,0" src_left_middle="931,338,29,33" src_middle_middle="960,338,24,33" src_right_middle="984,338,29,33" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_button_over" size_left_middle="29,0" size_middle_middle="0,0" size_right_middle="29,0" src_left_middle="931,376,29,33" src_middle_middle="960,376,24,33" src_right_middle="984,376,29,33" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_button_down" size_left_middle="29,0" size_middle_middle="0,0" size_right_middle="29,0" src_left_middle="931,414,29,33" src_middle_middle="960,414,24,33" src_right_middle="984,414,29,33" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_button_disable" size_left_middle="29,0" size_middle_middle="0,0" size_right_middle="29,0" src_left_middle="931,452,29,33" src_middle_middle="960,452,24,33" src_right_middle="984,452,29,33" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_button_l_up" src_image="650,569,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_l_over" src_image="650,664,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_l_down" src_image="650,759,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_l_disable" src_image="650,854,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_r_up" src_image="738,569,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_r_over" src_image="738,664,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_r_down" src_image="738,759,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_button_r_disable" src_image="738,854,85,92" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_gauge_fail" src_image="853,660,159,159" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_gauge_success" src_image="853,823,159,159" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward" src_image="853,497,159,159" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_fever_gauge" size_left_middle="20,0" size_middle_middle="0,0" size_right_middle="20,0" src_left_middle="97,964,20,27" src_middle_middle="117,964,46,27" src_right_middle="163,964,20,27" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_fever_gauge_bg" size_left_middle="20,0" size_middle_middle="0,0" size_right_middle="20,0" src_left_middle="8,964,20,27" src_middle_middle="28,964,46,27" src_right_middle="74,964,20,27" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_fever_image" src_image="8,326,117,77" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_fever_separator" src_image="185,964,6,27" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_fever_fx" size_left_middle="92,0" size_middle_middle="0,0" size_right_middle="84,0" src_left_middle="573,956,92,58" src_middle_middle="668,956,85,58" src_right_middle="756,956,84,58" texture="textures/ui/gatha01" type="tiled">
+		</Skin>
+		<Skin name="gatha01_reward_tab_up" src_image="582,7,71,41" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_over" src_image="656,7,71,41" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_down" src_image="731,7,71,41" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_c" src_image="977,7,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_b" src_image="936,7,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_a" src_image="895,7,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_s" src_image="854,7,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_c_over" src_image="977,44,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_b_over" src_image="936,44,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_a_over" src_image="895,44,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_reward_tab_s_over" src_image="854,44,36,33" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_help_button_up" src_image="827,3,22,28" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_help_button_over" src_image="827,32,22,28" texture="textures/ui/gatha01">
+		</Skin>
+		<Skin name="gatha01_help_button_down" src_image="827,61,22,28" texture="textures/ui/gatha01">
+		</Skin>
+		<preset name="gatha01_frame" type="window">
+			<SkinRef name="gatha01_frame" state="frame">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_frame2" type="window">
+			<SkinRef name="gatha01_frame2" state="frame">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_reward_bg" type="static">
+			<SkinRef name="gatha01_reward_bg_s" state="0">
+			</SkinRef>
+			<SkinRef name="gatha01_reward_bg_a" state="1">
+			</SkinRef>
+			<SkinRef name="gatha01_reward_bg_b" state="2">
+			</SkinRef>
+			<SkinRef name="gatha01_reward_bg_c" state="3">
+			</SkinRef>
+			<SkinRef name="gatha01_reward_bg_empty" state="4">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_button" type="button">
+			<SkinRef main_state="0" name="gatha01_button_up" sub_state="up">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_over" sub_state="over">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_down" sub_state="down">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_disable" sub_state="disable">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_button_l" type="button">
+			<SkinRef main_state="0" name="gatha01_button_l_up" sub_state="up">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_l_over" sub_state="over">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_l_down" sub_state="down">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_l_disable" sub_state="disable">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_button_r" type="button">
+			<SkinRef main_state="0" name="gatha01_button_r_up" sub_state="up">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_r_over" sub_state="over">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_r_down" sub_state="down">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_button_r_disable" sub_state="disable">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_gauge" type="gauge">
+			<SkinRef main_state="0" name="gatha01_gauge_success" sub_state="gauge">
+			</SkinRef>
+			<SkinRef main_state="1" name="gatha01_gauge_fail" sub_state="gauge">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_fever_gauge" type="gauge">
+			<SkinRef main_state="0" name="gatha01_fever_gauge_bg" sub_state="bg">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_fever_gauge" sub_state="gauge">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_reward_tab" type="button">
+			<SkinRef main_state="0" name="gatha01_reward_tab_up" sub_state="up">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_reward_tab_over" sub_state="over">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_reward_tab_down" sub_state="down">
+			</SkinRef>
+			<SkinRef main_state="1" name="gatha01_reward_tab_down" sub_state="up">
+			</SkinRef>
+			<SkinRef main_state="1" name="gatha01_reward_tab_down" sub_state="over">
+			</SkinRef>
+			<SkinRef main_state="1" name="gatha01_reward_tab_down" sub_state="down">
+			</SkinRef>
+		</preset>
+		<preset name="gatha01_help_button" type="button">
+			<SkinRef main_state="0" name="gatha01_help_button_up" sub_state="up">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_help_button_over" sub_state="over">
+			</SkinRef>
+			<SkinRef main_state="0" name="gatha01_help_button_down" sub_state="down">
+			</SkinRef>
+		</preset>
+	</Category>
+</SkinLibrary>

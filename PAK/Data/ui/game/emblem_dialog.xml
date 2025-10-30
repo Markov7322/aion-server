@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;" frame="437,130,280,440" last_modified="2014-08-22 12:58:41" name="emblem_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,274,14" title_height="25" title_offset="0,5" type="dlg_emblem">
+	<Widget font="ui_default" frame="3,23,264,40" h_pos_align="proportion" padding="10,10" text="STR_EMBLEM_DIALOG__SELECT" type="static" v_pos_align="top">
+	</Widget>
+	<Widget frame="70,80,130,130" h_pos_align="center" name="emblem_bg_img" type="image">
+	</Widget>
+	<Widget frame="76,85,118,118" h_pos_align="center" name="emblem_img" type="image">
+	</Widget>
+	<Widget frame="51,60,169,169" h_pos_align="center" type="image">
+		<Skin name="v5_emblem_frame">
+		</Skin>
+	</Widget>
+	<Widget frame="22,119,26,54" h_pos_align="center" name="prev" preset="v5_emblem_prev_btn" type="button">
+	</Widget>
+	<Widget frame="223,119,26,54" h_pos_align="center" name="next" preset="v5_emblem_next_btn" type="button">
+	</Widget>
+	<Widget frame="4,239,266,7" preset="v5_seperator" type="image">
+	</Widget>
+	<Widget font="ui_default" frame="3,241,264,40" h_pos_align="proportion" padding="10,10" text="STR_EMBLEM_DIALOG__SELECT_BGCOLOR" type="static" v_pos_align="top">
+	</Widget>
+	<Widget align="vertical" frame="17,280,184,114" knob_size="21,11" name="color_select" slide_border_size="3" slide_preset="create_color_slider" slide_rect="159,2,21,110" src_picker="lobby_picker" table_border_size="3" table_frame="0,1,155,112" table_preset="create_color_table" type="colorselect">
+	</Widget>
+	<Widget frame="205,280,63,114" type="container">
+		<Widget flag="transparent" frame="6,11,16,16" halign="left" text="STR_COLOR_SELECT_DIALOG__WIDGET2" type="static" v_pos_align="top">
+		</Widget>
+		<Widget alphanumeric="False" frame="18,8,36,22" h_padding="5" name="edit_r" numeric="1" preset="v5_editbox" type="editbox" v_padding="5" v_pos_align="top">
+		</Widget>
+		<Widget flag="transparent" frame="6,49,16,16" halign="left" text="STR_COLOR_SELECT_DIALOG__WIDGET3" type="static" v_pos_align="middle">
+		</Widget>
+		<Widget alphanumeric="False" frame="18,46,36,22" h_padding="5" name="edit_g" numeric="1" preset="v5_editbox" type="editbox" v_padding="5" v_pos_align="middle">
+		</Widget>
+		<Widget flag="transparent" frame="6,87,16,16" halign="left" text="STR_COLOR_SELECT_DIALOG__WIDGET4" type="static" v_pos_align="bottom">
+		</Widget>
+		<Widget alphanumeric="False" frame="18,84,36,22" h_padding="5" name="edit_b" numeric="1" preset="v5_editbox" type="editbox" v_padding="5" v_pos_align="bottom">
+		</Widget>
+	</Widget>
+	<Widget font="ui_default" frame="0,409,126,24" h_pos_align="left" name="custom_emblem" preset="v5_button" text="STR_EMBLEM_DIALOG__REGISTER_CUSTOM" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="136,409,68,24" h_pos_align="right" name="ok" preset="v5_button" text="STR_EMBLEM_DIALOG__DIALOG_OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="206,409,68,24" h_pos_align="right" name="cancel" preset="v5_button" text="STR_EMBLEM_DIALOG__DIALOG_CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

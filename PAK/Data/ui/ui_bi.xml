@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Screen last_modified="2013-11-08 11:36:43" name="UI_BI" version="47">
+	<Dialog flag="not_movable;transparent;visible" frame="0,0,1280,1024" h_pos_align="center" name="bi_dialog" type="dlg_bi" v_pos_align="middle">
+		<Widget frame="0,0,1280,1024" name="ci_image" type="static">
+		</Widget>
+	</Dialog>
+</Screen>

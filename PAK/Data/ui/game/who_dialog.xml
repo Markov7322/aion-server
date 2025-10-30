@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="854,145,404,512" last_modified="2014-08-22 13:09:05" name="who_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,327,14" title_height="25" title_offset="0,5" title_text="STR_BUDDY_MANAGEMENT_DIALOG" type="dlg_who">
+	<Widget frame="0,0,398,482" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+		<Widget frame="0,0,398,25" h_pos_align="proportion" name="tab" preset="v5_tab" tab_offset="4,0" type="tab">
+			<Widget font="ui_default" frame="7,0,60,25" name="tab_buddy" preset="v5_tabbutton" text="STR_WHO_DIALOG__BUDDY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="66,0,60,25" name="tab_request" preset="v5_tabbutton" text="STR_BUDDY_MANAGEMENT_DIALOG__REQUEST" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="125,0,60,25" name="tab_search" preset="v5_tabbutton" text="STR_WHO_DIALOG__SEARCH" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="184,0,60,25" name="tab_block" preset="v5_tabbutton" text="STR_WHO_DIALOG__BLOCK" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,398,456" h_pos_align="proportion" name="page_buddy" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="0,5,202,23" preset="v5_editbox" type="image">
+			</Widget>
+			<Widget alphanumeric="False" font="ui_editbox" frame="0,5,175,23" h_padding="4" max_length="20" name="today_words" type="editbox" v_padding="3">
+			</Widget>
+			<Widget frame="177,6,22,22" name="save_today_words" preset="v5_save_button" type="button">
+			</Widget>
+			<Widget font="ui_combo" frame="245,5,151,22" max_items="3" name="my_status" preset="v5_staticbox3" type="combobox">
+				<Items>
+					<Item name="STR_WHO_DIALOG__CONNECTION_STATUS_ONLINE">
+					</Item>
+					<Item name="STR_WHO_DIALOG__CONNECTION_STATUS_BUSY">
+					</Item>
+					<Item name="STR_WHO_DIALOG__CONNECTION_STATUS_OFFLINE">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget font="ui_default" frame="241,431,74,24" name="add_buddy" preset="v5_button" text="STR_WHO_DIALOG__ADD_BUDDY" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="317,431,75,24" name="remove_buddy" preset="v5_button" text="STR_WHO_DIALOG__REMOVE_BUDDY" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="4,433,158,19" name="show_offline_buddy" preset="v5_check" style="checkbox" text="STR_WHO_DIALOG__SHOW_OFFLINE_BUDDY" text_offset="5,0" type="button">
+			</Widget>
+			<Widget column_customizing="True" column_heading="True" flag="truncate;vscroll" font="ui_list" frame="0,30,396,393" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="buddy_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="left" img_width="" sample_text="" sort="text" title="STR_WHO_DIALOG__NAME" width="109">
+				</Column>
+				<Column align="center" sort="number" title="STR_WHO_DIALOG__LEVEL" width="40">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="text" title="STR_WHO_DIALOG__CLASS" width="64">
+				</Column>
+				<Column align="center" sort="text" title="STR_WHO_DIALOG__WORLD" width="85">
+				</Column>
+				<Column align="center" img_width="57" sample_text="" sort="text" title="STR_WHO_DIALOG__HOUSING" width="82">
+				</Column>
+				<Column align="center" sort="text" title="STR_WHO_DIALOG__STATUS" width="67">
+				</Column>
+				<Column align="left" img_width="179" sort="text" title="STR_WHO_DIALOG__TODAY_WORDS" width="204">
+				</Column>
+				<Column align="left" img_width="246" sample_text="" sort="" title="STR_WHO_DIALOG__MEMO" width="271">
+				</Column>
+			</Widget>
+			<Widget frame="359,33,22,25" name="button_toggle_page" preset="v5_extra_col" type="button">
+			</Widget>
+			<Widget frame="202,5,22,22" h_pos_align="right" name="today_emoticon" preset="v5_emoticon_btn" type="button">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,398,457" h_pos_align="proportion" name="page_request" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="167,430,74,24" name="request_approve" preset="v5_button" text="STR_BUDDY_MANAGEMENT_DIALOG__ACCEPT" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="242,430,74,24" name="request_reject" preset="v5_button" text="STR_RESURRECTOTHER_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="317,430,74,24" name="request_block" preset="v5_button" text="STR_WHO_DIALOG__BLOCK" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget column_customizing="True" column_heading="True" flag="truncate;vscroll" font="ui_list" frame="3,3,391,421" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="request_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="left" img_width="" sample_text="" sort="text" title="STR_WHO_DIALOG__NAME" width="106">
+				</Column>
+				<Column align="center" sort="number" title="STR_WHO_DIALOG__LEVEL" width="40">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="text" title="STR_WHO_DIALOG__CLASS" width="64">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="STR_BUDDY_MANAGEMENT_DIALOG__INTRODUCTION" width="163">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,398,457" h_pos_align="proportion" name="page_search" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget font="ui_default" frame="9,48,41,21" text="STR_WHO_DIALOG__NAME" type="static">
+			</Widget>
+			<Widget alphanumeric="False" font="ui_editbox" frame="49,48,148,23" h_padding="4" max_length="10" name="search_name" preset="v5_editbox" type="editbox" v_padding="4">
+			</Widget>
+			<Widget alphanumeric="False" font="ui_editbox" frame="244,48,54,23" h_align="right" h_padding="4" max_length="3" name="min_level" numeric="1" preset="v5_editbox" type="editbox" v_padding="4">
+			</Widget>
+			<Widget alphanumeric="False" font="ui_editbox" frame="333,48,55,23" h_align="right" h_padding="4" max_length="3" name="max_level" numeric="1" preset="v5_editbox" type="editbox" v_padding="4">
+			</Widget>
+			<Widget font="ui_combo" frame="244,75,144,23" item_padding="2" name="search_world" preset="v5_staticbox3" type="combobox">
+			</Widget>
+			<Widget font="ui_default" frame="321,429,74,24" name="search" preset="v5_button" text="STR_WHO_DIALOG__SEARCH" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget column_customizing="True" column_heading="True" flag="truncate;vscroll" font="ui_list" frame="7,127,387,292" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="search_result" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="left" img_width="" sort="text" title="STR_WHO_DIALOG__NAME" width="115">
+				</Column>
+				<Column align="center" sort="number" title="STR_WHO_DIALOG__LEVEL" width="53">
+				</Column>
+				<Column align="center" sort="text" title="STR_WHO_DIALOG__CLASS" width="67">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="text" title="STR_WHO_DIALOG__WORLD" width="72">
+				</Column>
+				<Column align="center" sort="text" title="STR_WHO_DIALOG__STATUS" width="61">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="49,75,148,23" item_padding="2" name="search_class" preset="v5_staticbox3" type="combobox">
+			</Widget>
+			<Widget font="ui_default" frame="211,48,40,21" text="STR_WHO_DIALOG__LEVEL" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="10,76,41,21" text="STR_WHO_DIALOG__CLASS" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="200,77,45,21" text="STR_WHO_DIALOG__WORLD" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="245,102,150,24" name="wish_party" preset="v5_check" style="checkbox" text="STR_WHO_DIALOG__SEARCH_PARTY_WISH" text_offset="5,0" type="button">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="150,429,74,24" name="whisper" preset="v5_button" text="STR_WHO_DIALOG__WHISPER" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="225,429,95,24" name="invite" preset="v5_button" text="STR_WHO_DIALOG__INVITE_PARTY" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="75,429,74,24" name="party_match" preset="v5_button" text="STR_PARTY_MATCH_DIALOG" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="10,11,61,21" text="STR_WHO_DIALOG__MY_PARTY_STATE" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="309,46,14,24" halign="center" text="STR_WHO_DIALOG__WAVE" type="static" valign="middle">
+			</Widget>
+			<Widget font="ui_static_value" frame="73,11,241,23" name="my_party_state" padding="5,0" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="319,11,73,24" name="help_party_state" preset="v5_button" text="STR_COMMON__HELP" type="button">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,398,457" h_pos_align="proportion" name="page_block" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_customizing="True" column_heading="True" flag="truncate;vscroll" frame="0,6,398,409" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="block_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="left" img_width="" sample_text="" sort="" title="STR_WHO_DIALOG__NAME" width="130">
+				</Column>
+				<Column align="left" img_width="" sort="" title="STR_WHO_DIALOG__BLOCK_MEMO" width="249">
+				</Column>
+			</Widget>
+			<Widget frame="246,429,74,24" name="block" preset="v5_button" text="STR_WHO_DIALOG__BLOCK" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="321,429,74,24" name="unblock" preset="v5_button" text="STR_WHO_DIALOG__UNBLOCK" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="0,429,92,24" name="import" preset="v5_button" text="STR_BLOCKLIST_IMPORT_LIST_BUTTON" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

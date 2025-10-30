@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="99,162,260,286" last_modified="2014-08-22 12:58:41" name="loot_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,104,14" title_height="25" title_offset="0,5" type="dlg_loot">
+	<Widget cell_padding="2" cell_space="0,0" flag="vscroll" frame="3,0,248,226" item_height="44" item_width="44" list_padding="3,3" name="item_list" preset="v5_listview_frame" scroll_type="visible" skin_type="version5" slot_num="10" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="183,229,68,24" name="takeall_button" preset="v5_button" text="STR_LOOT_DIALOG__TAKEALL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="3,229,75,24" name="btn_help" preset="v5_button" text="STR_COMMON__HELP" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget flag="nonclient;active;not_visible" frame="6,0,34,30" name="massive" tooltip="STR_LOOT_DIALOG__TOOLTIP_MASSIVE" type="static">
+		<Skin name="massive_loot">
+		</Skin>
+	</Widget>
+</Dialog>

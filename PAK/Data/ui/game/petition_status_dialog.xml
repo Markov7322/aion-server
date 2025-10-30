@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="940,526,320,360" last_modified="2014-08-22 12:58:41" name="petition_status_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,207,14" title_height="25" title_offset="0,5" title_text="STR_PETITION_STATUS_DIALOG" type="dlg_petition_status" ui_mode="housing;housing_building">
+	<Widget flag="multiline;wordwrap;vscroll;active" font="ui_static_value" frame="10,30,295,236" max_lines="500" name="petition_status" preset="v5_staticbox" type="staticex" v_pos_align="proportion" valign="bottom">
+	</Widget>
+	<Widget alphanumeric="False" defbutton="true" font="ui_editbox" frame="10,270,295,24" h_padding="5" max_length="255" name="petition_input" preset="v5_editbox" tabstop="1" type="editbox" v_padding="5" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="244,303,68,24" name="cancel" preset="v5_button" text="STR_PETITION_STATUS_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="11,5,266,25" text="STR_PETITION_STATUS_DIALOG__PETITION_ANSWER" type="static">
+	</Widget>
+</Dialog>

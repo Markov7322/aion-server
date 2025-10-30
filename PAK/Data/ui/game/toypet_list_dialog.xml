@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="839,150,406,512" last_modified="2014-08-22 12:58:41" name="toypet_list_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,383,14" title_height="25" title_offset="0,5" title_text="STR_TOYPET_LIST_DIALOG" type="dlg_toypet_list">
+	<Widget font="ui_default" frame="252,454,72,25" name="summon" preset="v5_button" text="STR_TOYPET_LIST_DIALOG__SUMMON" type="button">
+	</Widget>
+	<Widget cell_padding="2" cell_space="0,0" column_customizing="True" flag="vscroll" font="ui_list" frame="4,8,392,426" header_font="v3_columnhead" header_height="24" item_height="44" item_width="44" list_padding="3,3" name="toypet_list" preset="v5_listview_sel_frame" scroll_type="visible" skin_type="version5" slot_num="9" type="listview" viewmode="detail">
+		<Column align="" title="STR_TOYPET_LIST_DIALOG__COL_NAME" width="170">
+		</Column>
+		<Column align="" title="STR_TOYPET_LIST_DIALOG__COL_FUNC" width="160">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="14,458,91,18" halign="left" name="count" type="static" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="326,454,72,25" name="unsummon" preset="v5_button" text="STR_TOYPET_LIST_DIALOG__UNSUMMON" type="button">
+	</Widget>
+</Dialog>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="transparent;;not_active;not_movable" frame="0,0,409,416" last_modified="2014-08-22 12:58:42" name="spectator_group_bg_dialog" title_frame="3,3,398,14" title_offset="9,1" type="dlg_spectator_group_bg" ui_mode="spectator">
+	<Widget frame="0,0,409,416" name="bg_image" preset="v5_spectator_group_bg" type="image">
+	</Widget>
+	<Widget font_size="15" frame="20,4,365,26" halign="center" name="group_name" text="test" type="static">
+	</Widget>
+</Dialog>

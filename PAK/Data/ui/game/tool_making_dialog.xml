@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="30,125,693,580" last_modified="2014-08-22 13:09:04" name="tool_making_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,732,14" title_height="25" title_offset="0,5" title_text="STR_TOOL_MAKING_DIALOG" type="dlg_tool_making">
+	<Widget frame="9,88,440,427" h_pos_align="proportion" preset="v5_staticbox" type="image" v_pos_align="proportion">
+	</Widget>
+	<Widget frame="9,88,437,414" h_pos_align="proportion" preset="v5_listview_bg" repeat_type="repeat_y" type="image" v_pos_align="proportion">
+	</Widget>
+	<Widget cell_padding="2" flag="transparent" font="ui_default" frame="10,0,138,20" h_pos_align="left" text="STR_TOOL_MAKING_DIALOG__COMBINE_SKILL" type="static">
+	</Widget>
+	<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="476,19,202,45" h_pos_align="right" item_height="44" item_width="44" name="list_target_product" preset="v5_listview_single2" reserve_slots="true" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget flag="transparent" font="ui_default" frame="479,136,200,20" h_pos_align="right" text="STR_TOOL_MAKING_DIALOG__WIDGET5" type="static">
+	</Widget>
+	<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="476,157,202,358" h_pos_align="right" item_height="44" item_width="44" list_padding="3,3" name="list_require" preset="v5_listview_frame" reserve_slots="True" scroll_type="hidden" slot_num="9" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="609,524,78,24" h_pos_align="right" name="button_start" preset="v5_button" text="STR_TOOL_MAKING_DIALOG__BUTTON_START" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget cell_padding="2" flag="transparent" font="ui_default" frame="478,0,100,20" h_pos_align="right" text="STR_TOOL_MAKING_DIALOG__WIDGET4" type="static">
+	</Widget>
+	<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="8,19,462,44" h_pos_align="left" item_height="44" item_width="44" name="making_skill_listview" preset="v5_listview_single2" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="400,524,78,24" h_pos_align="right" name="button_start_all" preset="v5_button" text="STR_TOOL_MAKING_DIALOG__BUTTON_START_ALL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="v3_money" frame="480,525,127,21" h_align="center" h_pos_align="right" name="spin_making_count" preset="v5_staticbox" type="spin" v_pos_align="bottom">
+	</Widget>
+	<Widget frame="12,88,436,418" h_pos_align="proportion" name="making_scroll" rearrange="True" scroll_type="visible" space="0" step="22" type="scrollable" v_pos_align="proportion">
+		<Widget frame="5,0,429,22" h_pos_align="proportion" min_frame="0,0,363,22" name="making_ext0" space="0" text_frame="25,0,338,22" type="extensible">
+			<Widget frame="1,1,19,19" name="extend" preset="v5_extend" type="button">
+			</Widget>
+			<Widget cell_padding="0" check_preset="v5_check" column_heading="False" flag="truncate" frame="-2,21,427,66" header_height="0" item_height="22" item_num="3" item_padding="20" item_padding_right="25" name="making_list0" preset="v5_listview_ex_quest" rollover_only_inside="1" selection_color="0,0,0,0" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="25">
+				</Column>
+				<Column align="left" img_width="" sample_text="300p" sort="param" title="require_point" width="40">
+				</Column>
+				<Column align="left" img_width="" sort="param" title="time" width="20">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="text" width="225">
+				</Column>
+				<Column align="right" img_width="" sample_text="[100]" sort="param" title="remain_count" width="40">
+				</Column>
+				<Column align="right" img_width="" sample_text="100" sort="number" title="avail_count" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="none" title="set" width="0">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="5,0,429,22" h_pos_align="proportion" min_frame="0,0,363,22" name="making_ext1" space="0" text_frame="25,0,338,22" type="extensible">
+			<Widget frame="1,1,19,19" name="extend" preset="v5_extend" type="button">
+			</Widget>
+			<Widget cell_padding="0" check_preset="v5_check" column_heading="False" flag="truncate" frame="-2,21,427,66" header_height="0" item_height="22" item_num="3" item_padding="20" item_padding_right="25" name="making_list1" preset="v5_listview_ex_quest" rollover_only_inside="1" selection_color="0,0,0,0" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="25">
+				</Column>
+				<Column align="left" img_width="" sample_text="300p" sort="param" title="require_point" width="40">
+				</Column>
+				<Column align="left" img_width="" sort="param" title="time" width="20">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="text" width="225">
+				</Column>
+				<Column align="right" img_width="" sample_text="[100]" sort="param" title="remain_count" width="40">
+				</Column>
+				<Column align="right" img_width="" sample_text="100" sort="number" title="avail_count" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="none" title="set" width="0">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="5,0,429,22" h_pos_align="proportion" min_frame="0,0,363,22" name="making_ext2" space="0" text_frame="25,0,338,22" type="extensible">
+			<Widget frame="1,1,19,19" name="extend" preset="v5_extend" type="button">
+			</Widget>
+			<Widget cell_padding="0" check_preset="v5_check" column_heading="False" flag="truncate" frame="-2,21,427,66" header_height="0" item_height="22" item_num="3" item_padding="20" item_padding_right="25" name="making_list2" preset="v5_listview_ex_quest" rollover_only_inside="1" selection_color="0,0,0,0" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="25">
+				</Column>
+				<Column align="left" img_width="" sample_text="300p" sort="param" title="require_point" width="40">
+				</Column>
+				<Column align="left" img_width="" sort="param" title="time" width="20">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="text" width="225">
+				</Column>
+				<Column align="right" img_width="" sample_text="[100]" sort="param" title="remain_count" width="40">
+				</Column>
+				<Column align="right" img_width="" sample_text="100" sort="number" title="avail_count" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="none" title="set" width="0">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="5,0,429,22" h_pos_align="proportion" min_frame="0,0,363,22" name="making_ext3" space="0" text_frame="25,0,338,22" type="extensible">
+			<Widget frame="1,1,19,19" name="extend" preset="v5_extend" type="button">
+			</Widget>
+			<Widget cell_padding="0" check_preset="v5_check" column_heading="False" flag="truncate" frame="-2,21,427,66" header_height="0" item_height="22" item_num="3" item_padding="20" item_padding_right="25" name="making_list3" preset="v5_listview_ex_quest" rollover_only_inside="1" selection_color="0,0,0,0" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="25">
+				</Column>
+				<Column align="left" img_width="" sample_text="300p" sort="param" title="require_point" width="40">
+				</Column>
+				<Column align="left" img_width="" sort="param" title="time" width="20">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="text" width="225">
+				</Column>
+				<Column align="right" img_width="" sample_text="[100]" sort="param" title="remain_count" width="40">
+				</Column>
+				<Column align="right" img_width="" sample_text="100" sort="number" title="avail_count" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="none" title="set" width="0">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="5,0,429,22" h_pos_align="proportion" min_frame="0,0,363,22" name="making_ext4" space="0" text_frame="25,0,338,22" type="extensible">
+			<Widget frame="1,1,19,19" name="extend" preset="v5_extend" type="button">
+			</Widget>
+			<Widget cell_padding="0" check_preset="v5_check" column_heading="False" flag="truncate" frame="-2,21,427,66" header_height="0" item_height="22" item_num="3" item_padding="20" item_padding_right="25" name="making_list4" preset="v5_listview_ex_quest" rollover_only_inside="1" selection_color="0,0,0,0" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="25">
+				</Column>
+				<Column align="left" img_width="" sample_text="300p" sort="param" title="require_point" width="40">
+				</Column>
+				<Column align="left" img_width="" sort="param" title="time" width="20">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="text" width="225">
+				</Column>
+				<Column align="right" img_width="" sample_text="[100]" sort="param" title="remain_count" width="40">
+				</Column>
+				<Column align="right" img_width="" sample_text="100" sort="number" title="avail_count" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="none" title="set" width="0">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="5,0,429,22" h_pos_align="proportion" min_frame="0,0,363,22" name="making_ext5" space="0" text_frame="25,0,338,22" type="extensible">
+			<Widget frame="1,1,19,19" name="extend" preset="v5_extend" type="button">
+			</Widget>
+			<Widget cell_padding="0" check_preset="v5_check" column_heading="False" flag="truncate" font="ui_tree" frame="-2,21,427,66" header_height="0" item_height="22" item_num="3" item_padding="20" item_padding_right="25" name="making_list5" preset="v5_listview_ex_quest" rollover_only_inside="1" selection_color="0,0,0,0" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="25">
+				</Column>
+				<Column align="left" img_width="" sample_text="300p" sort="param" title="require_point" width="40">
+				</Column>
+				<Column align="left" img_width="" sort="param" title="time" width="20">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="text" width="225">
+				</Column>
+				<Column align="right" img_width="" sample_text="[100]" sort="param" title="remain_count" width="40">
+				</Column>
+				<Column align="right" img_width="" sample_text="100" sort="number" title="avail_count" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="none" title="set" width="0">
+				</Column>
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget flag="not_visible" frame="73,119,324,23" halign="center" name="no_recipe" text="STR_TOOL_MAKING_DIALOG__NO_RECIPE" type="static">
+	</Widget>
+	<Widget flag="not_visible" frame="73,119,324,23" halign="center" name="no_checklist" text="STR_TOOL_MAKING_DIALOG__NO_CHECKED_LIST" type="static">
+	</Widget>
+	<Widget frame="449,88,19,427" h_pos_align="proportion" linker="making_scroll" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+		<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+		</Widget>
+		<Widget flag="not_active" frame="1,408,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+		</Widget>
+	</Widget>
+	<Widget frame="477,69,201,20" h_pos_align="right" name="remain_count" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="477,69,201,20" h_pos_align="right" name="req_dp" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="9,64,157,23" h_pos_align="left" name="cb_show_only_available" preset="v5_check" style="checkbox" text="STR_TOOL_MAKING_DIALOG__SHOW_ONLY_AVAILABLE" text_offset="5,0" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="172,64,213,23" h_pos_align="left" name="cb_show_only_checklist" preset="v5_check" style="checkbox" text="STR_TOOL_MAKING_DIALOG__SHOW_ONLY_CHECKLIST" text_offset="5,0" type="button">
+	</Widget>
+	<Widget frame="477,92,201,20" h_pos_align="right" name="cooling_time" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="477,92,201,20" h_pos_align="right" name="dummy_time" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="5,524,98,24" h_pos_align="left" name="button_delete" preset="v5_button" text="STR_TOOL_MAKING_DIALOG__BUTTON_DELETE" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_combo" frame="476,113,202,23" h_pos_align="right" max_items="2" name="combo_effectType" preset="v5_staticbox3" type="combobox">
+		<Items>
+			<Item name="STR_TOOL_DROPDOWN_COMBINE_NOTHING_USE">
+			</Item>
+			<Item name="STR_TOOL_DROPDOWN_COMBINE_EXP_BOOST_USE">
+			</Item>
+		</Items>
+	</Widget>
+</Dialog>

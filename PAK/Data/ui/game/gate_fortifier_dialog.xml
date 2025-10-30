@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,293" last_modified="2014-08-22 12:58:41" name="gate_fortifier_dialog" preset="v5_dialog2" prev_html="True" shadow_offset="8,8" title_align="center" title_frame="3,3,578,14" title_height="25" title_offset="0,5" title_text="STR_GATE_FORTIFIER_DIALOG" type="dlg_gate_fortifier">
+	<Widget frame="7,5,389,220" preset="v5_staticbox2" type="container">
+		<Widget flag="multiline;wordwrap" font="ui_static_title" frame="7,11,76,39" text="STR_ARTIFACT_DIALOG__OCCUPATION_GUILD" type="static">
+		</Widget>
+		<Widget frame="88,10,44,44" type="image">
+			<Skin name="v5_slot_bg">
+			</Skin>
+		</Widget>
+		<Widget frame="90,12,40,40" name="guild_emblem" type="image">
+		</Widget>
+		<Widget flag="multiline;wordwrap" font="ui_static_title" frame="132,10,250,44" name="occupation_guild" padding="5,0" preset="v5_staticbox" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="7,55,76,24" text="STR_ARTIFACT_DIALOG__COOLING_TIME" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="88,56,294,24" name="cooling_time" padding="5,0" preset="v5_staticbox" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="7,85,76,24" text="STR_ARTIFACT_DIALOG__COST" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="54,144,288,60" name="fire" preset="v5_artiface_fire_btn" text="STR_GATE_FORTIFIER_DIALOG__FIRE" type="button">
+		</Widget>
+		<Widget font="ui_static_title" frame="132,82,250,44" name="cost" padding="5,0" preset="v5_staticbox" type="static">
+		</Widget>
+		<Widget cell_padding="2" frame="88,82,44,44" item_height="44" item_width="44" name="cost_itemview" preset="v5_itemview" type="itemview">
+		</Widget>
+	</Widget>
+	<Widget frame="332,237,68,24" name="cancel" preset="v5_button" text="STR_DLG_DIALOG__CLOSE" type="button">
+	</Widget>
+</Dialog>

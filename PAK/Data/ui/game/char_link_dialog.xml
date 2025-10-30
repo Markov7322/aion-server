@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="7,5" close_preset="v5_close" flag="close" frame="500,700,238,250" last_modified="2014-08-22 12:58:41" name="char_link_dialog" title_frame="3,3,232,14" title_height="25" title_offset="1,5" type="dlg_char_link">
+	<Widget frame="0,0,238,146" type="image" v_pos_align="proportion">
+		<Skin name="v5_tooltip2">
+		</Skin>
+	</Widget>
+	<Widget frame="0,144,238,107" type="image" v_pos_align="bottom">
+		<Skin name="v5_tooltip2">
+		</Skin>
+	</Widget>
+	<Widget frame="8,30,222,103" name="bg" preset="v5_staticbox2" type="image">
+		<Widget font="ui_static_title" frame="4,5,212,20" name="guild" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="4,27,106,20" name="level" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="110,27,106,20" name="class" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="4,49,212,20" name="explv" type="static">
+		</Widget>
+		<Widget flag="wordwrap;multiline" font="ui_static_title" frame="4,71,212,27" name="today" type="static">
+		</Widget>
+	</Widget>
+	<Widget font="ui_default" frame="5,148,224,21" name="whisper" preset="v5_popup_button" text="STR_CHAR_LINK_DIALOG__WHISPER" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="5,172,224,21" name="invite_party" preset="v5_popup_button" text="STR_CHAR_LINK_DIALOG__INVITE_PARTY" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="8,9,208,18" name="name" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="5,196,224,21" name="invite_force" preset="v5_popup_button" text="STR_CHAR_LINK_DIALOG__INVITE_FORCE" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="5,220,224,21" name="invite_union" preset="v5_popup_button" text="STR_CHAR_LINK_DIALOG__INVITE_UNION" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

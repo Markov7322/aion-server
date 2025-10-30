@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,512" last_modified="2014-08-22 12:58:41" name="airline_service_dialog" preset="v5_dialog" prev_html="True" shadow_offset="8,8" title_align="center" title_frame="3,3,284,14" title_height="25" title_offset="0,5" title_text="STR_DLG_AIRLINE_SERVICE" type="dlg_airline_service">
+	<Widget frame="0,0,400,480" name="map_image" type="image">
+		<Widget flag="active;check_transparent" frame="4,0,32,78" name="pc_icon" type="image">
+			<Skin name="v5_teleport_my_loc" state="0">
+			</Skin>
+		</Widget>
+	</Widget>
+</Dialog>

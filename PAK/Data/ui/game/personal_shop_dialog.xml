@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="35,150,405,402" last_modified="2014-08-22 12:58:41" name="personal_shop_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,209,14" title_height="25" title_offset="0,5" title_text="STR_PERSONAL_SHOP_DIALOG" type="dlg_personal_shop">
+	<Widget font="ui_default" frame="11,5,381,15" halign="left" text="STR_PERSONAL_SHOP_DIALOG__WIDGET1" type="static">
+	</Widget>
+	<Widget cell_padding="2" frame="8,22,386,224" item_height="44" item_width="44" list_padding="2,2" name="sell_item_list" preset="v5_listview_frame" reserve_slots="true" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="11,257,381,15" halign="left" text="STR_PERSONAL_SHOP_DIALOG__WIDGET2" type="static" valign="top">
+	</Widget>
+	<Widget alphanumeric="False" flag="wordwrap;multiline" font="ui_editbox" frame="6,273,387,64" h_padding="6" max_length="64" max_line="1" name="ad_editbox" preset="v5_editbox" tabstop="1" type="editbox" v_padding="6">
+	</Widget>
+	<Widget defbutton="False" frame="242,346,75,24" name="start" preset="v5_button" text="STR_PERSONAL_SHOP_DIALOG__START" type="button">
+	</Widget>
+	<Widget flag="not_visible" font="ui_default" frame="242,346,75,24" name="stop" preset="v5_button" text="STR_PERSONAL_SHOP_DIALOG__STOP" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="320,346,74,24" name="close" preset="v5_button" text="STR_DLG_DIALOG__CLOSE" type="button">
+	</Widget>
+	<Widget frame="370,251,22,22" h_pos_align="right" name="personal_shop_emoticon" preset="v5_emoticon_btn" type="button">
+	</Widget>
+</Dialog>

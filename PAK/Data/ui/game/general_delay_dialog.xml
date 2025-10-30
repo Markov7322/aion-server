@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_focusable;movable" frame="505,690,271,45" h_pos_align="center" last_modified="2014-08-22 12:58:41" name="general_delay_dialog" type="dlg_general_delay" v_pos_align="bottom">
+	<Widget frame="0,0,271,45" name="general" type="container">
+		<Widget frame="0,7,271,38" name="delay_bg" preset="v5_hud_delay" type="image">
+		</Widget>
+		<Widget font="ui_default" frame="29,0,213,16" halign="center" name="name" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget frame="21,20,228,10" name="delay" preset="v5_delay_gauge_general" type="gauge" value_type="float">
+		</Widget>
+	</Widget>
+</Dialog>

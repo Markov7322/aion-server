@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,430" last_modified="2014-08-22 12:58:41" name="compound_weapon_dialog" preset="v5_dialog2" prev_html="True" shadow_offset="8,8" title_align="center" title_frame="3,3,244,14" title_height="25" title_offset="0,5" title_text="STR_COMPOUND_WEAPON_DIALOG__NAME" type="dlg_compound_weapon">
+	<Widget font="ui_default" frame="11,0,176,20" name="npc_name" type="static">
+	</Widget>
+	<Widget flag="multiline;wordwrap" font="ui_static_title" frame="11,20,379,52" halign="center" name="desc" padding="10,0" preset="v5_staticbox" scroll_type="hidden" text="STR_COMPOUND_WEAPON_DIALOG__DESC" text_offset="30,0" type="static">
+	</Widget>
+	<Widget frame="19,80,160,240" type="container">
+		<Widget frame="17,4,126,121" preset="v5_deco_slot_dual_bg" type="static">
+			<Widget cell_padding="2" cell_space="0,0" column_set1=",1000," flag="truncate" frame="18,18,44,44" item_height="44" item_width="44" name="target_view" preset="v5_deco_itemview" reserve_slots="True" scroll_type="hidden" slot_num="1" tooltip="STR_COMPOUND_WEAPON_DIALOG__MAIN_ITEM" type="itemview" viewmode="detail">
+			</Widget>
+			<Widget cell_padding="1" cell_space="0,0" column_set1=",1000," flag="truncate" frame="77,72,34,34" item_height="34" item_width="34" name="additive_view" preset="v5_deco_itemview" reserve_slots="True" scroll_type="hidden" slot_num="1" tooltip="STR_COMPOUND_WEAPON_DIALOG__EXTRACT_ITEM" type="itemview" viewmode="detail">
+			</Widget>
+		</Widget>
+		<Widget frame="19,119,76,76" preset="v5_deco_slot_normal_bg" type="static">
+			<Widget cell_padding="2" cell_space="0,0" column_set1=",1000," flag="truncate" frame="16,16,44,44" item_height="44" item_width="44" name="result_view" preset="v5_deco_itemview" reserve_slots="True" scroll_type="hidden" slot_num="1" tooltip="STR_COMPOUND_WEAPON_DIALOG__RESULT_ITEM" type="itemview" viewmode="detail">
+			</Widget>
+		</Widget>
+		<Widget frame="90,183,53,54" preset="v5_deco_slot_small_b_bg" type="static">
+			<Widget cell_padding="1" cell_space="0,0" column_set1=",1000," flag="truncate" frame="9,10,34,34" item_height="34" item_width="34" name="comparand_view" preset="v5_deco_itemview" reserve_slots="True" scroll_type="hidden" slot_num="1" tooltip="STR_COMPOUND_WEAPON_DIALOG__COMPARE_ITEM" type="itemview" viewmode="detail">
+			</Widget>
+		</Widget>
+		<Widget frame="76,63,19,18" preset="v5_deco_plus" type="static">
+		</Widget>
+		<Widget frame="46,73,21,55" preset="v5_deco_arrow_down" type="static">
+		</Widget>
+		<Widget frame="79,177,19,16" preset="v5_deco_arrow_switch" type="static">
+		</Widget>
+	</Widget>
+	<Widget frame="200,73,190,246" type="container">
+		<Widget font="ui_default" frame="5,6,185,20" name="target_title" text="STR_COMPOUND_WEAPON_DIALOG__MAIN_ITEM" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="5,24,185,37" name="target_desc" padding="6,0" preset="v5_staticbox2" type="static">
+		</Widget>
+		<Widget font="ui_default" frame="5,60,185,20" name="additive_title" text="STR_COMPOUND_WEAPON_DIALOG__EXTRACT_ITEM" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="5,90,185,37" name="additive_desc" padding="6,0" preset="v5_staticbox2" type="static">
+		</Widget>
+		<Widget font="ui_default" frame="5,72,143,20" name="additive_title_warning" text="STR_COMPOUND_WEAPON_DIALOG__EXTRACT_ITEM_WARNING" text_color="1.0,0.0,0.0,1.0" type="static">
+		</Widget>
+		<Widget font="ui_default" frame="5,127,185,20" name="result_title" text="STR_COMPOUND_WEAPON_DIALOG__RESULT_ITEM" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="5,145,185,37" name="result_desc" padding="6,0" preset="v5_staticbox2" type="static">
+		</Widget>
+		<Widget font="ui_default" frame="5,184,185,20" name="comparand_title" text="STR_COMPOUND_WEAPON_DIALOG__COMPARE_ITEM" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="5,202,185,37" name="comparand_desc" padding="6,0" preset="v5_staticbox2" type="static">
+		</Widget>
+	</Widget>
+	<Widget frame="200,320,190,46" name="cost_contaiiner" type="container">
+		<Widget frame="5,-1,185,22" name="cost_desc" text="STR_COMPOUND_WEAPON_DIALOG__COST" type="static" v_pos_align="bottom">
+		</Widget>
+		<Widget font="v3_money" frame="4,19,185,24" halign="right" name="cost_static" padding="5,0" preset="v5_staticbox" type="static" v_pos_align="bottom" valign="middle">
+		</Widget>
+		<Widget frame="5,20,24,22" name="cost_image" type="image" v_pos_align="bottom">
+			<Skin name="v5_gold">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget font="ui_default" frame="261,372,68,24" name="ok" preset="v5_button" text="STR_REMOVE_OPTION_DIALOG__OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="330,372,68,24" name="cancel" preset="v5_button" text="STR_REMOVE_OPTION_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="1,372,76,24" name="btn_help" preset="v5_button" text="STR_COMMON__HELP" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

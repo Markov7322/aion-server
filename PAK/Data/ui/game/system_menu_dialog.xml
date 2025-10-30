@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="exclusive" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="550,427,180,202" h_pos_align="center" last_modified="2014-08-22 12:58:39" name="system_menu_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,174,14" title_height="25" title_offset="0,5" type="dlg_system_menu" ui_mode="housing;housing_building" v_pos_align="middle">
+	<Widget font="ui_default" frame="31,9,112,24" name="quit_game" preset="v5_button" text="STR_SYSTEM_MENU_DIALOG__QUIT_GAME" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="31,41,112,24" name="logout" preset="v5_button" text="STR_SYSTEM_MENU_DIALOG__LOGOUT" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="31,73,112,24" name="goto_select" preset="v5_button" text="STR_SYSTEM_MENU_DIALOG__GOTO_SELECT" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="31,105,112,24" name="option" preset="v5_button" text="STR_SYSTEM_MENU_DIALOG__OPTION" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="31,137,112,24" name="cancel" preset="v5_button" text="STR_SYSTEM_MENU_DIALOG__CANCEL" type="button">
+	</Widget>
+</Dialog>

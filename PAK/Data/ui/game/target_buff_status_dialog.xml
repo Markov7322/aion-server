@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="transparent;not_movable;not_active;not_focusable" frame="393,61,0,0" h_pos_align="center" last_modified="2014-08-22 12:58:39" name="target_buff_status_dialog" quad_offset="0,0" type="dlg_target_buff" ui_mode="spectator" v_pos_align="top">
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item1" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item2" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item3" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item4" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item5" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item6" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item7" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item8" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item9" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item10" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item11" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item12" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item13" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item14" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item15" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item16" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item17" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item18" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item19" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="buff_item20" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item1" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item2" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item3" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item4" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item5" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item6" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item7" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item8" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item9" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item10" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item11" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item12" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item13" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item14" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item15" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item16" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item17" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item18" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item19" type="itemview">
+	</Widget>
+	<Widget cell_padding="1" frame="1,1,22,22" item_height="22" item_width="22" name="debuff_item20" type="itemview">
+	</Widget>
+</Dialog>

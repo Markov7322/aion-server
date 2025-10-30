@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,512" last_modified="2014-08-22 12:58:41" name="npc_guide_dialog" preset="v5_dialog2" prev_html="False" shadow_offset="8,8" title_align="center" title_frame="3,3,59,14" title_height="25" title_offset="0,5" title_text="STR_NPC_GUIDE_DIALOG" type="dlg_npc_guide">
+	<Widget flag="multiline;wordwrap" font="ui_static_title" frame="7,5,387,78" halign="center" padding="5,0" preset="v5_staticbox" text="STR_NPC_GUIDE_DIALOG__DESC" text_offset="30, 0" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="330,454,68,24" name="cancel" preset="v5_button" text="STR_COMMON__CLOSE" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget exclusive="true" flag="vscroll" frame="7,87,387,353" item_height="22" level_space="19" name="content" preset="v5_treeview_frame" reset_items="True" scroll_type="visible" skin_type="version5" space="5" type="treeview">
+	</Widget>
+</Dialog>

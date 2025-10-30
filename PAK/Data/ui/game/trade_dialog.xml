@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,614" last_modified="2014-08-22 13:09:04" name="trade_dialog" preset="v5_dialog" prev_html="True" shadow_offset="8,8" title_align="center" title_frame="3,3,376,14" title_height="25" title_offset="0,5" title_text="STR_TRADE_DIALOG" type="dlg_trade">
+	<Widget frame="0,0,400,583" h_pos_align="proportion" name="main_tab_sheet" type="tabsheet" v_pos_align="proportion">
+		<Widget btn_move_anim="False" frame="0,0,399,25" h_pos_align="proportion" name="main_tab" preset="v5_tab" tab_frame="0,0,400,25" tab_offset="6,0" tab_space="0" type="tab">
+			<Widget font="ui_default" frame="5,0,70,25" name="buy_kina_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="75,0,70,25" name="buy_shop_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="145,0,70,25" name="buy_ap_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="215,0,70,25" name="buy_coupon_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="285,0,70,25" name="buy_trade_in_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="355,0,70,25" name="buy_abyss_kina_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="355,0,70,25" name="sell_kina_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__SELL" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="425,0,70,25" name="sell_ap_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__SELL" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="495,0,70,25" name="sell_kina_list_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__TITLE" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="565,0,70,25" name="sell_ap_list_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__TITLE" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="635,0,70,25" name="buy_again_tab" preset="v5_tabbutton" text="STR_TRADE_DIALOG__BUY_AGAIN" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="buy_kina_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,164,24" max_items="5" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM1">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM2">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" frame="2,2,395,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,281,144,20" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_WIDGET1" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,300,397,177" item_height="44" item_width="44" name="item_basket" preset="v5_listview" reserve_slots="True" slot_num="36" type="listview" viewmode="icon">
+			</Widget>
+			<Widget font="ui_default" frame="9,479,111,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET1" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="124,480,273,22" halign="right" name="my_money" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,503,111,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="124,504,273,22" halign="right" name="trade_money" preset="v5_staticbox" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="buy_shop_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget font="ui_default" frame="5,2,148,23" halign="left" text="STR_TRADE_DIALOG__PS_SHOP_BUY_FRAME_WIDGET1" type="static" valign="middle">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget frame="5,281,144,20" halign="left" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_WIDGET1" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,300,397,177" item_height="44" item_width="44" name="item_basket" preset="v5_listview" reserve_slots="True" slot_num="36" type="listview" viewmode="icon">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="9,479,111,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET1" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="124,480,273,22" halign="right" name="my_money" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,504,111,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="124,504,273,22" halign="right" name="trade_money" preset="v5_staticbox" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="buy_ap_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,164,24" max_items="5" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM6">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM7">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" font="ui_default" frame="2,2,393,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,281,144,20" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_WIDGET1" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,300,397,177" item_height="44" item_width="44" name="item_basket" preset="v5_listview" reserve_slots="True" slot_num="36" type="listview" viewmode="icon">
+			</Widget>
+			<Widget font="ui_default" frame="9,479,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__ABYSS_POINT" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="92,480,173,22" halign="right" name="my_abyss" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="267,480,64,22" halign="right" name="my_required_item1" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="333,480,64,22" halign="right" name="my_required_item2" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,504,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="92,504,173,22" halign="right" name="trade_abyss" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="267,504,64,22" halign="right" name="trade_required_item1" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="333,504,64,22" halign="right" name="trade_required_item2" preset="v5_staticbox" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="buy_coupon_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,164,24" max_items="5" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__SORT_COUPON_INC">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__SORT_COUPON_DEC">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" font="ui_default" frame="2,2,393,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget frame="5,281,144,20" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_WIDGET1" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,300,397,177" item_height="44" item_width="44" name="item_basket" preset="v5_listview" reserve_slots="True" slot_num="36" type="listview" viewmode="icon">
+			</Widget>
+			<Widget font="ui_default" frame="51,479,208,23" halign="right" name="my_required_item_title1" padding="2,0" text="STR_TRADE_DIALOG__COUPON" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="268,480,126,22" halign="right" name="my_required_item1" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="134,504,125,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="268,504,126,22" halign="right" name="trade_required_item1" preset="v5_staticbox" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="buy_trade_in_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="5" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="5" split_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,164,24" max_items="5" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__SORT_COUPON_INC">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__SORT_COUPON_DEC">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" font="ui_default" frame="2,2,393,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,284,144,20" text="STR_TRADE_DIALOG__UPGRADE_ITEM" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,306,194,51" item_height="44" item_width="44" list_padding="3,3" name="item_basket" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="8,480,57,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__UPGRADE_MY_MONEY" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="69,480,127,22" halign="right" name="my_abyss" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="8,505,57,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__UPGRADE_TRADE_MONEY" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="69,504,127,22" halign="right" name="trade_abyss" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="198,306,198,139" item_height="44" item_width="44" list_padding="3,3" name="tradein_required" preset="v5_listview_frame" reserve_slots="True" scroll_type="hidden" slot_num="3" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="195,284,144,20" text="STR_TRADE_DIALOG__UPGRADE_REQUIRED" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="198,504,198,22" halign="right" name="trade_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="198,480,198,22" halign="right" name="my_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,557" h_pos_align="proportion" name="buy_abyss_kina_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,130,24" max_items="7" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM1">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM2">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM6">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM7">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" frame="2,2,395,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,280,144,20" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_WIDGET1" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,299,397,131" item_height="44" item_width="44" name="item_basket" preset="v5_listview" reserve_slots="True" slot_num="36" type="listview" viewmode="icon">
+			</Widget>
+			<Widget font="v3_money" frame="92,431,305,22" halign="right" name="my_money" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="92,455,305,22" halign="right" name="trade_money" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="92,479,173,22" halign="right" name="my_abyss" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="92,503,173,22" halign="right" name="trade_abyss" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="267,479,64,22" halign="right" name="my_required_item1" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="333,479,64,22" halign="right" name="my_required_item2" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="267,503,64,22" halign="right" name="trade_required_item1" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_money" frame="333,503,64,22" halign="right" name="trade_required_item2" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,430,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET1" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,454,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,478,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__ABYSS_POINT" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,504,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="sell_kina_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="4,2,391,268" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_basket" preset="v5_listview_frame" reserve_slots="True" scroll_type="visible" skin_type="version5" slot_num="36" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="9,478,110,22" halign="right" text="STR_TRADE_DIALOG__WIDGET1" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,478,273,22" halign="right" name="my_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="9,502,110,22" halign="right" text="STR_TRADE_DIALOG__WIDGET2" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,502,273,22" halign="right" name="trade_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="sell_ap_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="4,2,391,268" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_basket" preset="v5_listview_frame" reserve_slots="True" scroll_type="visible" skin_type="version5" slot_num="36" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="42,477,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__ABYSS_POINT" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="42,502,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,478,273,22" halign="right" name="my_abyss" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,502,273,22" halign="right" name="trade_abyss" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="sell_kina_list_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" skin_type="version5" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,164,24" max_items="5" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM1">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM2">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" font="ui_default" frame="2,2,395,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,278,144,20" text="STR_TRADE_DIALOG__ITEM_TABFRAME_WIDGET" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,478,111,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET1" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,479,273,22" halign="right" name="my_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="9,503,111,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,503,273,22" halign="right" name="trade_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="3,298,393,180" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_basket" preset="v5_listview_frame" reserve_slots="True" scroll_type="visible" skin_type="version5" slot_num="36" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="sell_ap_list_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" skin_type="version5" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_combo" frame="5,30,164,24" max_items="5" name="item_sort" preset="v5_staticbox" type="combobox">
+				<Items>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM6">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM7">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM3">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM4">
+					</Item>
+					<Item name="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_BUY_ITEM_SORT_WIDGET1_ITEM5">
+					</Item>
+				</Items>
+			</Widget>
+			<Widget btn_move_anim="False" font="ui_default" frame="2,2,393,26" h_pos_align="proportion" name="item_tab" preset="v5_trade_tab" tab_frame="0,0,216,25" tab_offset="3,0" tab_space="0" type="tab" v_pos_align="top">
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,278,144,20" text="STR_TRADE_DIALOG__ITEM_TABFRAME_WIDGET" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="42,478,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__ABYSS_POINT" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,479,273,22" halign="right" name="my_abyss" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="42,503,78,23" halign="right" padding="2,0" text="STR_TRADE_DIALOG__WIDGET2" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="124,503,273,22" halign="right" name="trade_abyss" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="3,298,393,180" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_basket" preset="v5_listview_frame" reserve_slots="True" scroll_type="visible" skin_type="version5" slot_num="36" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,558" h_pos_align="proportion" name="buy_again_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget font="ui_default" frame="5,2,148,23" halign="left" text="STR_TRADE_DIALOG__BUY_AGAIN_FRAME_WIDGET1" type="static" valign="middle">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" font="ui_list" frame="3,56,393,224" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_list" page_num="10" preset="v5_listview_frame" reserve_slots="False" scroll_type="hidden" slot_num="10" split_num="2" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="5,281,144,20" halign="left" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_WIDGET1" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" frame="2,300,397,177" item_height="44" item_width="44" name="item_basket" preset="v5_listview" reserve_slots="True" slot_num="36" split_num="2" type="listview" viewmode="icon">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget frame="373,33,21,22" name="page_last" preset="v5_last_page" type="button">
+			</Widget>
+			<Widget frame="351,33,21,22" name="page_next" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="287,36,62,16" halign="center" name="page_num" type="static">
+			</Widget>
+			<Widget frame="265,33,21,22" name="page_prev" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="243,33,21,22" name="page_first" preset="v5_first_page" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="9,479,109,23" halign="right" text="STR_TRADE_DIALOG__WIDGET1" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="124,480,273,22" halign="right" name="my_money" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="9,503,109,23" halign="right" text="STR_TRADE_DIALOG__WIDGET2" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="124,504,273,22" halign="right" name="trade_money" preset="v5_staticbox" type="static">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget defbutton="False" font="ui_default" frame="260,556,68,24" name="ok" preset="v5_button" text="STR_TRADE_DIALOG__BUY" type="button" v_pos_align="bottom" valign="middle">
+	</Widget>
+	<Widget defbutton="False" font="ui_default" frame="5,556,94,24" name="sell_junk" preset="v5_button" text="STR_TRADE_DIALOG__SELL_JUNK_ALL" tooltip="STR_TRADE_DIALOG__TOOLTIP_SELL_JUNK_ALL" type="button" v_pos_align="bottom" valign="middle">
+	</Widget>
+	<Widget font="ui_default" frame="329,556,68,24" name="cancel" preset="v5_button" text="STR_TRADE_DIALOG__CANCEL" type="button" v_pos_align="bottom" valign="middle">
+	</Widget>
+	<Widget flag="not_visible" font="ui_default" frame="4,559,172,18" name="cb_preview" preset="v5_check" style="checkbox" text="STR_TRADE_DIALOG__BUY_ITEM_TABFRAME_TOGGLE_PREVIEW" text_offset="3,0" type="button" v_pos_align="bottom" valign="middle">
+	</Widget>
+	<Widget flag="nonclient;not_visible" frame="303,1,28,24" name="refresh" preset="v5_refresh" type="button">
+	</Widget>
+</Dialog>

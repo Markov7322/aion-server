@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="713,200,522,556" last_modified="2014-08-22 12:58:41" name="tutorial_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,311,14" title_height="25" title_offset="0,5" title_text="STR_TUTORIAL_DIALOG" type="dlg_tutorial">
+	<Widget flag="vscroll" frame="3,25,510,343" name="help" padding="10,10" preset="v5_staticbox3" scroll_type="visible" type="videopanel">
+	</Widget>
+	<Widget font="ui_default" frame="448,500,68,24" name="cancel" preset="v5_button" text="STR_TUTORIAL_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget flag="nonclient" frame="454,1,28,24" name="minimize" preset="v5_minimize" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="322,500,124,24" name="popup" preset="v5_button" text="STR_TUTORIAL_DIALOG__POPUP" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="6,503,300,18" name="end_tutorial" preset="v5_check" style="checkbox" text="STR_TUTORIAL_DIALOG__END_TUTORIAL" text_offset="5,0" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget color="1.0,1.0,1.0,0.8" flag="not_visible" frame="213,151,90,90" h_pos_align="center" name="forward" preset="v5_next" text_shade="False" type="button" v_pos_align="middle">
+	</Widget>
+	<Widget font="ui_default" font_size="-14" frame="16,4,246,20" name="tutorial_title" text_color="1.0,0.8667,0.5608,1.0" type="static">
+	</Widget>
+	<Widget font="ui_default" font_size="-12" frame="264,6,245,16" name="subtitle" type="static">
+	</Widget>
+	<Widget frame="4,368,510,125" type="image">
+		<Skin name="v5_help_tutorial_bg">
+		</Skin>
+		<Widget flag="multiline;wordwrap;vscroll" font_size="-12" frame="19,15,472,78" name="desc" scroll_skin_type="default" scroll_type="auto" type="htmlview" valign="middle">
+		</Widget>
+		<Widget frame="238,93,32,20" h_pos_align="center" name="ctn_page_btn" type="container">
+			<Widget frame="0,0,32,20" name="page_no" text="[ 1 ]" type="button">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget frame="3,25,511,467" preset="v5_help_tutorial_frame" type="image">
+	</Widget>
+	<Widget frame="7,370,503,10" type="image">
+		<Skin name="v5_help_tutorial_bar">
+		</Skin>
+	</Widget>
+	<Widget font="ui_default" frame="16,339,72,23" name="replay" preset="v5_help_tutorial_replay" text="STR_TUTORIAL_DIALOG__REPLAY" text_offset="13,0" text_shade="False" type="button">
+	</Widget>
+</Dialog>

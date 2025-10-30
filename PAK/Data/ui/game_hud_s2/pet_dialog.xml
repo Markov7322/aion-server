@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_movable" frame="36,83,273,65" h_pos_align="left" last_modified="2014-08-22 13:18:30" name="pet_dialog" preset="v5_hud_pet_s2" type="dlg_pet" v_pos_align="top">
+	<Widget frame="32,10,40,40" name="emblem" type="image">
+	</Widget>
+	<Widget color="1.0,1.0,1.0,0.0" frame="32,10,40,40" name="emblem_over" preset="v5_hud_pet_emblem_over" type="image">
+	</Widget>
+	<Widget align="left" frame="90,13,166,7" gauge_adjust="-1,-1" name="hp_gauge_bg" preset="v5_hp_gauge_bg" stage="2" state_depended="True" type="gauge">
+	</Widget>
+	<Widget align="left" font_size="-11" frame="90,13,166,7" gauge_adjust="0,0" name="hp_gauge" preset="v5_hp_gauge_pet" skin_extend="True" stage="2" state_depended="True" type="gauge">
+	</Widget>
+	<Widget font="v3_level" frame="9,21,18,18" halign="center" name="level" type="static" valign="middle">
+	</Widget>
+</Dialog>

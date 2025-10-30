@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="850,428,406,431" h_pos_align="right" last_modified="2014-08-22 12:58:42" name="personal_channel_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,383,14" title_height="25" title_offset="0,5" title_text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__TITLE" type="dlg_personal_channel" v_pos_align="top">
+	<Widget font="ui_default" frame="-1,375,70,24" name="help" preset="v5_button" text="STR_COMMON__HELP" type="button">
+	</Widget>
+	<Widget column_customizing="True" column_heading="True" flag="truncate;vscroll" font="ui_list" frame="2,30,396,94" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="channel_list" preset="v5_listview_ex" scroll_type="hidden" type="listviewex">
+		<Column align="left" img_width="" sample_text="" sort="text" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__NAME" width="222">
+		</Column>
+		<Column align="center" img_width="" sample_text="" sort="text" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__PASS" width="120">
+		</Column>
+		<Column align="center" img_width="" sample_text="" sort="number" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__MEMBER" width="50">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="7,7,116,17" text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__LIST" type="static">
+	</Widget>
+	<Widget column_customizing="True" column_heading="True" flag="truncate;vscroll" font="ui_list" frame="2,150,396,220" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="channel_info" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+		<Column align="left" img_width="" sample_text="" sort="text" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__NAME" width="158">
+		</Column>
+		<Column align="center" img_width="" sample_text="" sort="text" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__CLASS" width="60">
+		</Column>
+		<Column align="center" img_width="" sample_text="" sort="number" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__LEVEL" width="60">
+		</Column>
+		<Column align="center" img_width="" sample_text="" sort="text" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__GENDER" width="50">
+		</Column>
+		<Column align="center" img_width="" sample_text="" sort="text" title="STR_CHAT_ROOM_MANAGEMENT_DIALOG__OTHER" width="50">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="7,131,252,17" text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__INFO" type="static">
+	</Widget>
+	<Widget flag="not_enabled" font="ui_default" frame="303,375,98,24" name="leave" preset="v5_button" text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__OUT" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="210,375,92,24" name="join" preset="v5_button" text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__JOIN" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="109,375,100,24" name="create" preset="v5_button" text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__NEW" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="260,127,136,24" name="check_ban" preset="v5_check" style="checkbox" text="STR_CHAT_ROOM_MANAGEMENT_DIALOG__KICK" text_offset="5,0" type="button">
+	</Widget>
+</Dialog>

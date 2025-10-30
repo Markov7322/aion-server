@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="30,400,397,273" last_modified="2014-08-22 12:58:41" name="gm_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,388,14" title_height="25" title_offset="0,5" title_text="STR_GM_DIALOG" type="dlg_gm">
+	<Widget frame="0,0,391,244" h_pos_align="proportion" type="tabsheet" v_pos_align="proportion">
+		<Widget frame="0,0,391,25" h_pos_align="proportion" preset="v5_tab" tab_offset="5,0" type="tab">
+			<Widget font="ui_default" frame="9,0,69,25" name="char_button" preset="v5_tabbutton" text="STR_GM_DIALOG__CHARACTER" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="78,0,69,25" name="option_button" preset="v5_tabbutton" text="STR_GM_DIALOG__OPTION" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,391,219" h_pos_align="proportion" name="char_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget alphanumeric="False" defbutton="true" font="ui_editbox" frame="7,5,378,24" h_padding="5" name="edit" preset="v5_editbox" type="editbox" v_padding="5">
+			</Widget>
+			<Widget font="ui_default" frame="10,37,278,19" name="pos" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="200,66,89,24" name="teleportto" preset="v5_button" text="STR_GM_DIALOG__TELEPORTTO" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="200,97,89,24" name="recall" preset="v5_button" text="STR_GM_DIALOG__RECALL" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="200,159,89,24" name="bookmark" preset="v5_button" text="STR_GM_DIALOG__BOOKMARK" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="200,128,90,24" name="gm_comment_list" preset="v5_button" text="STR_GM_DIALOG__MEMO" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="13,66,89,24" name="player_info" preset="v5_button" text="STR_PLAYER_INFO_DIALOG" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="13,97,89,24" name="inventory" preset="v5_button" text="STR_GM_DIALOG__INVENTORY" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="107,66,89,24" name="skill" preset="v5_button" text="STR_GM_DIALOG__SKILL" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="107,97,89,24" name="guild" preset="v5_button" text="STR_GM_DIALOG__GUILD" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="12,128,90,24" name="quest" preset="v5_button" text="STR_GM_DIALOG__QUEST" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="292,36,89,24" name="refresh" preset="v5_button" text="STR_GM_DIALOG__REFRESH" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="12,159,90,24" name="gm_mail_list" preset="v5_button" text="STR_GM_DIALOG__MAIL" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="107,128,89,24" name="gm_buddy_list" preset="v5_button" text="STR_WHO_DIALOG__BUDDY" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="292,66,90,24" name="check_bot1" preset="v5_button" text="STR_GM_DIALOG__CHECK_BOT1" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="292,97,90,24" name="check_bot99" preset="v5_button" text="STR_GM_DIALOG__CHECK_BOT99" type="button">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,391,219" h_pos_align="proportion" name="option_page" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget font="ui_default" frame="4,157,375,25" name="option_builder_command" preset="v5_radio" style="radiobutton" text="STR_GM_DIALOG__BUILDER_COMMAND" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="4,131,375,25" name="option_builder_control" preset="v5_radio" style="radiobutton" text="STR_GM_DIALOG__BUILDER_CONTROL" type="button">
+			</Widget>
+			<Widget flag="multiline;wordwrap" font="ui_default" frame="4,4,374,122" text="STR_GM_DIALOG__OPTION_DESC" type="htmlview">
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

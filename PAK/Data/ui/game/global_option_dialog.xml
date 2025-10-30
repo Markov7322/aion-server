@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="exclusive" close_offset="4,1" close_preset="v5_close" flag="title;close" frame="341,130,668,552" last_modified="2014-08-22 13:09:04" name="global_option_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,662,14" title_height="25" title_offset="0,5" title_text="STR_GLOBAL_OPTION_DIALOG" type="dlg_global_option" ui_mode="housing;housing_building" v_pos_align="middle">
+	<Widget font="v3_option_title" frame="0,0,663,522" name="tabsheet_option" type="tabsheet">
+		<Widget frame="0,0,663,25" h_pos_align="proportion" preset="v5_tab" tab_frame="0,0,588,25" tab_offset="4,0" tab_space="0" type="tab">
+			<Widget frame="7,0,78,25" name="button_option_0" preset="v5_tabbutton" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_BUTTON_OPTION_0" type="tabbutton">
+			</Widget>
+			<Widget frame="84,0,78,25" name="button_option_1" preset="v5_tabbutton" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_BUTTON_OPTION_1" type="tabbutton">
+			</Widget>
+			<Widget frame="161,0,78,25" name="button_option_2" preset="v5_tabbutton" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_BUTTON_OPTION_2" type="tabbutton">
+			</Widget>
+			<Widget frame="238,0,78,25" name="button_option_3" preset="v5_tabbutton" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_BUTTON_OPTION_3" type="tabbutton">
+			</Widget>
+			<Widget frame="316,0,78,25" name="button_option_4" preset="v5_tabbutton" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_BUTTON_OPTION_4" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,24,663,498" group="game" h_pos_align="proportion" name="page_option_0" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="7,6,648,459" name="sheet_option_0" type="tabsheet">
+				<Widget frame="0,0,167,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="169,0,479,460" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="2,0,163,459" h_pos_align="proportion" tab_align="top" tab_offset="0,2" tab_space="3" type="tab">
+					<Widget font="v3_option_title" frame="0,0,165,38" name="tab_character" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_CHARACTER" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,40,165,38" name="tab_status" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_STATUSBAR" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,80,165,38" name="tab_interface" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_INTERFACE" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,120,165,38" name="tab_quickbar" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_QUICKBAR" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,160,165,38" name="tab_control" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_CONTROLVIEW" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,200,165,38" name="tab_community" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_COMMUNITY" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,240,165,38" name="tab_combat" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_COMBATINFORMATION" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,280,165,38" name="tab_pet" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_PET" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,320,165,38" name="tab_etc" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_EXTRAFEATURES" type="tabbutton">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_character" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,220,19" name="cb_show_name_me" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET6" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,220,19" name="cb_show_name_party" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET7" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,220,19" name="cb_show_name_alliance" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET8" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,220,19" name="cb_show_name_npc" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET10" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,135,220,19" name="cb_show_name_pc" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_PC" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,165,220,19" name="cb_show_name_pc_other" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_PC_OTHER" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,195,220,19" name="cb_show_name_etc_npc" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_ETCNPC" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,225,220,19" name="cb_show_name_gather" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_GATHER" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="66,255,118,19" text="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_TITLE_FLAG" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="66,285,119,19" text="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_GUILD_FLAG" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="240,254,122,24" list_font="v3_option" max_items="3" name="cb_title_show_option" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_TITLE_FLAG_SHOW_TITLE">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_NAME_TITLE_FLAG_SHOW_RANK">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_HIDDEN">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget frame="49,290,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="240,284,122,24" list_font="v3_option" max_items="2" name="cb_guild_show_option" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_SHOW">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_HIDDEN">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget frame="49,260,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="240,314,108,24" list_font="v3_option" max_items="2" name="cb_hide_helmet" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_SHOW">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_HIDDEN">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="240,375,108,24" list_font="v3_option" max_items="3" name="cb_hide_guild_emblem" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_SHOW">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_HIDDEN">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_AUTO">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="240,344,108,24" list_font="v3_option" max_items="2" name="cb_hide_feather" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_SHOW">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_OPTION_HIDDEN">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="66,375,135,21" text="STR_GLOBAL_OPTION_DIALOG__GAME_HIDE_GUILD_EMBLEM" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="66,345,169,21" text="STR_GLOBAL_OPTION_DIALOG__GAME_HIDE_FEATHER" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="66,315,135,21" text="STR_GLOBAL_OPTION_DIALOG__GAME_HIDE_HELMET" type="static">
+					</Widget>
+					<Widget frame="49,320,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget frame="49,350,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget frame="49,380,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_status" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="67,15,140,19" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET13" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,220,19" name="cb_show_hp_party" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET14" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget frame="50,20,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="45,75,220,19" name="cb_show_hp_alliance" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET15" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,220,17" name="cb_show_hp_target" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_GAUGE_TARGET" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,135,220,19" name="cb_show_gauge_num" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET32" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="240,14,108,24" list_font="v3_option" max_items="3" name="cb_show_hp_me" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_GAUGE_AUTO">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_GAUGE_SHOW">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_GAUGE_HIDDEN">
+							</Item>
+						</Items>
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_interface" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,220,19" name="cb_supprot_quickbar" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_SUPPORT_SHORTCUT" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,262,19" name="cb_cooltime" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_SHOW_COOLTIME" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,220,19" name="cb_abnormal_time" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_SHOW_ABNORMAL_TIME" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,220,19" name="cb_show_tooltip_compare" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_TOOLTIP_COMPARE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,135,220,19" name="cb_dlg_auto_align" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_DLG_AUTO_ALIGN" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,165,220,19" name="cb_hold_radar_dir" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_HOLD_RADAR_DIR" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,195,220,19" name="cb_show_subzone_name_dialog" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__SHOW_SUBZONE_NAME_DIALOG" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,225,258,19" name="cb_show_my_player_party_info" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__SHOW_MY_PLAYER_PARTY_INFO" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,255,306,19" name="cb_show_receieved_painting" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_PLUGIN_PIC_ALARM" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="68,288,169,19" text="STR_GLOBAL_OPTION_DIALOG__ALPHA_MAP_CONTROL_ALPHA" type="static">
+					</Widget>
+					<Widget frame="48,294,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget align="horizontal" frame="247,290,149,17" knob_size="17,17" name="slide_map_alpha" preset="v5_slide" slide_rect="10,0,130,17" type="slide">
+					</Widget>
+					<Widget frame="398,289,49,18" name="static_map_alpha" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="68,318,100,19" text="STR_GLOBAL_OPTION_DIALOG__GAME_HUD_SCALE" type="static">
+					</Widget>
+					<Widget frame="48,324,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget align="horizontal" frame="247,320,149,17" knob_size="17,17" name="slide_ui_scale" preset="v5_slide" slide_rect="10,0,130,17" type="slide">
+					</Widget>
+					<Widget frame="398,319,49,18" name="static_ui_scale" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="68,348,100,19" text="STR_GLOBAL_OPTION_DIALOG__GAME_HUD_TYPE" type="static">
+					</Widget>
+					<Widget frame="48,354,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="253,347,108,24" list_font="v3_option" max_items="2" name="cb_hud_type" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_HUD_TYPE1">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_HUD_TYPE2">
+							</Item>
+						</Items>
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_quickbar" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,220,19" name="cb_show_quick_ctrl" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__QUICKBAR_SHOW_CTRL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,220,19" name="cb_show_quick_alt" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__QUICKBAR_SHOW_ALT" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,220,19" name="cb_show_quick_extra" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__QUICKBAR_SHOW_EXTRA" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,220,19" name="cb_show_quick_sep1" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__QUICKBAR_SHOW_SEP1" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,135,220,19" name="cb_show_quick_sep2" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__QUICKBAR_SHOW_SEP2" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,165,220,19" name="cb_change_chain_skill" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_CHANGE_CHAIN_SKILL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget flag="truncate" font="v3_option" frame="45,195,289,19" name="cb_change_usable_skill" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_CHANGE_USABLE_SKILL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_control" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="69,15,135,21" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_MAXCAM" type="static">
+					</Widget>
+					<Widget frame="52,22,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="240,13,108,24" list_font="v3_option" max_items="4" name="cb_cam_max_dist" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_MAXCAM_OVER">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_MAXCAM_MAX">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_MAXCAM_MID">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_MAXCAM_MIN">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="240,44,108,24" list_font="v3_option" max_items="4" name="cb_cam_rot_speed" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_CPS_VERY_HIGH">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_CPS_HIGH">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_CPS_MID">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_CPS_LOW">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="69,45,135,21" text="STR_GLOBAL_OPTION_DIALOG__GAME_CAMERA_PANNING_SPEED" type="static">
+					</Widget>
+					<Widget frame="52,52,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="45,74,226,19" name="cb_cam_pan_invert_vertical" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_CAMERA_PANNING_INVERT_VERTICAL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,220,19" name="cb_cam_raid" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_CAM_ANGLE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,345,220,19" name="cb_manual_attack" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_MANUAL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,315,258,19" name="cb_maintain_goal" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_STOP_MOUSE_MOVE_AFTER_ATTACK" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,165,220,19" name="cb_prevent_mouse_move" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_HOLD_MOUSE_MOVE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,195,235,19" name="cb_left_panning" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_LEFT_MOUSE_PANNING" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,225,220,19" name="cb_prevent_left_execute" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_PREVENT_LEFT_EXECUTE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,255,242,19" name="cb_right_click_mode" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_RIGHT_CLICK_MODE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,285,242,19" name="cb_dual_click_mode" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_DUAL_CLICK_MODE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_community" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,220,19" name="cb_keep_chatting" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_KEEP_CHATTING" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,220,19" name="cb_focus_out_chatting" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_CLICK_SCREEN_STOP_CHATTING" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,220,19" name="cb_word_filtering" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_CHAT_FILTER" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="69,105,103,19" text="STR_GLOBAL_OPTION_DIALOG__GAME_RESIZE_CHAT_FONT" type="static">
+					</Widget>
+					<Widget frame="50,111,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget font="v3_option" frame="240,104,108,24" list_font="v3_option" max_items="3" name="cb_chat_font_size" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_RCF_HIGH">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_RCF_MID">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GAME_RCF_LOW">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="45,135,220,19" name="cb_reject_watch" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_WATCH" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,165,220,19" name="cb_reject_trade" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_TRADE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,195,233,19" name="cb_reject_party" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_PARTY" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,255,220,19" name="cb_reject_friend" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_FRIEND" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,285,220,19" name="cb_reject_duel" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_DUEL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,315,276,19" name="cb_reject_whisper" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_WHISPER_FROM_LOW_LEVEL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,345,245,19" name="cb_reject_mail" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_MAIL_FROM_LOW_LEVEL" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,225,220,19" name="cb_reject_guild" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_REJECT_GUILD" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_combat" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,220,19" name="cb_show_dmg_me" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_ME" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,220,19" name="cb_show_dmg_target" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_TARGET" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,220,19" name="cb_show_dmg_pet" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_PET" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,220,19" name="cb_show_dmg_party" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_PARTY" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,135,220,19" name="cb_target_dist" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_TARGET_DIST" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,165,220,19" name="cb_show_target_skill_gauge" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_SHOW_TARGET_SKILL_GAUGE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,195,220,19" name="cb_show_target_assist_dialog" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_SHOW_TARGET_ASSIST_DIALOG" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,225,244,19" name="cb_show_target_assist_skill_gauge" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_SHOW_TARGET_ASSIST_SKILL_GAUGE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,255,220,19" name="cb_show_move_state" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_COMBAT_SHOW_MOVE_STATE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_pet" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,206,19" name="cb_toypet_hide_other" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_TOYPET_HIDE_OTHER" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,179,19" name="cb_toypet_cam_nouse" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_TOYPET_CAM_NOUSE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,274,19" name="cb_toypet_alarm_off" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GAME_TOYPET_ALARM_OFF" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_etc" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,239,19" name="cb_show_path_find_helper" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__SHOW_PATH_FIND_HELPER" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget flag="not_visible" font="v3_option" frame="45,75,220,19" name="cb_show_plugin_indicator" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_PLUGIN_SHOW_ALARM_ICON" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,322,19" name="cb_hide_normal_quest_marker" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__QUEST_MARK_HIDE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,106,220,19" name="cb_open_aion_web" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__OPEN_WEB_SITE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget frame="0,24,663,498" group="video" h_pos_align="proportion" name="page_option_1" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="7,6,648,459" name="sheet_option_1" type="tabsheet">
+				<Widget frame="0,0,167,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="169,0,479,460" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="2,0,163,459" h_pos_align="proportion" tab_align="top" tab_offset="0,2" tab_space="3" type="tab">
+					<Widget font="v3_option_title" frame="0,0,165,38" name="tab_screen" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_CONFIGURATION" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,40,165,38" name="tab_engine" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_ENGINE" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,80,165,38" name="tab_etc" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_ETCSETUP" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,120,165,38" name="tab_siegewarfare" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_SIEGEWARFARE_SETUP" type="tabbutton">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_screen" type="tabpage" v_pos_align="proportion">
+					<Widget flag="transparent;active" font="v3_option" frame="50,15,75,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET51" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_DISPLAY_MODE" type="static">
+					</Widget>
+					<Widget flag="transparent;active" font="v3_option" frame="50,45,79,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET58" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_DISPLAY_RESOLUTION" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="161,44,159,24" list_font="v3_option" name="cb_resolution" preset="v5_staticbox3" type="combobox">
+					</Widget>
+					<Widget font="v3_option" frame="161,14,159,24" list_font="v3_option" max_items="3" name="cb_window_mode" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_WINDOWED">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_FULLSCREEN">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_PSEUDO_FS">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget flag="transparent;active" font="v3_option" frame="50,75,55,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET60" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_DISPLAY_COLOR" type="static">
+					</Widget>
+					<Widget flag="transparent;active" font="v3_option" frame="50,105,69,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET62" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_DISPLAY_BRIGHTNESS" type="static">
+					</Widget>
+					<Widget align="horizontal" frame="173,105,134,17" knob_size="17,17" name="slide_brightness" preset="v5_slide" slide_rect="10,0,115,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="161,74,159,24" list_font="v3_option" name="cb_color" preset="v5_staticbox3" type="combobox">
+					</Widget>
+					<Widget flag="transparent" frame="119,103,46,23" halign="center" name="static_brightness" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_engine" type="tabpage" v_pos_align="proportion">
+					<Widget flag="vscroll" frame="0,0,459,460" name="engine_scrollable" rearrange="True" type="scrollable">
+						<Widget frame="0,0,459,194" name="con_engin_common" type="container">
+							<Widget flag="transparent;active" font="v3_option" frame="50,15,131,16" halign="left" name="st_engine_select" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_ENGINE_CHOICE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_ENGINE_CHOICE" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="89,100,294,17" knob_size="17,17" name="slide_overallquality" preset="v5_slide" slide_rect="10,0,275,17" step="8" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="68,115,62,23" halign="center" name="st_oq_1" text="STR_GLOBAL_OPTION_DIALOG__PERFORMANCE_ONLY" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="50,75,127,16" halign="left" name="st_oq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_OVERALL_QUALITY" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_OVERALL_QUALITY" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="150,115,30,23" halign="center" name="st_oq_2" text="STR_GLOBAL_OPTION_DIALOG__PERFORMANCE" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="253,115,30,23" halign="center" name="st_oq_3" text="STR_GLOBAL_OPTION_DIALOG__RECOMMEND" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="288,115,30,23" halign="center" name="st_oq_4" text="STR_GLOBAL_OPTION_DIALOG__QUALITY" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="346,115,62,23" halign="center" name="st_oq_5" text="STR_GLOBAL_OPTION_DIALOG__USER_SETTING" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="43,45,117,19" halign="right" name="cb_fixedframe" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__FIXEDFRAMEOPTION" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_FIXEDFRAMEOPTION" type="button" valign="middle">
+							</Widget>
+							<Widget font="v3_option" frame="180,14,142,24" list_font="v3_option" max_items="2" name="cb_engine_select" preset="v5_staticbox3" type="combobox">
+								<Items>
+									<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_ENGINE_CHOICE_NORMAL">
+									</Item>
+									<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_ENGINE_CHOICE_HIGH">
+									</Item>
+								</Items>
+							</Widget>
+							<Widget frame="39,165,85,26" halign="right" name="showdetail" preset="v5_quest_ind_expand" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__SHOW_GRAPHIC_QUALITY_OPTION" text_offset="5,0" type="button">
+							</Widget>
+							<Widget frame="326,165,83,26" name="detect" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_DETECT" type="button">
+							</Widget>
+							<Widget flag="multiline;wordwrap" frame="39,139,406,25" halign="left" name="av_info" scroll_type="hidden" text_color="1.0,0.0,0.0,1.0" type="static" valign="top">
+							</Widget>
+						</Widget>
+						<Widget frame="0,189,459,281" group="engine_old" name="con_detail_low" type="container">
+							<Widget flag="transparent;active" font="v3_option" frame="67,226,100,16" halign="left" name="st_glare" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET66" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_GLARE" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="196,222,125,24" list_font="v3_option" name="cb_glare" preset="v5_staticbox3" type="combobox">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,198,100,16" halign="left" name="st_fsaa" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET68" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_ANTIALIAS" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="196,194,125,24" list_font="v3_option" name="cb_fsaa" preset="v5_staticbox3" type="combobox">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,7,105,16" halign="left" name="st_tq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_TEXTURE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_TEXTURE" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,122,105,16" halign="left" name="st_sq_0" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET74" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_SHADOW" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,53,105,16" halign="left" name="st_vd1_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_TRR_RANGE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_TRR_RANGE" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,30,105,16" halign="left" name="st_vd2_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_OBJ_RANGE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_OBJ_RANGE" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,145,117,16" halign="left" name="st_sm_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_SHADER" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_SHADER" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,76,122,16" halign="left" name="st_hw_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_BG" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_BG" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,99,105,16" halign="left" name="st_wq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_WATER" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_WATER" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="221,76,132,17" knob_size="17,17" name="slide_hardware" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,99,132,17" knob_size="17,17" name="slide_water_quality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,7,132,17" knob_size="17,17" name="slide_texture_quality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,122,132,17" knob_size="17,17" name="slide_shadow_quality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,53,132,17" knob_size="17,17" name="slide_viewdist_1" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,30,132,17" knob_size="17,17" name="slide_viewdist_2" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,145,132,17" knob_size="17,17" name="slide_shadermodel" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,72,30,23" halign="right" name="st_hw_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,95,30,23" halign="right" name="st_wq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,3,30,23" halign="right" name="st_tq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,118,30,23" halign="right" name="st_sq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,141,30,23" halign="right" name="st_sm_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,72,30,23" halign="left" name="st_hw_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,95,30,23" halign="left" name="st_wq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,3,30,23" halign="left" name="st_tq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,118,30,23" halign="left" name="st_sq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,141,30,23" halign="left" name="st_sm_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="180,26,39,23" halign="right" name="st_vd2_1" text="STR_GLOBAL_OPTION_DIALOG__NEAR" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="180,49,39,23" halign="right" name="st_vd1_1" text="STR_GLOBAL_OPTION_DIALOG__NEAR" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,49,30,23" halign="left" name="st_vd1_2" text="STR_GLOBAL_OPTION_DIALOG__FAR" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,26,30,23" halign="left" name="st_vd2_2" text="STR_GLOBAL_OPTION_DIALOG__FAR" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="261,255,98,19" halign="right" name="cb_glow" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG_GRAPHIC_GLOW" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_GLOW" type="button" valign="middle">
+							</Widget>
+							<Widget font="v3_option" frame="49,255,161,19" halign="right" name="cb_screen_skill_fx" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__FULLSCREEN_SKILLFX" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_FULLSCREEN_SKILLFX" type="button" valign="middle">
+							</Widget>
+							<Widget align="horizontal" frame="221,168,132,17" knob_size="17,17" name="slide_effectquality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,164,30,23" halign="left" name="st_eq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,164,30,23" halign="right" name="st_eq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="67,168,105,16" halign="left" name="st_eq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_EFFECT" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_EFFECT" type="static">
+							</Widget>
+						</Widget>
+						<Widget frame="0,189,459,360" group="engine_mrt" name="con_detail_mrt" type="container">
+							<Widget flag="transparent;active" font="v3_option" frame="13,313,100,16" halign="left" name="mrt_st_glare" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET66" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_GLARE" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="184,309,125,24" list_font="v3_option" name="mrt_cb_glare" preset="v5_staticbox3" type="combobox">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,7,100,16" halign="left" name="mrt_st_tq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_TEXTURE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_TEXTURE" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,130,105,16" halign="left" name="mrt_st_sq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_SHADOW" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_SHADOW" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,57,100,16" halign="left" name="mrt_st_vd1_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_TRR_RANGE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_TRR_RANGE" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,31,100,16" halign="left" name="mrt_st_vd2_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_OBJ_RANGE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_OBJ_RANGE" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,155,119,16" halign="left" name="mrt_st_sm_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_SHADER" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_SHADER" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,81,121,16" halign="left" name="mrt_st_hw_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_BG" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_BG" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,105,105,16" halign="left" name="mrt_st_wq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_WATER" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_WATER" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="221,82,132,17" knob_size="17,17" name="mrt_slide_hardware" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,107,132,17" knob_size="17,17" name="mrt_slide_waterquality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,8,132,17" knob_size="17,17" name="mrt_slide_texturequality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,131,132,17" knob_size="17,17" name="mrt_slide_shadowquality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,31,132,17" knob_size="17,17" name="mrt_slide_viewdist2" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget align="horizontal" frame="221,155,132,17" knob_size="17,17" name="mrt_slide_shadermodel" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,78,30,23" halign="center" name="mrt_st_hw_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,102,30,23" halign="center" name="mrt_st_wq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,4,30,23" halign="center" name="mrt_st_tq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,127,30,23" halign="center" name="mrt_st_sq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,150,30,23" halign="center" name="mrt_st_sm_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,78,30,23" halign="center" name="mrt_st_hw_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,102,30,23" halign="center" name="mrt_st_wq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,0,30,23" halign="center" name="mrt_st_tq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,127,30,23" halign="center" name="mrt_st_sq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,149,30,23" halign="center" name="mrt_st_sm_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="180,26,39,23" halign="center" name="mrt_st_vd2_1" text="STR_GLOBAL_OPTION_DIALOG__NEAR" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="180,53,39,23" halign="center" name="mrt_st_vd1_1" text="STR_GLOBAL_OPTION_DIALOG__NEAR" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,53,30,23" halign="center" name="mrt_st_vd1_2" text="STR_GLOBAL_OPTION_DIALOG__FAR" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,26,30,23" halign="center" name="mrt_st_vd2_2" text="STR_GLOBAL_OPTION_DIALOG__FAR" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="231,264,168,19" halign="left" name="mrt_cb_screenskillfx" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__FULLSCREEN_SKILLFX" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_FULLSCREEN_SKILLFX" type="button" valign="middle">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,175,30,23" halign="center" name="mrt_st_eq_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="221,179,132,17" knob_size="17,17" name="mrt_slide_effectquality" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,175,30,23" halign="center" name="mrt_st_eq_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,178,105,16" halign="left" name="mrt_st_eq_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_EFFECT" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_EFFECT" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="221,223,132,17" knob_size="17,17" name="mrt_slide_outline" preset="v5_slide" slide_rect="10,0,113,17" step="2" type="slide">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,222,119,16" halign="left" name="mrt_st_ol_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_OUTLINE" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_OUTLINE" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,197,30,23" halign="center" name="mrt_st_tb_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="221,201,132,17" knob_size="17,17" name="mrt_slide_terrainbump" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,197,30,23" halign="center" name="mrt_st_tb_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,200,163,16" halign="left" name="mrt_st_tb_0" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_BG_BUMP" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_BG_BUMP" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="231,286,171,19" halign="left" name="mrt_cb_sunshaft" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_SUNSHAFT" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_SUNSHAFT" type="button" valign="middle">
+							</Widget>
+							<Widget font="v3_option" frame="13,286,205,19" halign="left" name="mrt_cb_dof" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_SOFT_DOF" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_SOFT_DOF" type="button" valign="middle">
+							</Widget>
+							<Widget flag="not_visible" font="v3_option" frame="13,335,154,17" halign="left" name="mrt_cb_smoothcamera" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_SOFT_CAMERA" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_SOFT_CAMERA" type="button" valign="middle">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,220,30,23" halign="center" name="mrt_st_ol_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,218,30,23" halign="center" name="mrt_st_ol_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+							<Widget font="v3_option" frame="13,264,206,17" halign="left" name="mrt_cb_weatherlayer" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_HIGH_TRR" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_HIGH_TRR" type="button" valign="middle">
+							</Widget>
+							<Widget align="horizontal" frame="221,57,132,17" knob_size="17,17" name="mrt_slide_viewdist1" preset="v5_slide" slide_rect="10,0,113,17" step="4" type="slide">
+							</Widget>
+							<Widget flag="transparent;active" font="v3_option" frame="13,242,177,16" halign="left" name="mrt_st_ss_0" text="STR_GLOBAL_OPTION_DIALOG__HIGH_FULLSCREEN_LIGHT" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_HIGH_FULLSCREEN_LIGHT" type="static">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="189,240,30,23" halign="center" name="mrt_st_ss_1" text="STR_GLOBAL_OPTION_DIALOG__LOW" type="static">
+							</Widget>
+							<Widget align="horizontal" frame="221,243,132,17" knob_size="17,17" name="mrt_slide_ssao" preset="v5_slide" slide_rect="10,0,113,17" step="2" type="slide">
+							</Widget>
+							<Widget font="v3_option" font_size="-12" frame="355,238,30,23" halign="center" name="mrt_st_ss_2" text="STR_GLOBAL_OPTION_DIALOG__HIGH" type="static">
+							</Widget>
+						</Widget>
+					</Widget>
+					<Widget frame="460,0,19,460" linker="engine_scrollable" preset="v5_scroll" type="scrollbar">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,440,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_etc" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,106,19" name="show_fps" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__SHOW_FPS" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_SHOWFRAME" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,116,19" name="cb_vsync" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__VSYNC" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG__TOOLTIP_FULLSCREEN_VSYNC" type="button" valign="middle">
+					</Widget>
+					<Widget flag="transparent;active" font="v3_option" frame="45,133,116,16" halign="left" name="st_charhide" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_CHAR_PORTRAIT" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_CHAR_PORTRAIT" type="static">
+					</Widget>
+					<Widget flag="transparent;active" font="v3_option" frame="45,160,119,16" halign="left" name="st_fxLevel" text="STR_GLOBAL_OPTION_DIALOG__SHOW_FX" tooltip="STR_GLOBAL_OPTION_DIALOG__TOOLTIP_SHOW_FX" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="180,156,125,24" list_font="v3_option" max_items="5" name="cb_fxlevel" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__SHOW_FX_NONE">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__SHOW_FX_SELF">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__SHOW_FX_PARTY">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__SHOW_FX_FORCE">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__SHOW_FX_ALL">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="180,129,125,24" list_font="v3_option" max_items="4" name="cb_charhide" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_CHAR_PORTRAIT_AUTO">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_CHAR_PORTRAIT_HIGH">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_CHAR_PORTRAIT_NORMAL">
+							</Item>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_CHAR_PORTRAIT_LOW">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="45,105,90,19" halign="left" name="cb_weather" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_WHETHER" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_WHETHER" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,151,19" name="cb_modelshader" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG_GRAPHIC_MODEL_SHADER_LOD" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_MODEL_SHADER_LOD" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_siegewarfare" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,319,19" name="cb_siegewarfare" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__GRAPHIC_SIEGEWARFARE_OPT" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG_TOOLTIP_GRAPHIC_SIEGEWARFARE" type="button" valign="middle">
+					</Widget>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget frame="0,24,663,498" group="audio" h_pos_align="proportion" name="page_option_2" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="7,6,648,459" name="sheet_option_2" type="tabsheet">
+				<Widget frame="0,0,167,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="169,0,479,460" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="2,0,163,459" h_pos_align="proportion" tab_align="top" tab_offset="0,2" tab_space="3" type="tab">
+					<Widget font="v3_option_title" frame="0,0,165,38" name="tab_volume" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_VOLUME" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,41,165,38" name="tab_function" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_FUNCTION" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,82,165,38" name="tab_voicechat" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_VOICECHAT" type="tabbutton">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_volume" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,61,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET88" type="static">
+					</Widget>
+					<Widget align="horizontal" frame="146,58,132,17" knob_size="17,17" name="slide_sound_bg" preset="v5_slide" skin_type="oo" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="158,76,93,19" name="cb_mute_bg" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_MUTE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,103,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET90" type="static">
+					</Widget>
+					<Widget align="horizontal" frame="146,104,132,17" knob_size="17,17" name="slide_sound_fx" preset="v5_slide" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="45,138,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_ENV" type="static">
+					</Widget>
+					<Widget align="horizontal" frame="146,139,132,17" knob_size="17,17" name="slide_sound_env" preset="v5_slide" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="45,170,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_UI" type="static">
+					</Widget>
+					<Widget align="horizontal" frame="146,171,132,17" knob_size="17,17" name="slide_sound_ui" preset="v5_slide" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="45,207,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_THEME" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="155,203,138,24" list_font="v3_option" max_items="1" name="cb_uisound_theme" preset="v5_staticbox3" type="combobox">
+						<Items>
+							<Item name="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_THEME_1">
+							</Item>
+						</Items>
+					</Widget>
+					<Widget font="v3_option" frame="45,262,101,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_NPC" type="static">
+					</Widget>
+					<Widget align="horizontal" frame="146,261,132,17" knob_size="17,17" name="slide_sound_npc" preset="v5_slide" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget align="horizontal" frame="146,288,132,17" knob_size="17,17" name="slide_sound_systemmsg" preset="v5_slide" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="45,287,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_SYS" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="43,317,72,19" name="cb_sound_ment" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_MUTE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="127,314,95,24" list_font="v3_option" name="cb_systemmsg_gender" preset="v5_staticbox3" type="combobox">
+					</Widget>
+					<Widget font="v3_option" frame="227,314,95,24" list_font="v3_option" name="cb_systemmsg_theme" preset="v5_staticbox3" type="combobox">
+					</Widget>
+					<Widget align="horizontal" frame="146,12,132,17" knob_size="17,17" name="slide_sound_master" preset="v5_slide" slide_rect="10,0,113,17" type="slide">
+					</Widget>
+					<Widget font="v3_option" frame="46,13,92,16" halign="left" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_MASTER" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="158,32,93,19" name="cb_mute_master" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_MUTE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget flag="transparent" frame="282,59,43,16" halign="center" name="static_sound_bg" type="static">
+					</Widget>
+					<Widget flag="transparent" frame="282,105,43,16" halign="center" name="static_sound_fx" type="static">
+					</Widget>
+					<Widget flag="transparent" frame="282,140,43,16" halign="center" name="static_sound_env" type="static">
+					</Widget>
+					<Widget flag="transparent" frame="282,172,43,16" halign="center" name="static_sound_ui" type="static">
+					</Widget>
+					<Widget flag="transparent" frame="282,289,43,16" halign="center" name="static_sound_systemmsg" type="static">
+					</Widget>
+					<Widget frame="282,262,43,16" halign="center" name="static_sound_npc" text="" type="static">
+					</Widget>
+					<Widget flag="transparent" frame="282,13,43,16" halign="center" name="static_sound_master" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_function" type="tabpage" v_pos_align="proportion">
+					<Widget font="v3_option" frame="45,15,196,19" name="cb_bgm_loop" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_BGM_LOOP" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,45,196,19" name="cb_bgm_battle" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_BGM_BATTLE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,75,196,19" name="cb_skill_voice" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_SKILL_VOICE" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,105,260,19" name="cb_background_sound" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_ALWAYS_PLAY" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="45,135,260,19" name="cb_pet_sound" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_SOUND_PET" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,460" h_pos_align="proportion" name="page_voicechat" type="tabpage" v_pos_align="proportion">
+					<Widget frame="265,240,81,24" name="voicechat_test" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_SELFTEST" type="button">
+					</Widget>
+					<Widget flag="not_visible" frame="227,150,81,24" name="voicechat_test_stop" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_SELFTEST_STOP" type="button">
+					</Widget>
+					<Widget frame="120,88,180,22" name="speaker" preset="v5_staticbox3" type="combobox">
+					</Widget>
+					<Widget frame="120,201,180,22" name="mike" preset="v5_staticbox3" type="combobox">
+					</Widget>
+					<Widget align="horizontal" flag="not_active" frame="120,243,138,18" knob_size="17,17" name="test_volume" preset="v5_slide" slide_rect="10,0,119,17" type="slide">
+					</Widget>
+					<Widget align="horizontal" frame="120,151,216,18" knob_size="17,17" name="mike_volume" preset="v5_slide" slide_rect="10,0,197,17" type="slide">
+					</Widget>
+					<Widget align="horizontal" frame="120,38,216,18" knob_size="17,17" name="speaker_volume" preset="v5_slide" slide_rect="10,0,197,17" type="slide">
+					</Widget>
+					<Widget frame="341,28,49,35" name="static_vol_speaker" type="static">
+					</Widget>
+					<Widget frame="341,141,48,37" name="static_vol_mike" type="static">
+					</Widget>
+					<Widget frame="24,60,112,24" name="echocancel" preset="v5_check" single_click_only="False" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_ECHO_OFF" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget frame="155,60,121,24" name="off_speaker" preset="v5_check" single_click_only="False" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_OFF" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget frame="155,173,122,24" name="off_mike" preset="v5_check" single_click_only="False" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_OFF" text_offset="5,0" type="button" valign="middle">
+					</Widget>
+					<Widget font="v3_option" frame="31,15,132,19" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_SPEAKER" type="static">
+					</Widget>
+					<Widget font="v3_option" frame="31,127,163,19" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_VOICECHAT_MIKE" type="static">
+					</Widget>
+					<Widget frame="14,22,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+					<Widget frame="14,134,8,8" type="image">
+						<Skin name="v5_dot" state="0">
+						</Skin>
+					</Widget>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget frame="0,24,663,498" group="key" h_pos_align="proportion" name="page_option_3" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="7,6,648,459" name="sheet_option_3" type="tabsheet">
+				<Widget frame="0,0,167,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="169,0,479,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="2,0,163,459" h_pos_align="proportion" tab_align="top" tab_offset="0,2" tab_space="3" type="tab">
+					<Widget font="v3_option_title" frame="0,0,165,38" name="tab_key_0" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_CONTROL" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,40,165,38" name="tab_key_1" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_COMBAT" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,80,165,38" name="tab_key_2" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_FUNCTION" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,120,165,38" name="tab_key_3" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_PARTY" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,160,165,38" name="tab_key_4" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_MARK" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,200,165,38" name="tab_key_5" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_WINDOW" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,240,165,38" name="tab_key_6" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_QUICKBAR" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,280,165,38" name="tab_key_7" preset="v5_tabbutton2" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,321,165,38" name="tab_key_8" preset="v5_tabbutton2" type="tabbutton">
+					</Widget>
+					<Widget font="v3_option_title" frame="0,361,165,38" name="tab_key_9" preset="v5_tabbutton2" type="tabbutton">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_0" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_0" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_0" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,212,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="211,1,123,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="333,1,123,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_1" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_1" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_1" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_2" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_2" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_2" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_3" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_3" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_3" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_4" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_4" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_4" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_5" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_5" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_5" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_6" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_6" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_6" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_7" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_7" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_7" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_8" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_8" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_8" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_key_9" type="tabpage" v_pos_align="proportion">
+					<Widget flag="truncate" frame="1,25,454,410" name="keymap_list_9" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="keymap_list_9" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+					<Widget frame="0,0,162,24" name="col_key" preset="v5_header1" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="161,0,148,24" halign="center" name="col_hotkey" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET92" type="static">
+					</Widget>
+					<Widget font="v3_option_title" frame="308,0,148,24" halign="center" name="col_hotkey_ex" preset="v5_header1" text="STR_GLOBAL_OPTION_DIALOG__TABFRAME_OPTION_WIDGET93" type="static">
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget frame="182,442,447,23" name="key_info" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,24,663,498" group="system" h_pos_align="proportion" name="page_option_4" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="7,6,648,459" name="sheet_option_4" type="tabsheet">
+				<Widget frame="0,0,167,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="169,0,479,459" type="image">
+					<Skin name="v5_static_bg4" state="0">
+					</Skin>
+				</Widget>
+				<Widget frame="2,0,163,459" h_pos_align="proportion" tab_align="top" tab_offset="0,2" tab_space="3" type="tab">
+					<Widget font="v3_option_title" frame="0,0,165,38" name="tab_system" preset="v5_tabbutton2" text="STR_GLOBAL_OPTION_DIALOG_SUBTAB_SYSTEM" type="tabbutton">
+					</Widget>
+				</Widget>
+				<Widget frame="169,0,479,459" h_pos_align="proportion" name="page_system" type="tabpage" v_pos_align="proportion">
+					<Widget frame="0,0,459,403" name="system_scrollable" rearrange="false" scroll_type="visible" space="5" step="25" type="scrollable">
+						<Widget font="v3_option" frame="45,15,220,19" name="cb_3gmemoryinwin32" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__ENABLE_LARGE_ADDRESS" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG__TOOLTIP_ENABLE_LARGE_ADDRESS" type="button" valign="middle">
+						</Widget>
+						<Widget font="v3_option" frame="45,45,220,19" name="cb_ncping" preset="v5_check" style="checkbox" text="STR_GLOBAL_OPTION_DIALOG__NCPING_OPTION" text_offset="5,0" tooltip="STR_GLOBAL_OPTION_DIALOG__TOOLTIP_NCPING_OPTION" type="button" valign="middle">
+						</Widget>
+					</Widget>
+					<Widget frame="459,0,19,459" h_pos_align="right" linker="system_scrollable" preset="v5_scroll" scroll_type="auto" type="scrollbar" v_pos_align="proportion">
+						<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+						</Widget>
+						<Widget flag="not_active" frame="1,439,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+						</Widget>
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="182,380,447,46" halign="center" name="static_restart" type="static">
+			</Widget>
+			<Widget frame="438,429,191,23" halign="right" name="static_version" type="static">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget frame="0,497,92,24" group="common" name="default" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG_ALL_RESET_FRAME" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget frame="93,497,139,24" group="common" name="default_sub" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG_RESET_FRAME" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget defbutton="true" frame="454,497,68,24" group="common" h_pos_align="right" name="ok" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget frame="523,497,68,24" group="common" h_pos_align="right" name="cancel" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget defbutton="False" frame="592,497,68,24" group="common" h_pos_align="right" name="apply" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__APPLY" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget frame="233,497,105,24" group="common" name="reset_frame" preset="v5_button" text="STR_GLOBAL_OPTION_DIALOG__RESET_FRAME" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

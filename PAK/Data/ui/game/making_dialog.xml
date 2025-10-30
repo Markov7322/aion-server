@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="movable" frame="522,600,305,129" h_pos_align="center" last_modified="2014-08-22 12:58:41" name="making_dialog" preset="v5_tooltip" type="dlg_making" v_pos_align="bottom">
+	<Widget cell_padding="2" frame="12,11,44,44" item_height="44" item_width="44" name="making_itemview" preset="v5_itemview" type="itemview">
+	</Widget>
+	<Widget flag="transparent" font="ui_default" frame="60,12,197,19" halign="left" name="making_skill" text="STR_MAKING_DIALOG__WIDGET1" type="static">
+	</Widget>
+	<Widget flag="transparent;wordwrap;multiline;truncate" font="ui_default" frame="60,33,227,42" halign="left" name="making_name" type="static" v_pos_align="top" valign="top">
+	</Widget>
+	<Widget flag="transparent" font="ui_default" frame="12,80,70,16" halign="left" text="STR_MAKING_DIALOG__WIDGET3" type="static">
+	</Widget>
+	<Widget align="left" font_size="-11" frame="82,82,206,12" gauge_adjust="-1,-1" name="making_success_gauge_bg" preset="v5_success_gauge_bg3" type="gauge">
+	</Widget>
+	<Widget align="left" font_size="-11" frame="82,82,206,12" gauge_adjust="-1,-1" name="making_success_gauge" preset="v5_success_gauge_making" type="gauge">
+	</Widget>
+	<Widget flag="transparent" font="ui_default" frame="12,94,70,16" halign="left" text="STR_MAKING_DIALOG__WIDGET4" type="static">
+	</Widget>
+	<Widget align="left" font_size="-11" frame="82,96,206,12" gauge_adjust="-1,-1" name="making_failure_gauge" preset="v5_failure_gauge" type="gauge">
+	</Widget>
+</Dialog>

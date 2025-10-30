@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog close_offset="4,1" close_preset="v5_close" flag="close;title" frame="300,300,367,125" last_modified="2014-08-22 13:09:05" name="party_match_seek_dialog" preset="v5_msgbox" shadow_offset="8,8" title_align="left" title_frame="3,3,296,14" title_height="25" title_offset="10,5" title_text="STR_PARTY_MATCH_SEEK_DIALOG" type="dlg_party_match_seek">
+	<Widget font="ui_default" frame="298,69,63,24" h_pos_align="right" name="cancel" preset="v5_button" text="STR_PARTY_MATCH_SEEK_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" font_size="14" frame="7,5,37,24" text="STR_PARTY_MATCH_DIALOG__SEEK_COL_DESC" type="static">
+	</Widget>
+	<Widget font="ui_combo" frame="278,35,72,24" name="type" preset="v5_staticbox3" type="combobox">
+	</Widget>
+	<Widget font="ui_default" font_size="14" frame="7,35,37,24" text="STR_PARTY_MATCH_DIALOG__SEEK_COL_LEVEL" type="static">
+	</Widget>
+	<Widget alphanumeric="False" font="ui_editbox" frame="49,35,32,24" h_padding="5" max_length="2" name="level" preset="v5_editbox" type="editbox">
+	</Widget>
+	<Widget font="ui_default" font_size="14" frame="91,35,39,24" text="STR_PARTY_MATCH_DIALOG__SEEK_COL_CLASS" type="static">
+	</Widget>
+	<Widget font="ui_combo" frame="134,35,102,24" name="class" preset="v5_staticbox3" type="combobox">
+	</Widget>
+	<Widget defbutton="true" font="ui_default" frame="234,69,63,24" h_pos_align="right" name="ok" preset="v5_button" text="STR_PARTY_MATCH_SEEK_DIALOG__OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget alphanumeric="False" font="ui_editbox" frame="49,5,281,24" h_padding="5" max_length="50" name="desc" preset="v5_editbox" type="editbox">
+	</Widget>
+	<Widget font="ui_default" font_size="14" frame="239,35,35,24" text="STR_PARTY_MATCH_DIALOG__SEEK_COL_TYPE" type="static">
+	</Widget>
+	<Widget frame="331,6,22,22" h_pos_align="right" name="party_match_seek_emoticon" preset="v5_emoticon_btn" type="button">
+	</Widget>
+</Dialog>

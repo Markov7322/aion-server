@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_movable;not_focusable" frame="508,2,303,96" h_pos_align="center" last_modified="2014-08-22 12:58:39" name="target_dialog" type="dlg_target" ui_mode="toypet;spectator" v_pos_align="top">
+	<Widget frame="0,0,303,94" group="normal" name="container1" type="container">
+		<Widget frame="0,0,303,94" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_normal">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="39,29,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget frame="16,35,23,23" halign="center" name="level" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="static" valign="middle">
+		</Widget>
+		<Widget font="name" font_size="14" frame="92,19,143,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget align="left" frame="94,43,166,11" gauge_adjust="0,0" name="hp_gauge_bg" preset="v5_hp_gauge_target_bg" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="94,43,166,11" gauge_adjust="0,0" name="hp_gauge" preset="v5_hp_gauge_target" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget frame="135,43,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="177,43,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="219,43,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget frame="0,96,303,99" group="elite" name="container2" type="container">
+		<Widget frame="0,0,303,99" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_elite">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="39,27,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget frame="15,35,23,23" halign="center" name="level" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="static" valign="middle">
+		</Widget>
+		<Widget font="name" font_size="14" frame="99,12,172,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget align="left" frame="94,42,166,11" gauge_adjust="0,0" name="hp_gauge_bg" preset="v5_hp_gauge_target_bg" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="94,42,166,11" gauge_adjust="0,0" name="hp_gauge" preset="v5_hp_gauge_target" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget frame="135,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="177,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="219,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget frame="0,195,412,105" group="hero" name="container3" type="container">
+		<Widget frame="0,0,412,105" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_hero">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="39,28,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget frame="15,35,23,23" halign="center" name="level" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="static" valign="middle">
+		</Widget>
+		<Widget font="name" font_size="14" frame="122,12,172,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget align="left" frame="93,42,245,12" gauge_adjust="0,0" name="hp_gauge_bg" preset="v5_hp_gauge_target_bg" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="93,42,247,12" gauge_adjust="0,0" name="hp_gauge" preset="v5_hp_gauge_target" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget frame="153,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="215,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="277,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget frame="0,307,412,100" group="legend" name="container4" type="container">
+		<Widget frame="0,0,412,100" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_legend">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="42,27,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget frame="19,35,23,23" halign="center" name="level" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="static" valign="middle">
+		</Widget>
+		<Widget font="name" font_size="14" frame="131,3,172,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget align="left" frame="96,42,248,11" gauge_adjust="0,0" name="hp_gauge_bg" preset="v5_hp_gauge_target_bg" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="96,42,248,11" gauge_adjust="0,0" name="hp_gauge" preset="v5_hp_gauge_target" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget frame="158,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="220,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="282,42,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget frame="0,419,225,68" group="toypet" name="container5" type="container">
+		<Widget frame="0,0,225,68" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_toypet">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="15,14,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget font="name" font_size="14" frame="70,3,133,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget align="left" flag="active" frame="69,28,136,11" name="hp_gauge" preset="v5_toypet_feeling" show_value="false" skin_extend="False" state_depended="False" type="gauge">
+		</Widget>
+	</Widget>
+	<Widget frame="0,487,223,68" group="toypet" name="container6" type="container">
+		<Widget frame="0,0,223,68" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_toypet_other">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="13,13,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget font="name" font_size="14" frame="63,3,133,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget frame="6,561,303,106" group="normal" name="container7" type="container">
+		<Widget frame="1,-4,303,96" h_pos_align="proportion" name="bg" type="image" v_pos_align="proportion">
+			<Skin name="v5_hud_target_player">
+			</Skin>
+		</Widget>
+		<Widget flag="not_visible" frame="39,28,40,40" name="emblem" type="image">
+		</Widget>
+		<Widget frame="15,35,23,23" halign="center" name="level" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="static" valign="middle">
+		</Widget>
+		<Widget font="name" font_size="14" frame="107,10,143,18" halign="center" name="name" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget align="left" frame="94,50,166,11" gauge_adjust="0,0" name="mp_gauge_bg" preset="v5_mp_gauge_bg" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="94,50,166,11" gauge_adjust="0,0" name="mp_gauge" preset="v5_mp_gauge" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="94,36,166,11" gauge_adjust="0,0" name="hp_gauge_bg" preset="v5_hp_gauge_target_bg" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget align="left" frame="94,36,166,11" gauge_adjust="0,0" name="hp_gauge" preset="v5_hp_gauge_target" show_value="false" skin_extend="True" stage="2" state_depended="True" type="gauge">
+		</Widget>
+		<Widget frame="134,36,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="176,36,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="218,36,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="218,50,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="176,50,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+		<Widget frame="134,50,10,11" type="image">
+			<Skin name="v5_target_dist">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget frame="307,32,92,35" name="dist_info" type="container">
+		<Skin name="v5_target_dist_bg">
+		</Skin>
+		<Widget font="ui_static_title" frame="57,18,30,13" halign="right" name="target_dist" type="static">
+		</Widget>
+		<Widget font="ui_static_title" font_size="-12" frame="3,18,65,13" text="STR_TARGET_DIALOG__DIST" type="static">
+		</Widget>
+		<Widget font="ui_static_title" font_size="-12" frame="3,4,65,13" text="STR_TARGET_DIALOG__HEIGHT" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="64,5,12,11" name="target_height" preset="v5_target_height" type="image">
+		</Widget>
+	</Widget>
+</Dialog>

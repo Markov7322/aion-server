@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog close_offset="4,1" close_preset="v5_close" flag="title;close" frame="251,397,340,138" last_modified="2014-08-22 12:58:41" name="guild_create_dialog" preset="v5_msgbox" shadow_offset="8,8" title_frame="3,3,335,14" title_height="25" type="dlg_guild_create">
+	<Widget font="ui_default" frame="9,6,313,74" halign="center" padding="10,10" text="STR_DLG_GUILD_CREATE__WIDGET1" type="static" valign="top">
+	</Widget>
+	<Widget alphanumeric="False" font="ui_editbox" frame="16,38,297,24" h_padding="5" max_length="10" name="guild_name_edit" preset="v5_editbox" tabstop="1" type="editbox" v_padding="5">
+	</Widget>
+	<Widget defbutton="true" font="ui_default" frame="194,83,68,24" name="ok" preset="v5_button" text="STR_DLG_GUILD_CREATE__OK" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="263,83,68,24" name="cancel" preset="v5_button" text="STR_DLG_GUILD_CREATE__CANCEL" type="button">
+	</Widget>
+</Dialog>

@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hall_of_fame>
+	<hall_of_fame_item>
+		<file>Textures\HOF\1.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:8:0</time>
+				<checksum>816b394822d10204df067fac01655e15</checksum>
+			</head>
+			<body>
+				<location>
+					<name>베르테론 요새</name>
+					<level>LF1A</level>
+					<x>1623</x>
+					<y>1476</y>
+					<z>144</z>
+				</location>
+				<player>
+					<name>리카츠</name>
+					<server>타라니스</server>
+					<level>32</level>
+					<race>천족</race>
+					<job>호법성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>천군사령부</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>소울더트 안경</head>
+						<torso>로엔의 연회복</torso>
+						<torsocolor>255,255,255</torsocolor>
+						<glove>타락한 천사의 사슬 장갑</glove>
+						<foot>타락한 천사의 사슬 장화</foot>
+						<shoulder>타락한 천사의 사슬 견갑</shoulder>
+						<leg>타락한 천사의 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lm</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>3</hair_type>
+							<face_type>12</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>7</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>207, 152, 142</lip_color>
+							<eye_color>185, 188, 187</eye_color>
+							<skin_color>218, 214, 214</skin_color>
+							<detail>22081D82D88FB80164060BA5958A9ED2041484078B190801F5D9F3B9DF00E1E8C7BAE7E8EA00EE08EC1000</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\10.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:7:0</time>
+				<checksum>46740104e2b7704a00dd40c0bc968ed8</checksum>
+			</head>
+			<body>
+				<location>
+					<name>모르헤임 얼음요새</name>
+					<level>DF2</level>
+					<x>428</x>
+					<y>2328</y>
+					<z>441</z>
+				</location>
+				<player>
+					<name>마신군왕-아리엘</name>
+					<server>아리엘</server>
+					<level>54</level>
+					<race>마족</race>
+					<job>치유성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>
+						</name>
+					</guild>
+					<equipped>
+						<rhand>크로메데의 전투망치</rhand>
+						<lhand>시푸스의 방패</lhand>
+						<head>암룡왕의 가죽 모자</head>
+						<hidehelmet>1</hidehelmet>
+						<torso>미온느의 연회복</torso>
+						<torsocolor>233,5,5</torsocolor>
+						<glove>아누하르트 치유성의 사슬 장갑</glove>
+						<foot>아누하르트 치유성의 사슬 장화</foot>
+						<shoulder>아누하르트 치유성의 사슬 견갑</shoulder>
+						<leg>마군 2급 정예 군단병의 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_dm</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>5</hair_type>
+							<face_type>14</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>243, 198, 247</lip_color>
+							<eye_color>250, 104, 150</eye_color>
+							<skin_color>241, 241, 240</skin_color>
+							<detail>33335298C184949C5701119A941783B70210262C9C0D8200F7EC0CA1CA00F4FCA1C4EEE50000F714F40000</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\11.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:13:0</time>
+				<checksum>0b847b352defe1da3614fabd34c9ecba</checksum>
+			</head>
+			<body>
+				<location>
+					<name>마족 입구</name>
+					<level>Tiamat_Down</level>
+					<x>771</x>
+					<y>1452</y>
+					<z>1196</z>
+				</location>
+				<player>
+					<name>새비</name>
+					<server>지켈</server>
+					<level>60</level>
+					<race>마족</race>
+					<job>호법성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>WithYou</name>
+					</guild>
+					<equipped>
+						<rhand>템페르 수석교관의 고결한 법봉</rhand>
+						<lhand>
+						</lhand>
+						<head>기룡의 가죽 모자</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>미온느의 연회복</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>정예 아칸 천부장의 사슬 장갑</glove>
+						<foot>정예 아칸 천부장의 사슬 장화</foot>
+						<shoulder>정예 아칸 천부장의 사슬 견갑</shoulder>
+						<leg>정예 아칸 천부장의 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_dm</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>38</hair_type>
+							<face_type>16</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>15, 46, 70</hair_color>
+							<lip_color>249, 187, 201</lip_color>
+							<eye_color>55, 184, 235</eye_color>
+							<skin_color>216, 214, 219</skin_color>
+							<detail>34283482B713941464860A1218459E97A427881F9E0A0C0410E105A1C700F4B7A1BADBB9FD00EEEAEC3700</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\12.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:14:0</time>
+				<checksum>83fccd2965c1043012a67449624d9313</checksum>
+			</head>
+			<body>
+				<location>
+					<name>운명의 천칭 본부</name>
+					<level>LDF4b</level>
+					<x>196</x>
+					<y>1900</y>
+					<z>295</z>
+				</location>
+				<player>
+					<name>엉클</name>
+					<server>바이젤</server>
+					<level>60</level>
+					<race>마족</race>
+					<job>정령성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>연인</name>
+					</guild>
+					<equipped>
+						<rhand>아칸 친위대장의 신성한 보옥</rhand>
+						<lhand>
+						</lhand>
+						<head>아칸 친위대장의 로브 두건</head>
+						<hidehelmet>1</hidehelmet>
+						<torso>아칸 친위대장의 신성한 로브 상의</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>아칸 친위대장의 신성한 로브 장갑</glove>
+						<glovecolor>0,0,0</glovecolor>
+						<foot>아칸 친위대장의 신성한 로브 신발</foot>
+						<shoulder>아칸 친위대장의 신성한 로브 어깨보호구</shoulder>
+						<shouldercolor>156,110,44</shouldercolor>
+						<leg>아칸 친위대장의 신성한 로브 하의</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_dm</pc_type>
+							<scale>1.200000</scale>
+							<hair_type>16</hair_type>
+							<face_type>27</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>220, 181, 152</lip_color>
+							<eye_color>255, 255, 255</eye_color>
+							<skin_color>219, 228, 205</skin_color>
+							<detail>022364928B9181818100010A0013008A9B820288810482000EE1F8A1B500CEA1A1BAE0C00300F0F6EC6400</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\13.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1108.6400</product-version>
+				<time>2012-0-11 0:16:0</time>
+				<checksum>232eb7d47f347e2d20b0f50bbee7dd51</checksum>
+			</head>
+			<body>
+				<location>
+					<name>망각의 소금사막</name>
+					<level>DF2</level>
+					<x>644</x>
+					<y>950</y>
+					<z>359</z>
+				</location>
+				<player>
+					<name>러블리지</name>
+					<server>아리엘</server>
+					<level>25</level>
+					<race>마족</race>
+					<job>정령성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>당장당장</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>영원한 사랑 무도회 장식</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>[이벤트] 발랄한 웨딩드레스/턱시도</torso>
+						<torsocolor>255,255,255</torsocolor>
+						<glove>아누하르트 정령성의 로브 장갑</glove>
+						<foot>현명한 조언자의 로브 신발</foot>
+						<shoulder>아누하르트 마도성의 로브 어깨보호구</shoulder>
+						<leg>파슈만디르 정령성 로브 하의</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_df</pc_type>
+							<scale>0.828462</scale>
+							<hair_type>56</hair_type>
+							<face_type>24</face_type>
+							<feat_type1>3</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>30, 26, 30</hair_color>
+							<lip_color>243, 70, 92</lip_color>
+							<eye_color>56, 63, 63</eye_color>
+							<skin_color>253, 254, 251</skin_color>
+							<detail>4A005F00CC950004521F95903E49970D813FAC028E949700FFECF9A1E10BE1F3ECECEDD9FD00F9F9F3A200</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\14.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:10:0</time>
+				<checksum>62924bef4960ea57694f5c43f168a08b</checksum>
+			</head>
+			<body>
+				<location>
+					<name>운명의 천칭 본부</name>
+					<level>LDF4b</level>
+					<x>167</x>
+					<y>1885</y>
+					<z>294</z>
+				</location>
+				<player>
+					<name>뱌비</name>
+					<server>레파르</server>
+					<level>60</level>
+					<race>마족</race>
+					<job>치유성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>하자클럽</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>템페르 훈련생의 사슬 투구</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>화려한 템페르 연회복</torso>
+						<torsocolor>255,255,255</torsocolor>
+						<glove>아칸 친위대장의 신성한 사슬 장갑</glove>
+						<foot>아칸 친위대장의 신성한 사슬 장화</foot>
+						<shoulder>게니움의 사슬 견갑</shoulder>
+						<leg>아칸 친위대장의 신성한 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_df</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>49</hair_type>
+							<face_type>8</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>247, 166, 188</lip_color>
+							<eye_color>69, 69, 69</eye_color>
+							<skin_color>216, 214, 218</skin_color>
+							<detail>010064A5E4E4E440260B32378681B40202648C028881AE0218E3ECB6D9D4EAADDDBAD3CE2900E7CEF26400</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\15.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:9:0</time>
+				<checksum>cf2ed13c1a2aa58fa8ac626ebbd6059c</checksum>
+			</head>
+			<body>
+				<location>
+					<name>페르논 광장</name>
+					<level>Housing_DF_personal</level>
+					<x>1114</x>
+					<y>1511</y>
+					<z>97</z>
+				</location>
+				<player>
+					<name>히비아</name>
+					<server>스파탈로스</server>
+					<level>60</level>
+					<race>마족</race>
+					<job>치유성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>나갈래빈정상했어</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>기룡 천황의 강화 로브 두건</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>팔렌티네의 연회복</torso>
+						<torsocolor>255,255,255</torsocolor>
+						<glove>순결한 아리스의 사슬 장갑</glove>
+						<foot>현명한 조언자의 로브 신발</foot>
+						<shoulder>
+						</shoulder>
+						<leg>현명한 조언자의 로브 하의</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_df</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>35</hair_type>
+							<face_type>8</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>0, 0, 0</hair_color>
+							<lip_color>244, 239, 244</lip_color>
+							<eye_color>28, 27, 27</eye_color>
+							<skin_color>217, 218, 214</skin_color>
+							<detail>861D649A8EBEE4644F35333F85919083E464895198648D9126E0D5A1E5A20DBEDCBAE6C91600E7D1EC6400</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\16.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:9:0</time>
+				<checksum>b3defdd958a77ce0dbd9c380bef8b151</checksum>
+			</head>
+			<body>
+				<location>
+					<name>모르헤임 얼음요새</name>
+					<level>DF2</level>
+					<x>310</x>
+					<y>2282</y>
+					<z>448</z>
+				</location>
+				<player>
+					<name>달헤</name>
+					<server>아스펠</server>
+					<level>19</level>
+					<race>마족</race>
+					<job>치유성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>피노키오</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>샤니아의 가죽 모자</head>
+						<hidehelmet>1</hidehelmet>
+						<torso>미온느의 연회복</torso>
+						<torsocolor>163,14,14</torsocolor>
+						<glove>
+						</glove>
+						<foot>
+						</foot>
+						<shoulder>
+						</shoulder>
+						<leg>호수의 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_df</pc_type>
+							<scale>0.815316</scale>
+							<hair_type>35</hair_type>
+							<face_type>19</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>251, 162, 205</lip_color>
+							<eye_color>64, 81, 168</eye_color>
+							<skin_color>216, 214, 218</skin_color>
+							<detail>4B9C6406BA9212AC56000A161412888B8A64050200108503FBD4EAA1DAF1ECA1D5BAE2CBFD00E7FEEC1A00</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\2.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:12:0</time>
+				<checksum>5834c44e83f5aa5f8ae521279b39ce19</checksum>
+			</head>
+			<body>
+				<location>
+					<name>반디 나무 마을</name>
+					<level>Housing_LF_personal</level>
+					<x>251</x>
+					<y>2420</y>
+					<z>271</z>
+				</location>
+				<player>
+					<name>새즈</name>
+					<server>라비린토스</server>
+					<level>60</level>
+					<race>천족</race>
+					<job>호법성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>
+						</name>
+					</guild>
+					<equipped>
+						<rhand>타하바타의 법봉</rhand>
+						<lhand>
+						</lhand>
+						<head>
+						</head>
+						<torso>세련된 템페르 외출복</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>템페르 승리자의 신성한 사슬 장갑</glove>
+						<foot>티아마트 근위대의 사슬 장화</foot>
+						<shoulder>티아마트 근위대의 사슬 견갑</shoulder>
+						<leg>템페르 승리자의 신성한 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lm</pc_type>
+							<scale>1.067080</scale>
+							<hair_type>40</hair_type>
+							<face_type>9</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>45, 12, 12</hair_color>
+							<lip_color>234, 146, 142</lip_color>
+							<eye_color>225, 7, 17</eye_color>
+							<skin_color>135, 93, 80</skin_color>
+							<detail>170929810013889B4A0013BE003702AE4A181602A90C0A03F3EA07E2F200E5BBC0DFE9F8FF00FE10059600</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\3.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:12:0</time>
+				<checksum>90f39820b96ccdf34e8041514f5a9990</checksum>
+			</head>
+			<body>
+				<location>
+					<name>우다스 대회당</name>
+					<level>IDTemple_Up</level>
+					<x>658</x>
+					<y>431</y>
+					<z>136</z>
+				</location>
+				<player>
+					<name>수발놈</name>
+					<server>아스칼론</server>
+					<level>60</level>
+					<race>천족</race>
+					<job>수호성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>삐얔</name>
+					</guild>
+					<equipped>
+						<rhand>명룡왕의 대검</rhand>
+						<lhand>
+						</lhand>
+						<head>축제의 서클릿</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>파격적인 템페르 연회복</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>카르보의 판금 장갑</glove>
+						<foot>가디언 친위대장의 신성한 판금 장화</foot>
+						<shoulder>가디언 친위대장의 신성한 판금 견갑</shoulder>
+						<leg>카르보의 판금 각반</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lm</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>16</hair_type>
+							<face_type>9</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 240, 205</hair_color>
+							<lip_color>252, 169, 185</lip_color>
+							<eye_color>228, 213, 227</eye_color>
+							<skin_color>220, 188, 177</skin_color>
+							<detail>2E0051B7A4009297649926000045840C9717271FA11C840002F3ECE3EB00E7ABE708F7EC0000FB09060000</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\4.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1108.6400</product-version>
+				<time>2012-0-11 0:15:0</time>
+				<checksum>826a34f77204135511b91d4fceb20517</checksum>
+			</head>
+			<body>
+				<location>
+					<name>베르테론 요새</name>
+					<level>LF1A</level>
+					<x>1619</x>
+					<y>1516</y>
+					<z>157</z>
+				</location>
+				<player>
+					<name>차반</name>
+					<server>사크미스</server>
+					<level>60</level>
+					<race>천족</race>
+					<job>궁성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>1POINT</name>
+					</guild>
+					<equipped>
+						<rhand>템페르 수석교관의 고결한 활</rhand>
+						<lhand>화살</lhand>
+						<head>템페르 투사의 신성한 사슬 투구</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>아라카 군단병의 가죽 조끼</torso>
+						<torsocolor>255,255,255</torsocolor>
+						<glove>미라젠트의 가죽 장갑</glove>
+						<glovecolor>255,255,255</glovecolor>
+						<foot>미라젠트의 가죽 신발</foot>
+						<footcolor>255,255,255</footcolor>
+						<shoulder>티아마트 근위대의 가죽 어깨보호구</shoulder>
+						<shouldercolor>255,255,255</shouldercolor>
+						<leg>가디언 친위대장의 신성한 가죽 다리보호대</leg>
+						<legcolor>255,255,255</legcolor>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lm</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>44</hair_type>
+							<face_type>2</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>242, 67, 59</lip_color>
+							<eye_color>3, 47, 85</eye_color>
+							<skin_color>240, 220, 215</skin_color>
+							<detail>2F0564D0B1E4811164045200168B87833D1D9A07AA198C8515E1E1A1C700DDB2C8BAE7CE2700E7E3EC6400</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\5.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:7:0</time>
+				<checksum>8f1abbe96986de06270577057a242a34</checksum>
+			</head>
+			<body>
+				<location>
+					<name>템페스트 조선소</name>
+					<level>LC1</level>
+					<x>1964</x>
+					<y>1820</y>
+					<z>581</z>
+				</location>
+				<player>
+					<name>사히라</name>
+					<server>보탄</server>
+					<level>60</level>
+					<race>천족</race>
+					<job>치유성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>쿠쿠다스</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>고대 정령의 가죽 모자</head>
+						<headcolor>255,255,255</headcolor>
+						<torso>가디언 친위대장의 사슬 갑옷</torso>
+						<torsocolor>7,0,32</torsocolor>
+						<glove>가디언 친위대장의 사슬 장갑</glove>
+						<foot>가디언 친위대장의 사슬 장화</foot>
+						<shoulder>가디언 친위대장의 사슬 견갑</shoulder>
+						<leg>가디언 친위대장의 사슬 다리갑옷</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lf</pc_type>
+							<scale>0.808452</scale>
+							<hair_type>9</hair_type>
+							<face_type>18</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>221, 151, 214</lip_color>
+							<eye_color>72, 82, 83</eye_color>
+							<skin_color>240, 220, 215</skin_color>
+							<detail>40106409C58F0010641306C93A12BC01084D8A2500168483F2D7E5A1E3F6ECEEBCC2E8C70500EDF2EE2500</detail>
+							<voice_type>0</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\6.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:8:0</time>
+				<checksum>5fb524bee2070c9cf0f2299bdcef56bf</checksum>
+			</head>
+			<body>
+				<location>
+					<name>천인 대광장</name>
+					<level>LC1</level>
+					<x>1462</x>
+					<y>1511</y>
+					<z>573</z>
+				</location>
+				<player>
+					<name>o예랑이o</name>
+					<server>크로메데</server>
+					<level>57</level>
+					<race>천족</race>
+					<job>궁성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>o끌로메떼o</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>빛나는 응룡왕의 강화 로브 두건</head>
+						<headcolor>189,95,255</headcolor>
+						<torso>현인의 로브 상의</torso>
+						<torsocolor>204,183,242</torsocolor>
+						<glove>미라젠트의 로브 장갑</glove>
+						<foot>미라젠트의 로브 신발</foot>
+						<shoulder>
+						</shoulder>
+						<leg>미라젠트의 로브 하의</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lf</pc_type>
+							<scale>1.153075</scale>
+							<hair_type>37</hair_type>
+							<face_type>18</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>255, 199, 228</lip_color>
+							<eye_color>2, 78, 129</eye_color>
+							<skin_color>219, 217, 214</skin_color>
+							<detail>1C9E28D0DE1C9E1646171C402099AA99C423A31496338800F6D6DBA2CF0CF0D1DBBAF6CBF500F1F3EC4200</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\7.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:7:0</time>
+				<checksum>f5444c9456da6e903989db401180408d</checksum>
+			</head>
+			<body>
+				<location>
+					<name>노을빛 해안 마을</name>
+					<level>Housing_LF_personal</level>
+					<x>419</x>
+					<y>1079</y>
+					<z>77</z>
+				</location>
+				<player>
+					<name>찌저</name>
+					<server>루미엘</server>
+					<level>50</level>
+					<race>천족</race>
+					<job>검성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>TeamWork</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>명룡왕의 로브 두건</head>
+						<headcolor>214,232,231</headcolor>
+						<torso>노엔느의 연회복</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>정예 가디언 천부장의 판금 장갑</glove>
+						<foot>달인의 빛나는 아다만티움 판금 장화</foot>
+						<shoulder>정예 가디언 천부장의 판금 견갑</shoulder>
+						<leg>정예 가디언 천부장의 판금 각반</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lf</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>24</hair_type>
+							<face_type>11</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>1</bump_type>
+							<expression_type>0</expression_type>
+							<hair_color>0, 0, 0</hair_color>
+							<lip_color>251, 197, 203</lip_color>
+							<eye_color>25, 25, 25</eye_color>
+							<skin_color>240, 220, 215</skin_color>
+							<detail>068A64CAE4E4065564211F18148C8A95E4649A358C57919421E4E4A1DEF4E3D0C0CEDBB20F00E7CEF05500</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\8.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:10:0</time>
+				<checksum>d9f0e713f27b07da992949af00534f34</checksum>
+			</head>
+			<body>
+				<location>
+					<name>공중 운하</name>
+					<level>LC1</level>
+					<x>-1</x>
+					<y>0</y>
+					<z>-3</z>
+				</location>
+				<player>
+					<name>스윗코코</name>
+					<server>토르</server>
+					<level>60</level>
+					<race>천족</race>
+					<job>호법성</job>
+					<sex>여자</sex>
+					<guild>
+						<name>진격</name>
+					</guild>
+					<equipped>
+						<rhand>
+						</rhand>
+						<lhand>
+						</lhand>
+						<head>
+						</head>
+						<torso>세련된 교복</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>
+						</glove>
+						<foot>
+						</foot>
+						<shoulder>
+						</shoulder>
+						<leg>
+						</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_lf</pc_type>
+							<scale>0.982296</scale>
+							<hair_type>51</hair_type>
+							<face_type>18</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>3</expression_type>
+							<hair_color>70, 39, 48</hair_color>
+							<lip_color>255, 161, 167</lip_color>
+							<eye_color>69, 69, 69</eye_color>
+							<skin_color>240, 220, 215</skin_color>
+							<detail>3100409AB38AA8CA001920140009AF009D81030A9C180000F6E8EEA1EA00EAA1BEBAE6DD0000F008F33F00</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+	<hall_of_fame_item>
+		<file>Textures\HOF\9.dds</file>
+		<screenshot>
+			<head>
+				<major-version>1</major-version>
+				<minor-version>1</minor-version>
+				<gamename>AION</gamename>
+				<product-version>35.12.1030.6349</product-version>
+				<time>2012-0-11 0:8:0</time>
+				<checksum>571b998f35582b0e131ba84240889c5f</checksum>
+			</head>
+			<body>
+				<location>
+					<name>늘봄 언덕 마을</name>
+					<level>Housing_DF_personal</level>
+					<x>1645</x>
+					<y>448</y>
+					<z>86</z>
+				</location>
+				<player>
+					<name>연푸른</name>
+					<server>타라니스</server>
+					<level>60</level>
+					<race>마족</race>
+					<job>수호성</job>
+					<sex>남자</sex>
+					<guild>
+						<name>닭다리잡고삐약삐약</name>
+					</guild>
+					<equipped>
+						<rhand>용신장의 전투망치</rhand>
+						<lhand>연족 훈련병의 방패</lhand>
+						<head>마누무무의 안경</head>
+						<hidehelmet>1</hidehelmet>
+						<torso>템페르 수석교관의 고결한 판금 흉갑</torso>
+						<torsocolor>0,0,0</torsocolor>
+						<glove>템페르 수석교관의 고결한 판금 장갑</glove>
+						<glovecolor>0,0,0</glovecolor>
+						<foot>템페르 수석교관의 고결한 판금 장화</foot>
+						<footcolor>0,0,0</footcolor>
+						<shoulder>템페르 수석교관의 고결한 판금 견갑</shoulder>
+						<shouldercolor>0,0,0</shouldercolor>
+						<leg>아칸 친위대장의 신성한 판금 각반</leg>
+					</equipped>
+					<custom_presets>
+						<custom_preset>
+							<version>6</version>
+							<pc_type>pc_dm</pc_type>
+							<scale>0.650000</scale>
+							<hair_type>5</hair_type>
+							<face_type>22</face_type>
+							<feat_type1>0</feat_type1>
+							<feat_type2>0</feat_type2>
+							<bump_type>0</bump_type>
+							<expression_type>1</expression_type>
+							<hair_color>255, 255, 255</hair_color>
+							<lip_color>248, 84, 220</lip_color>
+							<eye_color>26, 24, 24</eye_color>
+							<skin_color>216, 205, 228</skin_color>
+							<detail>12866413E4E4640C64A5422702168800A248BC182F64930032C4D8A1C300F9D6B8BAE9B73000E7CEEC6400</detail>
+							<voice_type>3</voice_type>
+						</custom_preset>
+					</custom_presets>
+				</player>
+			</body>
+		</screenshot>
+	</hall_of_fame_item>
+</hall_of_fame>

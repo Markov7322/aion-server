@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog close_offset="5,5" flag="title" frame="0,262,135,241" h_pos_align="left" last_modified="2014-08-22 12:58:41" name="party_sub_dialog" preset="v5_force_sep" title_frame="3,3,96,14" title_height="17" type="dlg_party_sub" ui_mode="housing;housing_building" v_pos_align="top">
+	<Widget drag_type="30" frame="4,-2,151,36" name="ctn_member1" type="containerex">
+		<Widget frame="0,0,126,36" type="image">
+			<Skin name="v5_force_sep_item">
+			</Skin>
+		</Widget>
+		<Widget frame="126,13,29,24" type="container">
+			<Widget frame="0,0,29,22" name="voicechat_icon1" preset="v5_voicechat_icon" type="static">
+			</Widget>
+			<Widget font="window" frame="0,0,22,20" halign="center" name="voicechat_btn1" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="button" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp_bg" preset="v5_party_hp_gauge_bg" show_value="False" skin_extend="True" stage="2" state_depended="True" type="gauge" value_type="percent">
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp" num_type="micro" preset="v5_party_hp_gauge" show_value="False" skin_extend="True" small_number="True" stage="2" state_depended="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp_bg" preset="v5_party_mp_gauge_bg" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp" num_type="micro" preset="v5_party_mp_gauge" skin_extend="True" small_number="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="6,10,19,19" name="emblem" preset="v5_class_icon" type="image">
+		</Widget>
+		<Widget flag="truncate" frame="34,0,92,13" name="title" text_shade="True" type="static">
+		</Widget>
+		<Widget flag="visible;not_active" frame="0,5,31,31" gauge_flags="time" name="fly_gauge" preset="v5_force_fly_gauge" type="flygauge">
+		</Widget>
+	</Widget>
+	<Widget drag_type="30" frame="4,35,126,36" name="ctn_member2" type="containerex">
+		<Widget frame="0,0,126,36" type="image">
+			<Skin name="v5_force_sep_item">
+			</Skin>
+		</Widget>
+		<Widget frame="126,13,29,24" type="container">
+			<Widget frame="0,0,29,22" name="voicechat_icon2" preset="v5_voicechat_icon" type="static">
+			</Widget>
+			<Widget font="window" frame="0,0,22,20" halign="center" name="voicechat_btn2" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="button" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp_bg" preset="v5_party_hp_gauge_bg" show_value="False" skin_extend="True" stage="2" state_depended="True" type="gauge" value_type="percent">
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp" num_type="micro" preset="v5_party_hp_gauge" show_value="False" skin_extend="True" small_number="True" stage="2" state_depended="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp_bg" preset="v5_party_mp_gauge_bg" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp" num_type="micro" preset="v5_party_mp_gauge" skin_extend="True" small_number="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="6,10,19,19" name="emblem" preset="v5_class_icon" type="image">
+		</Widget>
+		<Widget flag="truncate" frame="34,0,92,13" name="title" text_shade="True" type="static">
+		</Widget>
+		<Widget flag="visible;not_active" frame="0,5,31,31" gauge_flags="time" name="fly_gauge" preset="v5_force_fly_gauge" type="flygauge">
+		</Widget>
+	</Widget>
+	<Widget drag_type="30" frame="4,72,126,36" name="ctn_member3" type="containerex">
+		<Widget frame="0,0,126,36" type="image">
+			<Skin name="v5_force_sep_item">
+			</Skin>
+		</Widget>
+		<Widget frame="126,13,29,24" type="container">
+			<Widget frame="0,0,29,22" name="voicechat_icon3" preset="v5_voicechat_icon" type="static">
+			</Widget>
+			<Widget font="window" frame="0,0,22,20" halign="center" name="voicechat_btn3" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="button" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp_bg" preset="v5_party_hp_gauge_bg" show_value="False" skin_extend="True" stage="2" state_depended="True" type="gauge" value_type="percent">
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp" num_type="micro" preset="v5_party_hp_gauge" show_value="False" skin_extend="True" small_number="True" stage="2" state_depended="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp_bg" preset="v5_party_mp_gauge_bg" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp" num_type="micro" preset="v5_party_mp_gauge" skin_extend="True" small_number="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="6,10,19,19" name="emblem" preset="v5_class_icon" type="image">
+		</Widget>
+		<Widget flag="truncate" frame="34,0,92,13" name="title" text_shade="True" type="static">
+		</Widget>
+		<Widget flag="visible;not_active" frame="0,5,31,31" gauge_flags="time" name="fly_gauge" preset="v5_force_fly_gauge" type="flygauge">
+		</Widget>
+	</Widget>
+	<Widget drag_type="30" frame="4,109,126,36" name="ctn_member4" type="containerex">
+		<Widget frame="0,0,126,36" type="image">
+			<Skin name="v5_force_sep_item">
+			</Skin>
+		</Widget>
+		<Widget frame="126,13,29,24" type="container">
+			<Widget frame="0,0,29,22" name="voicechat_icon4" preset="v5_voicechat_icon" type="static">
+			</Widget>
+			<Widget font="window" frame="0,0,22,20" halign="center" name="voicechat_btn4" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="button" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp_bg" preset="v5_party_hp_gauge_bg" show_value="False" skin_extend="True" stage="2" state_depended="True" type="gauge" value_type="percent">
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp" num_type="micro" preset="v5_party_hp_gauge" show_value="False" skin_extend="True" small_number="True" stage="2" state_depended="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp_bg" preset="v5_party_mp_gauge_bg" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp" num_type="micro" preset="v5_party_mp_gauge" skin_extend="True" small_number="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="6,10,19,19" name="emblem" preset="v5_class_icon" type="image">
+		</Widget>
+		<Widget flag="truncate" frame="34,0,92,13" name="title" text_shade="True" type="static">
+		</Widget>
+		<Widget flag="visible;not_active" frame="0,5,31,31" gauge_flags="time" name="fly_gauge" preset="v5_force_fly_gauge" type="flygauge">
+		</Widget>
+	</Widget>
+	<Widget drag_type="30" frame="4,146,126,36" name="ctn_member5" type="containerex">
+		<Widget frame="0,0,126,36" type="image">
+			<Skin name="v5_force_sep_item">
+			</Skin>
+		</Widget>
+		<Widget frame="126,13,29,24" type="container">
+			<Widget frame="0,0,29,22" name="voicechat_icon5" preset="v5_voicechat_icon" type="static">
+			</Widget>
+			<Widget font="window" frame="0,0,22,20" halign="center" name="voicechat_btn5" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="button" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp_bg" preset="v5_party_hp_gauge_bg" show_value="False" skin_extend="True" stage="2" state_depended="True" type="gauge" value_type="percent">
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp" num_type="micro" preset="v5_party_hp_gauge" show_value="False" skin_extend="True" small_number="True" stage="2" state_depended="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp_bg" preset="v5_party_mp_gauge_bg" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp" num_type="micro" preset="v5_party_mp_gauge" skin_extend="True" small_number="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="6,10,19,19" name="emblem" preset="v5_class_icon" type="image">
+		</Widget>
+		<Widget flag="truncate" frame="34,0,92,13" name="title" text_shade="True" type="static">
+		</Widget>
+		<Widget flag="visible;not_active" frame="0,5,31,31" gauge_flags="time" name="fly_gauge" preset="v5_force_fly_gauge" type="flygauge">
+		</Widget>
+	</Widget>
+	<Widget drag_type="30" frame="4,183,126,36" name="ctn_member6" type="containerex">
+		<Widget frame="0,0,126,36" type="image">
+			<Skin name="v5_force_sep_item">
+			</Skin>
+		</Widget>
+		<Widget frame="126,13,29,24" type="container">
+			<Widget frame="0,0,29,22" name="voicechat_icon6" preset="v5_voicechat_icon" type="static">
+			</Widget>
+			<Widget font="window" frame="0,0,22,20" halign="center" name="voicechat_btn6" shade_color="0.0,0.0,0.0,1.0" shade_offset="1,1" text_color="1.0,1.0,1.0,1.0" type="button" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp_bg" preset="v5_party_hp_gauge_bg" show_value="False" skin_extend="True" stage="2" state_depended="True" type="gauge" value_type="percent">
+		</Widget>
+		<Widget frame="34,15,85,7" name="hp" num_type="micro" preset="v5_party_hp_gauge" show_value="False" skin_extend="True" small_number="True" stage="2" state_depended="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp_bg" preset="v5_party_mp_gauge_bg" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="34,25,85,7" name="mp" num_type="micro" preset="v5_party_mp_gauge" skin_extend="True" small_number="True" type="gauge" value_type="number">
+		</Widget>
+		<Widget frame="6,10,19,19" name="emblem" preset="v5_class_icon" type="image">
+		</Widget>
+		<Widget flag="truncate" frame="34,0,92,13" name="title" text_shade="True" type="static">
+		</Widget>
+		<Widget flag="visible;not_active" frame="0,5,31,31" gauge_flags="time" name="fly_gauge" preset="v5_force_fly_gauge" type="flygauge">
+		</Widget>
+	</Widget>
+	<Widget flag="not_visible" frame="137,-14,134,39" name="select" type="image">
+		<Skin name="v5_force_sep_over">
+		</Skin>
+	</Widget>
+</Dialog>

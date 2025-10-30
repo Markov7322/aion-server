@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="780,700,327,206" last_modified="2014-08-22 12:58:41" name="world_influence_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,261,14" title_height="25" title_offset="0,5" title_text="STR_WORLD_INFLUENCE_DIALOG" type="dlg_world_influence">
+	<Widget font="ui_static_value" frame="5,7,154,29" padding="5,0" preset="v5_staticbox3" text="STR_WORLD_INFLUENCE_DIALOG__PRICES" type="static">
+		<Widget font="ui_static_value" frame="69,0,75,27" halign="left" name="world_prices" type="static" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget font="ui_static_value" frame="161,7,154,29" padding="5,0" preset="v5_staticbox3" text="STR_WORLD_INFLUENCE_DIALOG__TAX" type="static">
+		<Widget font="ui_static_value" frame="69,0,75,27" halign="left" name="world_tax" type="static" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget font="ui_static_title" frame="5,40,310,102" padding="10,10" preset="v5_container2" text="STR_WORLD_INFLUENCE_DIALOG__TOTAL" type="static" valign="top">
+		<Widget frame="8,33,275,20" gauge_adjust="-18,-4" name="gauge_dark" preset="v5_influence_gauge" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="8,33,275,20" gauge_adjust="-18,-4" name="gauge_dragon" preset="v5_influence_gauge_dragon" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="8,33,275,20" gauge_adjust="-18,-4" name="gauge_light" preset="v5_influence_gauge_light" skin_extend="True" type="gauge">
+		</Widget>
+		<Widget frame="38,65,36,15" name="ratio_light_bg" type="image">
+		</Widget>
+		<Widget font="ui_editbox" frame="35,62,43,21" halign="center" name="ratio_light" padding="2,0" preset="v5_staticbox" type="static">
+		</Widget>
+		<Widget frame="137,65,36,15" name="ratio_dragon_bg" type="image">
+		</Widget>
+		<Widget font="ui_editbox" frame="134,62,42,21" halign="center" name="ratio_dragon" padding="2,0" preset="v5_staticbox" type="static">
+		</Widget>
+		<Widget frame="249,65,36,15" name="ratio_dark_bg" type="image">
+		</Widget>
+		<Widget font="ui_editbox" frame="246,62,42,21" halign="center" name="ratio_dark" padding="2,0" preset="v5_staticbox" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="-1,62,34,21" halign="right" text="STR_WORLD_INFLUENCE_DIALOG__LIGHT" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="89,62,43,21" halign="right" text="STR_WORLD_INFLUENCE_DIALOG__DRAGON" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="182,62,62,21" halign="right" text="STR_WORLD_INFLUENCE_DIALOG__DARK" type="static">
+		</Widget>
+		<Widget frame="50,33,10,26" name="marker_light" type="image">
+			<Skin name="v5_influence_marker_light">
+			</Skin>
+		</Widget>
+		<Widget frame="242,33,10,26" name="marker_dark" type="image">
+			<Skin name="v5_influence_marker_dark">
+			</Skin>
+		</Widget>
+	</Widget>
+	<Widget font="ui_default" frame="250,148,68,24" name="cancel" preset="v5_button" text="STR_DLG_DIALOG__CLOSE" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="3,148,92,24" name="btn_abyss_rank" preset="v5_button" text="STR_WORLD_INFLUENCE_DIALOG__POPUP_RANK" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="200,200,316,329" last_modified="2014-08-22 13:09:05" name="loot_option_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,310,14" title_height="25" title_offset="0,5" title_text="STR_LOOT_OPTION_DIALOG" type="dlg_loot_option">
+	<Widget frame="5,1,300,114" preset="v5_staticbox3" type="container">
+		<Widget font="ui_static_title" frame="12,8,131,18" text="STR_LOOT_OPTION_DIALOG__RULE" type="static">
+		</Widget>
+		<Widget font="ui_static_title" frame="13,32,110,22" name="loot_free" preset="v5_radio" style="radiobutton" text="STR_LOOT_OPTION_DIALOG__LOOT_FREE" text_offset="5,0" type="button">
+		</Widget>
+		<Widget font="ui_static_title" frame="13,57,110,22" name="loot_roundrobin" preset="v5_radio" style="radiobutton" text="STR_LOOT_OPTION_DIALOG__LOOT_ROUNDROBIN" text_offset="5,0" type="button">
+		</Widget>
+		<Widget font="ui_static_title" frame="13,82,110,22" name="loot_leader" preset="v5_radio" style="radiobutton" text="STR_LOOT_OPTION_DIALOG__LOOT_LEADER" text_offset="5,0" type="button">
+		</Widget>
+	</Widget>
+	<Widget frame="5,124,300,119" preset="v5_staticbox3" type="container" v_pos_align="proportion">
+		<Widget font="ui_static_title" frame="13,31,110,22" name="loot_adv_normal" preset="v5_radio" style="radiobutton" text="STR_LOOT_OPTION_DIALOG__LOOT_ADV_NORMAL" text_offset="5,0" type="button">
+		</Widget>
+		<Widget font="ui_static_title" frame="13,56,110,22" name="loot_adv_roll" preset="v5_radio" style="radiobutton" text="STR_LOOT_OPTION_DIALOG__LOOT_ADV_ROLL" text_offset="5,0" type="button">
+		</Widget>
+		<Widget font="ui_static_title" frame="13,81,110,22" name="loot_adv_account" preset="v5_radio" style="radiobutton" text="STR_LOOT_OPTION_DIALOG__LOOT_ADV_ACCOUNT" text_offset="5,0" type="button">
+		</Widget>
+		<Widget font="ui_static_title" frame="11,7,149,18" text="STR_LOOT_OPTION_DIALOG__ADV_RULE" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="122,57,172,24" name="loot_rank_roll" preset="v5_staticbox3" type="combobox">
+		</Widget>
+		<Widget flag="not_enabled" font="ui_static_value" frame="122,83,172,24" name="loot_rank_account" preset="v5_staticbox3" type="combobox">
+		</Widget>
+	</Widget>
+	<Widget font="ui_default" frame="5,244,159,22" name="autosplit" preset="v5_check" style="checkbox" text="STR_LOOT_OPTION_DIALOG__AUTO_DISTRIBUTION" text_offset="5,0" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="153,272,75,24" name="ok" preset="v5_button" text="STR_LOOT_OPTION_DIALOG__OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="231,272,75,24" name="cancel" preset="v5_button" text="STR_LOOT_OPTION_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

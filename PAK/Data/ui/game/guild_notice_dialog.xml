@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="sub" close_offset="4,1" close_preset="v5_close" flag="close;lock;title" frame="319,295,386,178" last_modified="2014-08-22 12:58:41" name="guild_notice_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,380,14" title_height="25" title_offset="0,5" title_text="STR_GUILD_NOTICE_DIALOG__TITLE" type="dlg_guild_notice">
+	<Widget font="ui_default" frame="9,7,359,19" halign="right" name="guild_notice_date" type="static">
+	</Widget>
+	<Widget alphanumeric="False" flag="multiline;wordwrap;vscroll" font="ui_editbox" frame="8,33,360,74" h_padding="6" max_length="64" name="guild_notice_editbox" preset="v5_editbox" type="editbox" v_padding="6" valign="top">
+	</Widget>
+	<Widget defbutton="true" font="ui_default" frame="242,122,68,24" name="ok" preset="v5_button" text="STR_GUILD_NOTICE_DIALOG__OK" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="311,122,68,24" name="cancel" preset="v5_button" text="STR_GUILD_NOTICE_DIALOG__CANCEL" type="button">
+	</Widget>
+	<Widget frame="8,9,22,22" h_pos_align="right" name="guild_notice_emoticon" preset="v5_emoticon_btn" type="button">
+	</Widget>
+</Dialog>

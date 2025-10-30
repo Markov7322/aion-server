@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,512" last_modified="2014-08-27 15:01:08" name="mailbox_other_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,359,14" title_height="25" title_offset="0,5" title_text="STR_MAILBOX_DIALOG" type="dlg_mailbox_other">
+	<Widget anim_style="move" frame="0,-7,396,490" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+		<Widget frame="0,9,396,25" h_pos_align="proportion" preset="v5_tab" tab_frame="0,0,400,25" tab_offset="6,0" tab_space="0" type="tab">
+			<Widget font="ui_default" frame="2,0,62,25" name="mb_tab_list" preset="v5_tabbutton" text="STR_MAILBOX_DIALOG__TABFRAME_MB_TAB_LIST" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,396,465" h_pos_align="proportion" name="page_list" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" column_customizing="True" flag="vscroll;multiselect" font="ui_list" frame="0,9,396,425" header_font="v3_columnhead" header_height="24" item_height="44" item_width="44" list_padding="3,3" name="mail_list" preset="v5_listview_sel_frame" scroll_type="visible" skin_type="version5" slot_num="10" type="listview" viewmode="detail">
+				<Column align="" title="STR_MAILBOX_DIALOG__SENDER" width="127">
+				</Column>
+				<Column align="" title="STR_MAILBOX_DIALOG__SUBJECT" width="207">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="6,440,259,18" halign="left" name="mail_count" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="321,438,74,24" name="btn_del_mail" preset="v5_button" text="STR_MAILBOX_DIALOG__TABFRAME_BTN_DEL_MAIL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="241,438,74,24" name="btn_select_all_mail" preset="v5_button" text="STR_MAILBOX_DIALOG__TABFRAME_BTN_SELECT_ALL_MAIL" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

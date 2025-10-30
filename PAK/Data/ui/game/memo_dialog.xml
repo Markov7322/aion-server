@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="839,150,406,512" last_modified="2014-08-22 12:58:41" name="memo_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,59,14" title_height="25" title_offset="0,5" title_text="STR_MEMO_DIALOG" type="dlg_memo">
+	<Widget alphanumeric="False" flag="multiline;wordwrap" frame="4,25,392,329" h_padding="5" max_length="12000" name="editbox1" preset="v5_editbox" tabstop="6" type="editbox" v_padding="5">
+	</Widget>
+	<Widget flag="multiline;wordwrap" font="v3_option" frame="4,360,392,114" padding="5,5" text="STR_MEMO_DIALOG__HELP_TEXT" type="static" valign="top">
+	</Widget>
+	<Widget frame="376,2,22,22" h_pos_align="right" name="memo_emoticon" preset="v5_emoticon_btn" type="button">
+	</Widget>
+</Dialog>

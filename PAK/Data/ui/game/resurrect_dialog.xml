@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog close_offset="10,5" close_preset="v5_close" flag="title" frame="440,130,400,172" last_modified="2014-08-22 12:58:41" name="resurrect_dialog" preset="v5_msgbox" shadow_offset="8,8" title_align="left" title_frame="3,3,416,14" title_height="25" title_offset="10,5" title_text="STR_RESURRECT_DIALOG" type="dlg_resurrect" ui_mode="housing;housing_building" v_pos_align="middle">
+	<Widget defbutton="False" font="ui_default" frame="141,117,124,24" name="resurrect_ok" preset="v5_button" text="STR_RESURRECT_DIALOG__OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="266,117,124,24" name="resurrect_cancel" preset="v5_button" text="STR_RESURRECT_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget flag="vscroll" font="ui_default" frame="7,4,377,99" name="resurrect_desc" type="htmlview" v_pos_align="proportion">
+	</Widget>
+</Dialog>

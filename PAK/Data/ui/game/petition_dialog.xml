@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="300,200,320,512" last_modified="2014-08-22 13:09:05" name="petition_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,627,14" title_height="25" title_offset="0,5" title_text="STR_PETITION_DIALOG" type="dlg_petition" ui_mode="housing;housing_building">
+	<Widget font="ui_default" frame="11,37,153,20" text="STR_PETITION_DIALOG__FAQ" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="9,7,59,22" text="STR_PETITION_DIALOG__WIDGET2" type="static">
+	</Widget>
+	<Widget font="ui_combo" frame="68,7,231,24" name="petition_type" preset="v5_staticbox3" type="combobox">
+	</Widget>
+	<Widget flag="vscroll" font="ui_static_value" frame="9,60,294,386" name="petition_info" padding="5,5" preset="v5_staticbox" scroll_type="visible" skin_type="version5" type="htmlview">
+	</Widget>
+	<Widget font="ui_default" frame="206,455,106,24" name="open" preset="v5_button" text="STR_PETITION_DIALOG__PETITION" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="323,32,310,450" group="input" name="input" type="container">
+		<Widget font="ui_default" frame="18,29,149,21" text="STR_PETITION_DIALOG__CONTEXT" type="static">
+		</Widget>
+		<Widget font="ui_default" frame="241,423,68,24" name="input_cancel" preset="v5_button" text="STR_PETITION_DIALOG__INPUT_CANCEL" type="button">
+		</Widget>
+		<Widget font="ui_default" frame="172,423,68,24" name="petition_apply" preset="v5_button" text="STR_PETITION_DIALOG__PETITION_APPLY" type="button">
+		</Widget>
+		<Widget font="ui_default" frame="18,3,51,22" text="STR_PETITION_DIALOG__TITLE" type="static">
+		</Widget>
+		<Widget alphanumeric="False" font="ui_editbox" frame="70,3,225,22" h_padding="5" max_length="10" name="petition_title" preset="v5_editbox" type="editbox" v_padding="5">
+		</Widget>
+		<Widget alphanumeric="False" flag="multiline;wordwrap" font="ui_editbox" frame="18,57,278,243" h_padding="5" max_length="200" name="petition_input" preset="v5_editbox" tabstop="1" type="editbox" v_padding="5">
+		</Widget>
+		<Widget frame="18,305,86,24" name="addinfo1_title" type="static">
+		</Widget>
+		<Widget alphanumeric="False" font="ui_editbox" frame="106,305,190,24" h_padding="5" name="addinfo1" preset="v5_editbox" type="editbox" v_padding="5">
+		</Widget>
+		<Widget frame="18,335,86,24" name="addinfo2_title" type="static">
+		</Widget>
+		<Widget font="ui_editbox" frame="106,335,190,24" h_padding="5" name="addinfo2" preset="v5_editbox" type="editbox" v_padding="5">
+		</Widget>
+		<Widget frame="18,365,86,24" name="addinfo3_title" type="static">
+		</Widget>
+		<Widget font="ui_editbox" frame="106,365,190,24" h_padding="5" name="addinfo3" preset="v5_editbox" type="editbox" v_padding="5">
+		</Widget>
+		<Widget font="ui_editbox" frame="106,395,190,24" h_padding="5" name="addinfo4" preset="v5_editbox" type="editbox" v_padding="5">
+		</Widget>
+		<Widget frame="18,395,86,24" name="addinfo4_title" type="static">
+		</Widget>
+	</Widget>
+	<Widget flag="not_visible" frame="323,32,310,450" group="result" name="result" type="container">
+		<Widget font="ui_default" frame="7,3,286,21" text="STR_PETITION_DIALOG__INPUT_DESC" type="static">
+		</Widget>
+		<Widget font="ui_default" frame="7,236,286,21" text="STR_PETITION_DIALOG__RESULT_DESC" type="static">
+		</Widget>
+		<Widget flag="multiline;wordwrap;vscroll" font="ui_static_value" frame="7,29,285,200" halign="left" name="input_desc" padding="15,15" preset="v5_staticbox" text_offset="15,15" type="static" valign="top">
+		</Widget>
+		<Widget flag="multiline;wordwrap;vscroll;active" font="ui_static_value" frame="7,261,285,154" halign="left" name="result_desc" padding="15,15" preset="v5_staticbox" text_offset="15,15" type="static" valign="top">
+		</Widget>
+		<Widget font="ui_default" frame="242,424,68,24" name="cancel" preset="v5_button" text="STR_PETITION_DIALOG__CLOSE" type="button">
+		</Widget>
+		<Widget font="ui_default" frame="173,424,68,24" name="petition_cancel" preset="v5_button" text="STR_PETITION_DIALOG__PETITION_CANCEL" type="button">
+		</Widget>
+	</Widget>
+	<Widget flag="not_visible" frame="323,32,310,450" group="answer" name="answer" type="container">
+		<Widget frame="9,4,286,21" text="STR_PETITION_STATUS_DIALOG__PETITION_ANSWER" type="static">
+		</Widget>
+		<Widget flag="vscroll" frame="9,34,285,382" halign="left" name="result_desc" padding="10,10" preset="v5_staticbox" skin_type="version5" text_offset="15,15" type="htmlview" valign="top">
+		</Widget>
+		<Widget frame="241,423,68,24" name="cancel" preset="v5_button" text="STR_PETITION_DIALOG__CLOSE" type="button">
+		</Widget>
+		<Widget frame="172,423,68,24" name="petition_eval" preset="v5_button" text="STR_PETITION_STATUS_DIALOG__PETITION_EVAL" type="button">
+		</Widget>
+	</Widget>
+	<Widget frame="318,35,3,417" type="image">
+		<Skin name="v5_col_line">
+		</Skin>
+	</Widget>
+</Dialog>

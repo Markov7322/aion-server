@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="150,150,305,353" last_modified="2014-08-22 12:58:41" name="toypet_info_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,299,14" title_height="25" title_offset="0,5" title_text="STR_TOYPET_INFO_DIALOG" type="dlg_toypet_info">
+	<Widget cell_padding="2" cell_space="0,0" flag="truncate" font="ui_list" frame="6,0,220,43" item_height="44" item_width="44" name="toypet" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="234,8,65,21" halign="right" name="option" preset="v5_expand_button" style="checkbox" text="STR_TOYPET_INFO_DIALOG__POPUP" text_offset="5,0" type="button">
+	</Widget>
+	<Widget anim_style="none" frame="0,45,299,277" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+		<Widget btn_move_anim="False" frame="0,0,299,25" h_pos_align="proportion" name="tab" preset="v5_tab" tab_offset="6,0" tab_space="0" type="tab">
+			<Widget font="ui_default" frame="4,0,60,25" name="tab_info" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__INFO" type="tabbutton">
+			</Widget>
+			<Widget flag="not_visible" font="ui_default" frame="64,0,60,25" name="tab_warehouse" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__WAREHOUSE" type="tabbutton">
+			</Widget>
+			<Widget flag="not_visible" font="ui_default" frame="124,0,60,25" name="tab_feeding" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__FEEDING" type="tabbutton">
+			</Widget>
+			<Widget flag="not_visible" font="ui_default" frame="184,0,60,25" name="tab_doping" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__DOPING" type="tabbutton">
+			</Widget>
+			<Widget flag="not_visible" font="ui_default" frame="244,0,60,25" name="tab_looting" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__LOOTING" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="304,0,60,25" name="tab_merchant" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__MERCHANT" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="364,0,60,25" name="tab_buff" preset="v5_tabbutton" text="STR_TOYPET_INFO_DIALOG__BUFF" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_info" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget flag="multiline;wordwrap" font="ui_default" frame="23,26,268,55" halign="left" name="info_desc" text_offset="30, 0" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" font_size="14" frame="18,2,260,21" text="STR_TOYPET_INFO_DIALOG__INFO_DESC" type="static">
+			</Widget>
+			<Widget font="ui_default" font_size="14" frame="19,90,260,21" text="STR_TOYPET_INFO_DIALOG__INFO_FEATURE" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="86,167,204,18" name="info_func_sp" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="24,167,61,18" text="STR_TOYPET_INFO_DIALOG__FUNC_SP" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="86,150,204,18" name="info_func2" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="24,150,61,18" text="STR_TOYPET_INFO_DIALOG__FUNC2" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="86,131,204,18" name="info_func1" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="24,131,61,18" text="STR_TOYPET_INFO_DIALOG__FUNC1" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="86,113,204,18" name="info_birthday" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="24,113,61,18" text="STR_TOYPET_INFO_DIALOG__BIRTHDAY" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="184,226,113,24" name="list" preset="v5_button" text="STR_TOYPET_INFO_DIALOG__INFO_LIST" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="7,8,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="12,85,277,2" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget frame="7,96,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="12,189,277,2" name="info_expire_time_sep" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget font="ui_default" frame="24,194,87,18" name="info_expire_time_label" text="STR_TOOLTIP_TOYPET_EXPIRED_TIME" type="static" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="115,194,175,18" name="info_expire_time" type="static" valign="top">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_warehouse" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="9,1,281,39" halign="center" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__WAREHOUSE_DESC" text_offset="30, 0" type="static" valign="middle">
+			</Widget>
+			<Widget cell_padding="2" cell_space="-1,-1" flag="vscroll" frame="9,74,281,135" item_height="44" item_width="44" list_padding="3,3" name="warehouse" one_click_action="False" preset="v5_listview_frame" reserve_slots="False" scroll_type="visible" skin_type="version5" slot_num="18" type="listview" viewmode="icon">
+			</Widget>
+			<Widget frame="10,48,278,23" name="warehouse_desc" type="static">
+			</Widget>
+			<Widget frame="273,228,21,21" name="warehouse_sort" preset="v5_inv_sort" tooltip="STR_INVENTORY_DIALOG__TOOLTIP_AUTO_SORT" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="4,226,28,26" name="warehouse_to_inv" preset="v5_toypet_warehouse" tooltip="STR_TOYPET_INFO_DIALOG__WAREHOUSE_TOOLTIP_CUBE" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="7,42,283,2" preset="v5_ruler" type="image">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_feeding" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget flag="multiline;wordwrap;active" frame="86,41,197,55" name="feed_love_flavor" type="static" valign="top">
+			</Widget>
+			<Widget frame="18,41,60,18" text="STR_TOYPET_INFO_DIALOG__FEED_LOVE_FLAVOR" type="static" valign="top">
+			</Widget>
+			<Widget flag="active" frame="86,23,197,18" name="feed_flavor" type="static" valign="top">
+			</Widget>
+			<Widget frame="18,23,60,18" text="STR_TOYPET_INFO_DIALOG__FEED_FLAVOR" type="static" valign="top">
+			</Widget>
+			<Widget frame="86,5,197,18" name="feed_state" type="static" valign="top">
+			</Widget>
+			<Widget frame="18,5,60,18" text="STR_TOYPET_INFO_DIALOG__FEED_STATE" type="static" valign="top">
+			</Widget>
+			<Widget frame="6,46,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="6,28,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="6,10,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="16,123,258,18" text="STR_TOYPET_INFO_DIALOG__FEED_SOURCE" type="static">
+			</Widget>
+			<Widget frame="11,173,93,44" type="image">
+				<Skin name="v5_toypet_feed">
+				</Skin>
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="truncate" frame="37,148,44,44" item_height="44" item_width="44" name="feed_source" preset="v5_listview" reserve_slots="True" scroll_type="hidden" slot_num="1" type="itemview" viewmode="detail">
+			</Widget>
+			<Widget flag="not_visible" frame="184,226,113,24" name="feed_cancel" preset="v5_button" text="STR_TOYPET_INFO_DIALOG__FEED_CANCEL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="6,128,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="7,110,283,2" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget flag="truncate" frame="107,163,182,37" name="feed_source_desc" padding="10,0" preset="v5_staticbox" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_doping" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget cell_padding="2" cell_space="1,1" flag="vscroll" frame="16,165,271,45" item_height="44" item_width="44" name="scroll_doping_list" one_click_action="False" preset="v5_listview" reserve_slots="False" scroll_type="hidden" slot_num="6" type="listview" viewmode="icon">
+			</Widget>
+			<Widget frame="184,226,113,24" name="doping" preset="v5_button" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget cell_padding="2" cell_space="1,1" flag="vscroll" frame="190,94,46,45" item_height="44" item_width="44" name="food_doping_list" one_click_action="False" preset="v5_listview" reserve_slots="False" scroll_type="hidden" slot_num="1" type="listview" viewmode="icon">
+			</Widget>
+			<Widget frame="8,62,283,2" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="12,6,275,52" halign="center" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__DOPING_DESC" text_offset="30, 0" type="static" valign="middle">
+			</Widget>
+			<Widget cell_padding="2" cell_space="1,1" flag="vscroll" frame="241,94,46,45" item_height="44" item_width="44" name="drink_doping_list" one_click_action="False" preset="v5_listview" reserve_slots="False" scroll_type="hidden" slot_num="1" type="listview" viewmode="icon">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="truncate" frame="16,94,166,45" item_height="44" item_width="44" name="doping_skill" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget frame="4,226,28,26" name="doping_inv" preset="v5_toypet_warehouse" tooltip="STR_TOYPET_INFO_DIALOG__WAREHOUSE_TOOLTIP_CUBE" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="13,69,172,20" name="doping_desc" type="static">
+			</Widget>
+			<Widget frame="189,72,46,20" halign="center" text="STR_TOYPET_INFO_DIALOG__DOPING_FOOD" type="static">
+			</Widget>
+			<Widget frame="235,72,59,20" halign="center" text="STR_TOYPET_INFO_DIALOG__DOPING_DRINK" type="static">
+			</Widget>
+			<Widget frame="16,142,91,20" text="STR_TOYPET_INFO_DIALOG__DOPING_SCROLL" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_looting" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="truncate" frame="14,86,166,45" item_height="44" item_width="44" name="looting_skill" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget frame="12,62,278,20" name="looting_desc" type="static">
+			</Widget>
+			<Widget frame="7,57,283,2" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="11,6,275,47" halign="center" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__LOOTING_DESC" text_offset="30, 0" type="static" valign="middle">
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="24,135,268,38" halign="left" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__LOOTING_DESC01" text_offset="30, 0" type="static" valign="top">
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="24,175,268,38" halign="left" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__LOOTING_DESC02" text_offset="30, 0" type="static" valign="top">
+			</Widget>
+			<Widget frame="12,138,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="12,177,8,9" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="184,226,113,24" name="looting" preset="v5_button" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_merchant" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="6,35,290,136" h_pos_align="proportion" item_height="44" item_width="44" list_padding="2,2" name="item_basket" preset="v5_listview_frame" reserve_slots="True" scroll_type="visible" skin_type="version5" slot_num="36" split_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="3,171,58,22" halign="right" text="STR_TRADE_DIALOG__WIDGET1" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="64,171,232,22" halign="right" name="my_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="3,194,58,22" halign="right" text="STR_TRADE_DIALOG__WIDGET2" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget font="v3_money" frame="64,194,232,22" halign="right" name="trade_money" preset="v5_staticbox" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="7,32,283,2" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget font="v3_option" frame="9,7,281,19" name="autosale" preset="v5_check" style="checkbox" text="STR_TOYPET_INFO_DIALOG__MERCHANT_CHECKBOX_DESC" text_offset="5,0" type="button" valign="middle">
+			</Widget>
+			<Widget defbutton="False" font="ui_default" frame="4,226,113,24" name="sell_junk" preset="v5_button" text="STR_TRADE_DIALOG__SELL_JUNK_ALL" tooltip="STR_TRADE_DIALOG__TOOLTIP_SELL_JUNK_ALL" type="button" v_pos_align="bottom" valign="middle">
+			</Widget>
+			<Widget defbutton="False" font="ui_default" frame="229,226,68,24" name="sell" preset="v5_button" text="STR_TRADE_DIALOG__SELL" type="button" v_pos_align="bottom" valign="middle">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,299,252" h_pos_align="proportion" name="page_buff" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="2,1,296,219" h_pos_align="proportion" type="image" v_pos_align="proportion">
+				<Skin name="v5_static_bg4" state="0">
+				</Skin>
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="truncate" frame="14,68,166,45" item_height="44" item_width="44" name="buff_skill" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget frame="12,48,169,20" name="buff_desc" type="static">
+			</Widget>
+			<Widget cell_padding="2" cell_space="0,0" flag="truncate" frame="195,68,44,44" item_height="44" item_width="44" name="buff_source" preset="v5_listview" reserve_slots="True" scroll_type="hidden" slot_num="1" type="itemview" viewmode="detail">
+			</Widget>
+			<Widget frame="165,48,104,20" halign="center" name="buff_source_desc" text="STR_TOYPET_INFO_DIALOG__FEED_LOVE_FLAVOR" type="static">
+			</Widget>
+			<Widget frame="244,80,50,20" halign="center" name="buff_source_timer" type="static">
+			</Widget>
+			<Widget frame="7,45,283,2" preset="v5_ruler" type="image">
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="11,6,281,39" halign="center" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__BUFF_DESC" text_offset="30, 0" type="static" valign="middle">
+			</Widget>
+			<Widget flag="multiline;wordwrap" frame="24,119,268,19" halign="left" scroll_type="hidden" text="STR_TOYPET_INFO_DIALOG__BUFF_DESC01" text_offset="30, 0" type="static" valign="top">
+			</Widget>
+			<Widget frame="24,126,253,87" name="buff_stat" scroll_type="hidden" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="htmlview" valign="top">
+			</Widget>
+			<Widget frame="12,122,8,8" type="image">
+				<Skin name="v5_dot" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="184,226,113,24" name="buff" preset="v5_button" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

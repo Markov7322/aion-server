@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog close_offset="10,1" close_preset="v5_close" flag="not_movable;title;close" frame="10,10,207,232" last_modified="2014-08-22 12:58:41" name="housing_emblem_dialog" title_align="left" title_frame="3,3,201,14" title_height="25" title_offset="0,0" title_text="STR_HOUSING_MENU_DIALOG__TOOLTIP_EMBLEM" type="dlg_housing_emblem" ui_mode="not_game;housing">
+	<Widget frame="1,-3,191,12" type="image">
+		<Skin name="v5_housing_seperator">
+		</Skin>
+	</Widget>
+	<Skin name="v5_housing_parts_frame" state="frame">
+	</Skin>
+	<Widget font="ui_static_title" frame="0,4,190,28" name="check1" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM1" text_offset="10,0" type="button">
+	</Widget>
+	<Widget font="ui_static_title" frame="0,31,190,28" name="check2" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM2" text_offset="10,0" type="button">
+	</Widget>
+	<Widget font="ui_static_title" frame="0,58,190,28" name="check3" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM3" text_offset="10,0" type="button">
+	</Widget>
+	<Widget font="ui_static_title" frame="0,85,190,28" name="check4" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM4" text_offset="10,0" type="button">
+	</Widget>
+	<Widget font="ui_static_title" frame="0,112,190,28" name="check5" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM5" text_offset="10,0" type="button">
+	</Widget>
+	<Widget font="ui_static_title" frame="0,139,190,28" name="check6" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM6" text_offset="10,0" type="button">
+	</Widget>
+	<Widget font="ui_static_title" frame="0,166,190,28" name="check7" preset="v5_check" style="checkbox" text="STR_HOUSING_LIST_DIALOG__EMBLEM7" text_offset="10,0" type="button">
+	</Widget>
+</Dialog>

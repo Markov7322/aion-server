@@ -1,0 +1,3724 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<create_infos>
+	<appearances>
+		<appearance>
+			<name>hair</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>Hair 1</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="1">
+						<desc>Hair 2</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="2">
+						<desc>Hair 3</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="3">
+						<desc>Hair 4</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="4">
+						<desc>Hair 5</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="5">
+						<desc>Hair 6</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="6">
+						<desc>Hair 7</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="7">
+						<desc>Hair 8</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="8">
+						<desc>Hair 9</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="9">
+						<desc>Hair 10</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="10">
+						<desc>Hair 11</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="11">
+						<desc>Hair 12</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="12">
+						<desc>Hair 13</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="13">
+						<desc>Hair 14</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="14">
+						<desc>Hair 15</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="15">
+						<desc>Hair 16</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="16">
+						<desc>Hair 17</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="17">
+						<desc>Hair 18</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="18">
+						<desc>Hair 19</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="19">
+						<desc>Hair 20</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="20">
+						<desc>Hair 21</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="21">
+						<desc>Hair 22</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="22">
+						<desc>Hair 23</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="23">
+						<desc>Hair 24</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="24">
+						<desc>Hair 25</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="25">
+						<desc>Hair 26</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="26">
+						<desc>Hair 27</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="27">
+						<desc>Hair 28</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="28">
+						<desc>Hair 29</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="29">
+						<desc>Hair 30</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="30">
+						<desc>Hair 31</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="31">
+						<desc>Hair 32</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="32">
+						<desc>Hair 33</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="33">
+						<desc>Hair 34</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="34">
+						<desc>Hair 35</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="35">
+						<desc>Hair 36</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="36">
+						<desc>Hair 37</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="37">
+						<desc>Hair 38</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="38">
+						<desc>Hair 39</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="39">
+						<desc>Hair 40</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="40">
+						<desc>Hair 41</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="41">
+						<desc>Hair 42</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="42">
+						<desc>Hair 43</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="43">
+						<desc>Hair 44</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="44">
+						<desc>Hair 45</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="45">
+						<desc>Hair 46</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="46">
+						<desc>Hair 47</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="47">
+						<desc>Hair 48</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="48">
+						<desc>Hair 49</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="49">
+						<desc>Hair 50</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="50">
+						<desc>Hair 51</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="51">
+						<desc>Hair 52</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item id="52">
+						<desc>Hair 53</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item effect="true" id="53">
+						<desc>Hairstyle 54</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+					<item effect="true" id="54">
+						<desc>Hairstyle 55</desc>
+						<category>3;Medium-length Hair</category>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>Hair 1</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="1">
+						<desc>Hair 2</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="2">
+						<desc>Hair 3</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="3">
+						<desc>Hair 4</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="4">
+						<desc>Hair 5</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="5">
+						<desc>Hair 6</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="6">
+						<desc>Hair 7</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="7">
+						<desc>Hair 8</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="8">
+						<desc>Hair 9</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="9">
+						<desc>Hair 10</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="10">
+						<desc>Hair 11</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="11">
+						<desc>Hair 12</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="12">
+						<desc>Hair 13</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="13">
+						<desc>Hair 14</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="14">
+						<desc>Hair 15</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="15">
+						<desc>Hair 16</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="16">
+						<desc>Hair 17</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="17">
+						<desc>Hair 18</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="18">
+						<desc>Hair 19</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="19">
+						<desc>Hair 20</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="20">
+						<desc>Hair 21</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="21">
+						<desc>Hair 22</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="22">
+						<desc>Hair 23</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="23">
+						<desc>Hair 24</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="24">
+						<desc>Hair 25</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="25">
+						<desc>Hair 26</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="26">
+						<desc>Hair 27</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="27">
+						<desc>Hair 28</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="28">
+						<desc>Hair 29</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="29">
+						<desc>Hair 30</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="30">
+						<desc>Hair 31</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="31">
+						<desc>Hair 32</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="32">
+						<desc>Hair 33</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="33">
+						<desc>Hair 34</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="34">
+						<desc>Hair 35</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="35">
+						<desc>Hair 36</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="36">
+						<desc>Hair 37</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="37">
+						<desc>Hair 38</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="38">
+						<desc>Hair 39</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="39">
+						<desc>Hair 40</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="40">
+						<desc>Hair 41</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="41">
+						<desc>Hair 42</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="42">
+						<desc>Hair 43</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="43">
+						<desc>Hair 44</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="44">
+						<desc>Hair 45</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="45">
+						<desc>Hair 46</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="46">
+						<desc>Hair 47</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="47">
+						<desc>Hair 48</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="48">
+						<desc>Hair 49</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="49">
+						<desc>Hair 50</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="50">
+						<desc>Hair 51</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="51">
+						<desc>Hair 52</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="52">
+						<desc>Hair 53</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="53">
+						<desc>Hair 54</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="54">
+						<desc>Hair 55</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="55">
+						<desc>Hair 56</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="56">
+						<desc>Hair 57</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="57">
+						<desc>Hair 58</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="58">
+						<desc>Hair 59</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="59">
+						<desc>Hair 60</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="60">
+						<desc>Hair 61</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="61">
+						<desc>Hair 62</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="62">
+						<desc>Hair 63</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="63">
+						<desc>Hair 64</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="64">
+						<desc>Hair 65</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="65">
+						<desc>Head 66</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="66">
+						<desc>Head 67</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="67">
+						<desc>Hairstyle 68</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item effect="true" id="68">
+						<desc>Hairstyle 68</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Hair 1</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="1">
+						<desc>Hair 2</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="2">
+						<desc>Hair 3</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="3">
+						<desc>Hair 4</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="4">
+						<desc>Hair 5</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="5">
+						<desc>Hair 6</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="6">
+						<desc>Hair 7</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="7">
+						<desc>Hair 8</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="8">
+						<desc>Hair 9</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="9">
+						<desc>Hair 10</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="10">
+						<desc>Hair 11</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="11">
+						<desc>Hair 12</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="12">
+						<desc>Hair 13</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="13">
+						<desc>Hair 14</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="14">
+						<desc>Hair 15</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="15">
+						<desc>Hair 16</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="16">
+						<desc>Hair 17</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="17">
+						<desc>Hair 18</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="18">
+						<desc>Hair 19</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="19">
+						<desc>Hair 20</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="20">
+						<desc>Hair 21</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="21">
+						<desc>Hair 22</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="22">
+						<desc>Hair 23</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="23">
+						<desc>Hair 24</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="24">
+						<desc>Hair 25</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="25">
+						<desc>Hair 26</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="26">
+						<desc>Hair 27</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="27">
+						<desc>Hair 28</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="28">
+						<desc>Hair 29</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="29">
+						<desc>Hair 30</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="30">
+						<desc>Hair 31</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="31">
+						<desc>Hair 32</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="32">
+						<desc>Hair 33</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="33">
+						<desc>Hair 34</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="34">
+						<desc>Hair 35</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="35">
+						<desc>Hair 36</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="36">
+						<desc>Hair 37</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="37">
+						<desc>Hair 38</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="38">
+						<desc>Hair 39</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="39">
+						<desc>Hair 40</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="40">
+						<desc>Hair 41</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="41">
+						<desc>Hair 42</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="42">
+						<desc>Hair 43</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="43">
+						<desc>Hair 44</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="44">
+						<desc>Hair 45</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="45">
+						<desc>Hair 46</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="46">
+						<desc>Hair 47</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="47">
+						<desc>Hair 48</desc>
+						<category>2;Long Hair</category>
+					</item>
+					<item id="48">
+						<desc>Hair 49</desc>
+						<category>4;Extravagant</category>
+					</item>
+					<item id="49">
+						<desc>Hair 50</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="50">
+						<desc>Hair 51</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="51">
+						<desc>Hair 52</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item id="52">
+						<desc>Hair 53</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item id="53">
+						<desc>Hair 54</desc>
+						<category>1;Short Hair</category>
+					</item>
+					<item effect="true" id="54">
+						<desc>Hairstyle 55</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+					<item effect="true" id="55">
+						<desc>Hairstyle 56</desc>
+						<category>3;Shoulder-length Hair</category>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Hair 1</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="1">
+						<desc>Hair 2</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="2">
+						<desc>Hair 3</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="3">
+						<desc>Hair 4</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="4">
+						<desc>Hair 5</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="5">
+						<desc>Hair 6</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="6">
+						<desc>Hair 7</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="7">
+						<desc>Hair 8</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="8">
+						<desc>Hair 9</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="9">
+						<desc>Hair 10</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="10">
+						<desc>Hair 11</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="11">
+						<desc>Hair 12</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="12">
+						<desc>Hair 13</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="13">
+						<desc>Hair 14</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="14">
+						<desc>Hair 15</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="15">
+						<desc>Hair 16</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="16">
+						<desc>Hair 17</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="17">
+						<desc>Hair 18</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="18">
+						<desc>Hair 19</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="19">
+						<desc>Hair 20</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="20">
+						<desc>Hair 21</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="21">
+						<desc>Hair 22</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="22">
+						<desc>Hair 23</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="23">
+						<desc>Hair 24</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="24">
+						<desc>Hair 25</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="25">
+						<desc>Hair 26</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="26">
+						<desc>Hair 27</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="27">
+						<desc>Hair 28</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="28">
+						<desc>Hair 29</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="29">
+						<desc>Hair 30</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="30">
+						<desc>Hair 31</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="31">
+						<desc>Hair 32</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="32">
+						<desc>Hair 33</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="33">
+						<desc>Hair 34</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="34">
+						<desc>Hair 35</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="35">
+						<desc>Hair 36</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="36">
+						<desc>Hair 37</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="37">
+						<desc>Hair 38</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="38">
+						<desc>Hair 39</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="39">
+						<desc>Hair 40</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="40">
+						<desc>Hair 41</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="41">
+						<desc>Hair 42</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="42">
+						<desc>Hair 43</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="43">
+						<desc>Hair 44</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="44">
+						<desc>Hair 45</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="45">
+						<desc>Hair 46</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="46">
+						<desc>Hair 47</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="47">
+						<desc>Hair 48</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="48">
+						<desc>Hair 49</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="49">
+						<desc>Hair 50</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="50">
+						<desc>Hair 51</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="51">
+						<desc>Hair 52</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="52">
+						<desc>Hair 53</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="53">
+						<desc>Hair 54</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="54">
+						<desc>Hair 55</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="55">
+						<desc>Hair 56</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="56">
+						<desc>Hair 57</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="57">
+						<desc>Hair 58</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="58">
+						<desc>Hair 59</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="59">
+						<desc>Hair 60</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="60">
+						<desc>Hair 61</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="61">
+						<desc>Hair 62</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="62">
+						<desc>Hair 63</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="63">
+						<desc>Hair 64</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="64">
+						<desc>Hair 65</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item id="65">
+						<desc>Hair 66</desc>
+						<category>4;Braids</category>
+					</item>
+					<item id="66">
+						<desc>Head 67</desc>
+						<category>1;Long Hair</category>
+					</item>
+					<item id="67">
+						<desc>Head 68</desc>
+						<category>2;Short Hair</category>
+					</item>
+					<item id="68">
+						<desc>Hairstyle 69</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+					<item effect="true" id="69">
+						<desc>Hairstyle 69</desc>
+						<category>3;Tied-back Hair</category>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>face</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>Face 1</desc>
+					</item>
+					<item id="1">
+						<desc>Face 2</desc>
+					</item>
+					<item id="2">
+						<desc>Face 3</desc>
+					</item>
+					<item id="3">
+						<desc>Face 4</desc>
+					</item>
+					<item id="4">
+						<desc>Face 5</desc>
+					</item>
+					<item id="5">
+						<desc>Face 6</desc>
+					</item>
+					<item id="6">
+						<desc>Face 7</desc>
+					</item>
+					<item id="7">
+						<desc>Face 8</desc>
+					</item>
+					<item id="8">
+						<desc>Face 9</desc>
+					</item>
+					<item id="9">
+						<desc>Face 10</desc>
+					</item>
+					<item id="10">
+						<desc>Face 11</desc>
+					</item>
+					<item id="11">
+						<desc>Face 12</desc>
+					</item>
+					<item id="12">
+						<desc>Face 13</desc>
+					</item>
+					<item id="13">
+						<desc>Face 14</desc>
+					</item>
+					<item id="14">
+						<desc>Face 15</desc>
+					</item>
+					<item id="15">
+						<desc>Face 16</desc>
+					</item>
+					<item id="16">
+						<desc>Face 17</desc>
+					</item>
+					<item id="17">
+						<desc>Face 18</desc>
+					</item>
+					<item id="18">
+						<desc>Face 19</desc>
+					</item>
+					<item id="19">
+						<desc>Face 20</desc>
+					</item>
+					<item id="20">
+						<desc>Face 21</desc>
+					</item>
+					<item id="21">
+						<desc>Face 22</desc>
+					</item>
+					<item id="22">
+						<desc>Face 23</desc>
+					</item>
+					<item id="23">
+						<desc>Face 24</desc>
+					</item>
+					<item id="24">
+						<desc>Face 25</desc>
+					</item>
+					<item id="25">
+						<desc>Face 26</desc>
+					</item>
+					<item id="26">
+						<desc>Face 27</desc>
+					</item>
+					<item id="27">
+						<desc>Face 28</desc>
+					</item>
+					<item id="28">
+						<desc>Face 29</desc>
+					</item>
+					<item id="29">
+						<desc>Face 30</desc>
+					</item>
+					<item id="30">
+						<desc>Face 31</desc>
+					</item>
+					<item id="31">
+						<desc>Face 32</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>Face 1</desc>
+					</item>
+					<item id="1">
+						<desc>Face 2</desc>
+					</item>
+					<item id="2">
+						<desc>Face 3</desc>
+					</item>
+					<item id="3">
+						<desc>Face 4</desc>
+					</item>
+					<item id="4">
+						<desc>Face 5</desc>
+					</item>
+					<item id="5">
+						<desc>Face 6</desc>
+					</item>
+					<item id="6">
+						<desc>Face 7</desc>
+					</item>
+					<item id="7">
+						<desc>Face 8</desc>
+					</item>
+					<item id="8">
+						<desc>Face 9</desc>
+					</item>
+					<item id="9">
+						<desc>Face 10</desc>
+					</item>
+					<item id="10">
+						<desc>Face 11</desc>
+					</item>
+					<item id="11">
+						<desc>Face 12</desc>
+					</item>
+					<item id="12">
+						<desc>Face 13</desc>
+					</item>
+					<item id="13">
+						<desc>Face 14</desc>
+					</item>
+					<item id="14">
+						<desc>Face 15</desc>
+					</item>
+					<item id="15">
+						<desc>Face 16</desc>
+					</item>
+					<item id="16">
+						<desc>Face 17</desc>
+					</item>
+					<item id="17">
+						<desc>Face 18</desc>
+					</item>
+					<item id="18">
+						<desc>Face 19</desc>
+					</item>
+					<item id="19">
+						<desc>Face 20</desc>
+					</item>
+					<item id="20">
+						<desc>Face 21</desc>
+					</item>
+					<item id="21">
+						<desc>Face 22</desc>
+					</item>
+					<item id="22">
+						<desc>Face 23</desc>
+					</item>
+					<item id="23">
+						<desc>Face 24</desc>
+					</item>
+					<item id="24">
+						<desc>Face 25</desc>
+					</item>
+					<item id="25">
+						<desc>Face 26</desc>
+					</item>
+					<item id="26">
+						<desc>Face 27</desc>
+					</item>
+					<item id="27">
+						<desc>Face 28</desc>
+					</item>
+					<item id="28">
+						<desc>Face 29</desc>
+					</item>
+					<item id="29">
+						<desc>Face 30</desc>
+					</item>
+					<item id="30">
+						<desc>Face 31</desc>
+					</item>
+					<item id="31">
+						<desc>Face 32</desc>
+					</item>
+					<item id="32">
+						<desc>Face 33</desc>
+					</item>
+					<item id="33">
+						<desc>Face 34</desc>
+					</item>
+					<item id="34">
+						<desc>Face 35</desc>
+					</item>
+					<item id="35">
+						<desc>Face 36</desc>
+					</item>
+					<item id="36">
+						<desc>Face 37</desc>
+					</item>
+					<item id="37">
+						<desc>Face 38</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Face 1</desc>
+					</item>
+					<item id="1">
+						<desc>Face 2</desc>
+					</item>
+					<item id="2">
+						<desc>Face 3</desc>
+					</item>
+					<item id="3">
+						<desc>Face 4</desc>
+					</item>
+					<item id="4">
+						<desc>Face 5</desc>
+					</item>
+					<item id="5">
+						<desc>Face 6</desc>
+					</item>
+					<item id="6">
+						<desc>Face 7</desc>
+					</item>
+					<item id="7">
+						<desc>Face 8</desc>
+					</item>
+					<item id="8">
+						<desc>Face 9</desc>
+					</item>
+					<item id="9">
+						<desc>Face 10</desc>
+					</item>
+					<item id="10">
+						<desc>Face 11</desc>
+					</item>
+					<item id="11">
+						<desc>Face 12</desc>
+					</item>
+					<item id="12">
+						<desc>Face 13</desc>
+					</item>
+					<item id="13">
+						<desc>Face 14</desc>
+					</item>
+					<item id="14">
+						<desc>Face 15</desc>
+					</item>
+					<item id="15">
+						<desc>Face 16</desc>
+					</item>
+					<item id="16">
+						<desc>Face 17</desc>
+					</item>
+					<item id="17">
+						<desc>Face 18</desc>
+					</item>
+					<item id="18">
+						<desc>Face 19</desc>
+					</item>
+					<item id="19">
+						<desc>Face 20</desc>
+					</item>
+					<item id="20">
+						<desc>Face 21</desc>
+					</item>
+					<item id="21">
+						<desc>Face 22</desc>
+					</item>
+					<item id="22">
+						<desc>Face 23</desc>
+					</item>
+					<item id="23">
+						<desc>Face 24</desc>
+					</item>
+					<item id="24">
+						<desc>Face 25</desc>
+					</item>
+					<item id="25">
+						<desc>Face 26</desc>
+					</item>
+					<item id="26">
+						<desc>Face 27</desc>
+					</item>
+					<item id="27">
+						<desc>Face 28</desc>
+					</item>
+					<item id="28">
+						<desc>Face 29</desc>
+					</item>
+					<item id="29">
+						<desc>Face 30</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Face 1</desc>
+					</item>
+					<item id="1">
+						<desc>Face 2</desc>
+					</item>
+					<item id="2">
+						<desc>Face 3</desc>
+					</item>
+					<item id="3">
+						<desc>Face 4</desc>
+					</item>
+					<item id="4">
+						<desc>Face 5</desc>
+					</item>
+					<item id="5">
+						<desc>Face 6</desc>
+					</item>
+					<item id="6">
+						<desc>Face 7</desc>
+					</item>
+					<item id="7">
+						<desc>Face 8</desc>
+					</item>
+					<item id="8">
+						<desc>Face 9</desc>
+					</item>
+					<item id="9">
+						<desc>Face 10</desc>
+					</item>
+					<item id="10">
+						<desc>Face 11</desc>
+					</item>
+					<item id="11">
+						<desc>Face 12</desc>
+					</item>
+					<item id="12">
+						<desc>Face 13</desc>
+					</item>
+					<item id="13">
+						<desc>Face 14</desc>
+					</item>
+					<item id="14">
+						<desc>Face 15</desc>
+					</item>
+					<item id="15">
+						<desc>Face 16</desc>
+					</item>
+					<item id="16">
+						<desc>Face 17</desc>
+					</item>
+					<item id="17">
+						<desc>Face 18</desc>
+					</item>
+					<item id="18">
+						<desc>Face 19</desc>
+					</item>
+					<item id="19">
+						<desc>Face 20</desc>
+					</item>
+					<item id="20">
+						<desc>Face 21</desc>
+					</item>
+					<item id="21">
+						<desc>Face 22</desc>
+					</item>
+					<item id="22">
+						<desc>Face 23</desc>
+					</item>
+					<item id="23">
+						<desc>Face 24</desc>
+					</item>
+					<item id="24">
+						<desc>Face 25</desc>
+					</item>
+					<item id="25">
+						<desc>Face 26</desc>
+					</item>
+					<item id="26">
+						<desc>Face 27</desc>
+					</item>
+					<item id="27">
+						<desc>Face 28</desc>
+					</item>
+					<item id="28">
+						<desc>Face 29</desc>
+					</item>
+					<item id="29">
+						<desc>Face 30</desc>
+					</item>
+					<item id="30">
+						<desc>Face 31</desc>
+					</item>
+					<item id="31">
+						<desc>Face 32</desc>
+					</item>
+					<item id="32">
+						<desc>Face 33</desc>
+					</item>
+					<item id="33">
+						<desc>Face 34</desc>
+					</item>
+					<item id="34">
+						<desc>Face 35</desc>
+					</item>
+					<item id="35">
+						<desc>Face 36</desc>
+					</item>
+					<item id="36">
+						<desc>Face 37</desc>
+					</item>
+					<item id="37">
+						<desc>Face 38</desc>
+					</item>
+					<item id="38">
+						<desc>Face 39</desc>
+					</item>
+					<item id="39">
+						<desc>Face 40</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>feature1</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Facial Hair 1</desc>
+					</item>
+					<item id="2">
+						<desc>Facial Hair 2</desc>
+					</item>
+					<item id="3">
+						<desc>Facial Hair 3</desc>
+					</item>
+					<item id="4">
+						<desc>Facial Hair 4</desc>
+					</item>
+					<item id="5">
+						<desc>Facial Hair 5</desc>
+					</item>
+					<item id="6">
+						<desc>Facial Hair 6</desc>
+					</item>
+					<item id="7">
+						<desc>Facial Hair 7</desc>
+					</item>
+					<item id="8">
+						<desc>Facial Hair 8</desc>
+					</item>
+					<item id="9">
+						<desc>Facial Hair 9</desc>
+					</item>
+					<item id="10">
+						<desc>Facial Hair 10</desc>
+					</item>
+					<item id="11">
+						<desc>Facial Hair 11</desc>
+					</item>
+					<item id="12">
+						<desc>Facial Hair 12</desc>
+					</item>
+					<item id="13">
+						<desc>Facial Hair 13</desc>
+					</item>
+					<item id="14">
+						<desc>Facial Hair 14</desc>
+					</item>
+					<item id="15">
+						<desc>Facial Hair 15</desc>
+					</item>
+					<item id="16">
+						<desc>Facial Hair 16</desc>
+					</item>
+					<item id="17">
+						<desc>Facial Hair 17</desc>
+					</item>
+					<item id="18">
+						<desc>Facial Hair 18</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Freckle 1</desc>
+					</item>
+					<item id="2">
+						<desc>Freckle 2</desc>
+					</item>
+					<item id="3">
+						<desc>Freckle 3</desc>
+					</item>
+					<item id="4">
+						<desc>Freckle 4</desc>
+					</item>
+					<item id="5">
+						<desc>Scar</desc>
+					</item>
+					<item id="6">
+						<desc>Blush</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Facial Hair 1</desc>
+					</item>
+					<item id="2">
+						<desc>Facial Hair 2</desc>
+					</item>
+					<item id="3">
+						<desc>Facial Hair 3</desc>
+					</item>
+					<item id="4">
+						<desc>Facial Hair 4</desc>
+					</item>
+					<item id="5">
+						<desc>Facial Hair 5</desc>
+					</item>
+					<item id="6">
+						<desc>Facial Hair 6</desc>
+					</item>
+					<item id="7">
+						<desc>Facial Hair 7</desc>
+					</item>
+					<item id="8">
+						<desc>Facial Hair 8</desc>
+					</item>
+					<item id="9">
+						<desc>Facial Hair 9</desc>
+					</item>
+					<item id="10">
+						<desc>Facial Hair 10</desc>
+					</item>
+					<item id="11">
+						<desc>Facial Hair 11</desc>
+					</item>
+					<item id="12">
+						<desc>Facial Hair 12</desc>
+					</item>
+					<item id="13">
+						<desc>Facial Hair 13</desc>
+					</item>
+					<item id="14">
+						<desc>Facial Hair 14</desc>
+					</item>
+					<item id="15">
+						<desc>Facial Hair 15</desc>
+					</item>
+					<item id="16">
+						<desc>Facial Hair 16</desc>
+					</item>
+					<item id="17">
+						<desc>Facial Hair 17</desc>
+					</item>
+					<item id="18">
+						<desc>Facial Hair 18</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Freckle 1</desc>
+					</item>
+					<item id="2">
+						<desc>Freckle 2</desc>
+					</item>
+					<item id="3">
+						<desc>Freckle 3</desc>
+					</item>
+					<item id="4">
+						<desc>Freckle 4</desc>
+					</item>
+					<item id="5">
+						<desc>Scar</desc>
+					</item>
+					<item id="6">
+						<desc>Blush</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>feature2</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Tattoo 1</desc>
+					</item>
+					<item id="2">
+						<desc>Tattoo 2</desc>
+					</item>
+					<item id="3">
+						<desc>Tattoo 3</desc>
+					</item>
+					<item id="4">
+						<desc>Tattoo 4</desc>
+					</item>
+					<item id="5">
+						<desc>Tattoo 5</desc>
+					</item>
+					<item id="6">
+						<desc>Scar 1</desc>
+					</item>
+					<item id="7">
+						<desc>Brow Ring</desc>
+					</item>
+					<item id="8">
+						<desc>Scar 2</desc>
+					</item>
+					<item id="9">
+						<desc>Scar 3</desc>
+					</item>
+					<item id="10">
+						<desc>Scar 4</desc>
+					</item>
+					<item id="11">
+						<desc>Tattoo 6</desc>
+					</item>
+					<item id="12">
+						<desc>Tattoo 7</desc>
+					</item>
+					<item id="13">
+						<desc>Scar 5</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Tattoo 1</desc>
+					</item>
+					<item id="2">
+						<desc>Tattoo 2</desc>
+					</item>
+					<item id="3">
+						<desc>Tattoo 3</desc>
+					</item>
+					<item id="4">
+						<desc>Tattoo 4</desc>
+					</item>
+					<item id="5">
+						<desc>Tattoo 5</desc>
+					</item>
+					<item id="6">
+						<desc>Tattoo 6</desc>
+					</item>
+					<item id="7">
+						<desc>Tattoo 7</desc>
+					</item>
+					<item id="8">
+						<desc>Tattoo 8</desc>
+					</item>
+					<item id="9">
+						<desc>Tattoo 9</desc>
+					</item>
+					<item id="10">
+						<desc>Tattoo 10</desc>
+					</item>
+					<item id="11">
+						<desc>Tattoo 11</desc>
+					</item>
+					<item id="12">
+						<desc>Tattoo 12</desc>
+					</item>
+					<item id="13">
+						<desc>Tattoo 13</desc>
+					</item>
+					<item id="14">
+						<desc>Tattoo 14</desc>
+					</item>
+					<item id="15">
+						<desc>Tattoo 15</desc>
+					</item>
+					<item id="16">
+						<desc>Tattoo 16</desc>
+					</item>
+					<item id="17">
+						<desc>Tattoo 17</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Tattoo 1</desc>
+					</item>
+					<item id="2">
+						<desc>Tattoo 2</desc>
+					</item>
+					<item id="3">
+						<desc>Tattoo 3</desc>
+					</item>
+					<item id="4">
+						<desc>Tattoo 4</desc>
+					</item>
+					<item id="5">
+						<desc>Tattoo 5</desc>
+					</item>
+					<item id="6">
+						<desc>Scar 1</desc>
+					</item>
+					<item id="7">
+						<desc>Scar 2</desc>
+					</item>
+					<item id="8">
+						<desc>Tattoo 6</desc>
+					</item>
+					<item id="9">
+						<desc>Brow Ring</desc>
+					</item>
+					<item id="10">
+						<desc>Tattoo 7</desc>
+					</item>
+					<item id="11">
+						<desc>Tattoo 8</desc>
+					</item>
+					<item id="12">
+						<desc>Scar 3</desc>
+					</item>
+					<item id="13">
+						<desc>Tattoo 9</desc>
+					</item>
+					<item id="14">
+						<desc>Tattoo 10</desc>
+					</item>
+					<item id="15">
+						<desc>Tattoo 11</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Tattoo 1</desc>
+					</item>
+					<item id="2">
+						<desc>Tattoo 2</desc>
+					</item>
+					<item id="3">
+						<desc>Tattoo 3</desc>
+					</item>
+					<item id="4">
+						<desc>Tattoo 4</desc>
+					</item>
+					<item id="5">
+						<desc>Tattoo 5</desc>
+					</item>
+					<item id="6">
+						<desc>Tattoo 6</desc>
+					</item>
+					<item id="7">
+						<desc>Tattoo 7</desc>
+					</item>
+					<item id="8">
+						<desc>Tattoo 8</desc>
+					</item>
+					<item id="9">
+						<desc>Tattoo 9</desc>
+					</item>
+					<item id="10">
+						<desc>Tattoo 10</desc>
+					</item>
+					<item id="11">
+						<desc>Tattoo 11</desc>
+					</item>
+					<item id="12">
+						<desc>Tattoo 12</desc>
+					</item>
+					<item id="13">
+						<desc>Tattoo 13</desc>
+					</item>
+					<item id="14">
+						<desc>Tattoo 14</desc>
+					</item>
+					<item id="15">
+						<desc>Tattoo 15</desc>
+					</item>
+					<item id="16">
+						<desc>Tattoo 16</desc>
+					</item>
+					<item id="17">
+						<desc>Tattoo 17</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>bump</name>
+			<attr>
+				<lm>
+					<item id="0" priority="2">
+						<desc>Facial Contour 1</desc>
+					</item>
+					<item id="1" priority="3">
+						<desc>Facial Contour 2</desc>
+					</item>
+					<item id="2" priority="4">
+						<desc>Facial Contour 3</desc>
+					</item>
+					<item id="3" priority="5">
+						<desc>Facial Contour 4</desc>
+					</item>
+					<item id="4" priority="6">
+						<desc>Facial Contour 5</desc>
+					</item>
+					<item id="5" priority="1">
+						<desc>Facial Contour 6</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0" priority="2">
+						<desc>Facial Contour 1</desc>
+					</item>
+					<item id="1" priority="3">
+						<desc>Facial Contour 2</desc>
+					</item>
+					<item id="2" priority="4">
+						<desc>Facial Contour 3</desc>
+					</item>
+					<item id="3" priority="5">
+						<desc>Facial Contour 4</desc>
+					</item>
+					<item id="4" priority="6">
+						<desc>Facial Contour 5</desc>
+					</item>
+					<item id="5" priority="1">
+						<desc>Facial Contour 6</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0" priority="2">
+						<desc>Facial Contour 1</desc>
+					</item>
+					<item id="1" priority="3">
+						<desc>Facial Contour 2</desc>
+					</item>
+					<item id="2" priority="4">
+						<desc>Facial Contour 3</desc>
+					</item>
+					<item id="3" priority="5">
+						<desc>Facial Contour 4</desc>
+					</item>
+					<item id="4" priority="6">
+						<desc>Facial Contour 5</desc>
+					</item>
+					<item id="5" priority="1">
+						<desc>Facial Contour 6</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0" priority="2">
+						<desc>Facial Contour 1</desc>
+					</item>
+					<item id="1" priority="3">
+						<desc>Facial Contour 2</desc>
+					</item>
+					<item id="2" priority="4">
+						<desc>Facial Contour 3</desc>
+					</item>
+					<item id="3" priority="5">
+						<desc>Facial Contour 4</desc>
+					</item>
+					<item id="4" priority="6">
+						<desc>Facial Contour 5</desc>
+					</item>
+					<item id="5" priority="1">
+						<desc>Facial Contour 6</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>expression</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Expression 1</desc>
+					</item>
+					<item id="2">
+						<desc>Expression 2</desc>
+					</item>
+					<item id="3">
+						<desc>Expression 3</desc>
+					</item>
+					<item id="4">
+						<desc>Expression 4</desc>
+					</item>
+					<item id="5">
+						<desc>Expression 5</desc>
+					</item>
+					<item id="6">
+						<desc>Expression 6</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Expression 1</desc>
+					</item>
+					<item id="2">
+						<desc>Expression 2</desc>
+					</item>
+					<item id="3">
+						<desc>Expression 3</desc>
+					</item>
+					<item id="4">
+						<desc>Expression 4</desc>
+					</item>
+					<item id="5">
+						<desc>Expression 5</desc>
+					</item>
+					<item id="6">
+						<desc>Expression 6</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Expression 1</desc>
+					</item>
+					<item id="2">
+						<desc>Expression 2</desc>
+					</item>
+					<item id="3">
+						<desc>Expression 3</desc>
+					</item>
+					<item id="4">
+						<desc>Expression 4</desc>
+					</item>
+					<item id="5">
+						<desc>Expression 5</desc>
+					</item>
+					<item id="6">
+						<desc>Expression 6</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Expression 1</desc>
+					</item>
+					<item id="2">
+						<desc>Expression 2</desc>
+					</item>
+					<item id="3">
+						<desc>Expression 3</desc>
+					</item>
+					<item id="4">
+						<desc>Expression 4</desc>
+					</item>
+					<item id="5">
+						<desc>Expression 5</desc>
+					</item>
+					<item id="6">
+						<desc>Expression 6</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>hair_color</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<color>255, 255, 255</color>
+					</item>
+					<item id="1">
+						<color>220, 109, 109</color>
+					</item>
+					<item id="2">
+						<color>252, 213, 140</color>
+					</item>
+					<item id="3">
+						<color>152, 195, 133</color>
+					</item>
+					<item id="4">
+						<color>143, 185, 195</color>
+					</item>
+					<item id="5">
+						<color>116, 86, 49</color>
+					</item>
+					<item id="6">
+						<color>104, 160, 219</color>
+					</item>
+					<item id="7">
+						<color>45, 54, 100</color>
+					</item>
+					<item id="8">
+						<color>215, 140, 80</color>
+					</item>
+					<item id="9">
+						<color>223, 127, 115</color>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<color>255, 255, 255</color>
+					</item>
+					<item id="1">
+						<color>220, 109, 109</color>
+					</item>
+					<item id="2">
+						<color>252, 213, 140</color>
+					</item>
+					<item id="3">
+						<color>152, 195, 133</color>
+					</item>
+					<item id="4">
+						<color>125, 209, 213</color>
+					</item>
+					<item id="5">
+						<color>116, 86, 49</color>
+					</item>
+					<item id="6">
+						<color>104, 160, 219</color>
+					</item>
+					<item id="7">
+						<color>60, 69, 106</color>
+					</item>
+					<item id="8">
+						<color>215, 140, 80</color>
+					</item>
+					<item id="9">
+						<color>126, 103, 204</color>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<color>255, 255, 255</color>
+					</item>
+					<item id="1">
+						<color>220, 109, 109</color>
+					</item>
+					<item id="2">
+						<color>252, 213, 140</color>
+					</item>
+					<item id="3">
+						<color>152, 195, 133</color>
+					</item>
+					<item id="4">
+						<color>143, 185, 195</color>
+					</item>
+					<item id="5">
+						<color>116, 86, 49</color>
+					</item>
+					<item id="6">
+						<color>104, 160, 219</color>
+					</item>
+					<item id="7">
+						<color>45, 54, 100</color>
+					</item>
+					<item id="8">
+						<color>215, 140, 80</color>
+					</item>
+					<item id="9">
+						<color>223, 127, 115</color>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<color>255, 255, 255</color>
+					</item>
+					<item id="1">
+						<color>220, 109, 109</color>
+					</item>
+					<item id="2">
+						<color>252, 213, 140</color>
+					</item>
+					<item id="3">
+						<color>152, 195, 133</color>
+					</item>
+					<item id="4">
+						<color>143, 185, 195</color>
+					</item>
+					<item id="5">
+						<color>116, 86, 49</color>
+					</item>
+					<item id="6">
+						<color>104, 160, 219</color>
+					</item>
+					<item id="7">
+						<color>45, 54, 100</color>
+					</item>
+					<item id="8">
+						<color>215, 140, 80</color>
+					</item>
+					<item id="9">
+						<color>223, 127, 115</color>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>lip_color</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<color>255, 223, 210</color>
+					</item>
+					<item id="1">
+						<color>209, 169, 155</color>
+					</item>
+					<item id="2">
+						<color>251, 197, 203</color>
+					</item>
+					<item id="3">
+						<color>228, 163, 169</color>
+					</item>
+					<item id="4">
+						<color>255, 166, 217</color>
+					</item>
+					<item id="5">
+						<color>234, 146, 142</color>
+					</item>
+					<item id="6">
+						<color>171, 169, 234</color>
+					</item>
+					<item id="7">
+						<color>195, 128, 169</color>
+					</item>
+					<item id="8">
+						<color>227, 144, 172</color>
+					</item>
+					<item id="9">
+						<color>134, 100, 88</color>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<color>255, 223, 210</color>
+					</item>
+					<item id="1">
+						<color>209, 169, 155</color>
+					</item>
+					<item id="2">
+						<color>251, 197, 203</color>
+					</item>
+					<item id="3">
+						<color>228, 163, 169</color>
+					</item>
+					<item id="4">
+						<color>255, 166, 217</color>
+					</item>
+					<item id="5">
+						<color>234, 146, 142</color>
+					</item>
+					<item id="6">
+						<color>171, 169, 234</color>
+					</item>
+					<item id="7">
+						<color>195, 128, 169</color>
+					</item>
+					<item id="8">
+						<color>227, 144, 172</color>
+					</item>
+					<item id="9">
+						<color>134, 100, 88</color>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<color>229, 229, 255</color>
+					</item>
+					<item id="1">
+						<color>168, 168, 247</color>
+					</item>
+					<item id="2">
+						<color>133, 124, 178</color>
+					</item>
+					<item id="3">
+						<color>196, 168, 200</color>
+					</item>
+					<item id="4">
+						<color>220, 181, 152</color>
+					</item>
+					<item id="5">
+						<color>175, 206, 206</color>
+					</item>
+					<item id="6">
+						<color>140, 118, 148</color>
+					</item>
+					<item id="7">
+						<color>178, 178, 193</color>
+					</item>
+					<item id="8">
+						<color>190, 132, 172</color>
+					</item>
+					<item id="9">
+						<color>107, 82, 82</color>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<color>229, 229, 255</color>
+					</item>
+					<item id="1">
+						<color>168, 168, 247</color>
+					</item>
+					<item id="2">
+						<color>133, 124, 178</color>
+					</item>
+					<item id="3">
+						<color>196, 168, 200</color>
+					</item>
+					<item id="4">
+						<color>220, 181, 152</color>
+					</item>
+					<item id="5">
+						<color>175, 206, 206</color>
+					</item>
+					<item id="6">
+						<color>140, 118, 148</color>
+					</item>
+					<item id="7">
+						<color>178, 178, 193</color>
+					</item>
+					<item id="8">
+						<color>190, 132, 172</color>
+					</item>
+					<item id="9">
+						<color>107, 82, 82</color>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>skin_color</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<color>240, 220, 215</color>
+					</item>
+					<item id="1">
+						<color>254, 218, 209</color>
+					</item>
+					<item id="2">
+						<color>238, 198, 193</color>
+					</item>
+					<item id="3">
+						<color>222, 179, 176</color>
+					</item>
+					<item id="4">
+						<color>250, 208, 189</color>
+					</item>
+					<item id="5">
+						<color>226, 168, 147</color>
+					</item>
+					<item id="6">
+						<color>230,175,140</color>
+					</item>
+					<item id="7">
+						<color>191, 138, 117</color>
+					</item>
+					<item id="8">
+						<color>159, 118, 114</color>
+					</item>
+					<item id="9">
+						<color>164, 123, 97</color>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<color>240, 220, 215</color>
+					</item>
+					<item id="1">
+						<color>254, 218, 209</color>
+					</item>
+					<item id="2">
+						<color>238, 198, 193</color>
+					</item>
+					<item id="3">
+						<color>222, 179, 176</color>
+					</item>
+					<item id="4">
+						<color>250, 208, 189</color>
+					</item>
+					<item id="5">
+						<color>226, 168, 147</color>
+					</item>
+					<item id="6">
+						<color>230,175,140</color>
+					</item>
+					<item id="7">
+						<color>191, 138, 117</color>
+					</item>
+					<item id="8">
+						<color>159, 118, 114</color>
+					</item>
+					<item id="9">
+						<color>164, 123, 97</color>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<color>210, 215, 244</color>
+					</item>
+					<item id="1">
+						<color>175, 171, 205</color>
+					</item>
+					<item id="2">
+						<color>166, 173, 201</color>
+					</item>
+					<item id="3">
+						<color>191, 215, 240</color>
+					</item>
+					<item id="4">
+						<color>208, 185, 228</color>
+					</item>
+					<item id="5">
+						<color>232, 190, 217</color>
+					</item>
+					<item id="6">
+						<color>204, 193, 248</color>
+					</item>
+					<item id="7">
+						<color>149, 158, 184</color>
+					</item>
+					<item id="8">
+						<color>125, 109, 139</color>
+					</item>
+					<item id="9">
+						<color>142, 131, 167</color>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<color>210, 215, 244</color>
+					</item>
+					<item id="1">
+						<color>175, 171, 205</color>
+					</item>
+					<item id="2">
+						<color>166, 173, 201</color>
+					</item>
+					<item id="3">
+						<color>191, 215, 240</color>
+					</item>
+					<item id="4">
+						<color>208, 185, 228</color>
+					</item>
+					<item id="5">
+						<color>232, 190, 217</color>
+					</item>
+					<item id="6">
+						<color>204, 193, 248</color>
+					</item>
+					<item id="7">
+						<color>149, 158, 184</color>
+					</item>
+					<item id="8">
+						<color>125, 109, 139</color>
+					</item>
+					<item id="9">
+						<color>142, 131, 167</color>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>eye_color</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<color>140, 119, 105</color>
+					</item>
+					<item id="1">
+						<color>122, 97, 80</color>
+					</item>
+					<item id="2">
+						<color>69, 69, 69</color>
+					</item>
+					<item id="3">
+						<color>64, 81, 168</color>
+					</item>
+					<item id="4">
+						<color>199, 199, 199</color>
+					</item>
+					<item id="5">
+						<color>98, 163, 189</color>
+					</item>
+					<item id="6">
+						<color>96, 126, 75</color>
+					</item>
+					<item id="7">
+						<color>194, 82, 82</color>
+					</item>
+					<item id="8">
+						<color>170, 202, 108</color>
+					</item>
+					<item id="9">
+						<color>169, 142, 208</color>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<color>140, 119, 105</color>
+					</item>
+					<item id="1">
+						<color>122, 97, 80</color>
+					</item>
+					<item id="2">
+						<color>69, 69, 69</color>
+					</item>
+					<item id="3">
+						<color>64, 81, 168</color>
+					</item>
+					<item id="4">
+						<color>199, 199, 199</color>
+					</item>
+					<item id="5">
+						<color>98, 163, 189</color>
+					</item>
+					<item id="6">
+						<color>96, 126, 75</color>
+					</item>
+					<item id="7">
+						<color>194, 82, 82</color>
+					</item>
+					<item id="8">
+						<color>170, 202, 108</color>
+					</item>
+					<item id="9">
+						<color>169, 142, 208</color>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<color>140, 119, 105</color>
+					</item>
+					<item id="1">
+						<color>122, 97, 80</color>
+					</item>
+					<item id="2">
+						<color>69, 69, 69</color>
+					</item>
+					<item id="3">
+						<color>64, 81, 168</color>
+					</item>
+					<item id="4">
+						<color>199, 199, 199</color>
+					</item>
+					<item id="5">
+						<color>98, 163, 189</color>
+					</item>
+					<item id="6">
+						<color>96, 126, 75</color>
+					</item>
+					<item id="7">
+						<color>194, 82, 82</color>
+					</item>
+					<item id="8">
+						<color>170, 202, 108</color>
+					</item>
+					<item id="9">
+						<color>169, 142, 208</color>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<color>140, 119, 105</color>
+					</item>
+					<item id="1">
+						<color>122, 97, 80</color>
+					</item>
+					<item id="2">
+						<color>69, 69, 69</color>
+					</item>
+					<item id="3">
+						<color>64, 81, 168</color>
+					</item>
+					<item id="4">
+						<color>199, 199, 199</color>
+					</item>
+					<item id="5">
+						<color>98, 163, 189</color>
+					</item>
+					<item id="6">
+						<color>96, 126, 75</color>
+					</item>
+					<item id="7">
+						<color>194, 82, 82</color>
+					</item>
+					<item id="8">
+						<color>170, 202, 108</color>
+					</item>
+					<item id="9">
+						<color>169, 142, 208</color>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>preset_head</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>1</desc>
+						<preset>lm1;lmbody1</preset>
+					</item>
+					<item id="1">
+						<desc>2</desc>
+						<preset>lm2;lmbody1</preset>
+					</item>
+					<item id="2">
+						<desc>3</desc>
+						<preset>lm3;lmbody1</preset>
+					</item>
+					<item id="3">
+						<desc>4</desc>
+						<preset>lm4;lmbody3</preset>
+					</item>
+					<item id="4">
+						<desc>5</desc>
+						<preset>lm5;lmbody3</preset>
+					</item>
+					<item id="5">
+						<desc>6</desc>
+						<preset>lm6;lmbody1</preset>
+					</item>
+					<item id="6">
+						<desc>7</desc>
+						<preset>lm7;lmbody1</preset>
+					</item>
+					<item id="7">
+						<desc>8</desc>
+						<preset>lm8;lmbody7</preset>
+					</item>
+					<item id="8">
+						<desc>9</desc>
+						<preset>lm9;lmbody3</preset>
+					</item>
+					<item id="9">
+						<desc>10</desc>
+						<preset>lm10;lmbody6</preset>
+					</item>
+					<item id="10">
+						<desc>11</desc>
+						<preset>lm11;lmbody1</preset>
+					</item>
+					<item id="11">
+						<desc>12</desc>
+						<preset>lm12;lmbody8</preset>
+					</item>
+					<item id="12">
+						<desc>13</desc>
+						<preset>lm13;lmbody1</preset>
+					</item>
+					<item id="13">
+						<desc>14</desc>
+						<preset>lm14;lmbody3</preset>
+					</item>
+					<item id="14">
+						<desc>15</desc>
+						<preset>lm15;lmbody1</preset>
+					</item>
+					<item id="15">
+						<desc>16</desc>
+						<preset>lm16;lmbody1</preset>
+					</item>
+					<item id="16">
+						<desc>17</desc>
+						<preset>lm17;lmbody3</preset>
+					</item>
+					<item id="17">
+						<desc>18</desc>
+						<preset>lm18;lmbody4</preset>
+					</item>
+					<item id="18">
+						<desc>19</desc>
+						<preset>lm19;lmbody3</preset>
+					</item>
+					<item id="19">
+						<desc>20</desc>
+						<preset>lm20;lmbody2</preset>
+					</item>
+					<item id="20">
+						<desc>21</desc>
+						<preset>lm21;lmbody8</preset>
+					</item>
+					<item id="21">
+						<desc>22</desc>
+						<preset>lm22;lmbody8</preset>
+					</item>
+					<item id="22">
+						<desc>23</desc>
+						<preset>lm23;lmbody2</preset>
+					</item>
+					<item id="23">
+						<desc>24</desc>
+						<preset>lm24;lmbody3</preset>
+					</item>
+					<item id="24">
+						<desc>25</desc>
+						<preset>lm25;lmbody1</preset>
+					</item>
+					<item id="25">
+						<desc>26</desc>
+						<preset>lm26;lmbody2</preset>
+					</item>
+					<item id="26">
+						<desc>27</desc>
+						<preset>lm27;lmbody3</preset>
+					</item>
+					<item id="27">
+						<desc>28</desc>
+						<preset>lm28;lmbody1</preset>
+					</item>
+					<item id="28">
+						<desc>29</desc>
+						<preset>lm29;lmbody2</preset>
+					</item>
+					<item id="29">
+						<desc>30</desc>
+						<preset>lm30;lmbody4</preset>
+					</item>
+					<item id="30">
+						<desc>31</desc>
+						<preset>lm31;lmbody2</preset>
+					</item>
+					<item id="31">
+						<desc>32</desc>
+						<preset>lm32;lmbody2</preset>
+					</item>
+					<item id="32">
+						<desc>33</desc>
+						<preset>lm33;lmbody2</preset>
+					</item>
+					<item id="33">
+						<desc>34</desc>
+						<preset>lm34;lmbody1</preset>
+					</item>
+					<item id="34">
+						<desc>35</desc>
+						<preset>lm35;lmbody8</preset>
+					</item>
+					<item id="35">
+						<desc>36</desc>
+						<preset>lm36;lmbody1</preset>
+					</item>
+					<item id="36">
+						<desc>37</desc>
+						<preset>lm37;lmbody2</preset>
+					</item>
+					<item id="37">
+						<desc>38</desc>
+						<preset>lm38;lmbody2</preset>
+					</item>
+					<item id="38">
+						<desc>39</desc>
+						<preset>lm39;lmbody3</preset>
+					</item>
+					<item id="39">
+						<desc>40</desc>
+						<preset>lm40;lmbody3</preset>
+					</item>
+					<item id="40">
+						<desc>41</desc>
+						<preset>lm41;lmbody1</preset>
+					</item>
+					<item id="41">
+						<desc>42</desc>
+						<preset>lm42;lmbody2</preset>
+					</item>
+					<item id="42">
+						<desc>43</desc>
+						<preset>lm43;lmbody1</preset>
+					</item>
+					<item id="43">
+						<desc>44</desc>
+						<preset>lm44;lmbody1</preset>
+					</item>
+					<item id="44">
+						<desc>45</desc>
+						<preset>lm45;lmbody3</preset>
+					</item>
+					<item id="45">
+						<desc>46</desc>
+						<preset>lm46;lmbody9</preset>
+					</item>
+					<item id="46">
+						<desc>47</desc>
+						<preset>lm47;lmbody9</preset>
+					</item>
+					<item id="47">
+						<desc>48</desc>
+						<preset>lm48;lmbody9</preset>
+					</item>
+					<item id="48">
+						<desc>49</desc>
+						<preset>lm49;lmbody10</preset>
+					</item>
+					<item id="49">
+						<desc>50</desc>
+						<preset>lm50;lmbody9</preset>
+					</item>
+					<item id="50">
+						<desc>51</desc>
+						<preset>lm51;lmbody4</preset>
+					</item>
+					<item id="51">
+						<desc>52</desc>
+						<preset>lm52;lmbody2</preset>
+					</item>
+					<item id="52">
+						<desc>53</desc>
+						<preset>lm53;lmbody1</preset>
+					</item>
+					<item id="53">
+						<desc>54</desc>
+						<preset>lm54;lmbody5</preset>
+					</item>
+					<item id="54">
+						<desc>55</desc>
+						<preset>lm55;lmbody1</preset>
+					</item>
+					<item id="55">
+						<desc>56</desc>
+						<preset>lm56;lmbody6</preset>
+					</item>
+					<item id="56">
+						<desc>57</desc>
+						<preset>lm57;lmbody6</preset>
+					</item>
+					<item id="57">
+						<desc>58</desc>
+						<preset>lm58;lmbody1</preset>
+					</item>
+					<item id="58">
+						<desc>59</desc>
+						<preset>lm59;lmbody1</preset>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>1</desc>
+						<preset>lf1;lfbody1</preset>
+					</item>
+					<item id="1">
+						<desc>2</desc>
+						<preset>lf2;lfbody7</preset>
+					</item>
+					<item id="2">
+						<desc>3</desc>
+						<preset>lf3;lfbody4</preset>
+					</item>
+					<item id="3">
+						<desc>4</desc>
+						<preset>lf4;lfbody4</preset>
+					</item>
+					<item id="4">
+						<desc>5</desc>
+						<preset>lf5;lfbody1</preset>
+					</item>
+					<item id="5">
+						<desc>6</desc>
+						<preset>lf6;lfbody1</preset>
+					</item>
+					<item id="6">
+						<desc>7</desc>
+						<preset>lf7;lfbody2</preset>
+					</item>
+					<item id="7">
+						<desc>8</desc>
+						<preset>lf8;lfbody2</preset>
+					</item>
+					<item id="8">
+						<desc>9</desc>
+						<preset>lf9;lfbody1</preset>
+					</item>
+					<item id="9">
+						<desc>10</desc>
+						<preset>lf10;lfbody2</preset>
+					</item>
+					<item id="10">
+						<desc>11</desc>
+						<preset>lf11;lfbody7</preset>
+					</item>
+					<item id="11">
+						<desc>12</desc>
+						<preset>lf12;lfbody1</preset>
+					</item>
+					<item id="12">
+						<desc>13</desc>
+						<preset>lf13;lfbody1</preset>
+					</item>
+					<item id="13">
+						<desc>14</desc>
+						<preset>lf14;lfbody6</preset>
+					</item>
+					<item id="14">
+						<desc>15</desc>
+						<preset>lf15;lfbody2</preset>
+					</item>
+					<item id="15">
+						<desc>16</desc>
+						<preset>lf16;lfbody2</preset>
+					</item>
+					<item id="16">
+						<desc>17</desc>
+						<preset>lf17;lfbody1</preset>
+					</item>
+					<item id="17">
+						<desc>18</desc>
+						<preset>lf18;lfbody1</preset>
+					</item>
+					<item id="18">
+						<desc>19</desc>
+						<preset>lf19;lfbody1</preset>
+					</item>
+					<item id="19">
+						<desc>20</desc>
+						<preset>lf20;lfbody7</preset>
+					</item>
+					<item id="20">
+						<desc>21</desc>
+						<preset>lf21;lfbody1</preset>
+					</item>
+					<item id="21">
+						<desc>22</desc>
+						<preset>lf22;lfbody4</preset>
+					</item>
+					<item id="22">
+						<desc>23</desc>
+						<preset>lf23;lfbody5</preset>
+					</item>
+					<item id="23">
+						<desc>24</desc>
+						<preset>lf24;lfbody1</preset>
+					</item>
+					<item id="24">
+						<desc>25</desc>
+						<preset>lf25;lfbody4</preset>
+					</item>
+					<item id="25">
+						<desc>26</desc>
+						<preset>lf26;lfbody1</preset>
+					</item>
+					<item id="26">
+						<desc>27</desc>
+						<preset>lf27;lfbody2</preset>
+					</item>
+					<item id="27">
+						<desc>28</desc>
+						<preset>lf28;lfbody1</preset>
+					</item>
+					<item id="28">
+						<desc>29</desc>
+						<preset>lf29;lfbody4</preset>
+					</item>
+					<item id="29">
+						<desc>30</desc>
+						<preset>lf30;lfbody2</preset>
+					</item>
+					<item id="30">
+						<desc>31</desc>
+						<preset>lf31;lfbody1</preset>
+					</item>
+					<item id="31">
+						<desc>32</desc>
+						<preset>lf32;lfbody2</preset>
+					</item>
+					<item id="32">
+						<desc>33</desc>
+						<preset>lf33;lfbody1</preset>
+					</item>
+					<item id="33">
+						<desc>34</desc>
+						<preset>lf34;lfbody1</preset>
+					</item>
+					<item id="34">
+						<desc>35</desc>
+						<preset>lf35;lfbody1</preset>
+					</item>
+					<item id="35">
+						<desc>36</desc>
+						<preset>lf36;lfbody6</preset>
+					</item>
+					<item id="36">
+						<desc>37</desc>
+						<preset>lf37;lfbody1</preset>
+					</item>
+					<item id="37">
+						<desc>38</desc>
+						<preset>lf38;lfbody1</preset>
+					</item>
+					<item id="38">
+						<desc>39</desc>
+						<preset>lf39;lfbody1</preset>
+					</item>
+					<item id="39">
+						<desc>40</desc>
+						<preset>lf40;lfbody1</preset>
+					</item>
+					<item id="40">
+						<desc>41</desc>
+						<preset>lf41;lfbody1</preset>
+					</item>
+					<item id="41">
+						<desc>42</desc>
+						<preset>lf42;lfbody1</preset>
+					</item>
+					<item id="42">
+						<desc>43</desc>
+						<preset>lf43;lfbody2</preset>
+					</item>
+					<item id="43">
+						<desc>44</desc>
+						<preset>lf44;lfbody9</preset>
+					</item>
+					<item id="44">
+						<desc>45</desc>
+						<preset>lf45;lfbody9</preset>
+					</item>
+					<item id="45">
+						<desc>46</desc>
+						<preset>lf46;lfbody10</preset>
+					</item>
+					<item id="46">
+						<desc>47</desc>
+						<preset>lf47;lfbody9</preset>
+					</item>
+					<item id="47">
+						<desc>48</desc>
+						<preset>lf48;lfbody9</preset>
+					</item>
+					<item id="48">
+						<desc>49</desc>
+						<preset>lf49;lfbody1</preset>
+					</item>
+					<item id="49">
+						<desc>50</desc>
+						<preset>lf50;lfbody1</preset>
+					</item>
+					<item id="50">
+						<desc>51</desc>
+						<preset>lf51;lfbody1</preset>
+					</item>
+					<item id="51">
+						<desc>52</desc>
+						<preset>lf52;lfbody6</preset>
+					</item>
+					<item id="52">
+						<desc>53</desc>
+						<preset>lf53;lfbody1</preset>
+					</item>
+					<item id="53">
+						<desc>54</desc>
+						<preset>lf54;lfbody1</preset>
+					</item>
+					<item id="54">
+						<desc>55</desc>
+						<preset>lf55;lfbody1</preset>
+					</item>
+					<item id="55">
+						<desc>56</desc>
+						<preset>lf56;lfbody9</preset>
+					</item>
+					<item id="56">
+						<desc>57</desc>
+						<preset>lf57;lfbody1</preset>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>1</desc>
+						<preset>dm1;dmbody1</preset>
+					</item>
+					<item id="1">
+						<desc>2</desc>
+						<preset>dm2;dmbody8</preset>
+					</item>
+					<item id="2">
+						<desc>3</desc>
+						<preset>dm3;dmbody2</preset>
+					</item>
+					<item id="3">
+						<desc>4</desc>
+						<preset>dm4;dmbody1</preset>
+					</item>
+					<item id="4">
+						<desc>5</desc>
+						<preset>dm5;dmbody1</preset>
+					</item>
+					<item id="5">
+						<desc>6</desc>
+						<preset>dm6;dmbody2</preset>
+					</item>
+					<item id="6">
+						<desc>7</desc>
+						<preset>dm7;dmbody1</preset>
+					</item>
+					<item id="7">
+						<desc>8</desc>
+						<preset>dm8;dmbody1</preset>
+					</item>
+					<item id="8">
+						<desc>9</desc>
+						<preset>dm9;dmbody3</preset>
+					</item>
+					<item id="9">
+						<desc>10</desc>
+						<preset>dm10;dmbody8</preset>
+					</item>
+					<item id="10">
+						<desc>11</desc>
+						<preset>dm11;dmbody1</preset>
+					</item>
+					<item id="11">
+						<desc>12</desc>
+						<preset>dm12;dmbody1</preset>
+					</item>
+					<item id="12">
+						<desc>13</desc>
+						<preset>dm13;dmbody3</preset>
+					</item>
+					<item id="13">
+						<desc>14</desc>
+						<preset>dm14;dmbody3</preset>
+					</item>
+					<item id="14">
+						<desc>15</desc>
+						<preset>dm15;dmbody1</preset>
+					</item>
+					<item id="15">
+						<desc>16</desc>
+						<preset>dm16;dmbody8</preset>
+					</item>
+					<item id="16">
+						<desc>17</desc>
+						<preset>dm17;dmbody1</preset>
+					</item>
+					<item id="17">
+						<desc>18</desc>
+						<preset>dm18;dmbody4</preset>
+					</item>
+					<item id="18">
+						<desc>19</desc>
+						<preset>dm19;dmbody1</preset>
+					</item>
+					<item id="19">
+						<desc>20</desc>
+						<preset>dm20;dmbody7</preset>
+					</item>
+					<item id="20">
+						<desc>21</desc>
+						<preset>dm21;dmbody5</preset>
+					</item>
+					<item id="21">
+						<desc>22</desc>
+						<preset>dm22;dmbody3</preset>
+					</item>
+					<item id="22">
+						<desc>23</desc>
+						<preset>dm23;dmbody1</preset>
+					</item>
+					<item id="23">
+						<desc>24</desc>
+						<preset>dm24;dmbody6</preset>
+					</item>
+					<item id="24">
+						<desc>25</desc>
+						<preset>dm25;dmbody1</preset>
+					</item>
+					<item id="25">
+						<desc>26</desc>
+						<preset>dm26;dmbody8</preset>
+					</item>
+					<item id="26">
+						<desc>27</desc>
+						<preset>dm27;dmbody4</preset>
+					</item>
+					<item id="27">
+						<desc>28</desc>
+						<preset>dm28;dmbody4</preset>
+					</item>
+					<item id="28">
+						<desc>29</desc>
+						<preset>dm29;dmbody1</preset>
+					</item>
+					<item id="29">
+						<desc>30</desc>
+						<preset>dm30;dmbody1</preset>
+					</item>
+					<item id="30">
+						<desc>31</desc>
+						<preset>dm31;dmbody1</preset>
+					</item>
+					<item id="31">
+						<desc>32</desc>
+						<preset>dm32;dmbody3</preset>
+					</item>
+					<item id="32">
+						<desc>33</desc>
+						<preset>dm33;dmbody1</preset>
+					</item>
+					<item id="33">
+						<desc>34</desc>
+						<preset>dm34;dmbody8</preset>
+					</item>
+					<item id="34">
+						<desc>35</desc>
+						<preset>dm35;dmbody2</preset>
+					</item>
+					<item id="35">
+						<desc>36</desc>
+						<preset>dm36;dmbody1</preset>
+					</item>
+					<item id="36">
+						<desc>37</desc>
+						<preset>dm37;dmbody2</preset>
+					</item>
+					<item id="37">
+						<desc>38</desc>
+						<preset>dm38;dmbody8</preset>
+					</item>
+					<item id="38">
+						<desc>39</desc>
+						<preset>dm39;dmbody1</preset>
+					</item>
+					<item id="39">
+						<desc>40</desc>
+						<preset>dm40;dmbody1</preset>
+					</item>
+					<item id="40">
+						<desc>41</desc>
+						<preset>dm41;dmbody2</preset>
+					</item>
+					<item id="41">
+						<desc>42</desc>
+						<preset>dm42;dmbody8</preset>
+					</item>
+					<item id="42">
+						<desc>43</desc>
+						<preset>dm43;dmbody1</preset>
+					</item>
+					<item id="43">
+						<desc>44</desc>
+						<preset>dm44;dmbody1</preset>
+					</item>
+					<item id="44">
+						<desc>45</desc>
+						<preset>dm45;dmbody1</preset>
+					</item>
+					<item id="45">
+						<desc>46</desc>
+						<preset>dm46;dmbody6</preset>
+					</item>
+					<item id="46">
+						<desc>47</desc>
+						<preset>dm47;dmbody6</preset>
+					</item>
+					<item id="47">
+						<desc>48</desc>
+						<preset>dm48;dmbody6</preset>
+					</item>
+					<item id="48">
+						<desc>49</desc>
+						<preset>dm49;dmbody6</preset>
+					</item>
+					<item id="49">
+						<desc>50</desc>
+						<preset>dm50;dmbody9</preset>
+					</item>
+					<item id="50">
+						<desc>51</desc>
+						<preset>dm51;dmbody2</preset>
+					</item>
+					<item id="51">
+						<desc>52</desc>
+						<preset>dm52;dmbody6</preset>
+					</item>
+					<item id="52">
+						<desc>53</desc>
+						<preset>dm53;dmbody2</preset>
+					</item>
+					<item id="53">
+						<desc>54</desc>
+						<preset>dm54;dmbody4</preset>
+					</item>
+					<item id="54">
+						<desc>55</desc>
+						<preset>dm55;dmbody1</preset>
+					</item>
+					<item id="55">
+						<desc>56</desc>
+						<preset>dm56;dmbody5</preset>
+					</item>
+					<item id="56">
+						<desc>57</desc>
+						<preset>dm57;dmbody1</preset>
+					</item>
+					<item id="57">
+						<desc>58</desc>
+						<preset>dm58;dmbody6</preset>
+					</item>
+					<item id="58">
+						<desc>59</desc>
+						<preset>dm59;dmbody1</preset>
+					</item>
+					<item id="59">
+						<desc>60</desc>
+						<preset>dm60;dmbody1</preset>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>1</desc>
+						<preset>df1;dfbody2</preset>
+					</item>
+					<item id="1">
+						<desc>2</desc>
+						<preset>df2;dfbody1</preset>
+					</item>
+					<item id="2">
+						<desc>3</desc>
+						<preset>df3;dfbody2</preset>
+					</item>
+					<item id="3">
+						<desc>4</desc>
+						<preset>df4;dfbody2</preset>
+					</item>
+					<item id="4">
+						<desc>5</desc>
+						<preset>df5;dfbody1</preset>
+					</item>
+					<item id="5">
+						<desc>6</desc>
+						<preset>df6;dfbody1</preset>
+					</item>
+					<item id="6">
+						<desc>7</desc>
+						<preset>df7;dfbody2</preset>
+					</item>
+					<item id="7">
+						<desc>8</desc>
+						<preset>df8;dfbody7</preset>
+					</item>
+					<item id="8">
+						<desc>9</desc>
+						<preset>df9;dfbody2</preset>
+					</item>
+					<item id="9">
+						<desc>10</desc>
+						<preset>df10;dfbody2</preset>
+					</item>
+					<item id="10">
+						<desc>11</desc>
+						<preset>df11;dfbody1</preset>
+					</item>
+					<item id="11">
+						<desc>12</desc>
+						<preset>df12;dfbody4</preset>
+					</item>
+					<item id="12">
+						<desc>13</desc>
+						<preset>df13;dfbody3</preset>
+					</item>
+					<item id="13">
+						<desc>14</desc>
+						<preset>df14;dfbody1</preset>
+					</item>
+					<item id="14">
+						<desc>15</desc>
+						<preset>df15;dfbody4</preset>
+					</item>
+					<item id="15">
+						<desc>16</desc>
+						<preset>df16;dfbody2</preset>
+					</item>
+					<item id="16">
+						<desc>17</desc>
+						<preset>df17;dfbody4</preset>
+					</item>
+					<item id="17">
+						<desc>18</desc>
+						<preset>df18;dfbody2</preset>
+					</item>
+					<item id="18">
+						<desc>19</desc>
+						<preset>df19;dfbody1</preset>
+					</item>
+					<item id="19">
+						<desc>20</desc>
+						<preset>df20;dfbody1</preset>
+					</item>
+					<item id="20">
+						<desc>21</desc>
+						<preset>df21;dfbody1</preset>
+					</item>
+					<item id="21">
+						<desc>22</desc>
+						<preset>df22;dfbody5</preset>
+					</item>
+					<item id="22">
+						<desc>23</desc>
+						<preset>df23;dfbody2</preset>
+					</item>
+					<item id="23">
+						<desc>24</desc>
+						<preset>df24;dfbody4</preset>
+					</item>
+					<item id="24">
+						<desc>25</desc>
+						<preset>df25;dfbody1</preset>
+					</item>
+					<item id="25">
+						<desc>26</desc>
+						<preset>df26;dfbody2</preset>
+					</item>
+					<item id="26">
+						<desc>27</desc>
+						<preset>df27;dfbody1</preset>
+					</item>
+					<item id="27">
+						<desc>28</desc>
+						<preset>df28;dfbody4</preset>
+					</item>
+					<item id="28">
+						<desc>29</desc>
+						<preset>df29;dfbody1</preset>
+					</item>
+					<item id="29">
+						<desc>30</desc>
+						<preset>df30;dfbody2</preset>
+					</item>
+					<item id="30">
+						<desc>31</desc>
+						<preset>df31;dfbody1</preset>
+					</item>
+					<item id="31">
+						<desc>32</desc>
+						<preset>df32;dfbody4</preset>
+					</item>
+					<item id="32">
+						<desc>33</desc>
+						<preset>df33;dfbody4</preset>
+					</item>
+					<item id="33">
+						<desc>34</desc>
+						<preset>df34;dfbody4</preset>
+					</item>
+					<item id="34">
+						<desc>35</desc>
+						<preset>df35;dfbody1</preset>
+					</item>
+					<item id="35">
+						<desc>36</desc>
+						<preset>df36;dfbody1</preset>
+					</item>
+					<item id="36">
+						<desc>37</desc>
+						<preset>df37;dfbody2</preset>
+					</item>
+					<item id="37">
+						<desc>38</desc>
+						<preset>df38;dfbody9</preset>
+					</item>
+					<item id="38">
+						<desc>39</desc>
+						<preset>df39;dfbody9</preset>
+					</item>
+					<item id="39">
+						<desc>40</desc>
+						<preset>df40;dfbody10</preset>
+					</item>
+					<item id="40">
+						<desc>41</desc>
+						<preset>df41;dfbody9</preset>
+					</item>
+					<item id="41">
+						<desc>42</desc>
+						<preset>df42;dfbody9</preset>
+					</item>
+					<item id="42">
+						<desc>43</desc>
+						<preset>df43;dfbody1</preset>
+					</item>
+					<item id="43">
+						<desc>44</desc>
+						<preset>df44;dfbody1</preset>
+					</item>
+					<item id="44">
+						<desc>45</desc>
+						<preset>df45;dfbody6</preset>
+					</item>
+					<item id="45">
+						<desc>46</desc>
+						<preset>df46;dfbody1</preset>
+					</item>
+					<item id="46">
+						<desc>47</desc>
+						<preset>df47;dfbody1</preset>
+					</item>
+					<item id="47">
+						<desc>48</desc>
+						<preset>df48;dfbody9</preset>
+					</item>
+					<item id="48">
+						<desc>49</desc>
+						<preset>df49;dfbody7</preset>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>preset_body</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>Default Body</desc>
+						<preset>lmbody1</preset>
+					</item>
+					<item id="1">
+						<desc>Athletic Body</desc>
+						<preset>lmbody2</preset>
+					</item>
+					<item id="2">
+						<desc>Lean Body</desc>
+						<preset>lmbody3</preset>
+					</item>
+					<item id="3">
+						<desc>Large Body</desc>
+						<preset>lmbody4</preset>
+					</item>
+					<item id="4">
+						<desc>Round Body</desc>
+						<preset>lmbody5</preset>
+					</item>
+					<item id="5">
+						<desc>Small Body</desc>
+						<preset>lmbody6</preset>
+					</item>
+					<item id="6">
+						<desc>Stout Body</desc>
+						<preset>lmbody7</preset>
+					</item>
+					<item id="7">
+						<desc>Muscular Body</desc>
+						<preset>lmbody8</preset>
+					</item>
+					<item id="8">
+						<desc>Childlike Body</desc>
+						<preset>lmbody9</preset>
+					</item>
+					<item id="9">
+						<desc>Lanky Body</desc>
+						<preset>lmbody10</preset>
+					</item>
+					<item id="10">
+						<desc>Beefy Body</desc>
+						<preset>lmbody11</preset>
+					</item>
+					<item id="11">
+						<desc>Type 1</desc>
+						<preset>lmbody12</preset>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>Default</desc>
+						<preset>lfbody1</preset>
+					</item>
+					<item id="1">
+						<desc>Athletic Body</desc>
+						<preset>lfbody2</preset>
+					</item>
+					<item id="2">
+						<desc>Large Body</desc>
+						<preset>lfbody3</preset>
+					</item>
+					<item id="3">
+						<desc>Slender Body</desc>
+						<preset>lfbody4</preset>
+					</item>
+					<item id="4">
+						<desc>Curvy Body</desc>
+						<preset>lfbody5</preset>
+					</item>
+					<item id="5">
+						<desc>Small Body</desc>
+						<preset>lfbody6</preset>
+					</item>
+					<item id="6">
+						<desc>Petite Body</desc>
+						<preset>lfbody7</preset>
+					</item>
+					<item id="7">
+						<desc>Tiny Body</desc>
+						<preset>lfbody8</preset>
+					</item>
+					<item id="8">
+						<desc>Childlike Body</desc>
+						<preset>lfbody9</preset>
+					</item>
+					<item id="9">
+						<desc>Lanky Body</desc>
+						<preset>lfbody10</preset>
+					</item>
+					<item id="10">
+						<desc>Type 1</desc>
+						<preset>lfbody11</preset>
+					</item>
+					<item id="11">
+						<desc>Type 2</desc>
+						<preset>lfbody12</preset>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Default Body</desc>
+						<preset>dmbody1</preset>
+					</item>
+					<item id="1">
+						<desc>Athletic Body</desc>
+						<preset>dmbody2</preset>
+					</item>
+					<item id="2">
+						<desc>Lean Body</desc>
+						<preset>dmbody3</preset>
+					</item>
+					<item id="3">
+						<desc>Large Body</desc>
+						<preset>dmbody4</preset>
+					</item>
+					<item id="4">
+						<desc>Round Body</desc>
+						<preset>dmbody5</preset>
+					</item>
+					<item id="5">
+						<desc>Small Body</desc>
+						<preset>dmbody6</preset>
+					</item>
+					<item id="6">
+						<desc>Stout Body</desc>
+						<preset>dmbody7</preset>
+					</item>
+					<item id="7">
+						<desc>Muscular Body</desc>
+						<preset>dmbody8</preset>
+					</item>
+					<item id="8">
+						<desc>Childlike Body</desc>
+						<preset>dmbody9</preset>
+					</item>
+					<item id="9">
+						<desc>Lanky Body</desc>
+						<preset>dmbody10</preset>
+					</item>
+					<item id="10">
+						<desc>Beefy Body</desc>
+						<preset>dmbody11</preset>
+					</item>
+					<item id="11">
+						<desc>Type 1</desc>
+						<preset>dmbody12</preset>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Default</desc>
+						<preset>dfbody1</preset>
+					</item>
+					<item id="1">
+						<desc>Athletic Body</desc>
+						<preset>dfbody2</preset>
+					</item>
+					<item id="2">
+						<desc>Large Body</desc>
+						<preset>dfbody3</preset>
+					</item>
+					<item id="3">
+						<desc>Slender Body</desc>
+						<preset>dfbody4</preset>
+					</item>
+					<item id="4">
+						<desc>Curvy Body</desc>
+						<preset>dfbody5</preset>
+					</item>
+					<item id="5">
+						<desc>Small Body</desc>
+						<preset>dfbody6</preset>
+					</item>
+					<item id="6">
+						<desc>Petite Body</desc>
+						<preset>dfbody7</preset>
+					</item>
+					<item id="7">
+						<desc>Tiny Body</desc>
+						<preset>dfbody8</preset>
+					</item>
+					<item id="8">
+						<desc>Childlike Body</desc>
+						<preset>dfbody9</preset>
+					</item>
+					<item id="9">
+						<desc>Lanky Body</desc>
+						<preset>dfbody10</preset>
+					</item>
+					<item id="10">
+						<desc>Type 1</desc>
+						<preset>dfbody11</preset>
+					</item>
+					<item id="11">
+						<desc>Type 2</desc>
+						<preset>dfbody12</preset>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>voice</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>Basic</desc>
+					</item>
+					<item id="1">
+						<desc>Tough</desc>
+					</item>
+					<item id="2">
+						<desc>Callous</desc>
+					</item>
+					<item id="3">
+						<desc>Youth</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>Basic</desc>
+					</item>
+					<item id="1">
+						<desc>Tough</desc>
+					</item>
+					<item id="2">
+						<desc>Seductive</desc>
+					</item>
+					<item id="3">
+						<desc>Youth</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Basic</desc>
+					</item>
+					<item id="1">
+						<desc>Tough</desc>
+					</item>
+					<item id="2">
+						<desc>Callous</desc>
+					</item>
+					<item id="3">
+						<desc>Youth</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Basic</desc>
+					</item>
+					<item id="1">
+						<desc>Tough</desc>
+					</item>
+					<item id="2">
+						<desc>Seductive</desc>
+					</item>
+					<item id="3">
+						<desc>Youth</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+	</appearances>
+</create_infos>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="859,130,406,431" last_modified="2015-03-23 17:26:33" name="player_info_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,325,14" title_height="25" title_offset="0,5" title_text="STR_PLAYER_INFO_DIALOG" type="dlg_player_info">
+	<Widget anim_style="none" frame="0,28,400,372" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+		<Widget btn_move_anim="False" frame="0,0,400,25" h_pos_align="proportion" preset="v5_tab" tab_frame="0,0,400,25" tab_offset="6,0" tab_space="0" type="tab" v_pos_align="top">
+			<Widget font="ui_default" frame="5,0,78,25" name="tabbtn_info" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__INFO" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="83,0,78,25" name="tabbtn_stigma" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__STIGMA" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="161,0,78,25" name="tabbtn_abyss" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__ABYSS" type="tabbutton">
+			</Widget>
+			<Widget flag="not_visible" font="ui_default" frame="161,0,78,25" name="tabbtn_abyss_special" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__ABYSS" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="239,0,78,25" name="tabbtn_title" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__TITLE" type="tabbutton">
+			</Widget>
+			<Widget flag="not_visible" font="ui_default" frame="317,0,78,25" name="tabbtn_custom_motion" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__MOTION" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="395,0,78,25" name="tabbtn_account_info" preset="v5_tabbutton" text="STR_PLAYER_INFO_DIALOG__PAYMENT" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="473,0,78,25" name="tabbtn_vip_info" preset="v5_tabbutton" text="STR_VIP_CHARINFO_TAB_NAME" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_info" preset="v5_tabpage2" type="tabpage" v_pos_align="proportion">
+			<Widget frame="84,53,72,21" name="wing_img" type="image">
+				<Skin name="v5_slot_wing_img">
+				</Skin>
+			</Widget>
+			<Widget frame="240,4,154,137" name="status_left_page1" preset="v5_staticbox" type="container">
+				<Widget flag="active" font="v3_value" frame="100,6,51,14" name="hp_max" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,22,51,14" name="mp_max" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,38,51,14" name="str" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,54,51,14" name="vit" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,70,51,14" name="dex" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,86,51,14" name="agi" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,102,51,14" name="kno" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,118,51,14" name="will" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,6,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_HP_MAX" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,22,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_MP_MAX" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,38,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_STR" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,54,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_VIT" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,69,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_DEX" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,85,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_AGI" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,101,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_KNO" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,118,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_WILL" type="static">
+				</Widget>
+			</Widget>
+			<Widget frame="240,145,154,193" group="page1" name="status_right_page1" preset="v5_staticbox2" type="container">
+				<Widget flag="active" font="v3_value" frame="100,42,51,14" name="atk_right" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,58,51,14" name="acc_right" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,74,51,14" name="cri_right" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,106,51,14" name="atk_left" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,122,51,14" name="acc_left" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,138,51,14" name="cri_left" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,154,51,14" name="atk_delay" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,170,51,14" name="move_speed" type="static">
+				</Widget>
+				<Widget flag="truncate" font="v3_desc" frame="21,41,73,16" name="atk_right_desc" text="STR_PLAYER_INFO_DIALOG__STAT_ATK" tooltip="STR_PLAYER_INFO_DIALOG__STAT_ATK" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="21,57,73,16" text="STR_PLAYER_INFO_DIALOG__STAT_ACC" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="21,74,73,14" text="STR_PLAYER_INFO_DIALOG__STAT_CRI" type="static">
+				</Widget>
+				<Widget flag="truncate" font="v3_desc" frame="21,105,73,16" name="atk_left_desc" text="STR_PLAYER_INFO_DIALOG__STAT_ATK" tooltip="STR_PLAYER_INFO_DIALOG__STAT_ATK" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="21,121,73,16" text="STR_PLAYER_INFO_DIALOG__STAT_ACC" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="21,138,73,14" text="STR_PLAYER_INFO_DIALOG__STAT_CRI" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,153,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_ATK_SPEED" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,169,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_MOVE_SPEED" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,26,75,14" text="STR_PLAYER_INFO_DIALOG__STAT_RIGHT_HAND" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,90,63,14" text="STR_PLAYER_INFO_DIALOG__STAT_LEFT_HAND" type="static">
+				</Widget>
+			</Widget>
+			<Widget flag="not_visible" frame="240,145,154,193" group="page2" name="status_right_page2" preset="v5_staticbox2" type="container">
+				<Widget flag="active" font="v3_value" frame="100,26,51,14" name="phy_def" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,42,51,14" name="block" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,58,51,14" name="parry" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,74,51,14" name="dodge" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,90,51,14" name="phy_cri_resist" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="107,106,44,14" name="phy_cri_def" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,25,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_PHY_DEF" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,42,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_BLOCK" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,57,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_PARRY" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,74,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_DODGE" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,90,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_PHYSICAL_CRITICAL_REDUCE_RATE" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,106,98,14" text="STR_PLAYER_INFO_DIALOG__STAT_PHYSICAL_CRITICAL_DAMAGE_REDUCE" type="static">
+				</Widget>
+			</Widget>
+			<Widget flag="not_visible" frame="240,145,154,193" group="page3" name="status_right_page3" preset="v5_staticbox2" type="container">
+				<Widget flag="active" font="v3_value" frame="100,26,51,14" name="magic_skill_boost" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,42,51,14" name="magic_acc" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,58,51,14" name="magic_cri" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,74,51,14" name="heal_skill_boost" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,106,51,14" name="cast_speed" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,25,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGICAL_SKILL_BOOST" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,41,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGICAL_ACC" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,57,87,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGICAL_CRITICAL" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,73,91,16" text="STR_PLAYER_INFO_DIALOG__STAT_HEAL_BOOST" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,106,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_CASTING_SPEED" type="static">
+				</Widget>
+			</Widget>
+			<Widget flag="not_visible" frame="240,145,154,193" group="page4" name="status_right_page4" preset="v5_staticbox2" type="container">
+				<Widget flag="active" font="v3_value" frame="100,26,51,14" name="magic_defend" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,42,51,14" name="magic_skill_boost_resist" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,58,51,14" name="magic_resist" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,74,51,14" name="magic_cri_resist" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,90,51,14" name="magic_cri_def" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,122,51,14" name="ed_fire" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,138,51,14" name="ed_air" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,154,51,14" name="ed_water" type="static">
+				</Widget>
+				<Widget flag="active" font="v3_value" frame="100,170,51,14" name="ed_earth" type="static">
+				</Widget>
+				<Widget flag="truncate" font="v3_desc" frame="7,25,91,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGIC_NEW_DEFENCE" tooltip="STR_PLAYER_INFO_DIALOG__STAT_MAGIC_NEW_DEFENCE" type="static">
+				</Widget>
+				<Widget flag="truncate" font="v3_desc" frame="7,41,91,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGIC_SKILL_BOOST_RESIST" tooltip="STR_PLAYER_INFO_DIALOG__STAT_MAGIC_SKILL_BOOST_RESIST" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,57,91,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGIC_DEF" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,73,91,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGICAL_CRITICAL_REDUCE_RATE" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,89,91,16" text="STR_PLAYER_INFO_DIALOG__STAT_MAGICAL_CRITICAL_DAMAGE_REDUCE" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,122,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_RES_FIRE" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,138,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_RES_AIR" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,154,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_RES_WATER" type="static">
+				</Widget>
+				<Widget font="v3_desc" frame="7,170,87,14" text="STR_PLAYER_INFO_DIALOG__STAT_RES_EARTH" type="static">
+				</Widget>
+			</Widget>
+			<Widget frame="243,146,21,20" h_pos_align="right" name="btn_prev_status_right" preset="v5_prev_page" type="button">
+			</Widget>
+			<Widget frame="274,146,21,20" h_pos_align="right" name="btn_status_page1" text="1" type="button">
+			</Widget>
+			<Widget frame="295,146,21,20" h_pos_align="right" name="btn_status_page2" text="2" type="button">
+			</Widget>
+			<Widget frame="316,146,21,20" h_pos_align="right" name="btn_status_page3" text="3" type="button">
+			</Widget>
+			<Widget frame="337,146,21,20" h_pos_align="right" name="btn_status_page4" text="4" type="button">
+			</Widget>
+			<Widget frame="370,146,21,20" h_pos_align="right" name="btn_next_status_right" preset="v5_next_page" type="button">
+			</Widget>
+			<Widget camtable="equipment" frame="56,70,130,266" name="portrait" type="3dview">
+				<Skin name="v5_potrait_bg" state="back">
+				</Skin>
+			</Widget>
+			<Widget cell_padding="2" frame="5,246,44,44" item_height="44" item_width="44" name="equip_rfinger" preset="v5_slot_lring" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_FINGER" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="192,246,44,44" item_height="44" item_width="44" name="equip_lfinger" preset="v5_slot_rring" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_FINGER" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="5,114,44,44" item_height="44" item_width="44" name="equip_rear" preset="v5_slot_learring" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_EAR" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="192,114,44,44" item_height="44" item_width="44" name="equip_lear" preset="v5_slot_rearring" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_EAR" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="137,3,35,35" item_height="35" item_width="35" name="equip_lbattery" preset="v5_slot_battery" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WEAPON_BOOST" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="5,290,44,44" item_height="44" item_width="44" name="equip_foot" preset="v5_slot_shoes" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_FOOT" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="192,290,44,44" item_height="44" item_width="44" name="equip_waist" preset="v5_slot_belt" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WAIST" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="192,70,44,44" item_height="44" item_width="44" name="equip_neck" preset="v5_slot_amulet" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_NECK" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="5,70,44,44" item_height="44" item_width="44" name="equip_head" preset="v5_slot_helmet" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_HEAD" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" flag="not_active" frame="194,5,44,44" item_height="44" item_width="44" name="equip_lhand2" preset="v5_slot_switch" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="173,25,44,44" item_height="44" item_width="44" name="equip_lhand" preset="v5_slot_lhand" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_LEFT_HAND" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" flag="not_active" frame="2,5,44,44" item_height="44" item_width="44" name="equip_rhand2" preset="v5_slot_switch" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="23,25,44,44" item_height="44" item_width="44" name="equip_rhand" preset="v5_slot_rhand" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_RIGHT_HAND" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="192,158,44,44" item_height="44" item_width="44" name="equip_sleeve" preset="v5_slot_shoulder" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_SHOULDER" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="5,158,44,44" item_height="44" item_width="44" name="equip_torso" preset="v5_slot_armor" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_TORSO" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="192,202,44,44" item_height="44" item_width="44" name="equip_glove" preset="v5_slot_glove" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_GLOVE" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="5,202,44,44" item_height="44" item_width="44" name="equip_leg" preset="v5_slot_pants" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_LEG" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="68,3,35,35" item_height="35" item_width="35" name="equip_rbattery" preset="v5_slot_battery" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WEAPON_BOOST" type="itemview">
+			</Widget>
+			<Widget frame="2,48,22,21" name="weapon_switch_left" preset="v5_weapon_switch_left" type="button">
+			</Widget>
+			<Widget frame="216,48,22,21" name="weapon_switch_right" preset="v5_weapon_switch_right" type="button">
+			</Widget>
+			<Widget cell_padding="2" frame="98,42,44,44" item_height="44" item_width="44" name="equip_wing" preset="v5_slot_wing" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WING" type="itemview">
+			</Widget>
+			<Widget frame="122,311,33,25" name="turnleft" preset="v5_potrait_left" type="button">
+			</Widget>
+			<Widget frame="86,311,33,25" name="turnright" preset="v5_potrait_right" type="button">
+			</Widget>
+			<Widget cell_padding="2" frame="103,8,34,34" item_height="35" item_width="35" name="equip_feather" preset="v5_slot_feather" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_FEATHER" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="154,71,35,35" item_height="35" item_width="35" name="equip_feather2" preset="v5_slot_feather" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WING" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="154,107,35,35" item_height="35" item_width="35" name="equip_feather3" preset="v5_slot_feather" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WING" type="itemview">
+			</Widget>
+			<Widget cell_padding="2" frame="154,143,35,35" item_height="35" item_width="35" name="equip_feather4" preset="v5_slot_feather" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_WING" type="itemview">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_stigma" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="0,0,400,315" name="bg" type="image">
+				<Skin name="v5_stigma_bg" state="0">
+				</Skin>
+			</Widget>
+			<Widget frame="164,120,78,78" name="stigma_stone_hidden_static" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_HIDDEN_STIGMA_SLOT" type="static">
+			</Widget>
+			<Widget frame="66,193,78,78" name="stigma_stone_static1" type="static">
+			</Widget>
+			<Widget frame="162,236,78,78" name="stigma_stone_static2" type="static">
+			</Widget>
+			<Widget frame="257,193,78,78" name="stigma_stone_static3" type="static">
+			</Widget>
+			<Widget frame="55,83,78,78" name="stigma_stone_static4" type="static">
+			</Widget>
+			<Widget frame="265,82,78,78" name="stigma_stone_static5" type="static">
+			</Widget>
+			<Widget frame="161,13,78,78" name="stigma_stone_static6" type="static">
+			</Widget>
+			<Widget flag="not_visible" frame="0,0,400,315" name="hiddenskill" type="container">
+				<Widget frame="111,72,187,176" group="hidden" name="bg" type="image">
+					<Skin name="v5_stigma_hiddenskill_bg" state="0">
+					</Skin>
+				</Widget>
+				<Widget cell_padding="19" frame="164,120,78,78" item_height="78" item_width="78" name="stigma_hiddenskill_slot" preset="v5_stigma_hiddenskill_slot" type="itemview">
+				</Widget>
+			</Widget>
+			<Widget cell_padding="19" frame="66,193,78,78" item_height="78" item_width="78" name="stigma_stone_normal1" preset="v5_stigma_stone_normal" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_NORMAL_STIGMA_SLOT" type="itemview">
+			</Widget>
+			<Widget cell_padding="19" frame="162,236,78,78" item_height="78" item_width="78" name="stigma_stone_normal2" preset="v5_stigma_stone_normal" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_NORMAL_STIGMA_SLOT" type="itemview">
+			</Widget>
+			<Widget cell_padding="19" frame="257,193,78,78" item_height="78" item_width="78" name="stigma_stone_normal3" preset="v5_stigma_stone_normal" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_NORMAL_STIGMA_SLOT" type="itemview">
+			</Widget>
+			<Widget cell_padding="19" frame="55,83,78,78" item_height="78" item_width="78" name="stigma_stone_high1" preset="v5_stigma_stone_high" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_ENHANCED1_STIGMA_SLOT" type="itemview">
+			</Widget>
+			<Widget cell_padding="19" frame="265,82,78,78" item_height="78" item_width="78" name="stigma_stone_high2" preset="v5_stigma_stone_high" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_ENHANCED1_STIGMA_SLOT" type="itemview">
+			</Widget>
+			<Widget cell_padding="19" frame="161,13,78,78" item_height="78" item_width="78" name="stigma_stone_highest1" preset="v5_stigma_stone_highest" tooltip="STR_PLAYER_INFO_DIALOG__TOOLTIP_ENHANCED2_STIGMA_SLOT" type="itemview">
+			</Widget>
+			<Widget font="ui_default" frame="3,321,92,24" name="btn_stigma_help" preset="v5_button" text="STR_COMMON__HELP" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_abyss" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="6,11,389,38" preset="v5_container2" type="image">
+			</Widget>
+			<Widget frame="6,122,389,102" preset="v5_container2" type="image">
+			</Widget>
+			<Widget frame="6,234,389,66" preset="v5_container2" type="image">
+			</Widget>
+			<Widget frame="83,242,86,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,242,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,132,86,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,160,86,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,188,86,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="173,132,73,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="173,160,73,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="173,188,73,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,132,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,160,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,188,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,269,308,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="173,242,73,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget font="ui_static_title" frame="12,20,89,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_CURRENT_RANK" type="static">
+			</Widget>
+			<Widget font="ui_static_title" frame="13,56,317,18" text="STR_PLAYER_INFO_DIALOG__GAIN_GLORY_POINT" type="static">
+			</Widget>
+			<Widget font="ui_static_title" frame="13,100,317,18" halign="left" text="STR_PLAYER_INFO_DIALOG__GAIN_ABYSS_POINT" type="static">
+			</Widget>
+			<Widget font="ui_static_title" frame="13,78,317,18" text="STR_PLAYER_INFO_DIALOG__GAIN_KILL_COUNT" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,136,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_TODAY" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,165,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_THISWEEK" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,192,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_LASTWEEK" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,245,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_SUM" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="85,245,82,18" halign="right" name="glory_point" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,245,137,18" halign="right" name="abyss_point" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="175,135,69,18" halign="right" name="abyss_kill_0" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="175,163,69,18" halign="right" name="abyss_kill_1" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="175,191,69,18" halign="right" name="abyss_kill_2" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="175,245,69,18" halign="right" name="abyss_kill_3" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="85,135,82,18" halign="right" name="glory_get_point_0" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="85,163,82,18" halign="right" name="glory_get_point_1" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="85,191,82,18" halign="right" name="glory_get_point_2" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,135,137,18" halign="right" name="abyss_get_point_0" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,163,137,18" halign="right" name="abyss_get_point_1" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,191,137,18" halign="right" name="abyss_get_point_2" type="static">
+			</Widget>
+			<Widget frame="85,272,304,18" halign="center" name="abyss_best_rank" padding="1,0" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="312,322,88,24" name="btn_abyss_rank" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__ABYSS_POPUP_RANK" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="191,322,120,24" name="btn_abyss_skill" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__ABYSS_POPUP_SKILL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_visible;not_enabled" font="ui_static_title" frame="14,43,89,18" text="STR_PLAYER_INFO_DIALOG__GLORY_POINT" type="static">
+			</Widget>
+			<Widget flag="not_visible;not_enabled" font="ui_static_title" frame="14,43,89,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_POINT" type="static">
+			</Widget>
+			<Widget font="ui_default" font_size="12" frame="12,272,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_HIGHTEST_RANK" type="static">
+			</Widget>
+			<Widget frame="105,18,286,23" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget font="ui_static_value" frame="109,20,187,19" halign="left" name="abyss_rank" type="static">
+			</Widget>
+			<Widget font="ui_static_value" frame="327,21,60,18" halign="center" name="abyss_order" type="static">
+			</Widget>
+			<Widget font="ui_default_bg" font_size="12" frame="295,21,40,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_RANK" text_color="0.5059,0.502,0.4196,1.0" type="static">
+			</Widget>
+			<Widget flag="not_visible;not_enabled;not_active" frame="343,48,50,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget flag="not_visible;not_enabled;not_active" frame="343,48,51,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="330,52,26,26" name="weekly_reduce_gp" preset="v5_tooltip_info" type="image">
+			</Widget>
+		</Widget>
+		<Widget flag="not_visible" frame="0,25,400,347" h_pos_align="proportion" name="tabpage_abyss_special" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget frame="6,11,389,38" preset="v5_container2" type="image">
+			</Widget>
+			<Widget frame="6,122,389,102" preset="v5_container2" type="image">
+			</Widget>
+			<Widget frame="6,234,389,66" preset="v5_container2" type="image">
+			</Widget>
+			<Widget frame="250,242,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,132,163,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,160,163,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,188,163,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,132,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,160,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="250,188,141,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,269,308,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget frame="83,242,163,24" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget font="ui_static_title" frame="12,20,89,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_CURRENT_RANK" type="static">
+			</Widget>
+			<Widget font="ui_static_title" frame="13,87,315,18" halign="left" text="STR_PLAYER_INFO_DIALOG__GAIN_ABYSS_POINT" type="static">
+			</Widget>
+			<Widget font="ui_static_title" frame="13,65,315,18" text="STR_PLAYER_INFO_DIALOG__GAIN_KILL_COUNT" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,136,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_TODAY" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,165,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_THISWEEK" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,192,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_LASTWEEK" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="12,245,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_SUM" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,245,137,18" halign="right" name="abyss_point" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="85,135,159,18" halign="right" name="abyss_kill_0" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="85,163,159,18" halign="right" name="abyss_kill_1" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="85,191,159,18" halign="right" name="abyss_kill_2" type="static">
+			</Widget>
+			<Widget color="0.8941,0.2353,0.0117,1.0" font="ui_static_value" frame="85,245,159,18" halign="right" name="abyss_kill_3" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,135,137,18" halign="right" name="abyss_get_point_0" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,163,137,18" halign="right" name="abyss_get_point_1" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="252,191,137,18" halign="right" name="abyss_get_point_2" type="static">
+			</Widget>
+			<Widget frame="85,272,304,18" halign="center" name="abyss_best_rank" padding="1,0" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="312,322,88,24" name="btn_abyss_rank" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__ABYSS_POPUP_RANK" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="191,322,120,24" name="btn_abyss_skill" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__ABYSS_POPUP_SKILL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" font_size="12" frame="12,272,69,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_HIGHTEST_RANK" type="static">
+			</Widget>
+			<Widget frame="105,18,286,23" preset="v5_staticbox" type="image">
+			</Widget>
+			<Widget font="ui_static_value" frame="109,20,187,19" halign="left" name="abyss_rank" type="static">
+			</Widget>
+			<Widget font="ui_static_value" frame="327,21,60,18" halign="center" name="abyss_order" type="static">
+			</Widget>
+			<Widget font="ui_default_bg" font_size="12" frame="295,21,40,18" text="STR_PLAYER_INFO_DIALOG__ABYSS_RANK" text_color="0.5059,0.502,0.4196,1.0" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_title" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget button_size="19,19" exclusive="False" flag="vscroll;truncate" font="ui_list" frame="3,23,195,137" item_height="22" level_space="10" name="title_list" preset="v5_treeview_frame" reset_items="True" scroll_type="visible" skin_type="version5" space="3" type="treeview">
+			</Widget>
+			<Widget frame="202,23,187,137" margin="5,5" name="title_desc" preset="v5_staticbox" scroll_type="hidden" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="htmlview" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="225,322,90,24" name="btn_change_title" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__TITLE_CHANGE" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="317,322,82,24" name="btn_clear_title" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__TITLE_CLEAR" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget button_size="19,19" exclusive="False" flag="vscroll;truncate" font="ui_list" frame="3,180,195,136" item_height="22" level_space="10" name="stat_title_list" preset="v5_treeview_frame" reset_items="True" scroll_type="visible" skin_type="version5" space="3" type="treeview">
+			</Widget>
+			<Widget frame="202,180,187,136" margin="5,5" name="title_stat" preset="v5_staticbox" scroll_type="hidden" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="htmlview" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="11,0,166,23" text="STR_PLAYER_INFO_DIALOG__TITLE_LIST" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="11,158,166,23" text="STR_PLAYER_INFO_DIALOG__TITLE_STAT" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_motion" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget button_size="19,19" exclusive="False" flag="vscroll;truncate" font="ui_list" frame="197,4,198,309" item_height="22" level_space="10" name="motion_list" preset="v5_treeview_frame" reset_items="True" scroll_type="visible" skin_type="version5" space="3" type="treeview">
+			</Widget>
+			<Widget frame="6,155,187,158" name="selected_motion_desc" padding="0,-7" preset="v5_staticbox" scroll_type="hidden" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="htmlview" valign="top">
+			</Widget>
+			<Widget frame="6,4,187,150" name="current_motion_desc" padding="0,-7" preset="v5_staticbox" scroll_type="hidden" text_offset="10,10" type="htmlview" valign="top">
+			</Widget>
+			<Widget flag="active" font="v3_motion_name" frame="14,13,170,16" name="current_motion_desc_title" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="14,39,70,16" name="static_idle" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="88,39,100,16" name="cur_idle" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="14,59,70,16" name="static_run" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="88,59,100,16" name="cur_run" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="14,79,70,16" name="static_jump" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="88,79,100,16" name="cur_jump" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="14,99,70,16" name="static_rest" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="88,99,100,16" name="cur_rest" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="14,119,70,16" name="static_shop" type="static">
+			</Widget>
+			<Widget flag="active" font="v3_motion_desc" frame="88,119,100,16" name="cur_shop" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="292,322,106,24" name="btn_change_motion" preset="v5_button" text="STR_PLAYER_INFO_DIALOG__MOTION_CHANGE" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_account_info" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget font="ui_default" frame="14,15,120,14" name="account_type_title" text="STR_PLAYER_INFO_DIALOG__PAYMENT_GRADE" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="135,12,255,20" halign="center" name="account_type" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="14,40,170,14" name="bm_list_title" text="STR_PLAYER_INFO_DIALOG__PAYMENT_APPLICATION" type="static">
+			</Widget>
+			<Widget button_size="19,19" column_heading="False" exclusive="False" flag="vscroll;truncate" font="ui_list" frame="6,61,388,110" item_height="22" item_padding="5" level_space="10" name="bm_list" preset="v5_listview_ex" reset_items="True" scroll_type="visible" skin_type="version5" space="3" type="listviewex">
+				<Column align="left" img_width="" sample_text="" sort="" title="" width="300">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="" title="" width="88">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="14,181,170,14" name="bm_effect_list_title" text="STR_PLAYER_INFO_DIALOG__PAYMENT_DETAIL" type="static">
+			</Widget>
+			<Widget flag="vscroll" frame="6,201,388,110" name="bm_effect_list_bg" padding="0,-7" preset="v5_staticbox" scroll_type="auto" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="static" valign="top">
+			</Widget>
+			<Widget flag="vscroll" frame="11,206,378,100" name="bm_effect_list" padding="0,0" scroll_type="auto" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="htmlview" valign="top">
+			</Widget>
+			<Widget font="ui_default" frame="316,321,82,24" name="btn_web_shop" preset="v5_button" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="219,321,94,24" name="btn_web_history" preset="v5_button" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,400,347" h_pos_align="proportion" name="tabpage_vip_info" preset="v5_tabpage2" type="tabpage" v_pos_align="proportion">
+			<Widget frame="7,5,80,80" name="vip_grade_image" preset="v5_vip_grade_img" type="image">
+			</Widget>
+			<Widget font="ui_default" font_size="15" frame="101,6,82,20" name="vip_grade_title" type="static">
+			</Widget>
+			<Widget frame="201,6,20,20" name="vip_grade_1" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="216,6,20,20" name="vip_grade_2" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="231,6,20,20" name="vip_grade_3" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="246,6,20,20" name="vip_grade_4" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="261,6,20,20" name="vip_grade_5" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="276,6,20,20" name="vip_grade_6" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="291,6,20,20" name="vip_grade_7" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="306,6,20,20" name="vip_grade_8" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="321,6,20,20" name="vip_grade_9" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget frame="336,6,20,20" name="vip_grade_10" preset="v5_vip_grade" type="image">
+			</Widget>
+			<Widget font="ui_default" frame="269,59,82,24" name="btn_vip_detail" preset="v5_button" text="STR_VIP_CHARINFO_VIPDETAIL_BUTTON" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="96,27,255,25" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget frame="135,32,207,15" name="vip_level_gauge" preset="v5_success_gauge_bg2" type="gauge" value_type="float">
+			</Widget>
+			<Widget font="vip_level" font_size="13" frame="102,33,38,14" name="vip_gauge_text_level" type="static">
+			</Widget>
+			<Widget font="ui_default" frame="135,32,207,15" halign="center" name="vip_gauge_text_point" type="static" valign="middle">
+			</Widget>
+			<Widget frame="96,50,164,35" halign="center" name="vip_exp_info" type="htmlview">
+			</Widget>
+			<Widget frame="0,90,400,228" preset="v5_staticbox5" type="container">
+				<Widget font="v3_level" frame="14,9,170,14" name="vip_list_title" text="STR_VIP_CHARINFO_GOODSNAME_ON" type="static">
+				</Widget>
+				<Widget button_size="19,19" column_heading="False" exclusive="False" flag="vscroll;truncate" font="ui_list" frame="6,26,388,88" item_height="22" item_padding="5" level_space="10" name="vip_list" preset="v5_listview_ex" reset_items="True" scroll_type="visible" skin_type="version5" space="3" type="listviewex">
+					<Column align="left" img_width="" sample_text="" sort="" title="" width="278">
+					</Column>
+					<Column align="left" img_width="" sample_text="" sort="" title="" width="110">
+					</Column>
+				</Widget>
+				<Widget font="v3_level" frame="14,123,170,14" name="vip_effect_list_title" text="STR_VIP_CHARINFO_EFFECT_DETAIL" type="static">
+				</Widget>
+				<Widget flag="vscroll" frame="3,138,394,87" name="vip_effect_list_bg" padding="0,-7" preset="v5_staticbox6" scroll_type="auto" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="static" valign="top">
+				</Widget>
+				<Widget flag="vscroll" frame="11,143,378,77" name="vip_effect_list" padding="0,0" scroll_type="auto" text_color="0.8078,0.6863,0.4235,1.0" text_offset="10,10" type="htmlview" valign="top">
+				</Widget>
+			</Widget>
+			<Widget font="ui_default" frame="316,321,82,24" name="btn_vip_web_shop" preset="v5_button" text="STR_VIP_CHARINFO_WEBSHOP_BUTTON" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget font="ui_default" frame="8,326,302,14" name="vip_web_shop_desc" text="STR_VIP_CHARINFO_NOTICE_DESC" type="static">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget font="ui_static_value" frame="6,1,187,25" halign="center" name="char_nameguild" preset="v5_staticbox" text_color="0.4235,1.0,0.0,1.0" type="static" valign="middle">
+	</Widget>
+	<Widget font="ui_static_value" frame="194,1,200,25" halign="center" name="char_levelclass" preset="v5_staticbox" type="static" valign="middle">
+	</Widget>
+	<Widget frame="6,1,25,25" name="housing" preset="v5_housing_info" type="image">
+	</Widget>
+</Dialog>

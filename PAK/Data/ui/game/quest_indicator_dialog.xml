@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="transparent" frame="1000,200,230,960" h_pos_align="right" last_modified="2014-08-22 12:58:41" name="quest_indicator_dialog" title_frame="3,3,189,14" type="dlg_quest_indicator" v_pos_align="top">
+	<Widget flag="not_active" frame="0,0,230,495" h_pos_align="proportion" name="grid_container" type="container" v_pos_align="top">
+		<Widget flag="not_active" frame="0,25,230,470" h_pos_align="proportion" name="grid_background" type="image" v_pos_align="proportion">
+			<Skin name="v5_grid_quest_ind_bg">
+			</Skin>
+		</Widget>
+		<Widget anim_style="move" flag="not_active" frame="0,0,230,495" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+			<Widget flag="not_active" frame="0,0,230,25" h_pos_align="proportion" name="tab" tab_offset="17,0" type="tab" v_pos_align="top">
+				<Widget frame="17,0,40,25" name="tabbtn_checked" preset="v5_quest_ind_tab_checked" text="STR_QUEST_INDICATOR_DIALOG__TAB_FAVORITE" type="tabbutton">
+				</Widget>
+				<Widget frame="59,0,40,25" name="tabbtn_recommend" preset="v5_quest_ind_tab_recmd" text="STR_QUEST_INDICATOR_DIALOG__TAB_RECOMMEND" type="tabbutton">
+				</Widget>
+				<Widget frame="101,0,40,25" name="tabbtn_zone" preset="v5_quest_ind_tab_zone" text="STR_QUEST_INDICATOR_DIALOG__TAB_WORLD" type="tabbutton">
+				</Widget>
+				<Widget frame="143,0,40,25" name="tabbtn_level" preset="v5_quest_ind_tab_level" text="STR_QUEST_INDICATOR_DIALOG__TAB_PC_LEVEL" type="tabbutton">
+				</Widget>
+				<Widget frame="185,0,40,25" name="tabbtn_history" preset="v5_quest_ind_tab_history" text="STR_QUEST_INDICATOR_DIALOG__TAB_RECENTLY" type="tabbutton">
+				</Widget>
+			</Widget>
+			<Widget flag="not_active" frame="0,25,230,470" h_pos_align="proportion" name="tabpage_checked" type="tabpage" v_pos_align="proportion">
+				<Widget direction_size="1" direction_type="vertical" drag_block_separator="true" elastic_grid_max_rect="0,0,230,470" elastic_grid_size="true" fit_item_size="true" fixed_item_size="false" flag="vscroll;hscroll;snap_scroll;not_visible" frame="8,6,215,458" h_pos_align="proportion" inner_scroll="false" item_padding="4" item_spacing="1" name="grid_checked" preset="v5_grid_quest_indicator" skin_type="version5" type="grid" v_pos_align="proportion">
+				</Widget>
+			</Widget>
+			<Widget flag="not_active" frame="0,25,230,470" h_pos_align="proportion" name="tabpage_recommend" type="tabpage" v_pos_align="proportion">
+				<Widget direction_size="1" direction_type="vertical" drag_block_separator="true" elastic_grid_max_rect="0,0,230,470" elastic_grid_size="true" fit_item_size="true" fixed_item_size="false" flag="vscroll;hscroll;snap_scroll;not_visible" frame="8,6,215,458" h_pos_align="proportion" inner_scroll="false" item_padding="4" item_spacing="1" name="grid_recommend" preset="v5_grid_quest_indicator" type="grid" v_pos_align="proportion">
+				</Widget>
+			</Widget>
+			<Widget flag="not_active" frame="0,25,230,470" h_pos_align="proportion" name="tabpage_zone" type="tabpage" v_pos_align="proportion">
+				<Widget direction_size="1" direction_type="vertical" drag_block_separator="true" elastic_grid_max_rect="0,0,230,470" elastic_grid_size="true" fit_item_size="true" fixed_item_size="false" flag="vscroll;hscroll;snap_scroll;not_visible" frame="8,6,215,458" h_pos_align="proportion" inner_scroll="false" item_padding="4" item_spacing="1" name="grid_zone" preset="v5_grid_quest_indicator" type="grid" v_pos_align="proportion">
+				</Widget>
+			</Widget>
+			<Widget flag="not_active" frame="0,25,230,470" h_pos_align="proportion" name="tabpage_level" type="tabpage" v_pos_align="proportion">
+				<Widget direction_size="1" direction_type="vertical" drag_block_separator="true" elastic_grid_max_rect="0,0,230,470" elastic_grid_size="true" fit_item_size="true" fixed_item_size="false" flag="vscroll;hscroll;snap_scroll;not_visible" frame="8,6,215,458" h_pos_align="proportion" inner_scroll="false" item_padding="4" item_spacing="1" name="grid_level" preset="v5_grid_quest_indicator" type="grid" v_pos_align="proportion">
+				</Widget>
+			</Widget>
+			<Widget flag="not_active" frame="0,25,230,470" h_pos_align="proportion" name="tabpage_history" type="tabpage" v_pos_align="proportion">
+				<Widget direction_size="1" direction_type="vertical" drag_block_separator="true" elastic_grid_max_rect="0,0,230,470" elastic_grid_size="true" fit_item_size="true" fixed_item_size="false" flag="vscroll;hscroll;snap_scroll;not_visible" frame="8,6,215,458" h_pos_align="proportion" inner_scroll="false" item_padding="4" item_spacing="1" name="grid_history" preset="v5_grid_quest_indicator" type="grid" v_pos_align="proportion">
+				</Widget>
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget direction_size="1" direction_type="vertical" elastic_grid_max_rect="0,0,217,335" elastic_grid_size="true" fit_item_size="true" fixed_item_size="false" flag="vscroll;hscroll;snap_scroll;not_visible" frame="0,495,230,335" h_pos_align="proportion" inner_scroll="false" item_padding="4" item_spacing="1" name="grid_temp_quest" preset="v5_grid_quest_indicator" type="grid">
+	</Widget>
+	<Widget flag="not_visible" frame="300,25,198,58" name="prototype" type="container">
+		<Widget flag="not_active" frame="0,0,198,58" h_pos_align="proportion" name="background" type="image" v_pos_align="proportion">
+			<Skin name="v5_grid_quest_ind_item">
+			</Skin>
+		</Widget>
+		<Widget flag="not_active" frame="0,0,198,58" h_pos_align="proportion" name="highlignt" type="image" v_pos_align="proportion">
+			<Skin name="v5_grid_quest_ind_item">
+			</Skin>
+		</Widget>
+		<Widget flag="not_active;truncate" font="v3_quest_indicator_title" frame="23,0,175,28" h_pos_align="proportion" halign="left" name="title" scroll_type="hidden" type="static" v_pos_align="top" valign="middle">
+		</Widget>
+		<Widget flag="not_active" frame="2,4,20,20" h_pos_align="left" name="bullet" preset="v5_quest_ind_bullet" type="image" v_pos_align="top">
+		</Widget>
+		<Widget flag="not_active" frame="0,17,198,41" h_pos_align="proportion" name="htmltext" scroll_type="hidden" text_shade="True" type="htmlview" v_pos_align="proportion">
+		</Widget>
+		<Widget frame="0,0,198,58" h_pos_align="proportion" name="btn_group" type="container" v_pos_align="proportion">
+			<Widget frame="115,4,79,26" h_pos_align="right" name="fix_bg" type="image" v_pos_align="top">
+				<Skin name="v5_grid_ind_bg">
+				</Skin>
+			</Widget>
+			<Widget frame="168,5,23,20" h_pos_align="right" name="menu" preset="v5_quest_ind_menu" type="button" v_pos_align="top">
+			</Widget>
+			<Widget frame="143,5,23,20" h_pos_align="right" name="open" preset="v5_quest_ind_expand" type="button" v_pos_align="top">
+			</Widget>
+			<Widget frame="118,5,23,20" h_pos_align="right" name="fix" preset="v5_quest_ind_check" type="button" v_pos_align="top">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget flag="not_visible" frame="300,100,195,58" name="prototype_temp" type="container">
+		<Widget flag="not_active" frame="0,0,195,58" h_pos_align="proportion" name="background" type="image" v_pos_align="proportion">
+			<Skin name="v5_grid_quest_ind_temp_bg">
+			</Skin>
+		</Widget>
+		<Widget flag="not_active" frame="0,0,195,58" h_pos_align="proportion" name="highlignt" type="image" v_pos_align="proportion">
+			<Skin name="v5_grid_quest_ind_temp_bg">
+			</Skin>
+		</Widget>
+		<Widget flag="not_active;truncate" font="v3_quest_indicator_title" frame="28,2,164,28" h_pos_align="proportion" halign="left" name="title" scroll_type="hidden" type="static" v_pos_align="top" valign="middle">
+		</Widget>
+		<Widget flag="not_active" frame="7,6,20,20" h_pos_align="left" name="bullet" preset="v5_quest_ind_bullet" type="image" v_pos_align="top">
+		</Widget>
+		<Widget flag="not_active" frame="4,21,187,34" h_pos_align="proportion" name="htmltext" scroll_type="hidden" text_shade="True" type="htmlview" v_pos_align="proportion">
+		</Widget>
+		<Widget frame="5,4,185,50" h_pos_align="proportion" name="btn_group" type="container" v_pos_align="proportion">
+			<Widget frame="104,2,79,26" h_pos_align="right" name="fix_bg" type="image" v_pos_align="top">
+				<Skin name="v5_grid_ind_bg">
+				</Skin>
+			</Widget>
+			<Widget frame="157,3,23,20" h_pos_align="right" name="menu" preset="v5_quest_ind_menu" type="button" v_pos_align="top">
+			</Widget>
+			<Widget frame="132,3,23,20" h_pos_align="right" name="open" preset="v5_quest_ind_expand" type="button" v_pos_align="top">
+			</Widget>
+			<Widget frame="107,3,23,20" h_pos_align="right" name="fix" preset="v5_quest_temp_ind_check" type="button" v_pos_align="top">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget frame="0,4,15,15" h_pos_align="left" name="move_trigger" type="image" v_pos_align="top">
+		<Skin name="v5_cross" state="0">
+		</Skin>
+		<Skin name="v5_lock" state="1">
+		</Skin>
+	</Widget>
+</Dialog>

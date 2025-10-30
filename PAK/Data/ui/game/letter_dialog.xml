@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="sub" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="437,130,406,512" last_modified="2014-08-22 12:58:41" name="letter_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,251,14" title_height="25" title_offset="0,5" title_text="STR_LETTER_DIALOG" type="dlg_letter">
+	<Widget font="ui_default" frame="9,14,73,17" text="STR_LETTER_DIALOG__WIDGET2" type="static">
+	</Widget>
+	<Widget font="ui_static_value" frame="81,11,310,24" name="letter_sender" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="9,41,73,17" text="STR_LETTER_DIALOG__WIDGET3" type="static">
+	</Widget>
+	<Widget font="ui_static_value" frame="81,39,310,24" name="letter_title" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static">
+	</Widget>
+	<Widget flag="multiline;wordwrap;active;vscroll" font="ui_static_value" frame="81,67,310,273" name="letter_content" padding="5,5" preset="v5_staticbox" text_offset="s" type="static" valign="top">
+	</Widget>
+	<Widget font="ui_default" frame="9,345,93,17" text="STR_LETTER_DIALOG__WIDGET6" type="static">
+	</Widget>
+	<Widget font="ui_static_value" frame="109,344,282,24" halign="right" name="letter_date" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="9,373,98,17" text="STR_LETTER_DIALOG__WIDGET4" type="static">
+	</Widget>
+	<Widget font="v3_money" frame="109,372,282,24" halign="right" name="letter_money" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static">
+	</Widget>
+	<Widget frame="109,372,24,22" name="money_item" preset="v5_gold" type="itemview">
+	</Widget>
+	<Widget flag="multiline;wordwrap" font="ui_default" frame="9,406,73,31" text="STR_LETTER_DIALOG__WIDGET5" type="static">
+	</Widget>
+	<Widget cell_padding="2" font="ui_list" frame="81,401,310,45" item_height="44" item_width="44" name="letter_item" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="192,455,68,24" name="btn_reply" preset="v5_button" text="STR_LETTER_DIALOG__BTN_REPLY" type="button">
+	</Widget>
+	<Widget defbutton="true" font="ui_default" frame="261,455,68,24" name="btn_read" preset="v5_button" text="STR_LETTER_DIALOG__BTN_READ" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="9,70,73,17" text="STR_LETTER_DIALOG__CONTEXT" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="330,455,68,24" name="btn_takeall" preset="v5_button" text="STR_LOOT_DIALOG__TAKEALL" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="1,455,68,24" name="btn_block" preset="v5_button" text="STR_LETTER_DIALOG__BLOCK" type="button">
+	</Widget>
+</Dialog>

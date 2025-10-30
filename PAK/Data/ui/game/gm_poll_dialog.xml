@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="824,135,406,512" last_modified="2014-08-22 12:58:41" name="gm_poll_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,422,14" title_height="25" title_offset="0,5" title_text="STR_GM_POLL_DIALOG" type="dlg_gm_poll">
+	<Widget frame="7,6,368,419" h_pos_align="proportion" preset="v5_staticbox" type="image" v_pos_align="proportion">
+	</Widget>
+	<Widget font="ui_static_value" frame="12,12,358,408" h_pos_align="proportion" name="page" rearrange="false" scroll_type="visible" skin_type="version5" space="10" step="20" type="scrollable" v_pos_align="proportion">
+	</Widget>
+	<Widget frame="374,6,21,419" h_pos_align="proportion" linker="page" preset="v5_scroll" type="scrollbar" v_pos_align="proportion">
+		<Widget flag="not_active" frame="1,1,19,19" h_pos_align="proportion" name="minus" preset="v5_scroll_minus" type="button">
+		</Widget>
+		<Widget flag="not_active" frame="1,399,19,19" h_pos_align="proportion" name="plus" preset="v5_scroll_plus" type="button" v_pos_align="bottom">
+		</Widget>
+	</Widget>
+	<Widget font="ui_default" frame="332,457,68,24" h_pos_align="right" name="submit" preset="v5_button" text="STR_GM_POLL_DIALOG__SUBMIT" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="23,425,75,24" name="prev" preset="v5_button" text="STR_LOBBY_CREATE__CLASS_PREV" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="291,426,75,24" name="next" preset="v5_button" text="STR_LOBBY_CREATE__CLASS_NEXT" type="button">
+	</Widget>
+	<Widget font="ui_default" frame="158,426,75,26" halign="center" name="page_no" type="static">
+	</Widget>
+</Dialog>

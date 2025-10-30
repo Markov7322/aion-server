@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,512" last_modified="2014-08-22 12:58:42" name="login_event_dlg_old" preset="v5_dialog2" prev_html="True" shadow_offset="8,8" title_align="center" title_frame="3,3,578,14" title_height="25" title_offset="0,5" title_text="STR_DLG_DIALOG" type="dlg_login_event_old">
+	<Widget frame="3,270,394,177" name="reward_desc" preset="v5_staticbox" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="261,455,68,24" name="ok" preset="v5_button" text="STR_DLG_DIALOG__OK" type="button">
+	</Widget>
+	<Widget frame="330,455,68,24" name="cancel" preset="v5_button" text="STR_DLG_DIALOG__CANCEL" type="button">
+	</Widget>
+	<Widget anim_style="none" frame="0,-7,400,276" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+		<Widget frame="0,9,400,25" h_pos_align="proportion" preset="v5_tab" tab_frame="0,0,400,25" tab_offset="6,0" tab_space="0" type="tab">
+			<Widget font="ui_default" frame="2,0,62,25" name="tab_reward" preset="v5_tabbutton" text="STR_LOGIN_EVENT_DIALOG__TAB_REWARD" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="64,0,65,25" name="tab_continue" preset="v5_tabbutton" text="STR_LOGIN_EVENT_DIALOG__TAB_CONTINUE" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,30,402,460" h_pos_align="proportion" name="page_reward" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget check_preset="v5_check" column_heading="true" flag="truncate;vscroll" font="ui_list" frame="3,4,394,241" h_pos_align="proportion" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="reward_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex" v_pos_align="proportion">
+				<Column align="center" img_width="" sample_text="" sort="none" title="check" width="40">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="" title="STR_LOGIN_EVENT_DIALOG__REWARD_NAME" width="245">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="" title="STR_LOGIN_EVENT_DIALOG__TAB_REWARD_DATE" width="89">
+				</Column>
+				<Column align="" img_width="" sample_text="" sort="" title="" width="">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="0,30,400,460" h_pos_align="proportion" name="page_continue" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="true" column_set4=",,,,," flag="truncate;vscroll" font="ui_list" frame="3,4,394,241" h_pos_align="proportion" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="continue_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex" v_pos_align="proportion">
+				<Column align="left" img_width="" sample_text="" sort="" title="STR_LOGIN_EVENT_DIALOG__REWARD_NAME" width="260">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="" title="STR_BUILDER_DEV_DIALOG__REPEAT_COUNT" width="114">
+				</Column>
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

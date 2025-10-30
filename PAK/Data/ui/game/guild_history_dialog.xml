@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="sub" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="839,150,404,291" last_modified="2014-08-22 12:58:41" name="guild_history_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,57,14" title_height="25" title_offset="0,5" title_text="STR_GUILD_HISTORY_DIALOG" type="dlg_guild_history">
+	<Widget font="ui_default" frame="318,233,75,24" name="cancel" preset="v5_button" text="STR_COMMON__CLOSE" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget frame="3,0,393,230" type="container">
+		<Widget frame="258,204,21,22" name="warehouse_last_page_btn" preset="v5_last_page" type="button">
+		</Widget>
+		<Widget frame="236,204,21,22" name="warehouse_next_page_btn" preset="v5_next_page" type="button">
+		</Widget>
+		<Widget font="ui_default" frame="156,206,80,16" halign="center" name="warehouse_list_page" type="static">
+		</Widget>
+		<Widget frame="135,204,21,22" name="warehouse_prev_page_btn" preset="v5_prev_page" type="button">
+		</Widget>
+		<Widget frame="111,204,21,22" name="warehouse_first_page_btn" preset="v5_first_page" type="button">
+		</Widget>
+		<Widget column_heading="True" flag="truncate;" font="ui_list" frame="-3,-3,396,201" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="warehouse_list" preset="v5_listview_ex" type="listviewex">
+			<Column align="left" img_width="" sample_text="" sort="none" title="STR_GUILD_HISTORY_DIALOG__COL_DATE" width="90">
+			</Column>
+			<Column align="center" img_width="" sample_text="" sort="none" title="STR_GUILD_HISTORY_DIALOG__COL_USER" width="90">
+			</Column>
+			<Column align="left" img_width="" sample_text="" sort="none" title="STR_GUILD_HISTORY_DIALOG__COL_EVENT" width="210">
+			</Column>
+		</Widget>
+	</Widget>
+</Dialog>

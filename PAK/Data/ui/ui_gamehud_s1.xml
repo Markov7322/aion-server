@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Screen folder="game_hud_s1" last_modified="2014-08-22 13:16:39" name="UI_GameHud_S1" version="48">
+	<Dialog name="pet_dialog">
+	</Dialog>
+	<Dialog name="pet_command_dialog">
+	</Dialog>
+	<Dialog name="basic_status_dialog">
+	</Dialog>
+	<Dialog name="quickbar_dialog">
+	</Dialog>
+	<Dialog name="start_dialog">
+	</Dialog>
+	<Dialog name="radar_dialog">
+	</Dialog>
+	<Dialog name="subzone_name_dialog">
+	</Dialog>
+	<Dialog name="exp_bar_dialog">
+	</Dialog>
+</Screen>

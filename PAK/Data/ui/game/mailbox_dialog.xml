@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="task" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="15,130,406,512" last_modified="2014-08-27 15:01:20" name="mailbox_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,359,14" title_height="25" title_offset="0,5" title_text="STR_MAILBOX_DIALOG" type="dlg_mailbox">
+	<Widget anim_style="none" frame="0,-7,396,490" h_pos_align="proportion" name="tabsheet" type="tabsheet" v_pos_align="proportion">
+		<Widget frame="0,9,396,25" h_pos_align="proportion" preset="v5_tab" tab_frame="0,0,400,25" tab_offset="6,0" tab_space="0" type="tab">
+			<Widget font="ui_default" frame="2,0,62,25" name="mb_tab_list" preset="v5_tabbutton" text="STR_MAILBOX_DIALOG__TABFRAME_MB_TAB_LIST" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="64,0,65,25" name="mb_tab_write" preset="v5_tabbutton" text="STR_MAILBOX_DIALOG__TABFRAME_MB_TAB_WRITE" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="129,0,90,25" name="mb_tab_goods" preset="v5_tabbutton" text="STR_MAILBOX_DIALOG__TABFRAME_CASH" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,33,396,457" h_pos_align="proportion" name="page_list" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" column_customizing="True" flag="vscroll;multiselect;truncate" font="ui_list" frame="0,1,396,424" header_font="v3_columnhead" header_height="24" item_height="44" item_width="44" list_padding="3,3" name="mail_list" preset="v5_listview_sel_frame" scroll_type="visible" skin_type="version5" slot_num="10" type="listview" viewmode="detail">
+				<Column align="" title="STR_MAILBOX_DIALOG__SENDER" width="127">
+				</Column>
+				<Column align="" title="STR_MAILBOX_DIALOG__SUBJECT" width="207">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="6,432,259,18" halign="left" name="mail_count" type="static" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="322,430,74,24" name="btn_del_mail" preset="v5_button" text="STR_MAILBOX_DIALOG__TABFRAME_BTN_DEL_MAIL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="242,430,74,24" name="btn_select_all_mail" preset="v5_button" text="STR_MAILBOX_DIALOG__TABFRAME_BTN_SELECT_ALL_MAIL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget flag="not_enabled" font="ui_default" frame="162,430,74,24" name="btn_get_item" preset="v5_button" text="STR_MAILBOX_DIALOG__TAKEALL" type="button" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+		<Widget frame="0,33,396,457" h_pos_align="proportion" name="page_write" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget font="ui_default" frame="5,6,66,17" text="STR_MAILBOX_DIALOG__TABFRAME_WIDGET4" type="static">
+			</Widget>
+			<Widget alphanumeric="False" font="ui_editbox" frame="70,6,280,22" h_padding="5" max_length="10" name="input_recipient" preset="v5_editbox" tabstop="4" type="editbox" v_padding="5">
+			</Widget>
+			<Widget font="ui_default" frame="5,34,67,20" text="STR_MAILBOX_DIALOG__TABFRAME_WIDGET5" type="static">
+			</Widget>
+			<Widget alphanumeric="False" font="ui_editbox" frame="70,34,319,22" h_padding="5" max_length="20" name="input_title" preset="v5_editbox" tabstop="5" type="editbox" v_padding="5">
+			</Widget>
+			<Widget font="ui_default" frame="5,62,69,20" text="STR_MAILBOX_DIALOG__TABFRAME_WIDGET6" type="static">
+			</Widget>
+			<Widget alphanumeric="False" flag="multiline;wordwrap" font="ui_editbox" frame="70,61,319,221" h_padding="5" max_length="1000" name="input_content" preset="v5_editbox" tabstop="6" type="editbox" v_padding="5">
+			</Widget>
+			<Widget font="ui_default" frame="5,295,102,20" text="STR_MAILBOX_DIALOG__TABFRAME_WIDGET7" type="static">
+			</Widget>
+			<Widget font="v3_money" frame="110,295,277,21" halign="right" name="input_appeded_money" preset="v5_staticbox" text_offset="5,0" type="static">
+			</Widget>
+			<Widget frame="110,294,24,22" name="money_item" preset="v5_gold" type="itemview">
+			</Widget>
+			<Widget flag="multiline;wordwrap" font="ui_default" frame="5,329,63,39" text="STR_MAILBOX_DIALOG__TABFRAME_WIDGET9" type="static">
+			</Widget>
+			<Widget cell_padding="2" font="ui_list" frame="70,322,312,45" item_height="44" item_width="44" name="append_item" preset="v5_listview_single" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview" viewmode="detail">
+				<Column align="" title="" width="1000">
+				</Column>
+			</Widget>
+			<Widget font="ui_default" frame="271,372,78,22" name="express_check" preset="v5_radio" style="radiobutton" text="STR_MAILBOX_DIALOG__TABFRAME_EXPRESS_MAIL" text_offset="5,0" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="112,372,110,22" name="normal_check" preset="v5_radio" style="radiobutton" text="STR_MAILBOX_DIALOG__WRITE_NORMAL" text_offset="5,0" type="button">
+			</Widget>
+			<Widget font="ui_default" frame="5,398,74,17" text="STR_MAILBOX_DIALOG__TABFRAME_WIDGET10" type="static">
+			</Widget>
+			<Widget frame="81,397,306,20" halign="right" name="mail_fee" preset="v5_staticbox" type="static">
+			</Widget>
+			<Widget frame="322,430,75,24" name="btn_reset_mail" preset="v5_button" text="STR_MAILBOX_DIALOG__TABFRAME_BTN_RESET_MAIL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget defbutton="true" flag="not_enabled" frame="242,430,74,24" name="btn_send_mail" preset="v5_button" text="STR_MAILBOX_DIALOG__TABFRAME_BTN_SEND_MAIL" type="button" v_pos_align="bottom">
+			</Widget>
+			<Widget frame="356,7,21,21" name="btn_buddy_list" preset="v5_button_next_page" type="button">
+			</Widget>
+			<Widget frame="366,34,22,22" h_pos_align="right" name="mailbox_emoticon" preset="v5_emoticon_btn" type="button">
+			</Widget>
+		</Widget>
+		<Widget frame="0,33,396,457" h_pos_align="proportion" name="page_goods" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="0,0" column_customizing="True" flag="vscroll" frame="0,1,396,424" header_font="v3_columnhead" header_height="24" item_height="44" item_width="44" list_padding="3,3" name="goods_list" preset="v5_listview_frame" scroll_type="visible" skin_type="version5" slot_num="9" type="listview" viewmode="detail">
+				<Column align="" title="STR_MAILBOX_DIALOG__TABFRAME_CASH_NAME" width="154">
+				</Column>
+				<Column align="" title="STR_MAILBOX_DIALOG__TABFRAME_CASH_RECV_LEFT_TIME" width="90">
+				</Column>
+				<Column align="" title="STR_MAILBOX_DIALOG__TABFRAME_CASH_REFUND_LEFT_TIME" width="90">
+				</Column>
+			</Widget>
+			<Widget frame="6,432,259,18" halign="left" name="goods_count" type="static" v_pos_align="bottom">
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

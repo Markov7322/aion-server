@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="10,135,406,512" last_modified="2014-08-22 12:58:41" name="read_item_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,284,14" title_height="25" title_offset="0,5" title_text="STR_READ_ITEM_DIALOG" type="dlg_read_item">
+	<Widget frame="0,0,400,479" name="background" type="image">
+	</Widget>
+	<Widget frame="94,38,19,25" name="btn_prev" preset="v5_prev_btn" type="button">
+	</Widget>
+	<Widget frame="290,38,19,25" name="btn_next" preset="v5_next_btn" type="button">
+	</Widget>
+	<Widget frame="123,28,154,29" halign="center" name="title" text_color="0.0,0.0,0.0,1.0" type="static">
+	</Widget>
+	<Widget frame="129,63,142,15" halign="center" name="page" text_color="0.0,0.0,0.0,1.0" type="static">
+	</Widget>
+	<Widget frame="22,87,356,2" preset="v5_ruler" type="image">
+	</Widget>
+	<Widget flag="vscroll" frame="24,102,353,320" name="htmlview" type="htmlview">
+	</Widget>
+	<Widget frame="21,435,358,2" preset="v5_ruler" type="image">
+	</Widget>
+</Dialog>

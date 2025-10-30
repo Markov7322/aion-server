@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<create_infos>
+	<appearances>
+		<appearance>
+			<name>npc_head</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Head 1</desc>
+					</item>
+					<item id="2">
+						<desc>Head 2</desc>
+					</item>
+					<item id="3">
+						<desc>Head 3</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Head 1</desc>
+					</item>
+					<item id="2">
+						<desc>Head 2</desc>
+					</item>
+					<item id="3">
+						<desc>Head 3</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>npc_hair</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Hair 1</desc>
+					</item>
+					<item id="2">
+						<desc>Hair 2</desc>
+					</item>
+					<item id="3">
+						<desc>Hair 3</desc>
+					</item>
+					<item id="4">
+						<desc>Hair 4</desc>
+					</item>
+					<item id="5">
+						<desc>Hair 5</desc>
+					</item>
+					<item id="6">
+						<desc>Hair 6</desc>
+					</item>
+					<item id="7">
+						<desc>Hair 7</desc>
+					</item>
+					<item id="8">
+						<desc>Hair 8</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Hair 1</desc>
+					</item>
+					<item id="2">
+						<desc>Hair 2</desc>
+					</item>
+					<item id="3">
+						<desc>Hair 3</desc>
+					</item>
+					<item id="4">
+						<desc>Hair 4</desc>
+					</item>
+					<item id="5">
+						<desc>Hair 5</desc>
+					</item>
+					<item id="6">
+						<desc>Hair 6</desc>
+					</item>
+					<item id="7">
+						<desc>Hair 7</desc>
+					</item>
+					<item id="8">
+						<desc>Hair 8</desc>
+					</item>
+					<item id="9">
+						<desc>Hair 9</desc>
+					</item>
+					<item id="0">
+						<desc>Hair 10</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Hair 3</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Hair 1</desc>
+					</item>
+					<item id="2">
+						<desc>Hair 2</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>npc_face</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Face 1</desc>
+					</item>
+					<item id="2">
+						<desc>Face 2</desc>
+					</item>
+					<item id="3">
+						<desc>Face 3</desc>
+					</item>
+					<item id="4">
+						<desc>Face 4</desc>
+					</item>
+					<item id="5">
+						<desc>Face 5</desc>
+					</item>
+					<item id="6">
+						<desc>Face 6</desc>
+					</item>
+					<item id="7">
+						<desc>Face 7</desc>
+					</item>
+					<item id="8">
+						<desc>Face 8</desc>
+					</item>
+					<item id="9">
+						<desc>Face 9</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Face 1</desc>
+					</item>
+					<item id="2">
+						<desc>Face 2</desc>
+					</item>
+					<item id="3">
+						<desc>Face 3</desc>
+					</item>
+					<item id="4">
+						<desc>Face 4</desc>
+					</item>
+					<item id="5">
+						<desc>Face 5</desc>
+					</item>
+					<item id="6">
+						<desc>Face 6</desc>
+					</item>
+					<item id="7">
+						<desc>Face 7</desc>
+					</item>
+					<item id="8">
+						<desc>Face 8</desc>
+					</item>
+					<item id="9">
+						<desc>Face 9</desc>
+					</item>
+					<item id="10">
+						<desc>Face 10</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>npc_feature1</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>npc_feature2</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>None</desc>
+					</item>
+					<item id="1">
+						<desc>Tatoo 1</desc>
+					</item>
+					<item id="2">
+						<desc>Tatoo 2</desc>
+					</item>
+					<item id="3">
+						<desc>Tatoo 3</desc>
+					</item>
+					<item id="4">
+						<desc>Tatoo 4</desc>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>Not available</desc>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+		<appearance>
+			<name>npc_preset</name>
+			<attr>
+				<lm>
+					<item id="0">
+						<desc>NPC Preset LM1</desc>
+						<preset>npc_preset_lm1</preset>
+					</item>
+					<item id="1">
+						<desc>NPC Preset LM2</desc>
+						<preset>npc_preset_lm2</preset>
+					</item>
+				</lm>
+				<lf>
+					<item id="0">
+						<desc>NPC Preset LF1</desc>
+						<preset>npc_preset_lf1</preset>
+					</item>
+					<item id="1">
+						<desc>NPC Preset LF2</desc>
+						<preset>npc_preset_lf2</preset>
+					</item>
+				</lf>
+				<dm>
+					<item id="0">
+						<desc>NPC Preset DM1</desc>
+						<preset>npc_preset_dm1</preset>
+					</item>
+					<item id="1">
+						<desc>NPC Preset DM2</desc>
+						<preset>npc_preset_dm2</preset>
+					</item>
+				</dm>
+				<df>
+					<item id="0">
+						<desc>NPC Preset DF1</desc>
+						<preset>npc_preset_df1</preset>
+					</item>
+					<item id="1">
+						<desc>NPC Preset DF2</desc>
+						<preset>npc_preset_df2</preset>
+					</item>
+				</df>
+			</attr>
+		</appearance>
+	</appearances>
+</create_infos>

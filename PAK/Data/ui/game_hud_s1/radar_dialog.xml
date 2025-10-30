@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_movable;visible" frame="939,736,183,224" h_pos_align="center" last_modified="2014-08-22 13:16:39" name="radar_dialog" preset="v5_hud_radar_s1" type="dlg_radar" ui_mode="spectator" v_pos_align="bottom">
+	<Widget frame="2,45,178,177" name="radar_sight" type="image">
+		<Skin name="v5_hud_radar_sight">
+		</Skin>
+	</Widget>
+	<Widget frame="3,49,177,177" name="radar_wnd" type="image">
+		<Skin name="v5_hud_radar_wnd">
+		</Skin>
+	</Widget>
+	<Widget flag="active;not_visible" frame="20,192,25,25" name="vendor_notice" type="static">
+		<Skin name="v5_vendor_notice" state="0">
+		</Skin>
+		<Skin name="v5_vendor_notice_off" state="1">
+		</Skin>
+	</Widget>
+	<Widget frame="135,172,47,51" type="container">
+		<Skin name="v5_hud_radar_time_bg">
+		</Skin>
+		<Widget frame="18,-2,30,30" name="btn_zoom" preset="v5_map_zoom" type="button">
+		</Widget>
+	</Widget>
+	<Widget frame="136,191,31,31" name="time_slot" type="image">
+	</Widget>
+</Dialog>

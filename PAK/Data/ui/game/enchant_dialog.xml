@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="440,130,554,269" h_pos_align="center" last_modified="2014-08-22 12:58:41" name="enchant_dialog" preset="v5_dialog2" prev_html="True" shadow_offset="8,8" title_align="center" title_frame="3,3,400,14" title_height="25" title_offset="0,5" title_text="STR_ENCHANT_DIALOG" type="dlg_enchant">
+	<Widget font="ui_default" frame="84,4,211,20" text="STR_ENCHANT_DIALOG__TARGET" type="static">
+	</Widget>
+	<Widget flag="truncate;multiline;wordwrap" frame="86,24,207,48" name="target_desc" padding="6,0" preset="v5_staticbox2" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="84,134,211,20" text="STR_ENCHANT_DIALOG__SOURCE" type="static">
+	</Widget>
+	<Widget flag="truncate;multiline;wordwrap" frame="86,150,207,48" name="enchant_tool_desc" padding="6,0" preset="v5_staticbox2" type="static">
+	</Widget>
+	<Widget font="ui_default" frame="303,4,241,20" h_pos_align="proportion" text="STR_ENCHANT_DIALOG__SOURCE_SUB_MATTER" type="static">
+	</Widget>
+	<Widget cell_padding="2" cell_space="0,-1" flag="vscroll" font="ui_list" frame="301,24,243,179" h_pos_align="proportion" item_height="44" item_width="44" list_padding="3,3" name="assist_item_list" preset="v5_listview_sel_frame" scroll_type="visible" skin_type="version5" slot_num="4" type="listview" viewmode="detail">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget frame="5,10,76,76" preset="v5_deco_slot_normal_bg" type="static">
+		<Widget cell_padding="2" cell_space="0,0" column_set1=",1000," flag="truncate" frame="16,16,44,44" item_height="44" item_width="44" name="target_item" preset="v5_deco_itemview" reserve_slots="True" scroll_type="hidden" slot_num="1" type="itemview" viewmode="detail">
+		</Widget>
+	</Widget>
+	<Widget frame="33,98,21,42" preset="v5_deco_arrow_up" type="static">
+	</Widget>
+	<Widget frame="10,145,67,62" preset="v5_deco_slot_normal2_bg" type="static">
+		<Widget cell_padding="2" cell_space="0,0" column_set1=",1000," flag="truncate" frame="11,9,44,44" item_height="44" item_width="44" name="enchant_tool_item" preset="v5_deco_itemview" reserve_slots="True" scroll_type="hidden" slot_num="1" type="itemview" viewmode="detail">
+		</Widget>
+	</Widget>
+	<Widget defbutton="True" font="ui_default" frame="409,211,68,24" h_pos_align="right" name="ok" preset="v5_button" text="STR_ENCHANT_DIALOG__OK" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget font="ui_default" frame="478,211,68,24" h_pos_align="right" name="cancel" preset="v5_button" text="STR_ENCHANT_DIALOG__CANCEL" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

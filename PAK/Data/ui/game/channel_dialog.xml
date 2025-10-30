@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="1020,618,200,118" h_pos_align="right" last_modified="2014-08-22 13:09:05" name="channel_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,265,14" title_height="25" title_offset="0,5" title_text="STR_CHANNEL_DIALOG__TITLE" type="dlg_channel" v_pos_align="top">
+	<Widget frame="10,17,174,24" name="channel_list" preset="v5_staticbox3" type="combobox">
+	</Widget>
+	<Widget frame="70,61,60,24" name="ok" preset="v5_button" text="STR_CHANNEL_DIALOG__DIALOG_OK" type="button">
+	</Widget>
+	<Widget frame="132,61,60,24" name="cancel" preset="v5_button" text="STR_CHANNEL_DIALOG__DIALOG_CANCEL" type="button">
+	</Widget>
+</Dialog>

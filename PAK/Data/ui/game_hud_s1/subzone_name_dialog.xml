@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_movable;visible" frame="1043,0,203,58" h_pos_align="center" last_modified="2014-08-22 13:16:39" name="subzone_name_dialog" type="dlg_subzone_name" v_pos_align="bottom">
+	<Widget frame="43,20,140,38" h_pos_align="right" name="bgimage" type="image">
+		<Skin name="v5_hud_subzone_name_s1" state="0">
+		</Skin>
+	</Widget>
+	<Widget flag="wordwrap;multiline" font="console" font_size="12" frame="28,0,170,26" h_pos_align="right" halign="center" name="server_name" type="static" valign="bottom">
+	</Widget>
+	<Widget flag="multiline;wordwrap" font="console" font_size="12" frame="28,23,170,27" h_pos_align="right" halign="center" name="text" type="static" valign="bottom">
+	</Widget>
+	<Widget flag="not_visible;active" frame="0,26,29,29" name="neutral" type="image">
+		<Skin name="v5_non_pvp_area">
+		</Skin>
+		<Skin name="v5_pvp_area" state="1">
+		</Skin>
+	</Widget>
+</Dialog>

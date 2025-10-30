@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="left" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="290,130,680,570" last_modified="2014-08-22 12:58:41" name="abyss_rank_dialog" preset="v5_dialog" shadow_offset="8,8" title_align="center" title_frame="3,3,680,14" title_height="25" title_offset="0,5" title_text="STR_ABYSS_RANK_DIALOG" type="dlg_abyss_rank">
+	<Widget anim_style="none" frame="0,0,674,539" name="tabsheet" type="tabsheet">
+		<Widget frame="0,0,674,25" h_pos_align="proportion" preset="v5_tab" tab_frame="0,0,674,25" tab_offset="6,0" type="tab">
+			<Widget font="ui_default" frame="6,0,66,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_INFO" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="229,0,79,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_LIGHT_USER" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="308,0,79,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_DARK_USER" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="6,0,66,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_INFO" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="229,0,79,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_LIGHT_USER" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="308,0,79,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_DARK_USER" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="71,0,79,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_LIGHT_GUILD" type="tabbutton">
+			</Widget>
+			<Widget font="ui_default" frame="150,0,79,25" preset="v5_tabbutton" text="STR_ABYSS_RANK_DIALOG__TAB_DARK_GUILD" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_info" preset="v5_tabpage2" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;" font="ui_list" frame="7,6,661,475" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="rank_info" preset="v5_listview_ex" scroll_type="auto" skin_type="version5" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_ABYSS_RANK" width="120">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_GLORY_POINT" width="140">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_REDUCE_GLORY_POINT" width="130">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_POINT" width="170">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_RANK" width="95">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_light_user" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;vscroll" frame="7,6,661,475" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="light_user_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_RANK" width="50">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_NAME" width="110">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_GUILD" width="95">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_USER_LEVEL" width="50">
+				</Column>
+				<Column align="center" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_CLASS" width="80">
+				</Column>
+				<Column align="center" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_ABYSS_RANK" width="90">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_POINT" width="115">
+				</Column>
+				<Column align="center" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_CHANGE" width="50">
+				</Column>
+			</Widget>
+			<Widget frame="10,489,654,21" halign="left" name="light_user_msg" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_dark_user" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;vscroll" frame="7,6,661,475" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="dark_user_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_RANK" width="50">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_NAME" width="110">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_GUILD" width="95">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_USER_LEVEL" width="50">
+				</Column>
+				<Column align="center" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_CLASS" width="80">
+				</Column>
+				<Column align="center" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_ABYSS_RANK" width="90">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_POINT" width="115">
+				</Column>
+				<Column align="center" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_CHANGE" width="50">
+				</Column>
+			</Widget>
+			<Widget frame="10,489,654,21" halign="left" name="dark_user_msg" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_info_special" preset="v5_tabpage2" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;" font="ui_list" frame="7,6,661,472" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="rank_info" preset="v5_listview_ex" scroll_type="auto" skin_type="version5" type="listviewex">
+				<Column align="center" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_ABYSS_RANK" width="120">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_GLORY_POINT" width="0">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_REDUCE_GLORY_POINT" width="0">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_POINT" width="335">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_INFO_RANK" width="200">
+				</Column>
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_light_user_special" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;vscroll" frame="7,6,661,472" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="light_user_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_RANK" width="50">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_NAME" width="110">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_GUILD" width="95">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_USER_LEVEL" width="50">
+				</Column>
+				<Column align="center" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_CLASS" width="80">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_ABYSS_RANK" width="90">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_ABYSS_POINT" width="115">
+				</Column>
+				<Column align="center" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_CHANGE" width="50">
+				</Column>
+			</Widget>
+			<Widget frame="10,489,654,21" halign="left" name="light_user_msg" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_dark_user_special" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;vscroll" frame="7,6,661,472" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="dark_user_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_RANK" width="50">
+				</Column>
+				<Column align="left" img_width="" sample_text="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_NAME" width="110">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_GUILD" width="95">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_USER_LEVEL" width="50">
+				</Column>
+				<Column align="center" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_USER_CLASS" width="80">
+				</Column>
+				<Column align="center" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_ABYSS_RANK" width="90">
+				</Column>
+				<Column align="right" img_width="" sample_text="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_USER_ABYSS_POINT" width="115">
+				</Column>
+				<Column align="center" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_CHANGE" width="50">
+				</Column>
+			</Widget>
+			<Widget frame="10,489,654,21" halign="left" name="dark_user_msg" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_light_guild" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;vscroll" frame="7,6,661,475" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="light_guild_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_RANK" width="50">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_NAME" width="210">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_LEVEL" width="70">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_MEMBER" width="80">
+				</Column>
+				<Column align="right" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_POINT" width="170">
+				</Column>
+				<Column align="center" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_CHANGE" width="60">
+				</Column>
+			</Widget>
+			<Widget frame="10,489,654,21" halign="left" name="light_guild_msg" type="static">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,674,514" h_pos_align="proportion" name="page_dark_guild" preset="v5_tabpage" type="tabpage" v_pos_align="proportion">
+			<Widget column_heading="True" flag="truncate;vscroll" frame="7,6,661,475" header_font="v3_columnhead" header_height="25" item_height="21" list_padding="3,3" name="dark_guild_list" preset="v5_listview_ex" scroll_type="visible" skin_type="version5" type="listviewex">
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_RANK" width="50">
+				</Column>
+				<Column align="left" img_width="" sort="text" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_NAME" width="210">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_LEVEL" width="70">
+				</Column>
+				<Column align="center" sort="number" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_MEMBER" width="80">
+				</Column>
+				<Column align="right" img_width="" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_GUILD_POINT" width="170">
+				</Column>
+				<Column align="center" sort="param" title="STR_ABYSS_RANK_DIALOG__COL_CHANGE" width="60">
+				</Column>
+			</Widget>
+			<Widget frame="10,489,654,21" halign="left" name="dark_guild_msg" type="static">
+			</Widget>
+		</Widget>
+	</Widget>
+</Dialog>

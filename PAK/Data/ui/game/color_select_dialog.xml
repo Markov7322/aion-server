@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog close_offset="4,1" close_preset="v5_close" flag="close" frame="500,100,218,157" last_modified="2014-08-22 12:58:41" name="color_select_dialog" preset="v5_msgbox" shadow_offset="8,8" title_frame="3,3,212,100" title_height="25" title_offset="0,5" type="dlg_color" ui_mode="housing;housing_building;toypet">
+	<Widget frame="144,28,61,92" preset="v5_staticbox2" type="image">
+	</Widget>
+	<Widget align="vertical" frame="5,28,134,92" knob_size="21,11" name="color_select" slide_border_size="3" slide_preset="create_color_slider" slide_rect="112,2,21,88" src_picker="lobby_picker" table_border_size="3" table_frame="0,1,108,90" table_preset="create_color_table" type="colorselect">
+	</Widget>
+	<Widget flag="transparent" font="ui_static_title" frame="149,38,16,16" halign="left" text="STR_COLOR_SELECT_DIALOG__WIDGET2" type="static">
+	</Widget>
+	<Widget alphanumeric="False" font="ui_editbox" frame="164,35,36,22" h_padding="5" name="edit_r" preset="v5_editbox" type="editbox" v_padding="5">
+	</Widget>
+	<Widget flag="transparent" font="ui_static_title" frame="149,66,16,16" halign="left" text="STR_COLOR_SELECT_DIALOG__WIDGET3" type="static">
+	</Widget>
+	<Widget alphanumeric="False" font="ui_editbox" frame="164,62,36,22" h_padding="5" name="edit_g" preset="v5_editbox" type="editbox" v_padding="5">
+	</Widget>
+	<Widget flag="transparent" font="ui_static_title" frame="149,92,16,16" halign="left" text="STR_COLOR_SELECT_DIALOG__WIDGET4" type="static">
+	</Widget>
+	<Widget font="ui_editbox" frame="164,89,36,22" h_padding="5" name="edit_b" preset="v5_editbox" type="editbox" v_padding="5">
+	</Widget>
+</Dialog>

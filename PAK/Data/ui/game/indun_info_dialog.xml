@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_movable" frame="0,0,190,78" last_modified="2014-08-22 12:58:41" name="indun_info_dialog" type="dlg_indun_info">
+	<Widget frame="0,0,190,98" group="idlf1" name="IDLF1" preset="v5_indun_hud_bg" type="container">
+		<Widget flag="wordwrap;multiline" font_size="14" frame="8,0,175,40" halign="center" name="indun_name" type="static" valign="middle">
+		</Widget>
+		<Widget font_size="14" frame="12,64,132,22" halign="center" name="remain_time" preset="v5_indun_hud_time" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="16" frame="12,40,151,21" halign="center" name="score" preset="v5_indun_hud_score_party" tooltip="STR_INDUN_TIMER__TOOLTIP_PARTY_POINT" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget frame="147,62,28,28" name="func_btn" preset="v5_indun_hud_btn" type="button">
+		</Widget>
+		<Widget flag="not_enabled" frame="12,40,151,21" halign="center" name="score_fx" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget frame="0,0,190,98" group="iddre" name="IDDre" preset="v5_indun_hud_bg" type="container">
+		<Widget flag="wordwrap;multiline" font_size="14" frame="8,0,175,40" halign="center" name="indun_name" type="static" valign="middle">
+		</Widget>
+		<Widget font_size="14" frame="12,64,132,22" halign="center" name="remain_time" preset="v5_indun_hud_time" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="16" frame="11,40,80,21" halign="center" name="score_light" preset="v5_indun_hud_score_light" tooltip="STR_INDUN_TIMER__TOOLTIP_LIGHT_POINT" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="16" frame="94,40,80,21" halign="center" name="score_dark" preset="v5_indun_hud_score_dark" tooltip="STR_INDUN_TIMER__TOOLTIP_DARK_POINT" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget frame="147,62,28,28" name="func_btn" preset="v5_indun_hud_btn" type="button">
+		</Widget>
+		<Widget flag="not_enabled" frame="11,40,80,21" halign="center" name="score_light_fx" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="not_enabled" frame="94,40,80,21" halign="center" name="score_dark_fx" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget frame="0,0,190,98" group="idarena" name="IDArena" preset="v5_indun_hud_bg" type="container">
+		<Widget flag="multiline;wordwrap" font_size="14" frame="8,0,175,40" halign="center" name="indun_name" type="static" valign="middle">
+		</Widget>
+		<Widget font_size="14" frame="12,62,138,22" halign="center" name="score" preset="v5_indun_hud_score_party" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="16" frame="11,38,92,21" halign="center" name="stage" preset="v5_indun_hud_time" tooltip="STR_INDUN_INFO_DIALOG__TOOLTIP_IDARENA_STAGE" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="16" frame="107,38,73,21" halign="center" name="round" preset="v5_indun_hud_time" tooltip="STR_INDUN_INFO_DIALOG__TOOLTIP_IDARENA_ROUND" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="14" frame="107,38,73,21" halign="center" name="round_ex" preset="v5_indun_hud_time" tooltip="STR_INDUN_INFO_DIALOG__TOOLTIP_IDARENA_ROUND" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget frame="153,60,28,28" name="func_btn" preset="v5_indun_arena_btn" tooltip="STR_INDUN_INFO_DIALOG__TOOLTIP_IDARENA_LEAVE_BTN" type="button">
+		</Widget>
+		<Widget flag="not_enabled" frame="12,62,138,22" halign="center" name="score_fx" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget frame="0,0,190,122" group="idarenapvp" name="IDArenaPvP" preset="v5_indun_hud_bg" type="container">
+		<Widget flag="multiline;wordwrap" font_size="14" frame="8,0,175,40" halign="center" name="indun_name" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget font_size="14" frame="12,88,132,22" halign="center" name="remain_time" preset="v5_indun_hud_time" text_shade="True" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="16" frame="12,64,132,21" halign="center" name="score" preset="v5_indun_hud_score_party" text_shade="True" tooltip="STR_INDUN_TIMER__TOOLTIP_MY_POINT" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget flag="active" font_size="14" frame="12,39,161,22" halign="center" name="round" preset="v5_indun_hud_time" text_shade="True" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+		<Widget frame="147,87,28,28" name="leave_btn" preset="v5_indun_arena_btn" tooltip="STR_INDUN_INFO_DIALOG__TOOLTIP_IDARENA_LEAVE_BTN" type="button">
+		</Widget>
+		<Widget frame="147,59,28,28" name="account_btn" preset="v5_indun_hud_btn" type="button">
+		</Widget>
+		<Widget flag="not_enabled" frame="12,64,132,21" halign="center" name="score_fx" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget frame="0,0,190,109" group="idtimeattack" name="IDTimeAttack" preset="v5_indun_hud_bg" type="container">
+		<Widget font_size="14" frame="8,4,175,20" halign="center" name="indun_name" type="static" valign="middle">
+		</Widget>
+		<Widget font_size="14" frame="14,51,162,22" halign="center" name="remain_time" preset="v5_indun_hud_time" type="static" v_pos_align="middle" valign="middle">
+		</Widget>
+	</Widget>
+</Dialog>

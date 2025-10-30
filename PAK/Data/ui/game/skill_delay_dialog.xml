@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_focusable;movable" frame="505,690,271,55" h_pos_align="center" last_modified="2014-08-22 12:58:41" name="skill_delay_dialog" type="dlg_skill_delay" v_pos_align="bottom">
+	<Widget frame="0,0,271,45" group="general" name="general" type="container">
+		<Widget frame="0,7,271,38" name="delay_bg" preset="v5_hud_delay" type="image" v_pos_align="middle">
+		</Widget>
+		<Widget frame="21,19,228,10" name="delay" preset="v5_delay_gauge_general" type="gauge" value_type="float">
+		</Widget>
+		<Widget flag="truncate" frame="29,0,213,16" halign="center" name="name" text_shade="True" type="static" valign="middle">
+		</Widget>
+	</Widget>
+	<Widget flag="not_visible" frame="0,0,271,55" group="charge" name="charge" type="container">
+		<Widget frame="0,7,271,38" h_pos_align="center" name="delay_bg" preset="v5_hud_delay" type="image">
+		</Widget>
+		<Widget frame="21,19,228,10" h_pos_align="center" name="delay" preset="v5_gauge_charge" type="gauge" value_type="float">
+		</Widget>
+		<Widget flag="truncate" font="ui_default" frame="29,0,213,16" h_pos_align="center" halign="center" name="name" text_shade="True" type="static" valign="middle">
+		</Widget>
+		<Widget frame="99,34,18,14" h_pos_align="center" name="charge_step1" preset="v5_gauge_charge_step" type="static">
+		</Widget>
+		<Widget frame="118,34,18,14" h_pos_align="center" name="charge_step2" preset="v5_gauge_charge_step" type="static">
+		</Widget>
+		<Widget frame="137,34,18,14" h_pos_align="center" name="charge_step3" preset="v5_gauge_charge_step" type="static">
+		</Widget>
+		<Widget frame="156,34,18,14" h_pos_align="center" name="charge_step4" preset="v5_gauge_charge_step" type="static">
+		</Widget>
+	</Widget>
+</Dialog>

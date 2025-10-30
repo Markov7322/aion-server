@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="not_movable" frame="859,539,406,201" last_modified="2014-08-22 12:58:41" name="inventory_attach_dialog" preset="v5_dialog" shadow_offset="8,8" title_frame="3,3,401,14" type="dlg_inventory_attach">
+	<Widget anim_style="none" frame="0,4,399,191" name="inv_tabsheet" type="tabsheet">
+		<Widget btn_move_anim="True" frame="0,3,400,23" preset="v5_tab" tab_offset="6,0" tab_space="0" type="tab">
+			<Widget flag="truncate" font="v3_tab" frame="4,0,76,25" name="button0" preset="v5_inv_tab_button" type="tabbutton">
+			</Widget>
+			<Widget flag="truncate" font="v3_tab" frame="80,0,76,25" name="button1" preset="v5_inv_tab_button" type="tabbutton">
+			</Widget>
+			<Widget flag="truncate" font="v3_tab" frame="156,0,76,25" name="button2" preset="v5_inv_tab_button" type="tabbutton">
+			</Widget>
+			<Widget flag="truncate" font="v3_tab" frame="232,0,76,25" name="button3" preset="v5_inv_tab_button" type="tabbutton">
+			</Widget>
+			<Widget flag="truncate" font="v3_tab" frame="308,0,76,25" name="button4" preset="v5_inv_tab_button" type="tabbutton">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,138" h_pos_align="proportion" preset="v5_tabpage3" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="-1,-1" frame="6,3,389,130" group="0" item_height="44" item_width="44" name="list0" preset="v5_listview" reserve_slots="true" slot_num="27" type="listview" viewmode="icon">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,138" h_pos_align="proportion" preset="v5_tabpage3" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="-1,-1" frame="6,3,389,130" group="0" item_height="44" item_width="44" name="list1" preset="v5_listview" reserve_slots="true" slot_num="27" type="listview" viewmode="icon">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,138" h_pos_align="proportion" preset="v5_tabpage3" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="-1,-1" frame="6,3,389,130" group="0" item_height="44" item_width="44" name="list2" preset="v5_listview" reserve_slots="true" slot_num="27" type="listview" viewmode="icon">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,138" h_pos_align="proportion" preset="v5_tabpage3" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="-1,-1" frame="6,3,389,130" group="0" item_height="44" item_width="44" name="list3" preset="v5_listview" reserve_slots="true" slot_num="27" type="listview" viewmode="icon">
+			</Widget>
+		</Widget>
+		<Widget frame="0,25,399,138" h_pos_align="proportion" preset="v5_tabpage3" type="tabpage" v_pos_align="proportion">
+			<Widget cell_padding="2" cell_space="-1,-1" frame="6,3,389,130" group="0" item_height="44" item_width="44" name="list4" preset="v5_listview" reserve_slots="true" slot_num="27" type="listview" viewmode="icon">
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget frame="0,165,400,29" name="bottom" type="container">
+		<Widget frame="2,2,25,25" item_height="30" item_width="30" name="trashcan" preset="v5_inv_trashcan" type="itemview">
+		</Widget>
+		<Widget font="v3_money" frame="170,3,202,24" halign="right" name="money" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static" valign="middle">
+		</Widget>
+		<Widget frame="171,4,24,22" item_height="17" item_width="21" name="money_item" preset="v5_gold" type="itemview">
+		</Widget>
+		<Widget font="ui_default" frame="54,5,61,18" halign="left" name="slot_count" type="static">
+		</Widget>
+		<Widget cell_padding="1" frame="31,4,21,21" item_height="21" item_width="21" name="inv_temp" preset="v5_inv_tempslot" type="itemview">
+		</Widget>
+		<Widget frame="375,5,21,21" name="sort" preset="v5_inv_sort" tooltip="STR_INVENTORY_DIALOG__TOOLTIP_AUTO_SORT" type="button">
+		</Widget>
+		<Widget frame="140,4,22,22" name="inv_to_toypet" preset="v5_toypet_inventory" tooltip="STR_INVENTORY_DIALOG__TOOLTIP_TOYPET_WAREHOUSE" type="button">
+		</Widget>
+		<Widget frame="138,4,28,26" name="inv_to_coin" preset="v5_inv_extra" tooltip="STR_INVENTORY_DIALOG_TOOLTIP_EXTRA_INVENTORY" type="button">
+		</Widget>
+	</Widget>
+</Dialog>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Screen folder="game" last_modified="2015-03-16 14:04:30" name="UI_Game" version="48">
+	<Dialog name="quickbar_dialog_ctrl">
+	</Dialog>
+	<Dialog name="quickbar_dialog_alt">
+	</Dialog>
+	<Dialog name="quickbar_dialog_extra">
+	</Dialog>
+	<Dialog name="quickbar_dialog_sep">
+	</Dialog>
+	<Dialog name="help_indicator_dialog">
+	</Dialog>
+	<Dialog name="buff_status_dialog">
+	</Dialog>
+	<Dialog name="debuff_status_dialog">
+	</Dialog>
+	<Dialog name="pet_buff_status_dialog">
+	</Dialog>
+	<Dialog name="target_dialog">
+	</Dialog>
+	<Dialog name="target_buff_status_dialog">
+	</Dialog>
+	<Dialog name="system_menu_dialog">
+	</Dialog>
+	<Dialog name="player_info_dialog">
+	</Dialog>
+	<Dialog name="player_info_other_dialog">
+	</Dialog>
+	<Dialog name="inventory_dialog">
+	</Dialog>
+	<Dialog name="inventory_dialog_new">
+	</Dialog>
+	<Dialog name="inventory_attach_dialog">
+	</Dialog>
+	<Dialog name="inventory_other_dialog">
+	</Dialog>
+	<Dialog name="inventory_coin_dialog">
+	</Dialog>
+	<Dialog name="inventory_coin_other_dialog">
+	</Dialog>
+	<Dialog name="skill_new_dialog">
+	</Dialog>
+	<Dialog name="skill_etc_dialog">
+	</Dialog>
+	<Dialog name="skill_other_dialog">
+	</Dialog>
+	<Dialog name="color_select_dialog">
+	</Dialog>
+	<Dialog name="chat_sep_dialog">
+	</Dialog>
+	<Dialog name="chat_dialog">
+	</Dialog>
+	<Dialog name="chat_input_dialog">
+	</Dialog>
+	<Dialog name="chat_option_dialog">
+	</Dialog>
+	<Dialog name="dlg_dialog">
+	</Dialog>
+	<Dialog name="quest_dialog">
+	</Dialog>
+	<Dialog name="quest_summary_dialog">
+	</Dialog>
+	<Dialog name="quest_dialog_new_other">
+	</Dialog>
+	<Dialog name="quest_summary_other_dialog">
+	</Dialog>
+	<Dialog name="quest_indicator_dialog">
+	</Dialog>
+	<Dialog name="personal_shop_dialog">
+	</Dialog>
+	<Dialog name="item_price_count_dialog">
+	</Dialog>
+	<Dialog name="item_price_dialog">
+	</Dialog>
+	<Dialog name="item_count_dialog">
+	</Dialog>
+	<Dialog name="register_item_dialog">
+	</Dialog>
+	<Dialog name="upgrade_item_dialog">
+	</Dialog>
+	<Dialog name="trade_dialog">
+	</Dialog>
+	<Dialog name="exchange_dialog">
+	</Dialog>
+	<Dialog name="vendor_dialog">
+	</Dialog>
+	<Dialog name="vendor_sell_dialog">
+	</Dialog>
+	<Dialog name="vendor_sell_stack_dialog">
+	</Dialog>
+	<Dialog name="vendor_buy_each_dialog">
+	</Dialog>
+	<Dialog name="guild_create_dialog">
+	</Dialog>
+	<Dialog name="guild_info_dialog">
+	</Dialog>
+	<Dialog name="guild_other_info_dialog">
+	</Dialog>
+	<Dialog name="guild_auth_dialog">
+	</Dialog>
+	<Dialog name="guild_notice_dialog">
+	</Dialog>
+	<Dialog name="guild_history_dialog">
+	</Dialog>
+	<Dialog name="guild_challenge_task_dialog">
+	</Dialog>
+	<Dialog name="guild_challenge_task_quest_dialog">
+	</Dialog>
+	<Dialog name="guild_dominion_apply_dialog">
+	</Dialog>
+	<Dialog name="guild_dominion_info_dialog">
+	</Dialog>
+	<Dialog name="party_buff_dialog">
+	</Dialog>
+	<Dialog name="party_dialog">
+	</Dialog>
+	<Dialog name="party_sub_buff_dialog">
+	</Dialog>
+	<Dialog name="party_sub_dialog">
+	</Dialog>
+	<Dialog name="force_sep_group_dialog">
+	</Dialog>
+	<Dialog name="force_sep_member_dialog">
+	</Dialog>
+	<Dialog name="force_sep_member_detail_dialog">
+	</Dialog>
+	<Dialog name="force_sep_buff_dialog">
+	</Dialog>
+	<Dialog name="force_sep_buff_detail_dialog">
+	</Dialog>
+	<Dialog name="force_dialog">
+	</Dialog>
+	<Dialog name="force_dialog_voicechat">
+	</Dialog>
+	<Dialog name="union_dialog">
+	</Dialog>
+	<Dialog name="force_ready_dialog">
+	</Dialog>
+	<Dialog name="mailbox_dialog">
+	</Dialog>
+	<Dialog name="letter_dialog">
+	</Dialog>
+	<Dialog name="goods_info_dialog">
+	</Dialog>
+	<Dialog name="mailbox_other_dialog">
+	</Dialog>
+	<Dialog name="letter_other_dialog">
+	</Dialog>
+	<Dialog name="gathering_dialog">
+	</Dialog>
+	<Dialog name="making_dialog">
+	</Dialog>
+	<Dialog name="tool_making_dialog">
+	</Dialog>
+	<Dialog name="warehouse_dialog">
+	</Dialog>
+	<Dialog name="global_option_dialog">
+	</Dialog>
+	<Dialog name="timer_dialog">
+	</Dialog>
+	<Dialog name="gm_dialog">
+	</Dialog>
+	<Dialog name="gm_poll_dialog">
+	</Dialog>
+	<Dialog name="gm_bookmark_dialog">
+	</Dialog>
+	<Dialog name="gm_memo_dialog">
+	</Dialog>
+	<Dialog name="dictionary_dialog">
+	</Dialog>
+	<Dialog name="help_dialog">
+	</Dialog>
+	<Dialog name="loadingtip_dialog">
+	</Dialog>
+	<Dialog name="petition_dialog">
+	</Dialog>
+	<Dialog name="petition_status_dialog">
+	</Dialog>
+	<Dialog name="petition_eval_dialog">
+	</Dialog>
+	<Dialog name="resurrect_dialog">
+	</Dialog>
+	<Dialog name="resurrectother_dialog">
+	</Dialog>
+	<Dialog name="remove_option_dialog">
+	</Dialog>
+	<Dialog name="skin_change_dialog">
+	</Dialog>
+	<Dialog name="add_proc_dialog">
+	</Dialog>
+	<Dialog name="skill_delay_dialog">
+	</Dialog>
+	<Dialog name="enchant_delay_dialog">
+	</Dialog>
+	<Dialog name="general_delay_dialog">
+	</Dialog>
+	<Dialog name="target_delay_dialog">
+	</Dialog>
+	<Dialog name="target_assist_delay_dialog">
+	</Dialog>
+	<Dialog name="airline_service_dialog">
+	</Dialog>
+	<Dialog name="read_item_dialog">
+	</Dialog>
+	<Dialog name="quit_alert_dialog">
+	</Dialog>
+	<Dialog name="common_alert_dialog">
+	</Dialog>
+	<Dialog name="loot_dialog">
+	</Dialog>
+	<Dialog name="select_disassembly_item_dialog">
+	</Dialog>
+	<Dialog name="who_dialog">
+	</Dialog>
+	<Dialog name="who_other_dialog">
+	</Dialog>
+	<Dialog name="paper_doll_dialog">
+	</Dialog>
+	<Dialog name="watch_dialog">
+	</Dialog>
+	<Dialog name="skill_penalty_dialog">
+	</Dialog>
+	<Dialog name="emblem_dialog">
+	</Dialog>
+	<Dialog name="channel_dialog">
+	</Dialog>
+	<Dialog name="macro_dialog">
+	</Dialog>
+	<Dialog name="macro_name_dialog">
+	</Dialog>
+	<Dialog name="support_shortcut_dialog">
+	</Dialog>
+	<Dialog name="support_shortcut_wind">
+	</Dialog>
+	<Dialog name="world_influence_dialog">
+	</Dialog>
+	<Dialog name="artifact_dialog">
+	</Dialog>
+	<Dialog name="gate_fortifier_dialog">
+	</Dialog>
+	<Dialog name="char_link_dialog">
+	</Dialog>
+	<Dialog name="party_link_dialog">
+	</Dialog>
+	<Dialog name="force_link_dialog">
+	</Dialog>
+	<Dialog name="gm_indicator_dialog">
+	</Dialog>
+	<Dialog name="tutorial_dialog">
+	</Dialog>
+	<Dialog name="loot_option_dialog">
+	</Dialog>
+	<Dialog name="loot_roll_dialog">
+	</Dialog>
+	<Dialog name="abyss_rank_dialog">
+	</Dialog>
+	<Dialog name="memo_dialog">
+	</Dialog>
+	<Dialog name="move_state_dialog">
+	</Dialog>
+	<Dialog name="target_assist_dialog">
+	</Dialog>
+	<Dialog name="summon_dialog">
+	</Dialog>
+	<Dialog name="captcha_dialog">
+	</Dialog>
+	<Dialog name="indun_account_idlf1_dialog">
+	</Dialog>
+	<Dialog name="indun_account_iddre_dialog">
+	</Dialog>
+	<Dialog name="indun_account_idarena_dialog">
+	</Dialog>
+	<Dialog name="idarena_pvp_dialog">
+	</Dialog>
+	<Dialog name="idarena_pvp_rank_dialog">
+	</Dialog>
+	<Dialog name="idarena_team_dialog">
+	</Dialog>
+	<Dialog name="idarena_team_rank_dialog">
+	</Dialog>
+	<Dialog name="idscore_dialog">
+	</Dialog>
+	<Dialog name="idscore_legionland_dialog">
+	</Dialog>
+	<Dialog name="idrvr_dialog">
+	</Dialog>
+	<Dialog name="idrvr_info_dialog">
+	</Dialog>
+	<Dialog name="idtimeattack_dialog">
+	</Dialog>
+	<Dialog name="indun_info_dialog">
+	</Dialog>
+	<Dialog name="indun_register_dialog">
+	</Dialog>
+	<Dialog name="indun_wait_dialog">
+	</Dialog>
+	<Dialog name="indun_enter_dialog">
+	</Dialog>
+	<Dialog name="indun_colltime_dialog">
+	</Dialog>
+	<Dialog name="indun_colltime_reset_dialog">
+	</Dialog>
+	<Dialog name="indun_match_maker_dialog">
+	</Dialog>
+	<Dialog name="indun_title_idarena_dialog">
+	</Dialog>
+	<Dialog name="indun_title_idarena_stage_end_dialog">
+	</Dialog>
+	<Dialog name="indun_title_idarena_pvp_dialog">
+	</Dialog>
+	<Dialog name="fx_title_common">
+	</Dialog>
+	<Dialog name="fx_title_worldraid_vritra_dialog">
+	</Dialog>
+	<Dialog name="fx_title_legionraid_dialog">
+	</Dialog>
+	<Dialog name="fx_title_agent_ldf4adv_dialog">
+	</Dialog>
+	<Dialog name="compound_weapon_dialog">
+	</Dialog>
+	<Dialog name="decompound_weapon_dialog">
+	</Dialog>
+	<Dialog name="party_match_dialog">
+	</Dialog>
+	<Dialog name="party_match_offer_dialog">
+	</Dialog>
+	<Dialog name="party_match_instance_offer_dialog">
+	</Dialog>
+	<Dialog name="party_match_seek_dialog">
+	</Dialog>
+	<Dialog name="party_match_instance_standby_dialog">
+	</Dialog>
+	<Dialog name="mercenary_dialog">
+	</Dialog>
+	<Dialog name="mercenarygroup_dialog0">
+	</Dialog>
+	<Dialog name="mercenarygroup_dialog1">
+	</Dialog>
+	<Dialog name="mercenarygroup_dialog2">
+	</Dialog>
+	<Dialog name="mercenarytroop_dialog">
+	</Dialog>
+	<Dialog name="mercenary_buff_dialog">
+	</Dialog>
+	<Dialog name="mercenarytroop_buff_dialog0">
+	</Dialog>
+	<Dialog name="mercenarytroop_buff_dialog1">
+	</Dialog>
+	<Dialog name="mercenarytroop_buff_dialog2">
+	</Dialog>
+	<Dialog name="mercenarytroop_buff_dialog3">
+	</Dialog>
+	<Dialog name="mercenarytroop_buff_dialog4">
+	</Dialog>
+	<Dialog name="enchant_dialog">
+	</Dialog>
+	<Dialog name="enchant_option_dialog">
+	</Dialog>
+	<Dialog name="exceed_item_dialog">
+	</Dialog>
+	<Dialog name="exceed_enchant_dialog">
+	</Dialog>
+	<Dialog name="enchant_stigma_dialog">
+	</Dialog>
+	<Dialog name="toypet_tame_dialog">
+	</Dialog>
+	<Dialog name="toypet_abandon_dialog">
+	</Dialog>
+	<Dialog name="toypet_abandon_confirm_dialog">
+	</Dialog>
+	<Dialog name="toypet_h_tame_dialog">
+	</Dialog>
+	<Dialog name="toypet_h_abandon_dialog">
+	</Dialog>
+	<Dialog name="toypet_h_abandon_confirm_dialog">
+	</Dialog>
+	<Dialog name="toypet_list_dialog">
+	</Dialog>
+	<Dialog name="toypet_info_dialog">
+	</Dialog>
+	<Dialog name="toypet_feeding_dialog">
+	</Dialog>
+	<Dialog name="object_paperdoll_dialog">
+	</Dialog>
+	<Dialog name="npc_guide_dialog">
+	</Dialog>
+	<Dialog name="command_dialog">
+	</Dialog>
+	<Dialog name="charge_item_dialog">
+	</Dialog>
+	<Dialog name="charge_item_dialog2">
+	</Dialog>
+	<Dialog name="fatigue_dialog">
+	</Dialog>
+	<Dialog name="event_shortcut_dialog">
+	</Dialog>
+	<Dialog name="housing_info_dialog">
+	</Dialog>
+	<Dialog name="housing_menu_dialog">
+	</Dialog>
+	<Dialog name="housing_container_dialog">
+	</Dialog>
+	<Dialog name="housing_parts_dialog">
+	</Dialog>
+	<Dialog name="housing_emblem_dialog">
+	</Dialog>
+	<Dialog name="housing_addon_dialog">
+	</Dialog>
+	<Dialog name="housing_register_dialog">
+	</Dialog>
+	<Dialog name="housing_sale_dialog">
+	</Dialog>
+	<Dialog name="housing_building_dialog">
+	</Dialog>
+	<Dialog name="housing_lbox_dialog">
+	</Dialog>
+	<Dialog name="housing_lbox_import_dialog">
+	</Dialog>
+	<Dialog name="housing_lbox_select_icon_dialog">
+	</Dialog>
+	<Dialog name="housing_add_lbox_dialog">
+	</Dialog>
+	<Dialog name="screenshot_browser_dialog">
+	</Dialog>
+	<Dialog name="new_map_dialog">
+	</Dialog>
+	<Dialog name="transparent_map_large_dialog">
+	</Dialog>
+	<Dialog name="transparent_map_small_dialog">
+	</Dialog>
+	<Dialog name="zonemap_dialog">
+	</Dialog>
+	<Dialog name="transparent_zonemap_small_dialog">
+	</Dialog>
+	<Dialog name="transparent_zonemap_large_dialog">
+	</Dialog>
+	<Dialog name="patin_map_save_dialog">
+	</Dialog>
+	<Dialog name="patin_map_load_dialog">
+	</Dialog>
+	<Dialog name="housing_buddy_list_dialog">
+	</Dialog>
+	<Dialog name="housing_select_buddy_dialog">
+	</Dialog>
+	<Dialog name="account_info_dialog">
+	</Dialog>
+	<Dialog name="housing_charge_fee_dialog">
+	</Dialog>
+	<Dialog name="housing_kick_dialog">
+	</Dialog>
+	<Dialog name="housing_config_dialog">
+	</Dialog>
+	<Dialog name="inhouse_warehouse_dialog">
+	</Dialog>
+	<Dialog name="town_challenge_task_dialog">
+	</Dialog>
+	<Dialog name="town_challenge_task_quest_dialog">
+	</Dialog>
+	<Dialog name="screenshot_uploader_dialog">
+	</Dialog>
+	<Dialog name="screenshot_uploader_ncmsg_dialog">
+	</Dialog>
+	<Dialog name="web_service_dialog">
+	</Dialog>
+	<Dialog name="web_service_ncmsg_dialog">
+	</Dialog>
+	<Dialog name="ingame_web_shop_dialog">
+	</Dialog>
+	<Dialog name="ingame_popup_dialog">
+	</Dialog>
+	<Dialog name="beginner_svr_dialog">
+	</Dialog>
+	<Dialog name="lite_download_info_ingame_dialog">
+	</Dialog>
+	<Dialog name="lite_action_denied_ingame_dialog">
+	</Dialog>
+	<Dialog name="lite_play_denied_ingame_dialog">
+	</Dialog>
+	<Dialog name="add_buddy_dialog">
+	</Dialog>
+	<Dialog name="emoticon_dialog">
+	</Dialog>
+	<Dialog name="personal_channel_dialog">
+	</Dialog>
+	<Dialog name="personal_channel_room_dialog">
+	</Dialog>
+	<Dialog name="block_share_list_dialog">
+	</Dialog>
+	<Dialog name="art_dev_dialog">
+	</Dialog>
+	<Dialog name="builder_dev_dialog">
+	</Dialog>
+	<Dialog name="builder_option_load_dialog">
+	</Dialog>
+	<Dialog name="design_dev_dialog">
+	</Dialog>
+	<Dialog name="tooltip_proto_dialog">
+	</Dialog>
+	<Dialog name="tooltip_proto_skill_dialog">
+	</Dialog>
+	<Dialog name="spectator_dialog">
+	</Dialog>
+	<Dialog name="spectator_world_dialog">
+	</Dialog>
+	<Dialog name="spectator_group_dialog">
+	</Dialog>
+	<Dialog name="spectator_group_bg_dialog">
+	</Dialog>
+	<Dialog name="spectator_group_buff_dialog">
+	</Dialog>
+	<Dialog name="web_petition_dialog">
+	</Dialog>
+	<Dialog name="megaphone_dialog">
+	</Dialog>
+	<Dialog name="megaphone_write_dialog">
+	</Dialog>
+	<Dialog name="reidentify_preview_dialog">
+	</Dialog>
+	<Dialog name="multi_return_dialog">
+	</Dialog>
+	<Dialog name="ingame_web_plugin_dialog">
+	</Dialog>
+	<Dialog name="housing_response_dialog">
+	</Dialog>
+	<Dialog name="gold_vendor_dialog">
+	</Dialog>
+	<Dialog name="login_event_dlg_old">
+	</Dialog>
+	<Dialog name="login_event_stamp_dialog">
+	</Dialog>
+	<Dialog name="login_event_dialog">
+	</Dialog>
+	<Dialog name="vendor_promotion_dialog">
+	</Dialog>
+	<Dialog name="vip_bonus_dialog">
+	</Dialog>
+</Screen>

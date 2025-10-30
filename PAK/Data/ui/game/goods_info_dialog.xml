@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog align_type="sub" close_offset="4,1" close_preset="v5_close" flag="close;title" frame="437,130,406,512" last_modified="2015-02-02 14:15:38" name="goods_info_dialog" preset="v5_dialog2" shadow_offset="8,8" title_align="center" title_frame="3,3,256,14" title_height="25" title_offset="0,5" title_text="STR_CASH_PURCHASE_DIALOG__NAME" type="dlg_goods_info">
+	<Widget font="ui_default" frame="9,5,70,20" text="STR_CASH_PURCHASE_DIALOG__SENDER_NAME" type="static">
+	</Widget>
+	<Widget flag="multiline;wordwrap;active;vscroll" font="ui_static_value" frame="79,3,316,24" name="sender_name" padding="5,5" preset="v5_staticbox" text_offset="s" type="static" valign="top">
+	</Widget>
+	<Widget font="ui_default" frame="9,32,70,20" text="STR_CASH_PURCHASE_DIALOG__SENDER_LETTER" type="static">
+	</Widget>
+	<Widget flag="multiline;wordwrap;active;vscroll" font="ui_static_value" frame="79,31,316,58" name="sender_letter" padding="5,5" preset="v5_staticbox" text_offset="s" type="static" valign="top">
+	</Widget>
+	<Widget font="ui_default" frame="9,93,70,20" text="STR_CASH_PURCHASE_DIALOG__SELECTED_ITEM" type="static">
+	</Widget>
+	<Widget cell_padding="2" font="ui_list" frame="79,92,316,45" item_height="44" item_width="44" name="goods_package" preset="v5_listview_single2" reserve_slots="True" scroll_type="hidden" slot_num="1" type="listview">
+		<Column align="" title="" width="1000">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="9,140,70,20" text="STR_CASH_PURCHASE_DIALOG__ITEM_INFO" type="static">
+	</Widget>
+	<Widget flag="multiline;wordwrap;active;vscroll" font="ui_static_value" frame="79,139,316,70" name="desc" padding="5,5" preset="v5_staticbox" text_offset="s" type="static" valign="top">
+	</Widget>
+	<Widget font="ui_default" frame="9,214,73,17" text="STR_CASH_PURCHASE_DIALOG__ITEM_CONTENT" type="static">
+	</Widget>
+	<Widget cell_padding="2" cell_space="0,0" flag="vscroll" font="ui_list" frame="79,212,316,182" item_height="44" item_width="44" list_padding="3,3" name="goods_item_list" preset="v5_listview_frame" scroll_type="visible" skin_type="version5" slot_num="4" type="listview" viewmode="detail">
+		<Column align="" title="" width="240">
+		</Column>
+	</Widget>
+	<Widget font="ui_default" frame="9,399,70,17" text="STR_CASH_PURCHASE_DIALOG__RECV_INFO" type="static">
+	</Widget>
+	<Widget font="ui_static_value" frame="120,397,275,24" name="delete_date" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static">
+	</Widget>
+	<Widget frame="0,423,400,26" name="refund_info" type="container" v_pos_align="bottom">
+		<Widget font="ui_default" frame="9,2,70,17" text="STR_CASH_PURCHASE_DIALOG__UNPURCHASE_INFO" type="static">
+		</Widget>
+		<Widget font="ui_static_value" frame="79,0,316,24" name="refundable_date" padding="5,0" preset="v5_staticbox" text_offset="5,0" type="static">
+		</Widget>
+	</Widget>
+	<Widget defbutton="False" font="ui_default" frame="259,455,68,24" name="agree" preset="v5_button" text="STR_LOBBY_USER_AGREEMENT__YES" type="button" v_pos_align="bottom">
+	</Widget>
+	<Widget defbutton="False" font="ui_default" frame="328,455,68,24" name="close" preset="v5_button" text="STR_COMMON__CLOSE" type="button" v_pos_align="bottom">
+	</Widget>
+</Dialog>

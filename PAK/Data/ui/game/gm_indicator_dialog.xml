@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Dialog flag="transparent;not_movable;not_active" frame="950,845,166,137" last_modified="2014-08-22 12:58:41" name="gm_indicator_dialog" type="dlg_gm_indicator">
+	<Widget flag="not_visible" frame="1,1,41,45" name="poll_button" preset="v5_help_poll" tooltip="STR_HELP_INDICATOR_DIALOG__TOOLTIP_POLL" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="42,1,41,45" name="petition_button1" preset="v5_help_gm_q" tooltip="STR_HELP_INDICATOR_DIALOG__TOOLTIP_POLL" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="42,1,41,45" name="petition_button2" preset="v5_help_gm_a" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="83,1,41,45" name="indun_reg_button" preset="v5_help_indun_reg" tooltip="STR_INDUN_REGISTER_DIALOG" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="124,1,41,45" name="indun_wait_button" preset="v5_help_indun_wait" tooltip="STR_INDUN_WAIT_DIALOG" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="1,46,41,45" name="party_match_button" preset="v5_help_party_matching" tooltip="STR_PARTY_MATCH_DIALOG__TOOLTIP_SEARCH_MINIMIZE" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="42,46,41,45" name="daily_quest_button" preset="v5_help_daily_quest" tooltip="STR_DAILY_QUEST__TOOLTIP" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="83,46,41,45" name="predefined_addon_button" preset="v5_help_daily_quest" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="124,46,41,45" name="housing_mode_button" preset="v5_help_housing" tooltip="STR_GM_INDICATOR_DIALOG__TOOLTIP_HOUSING_MODE" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="1,91,41,45" name="powermap_button" preset="v5_help_powerbook" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="42,91,41,45" halign="right" name="housing_return_button" preset="v5_help_housing_return" text_color="1.0,1.0,0.0,1.0" text_disabled_color="1.0,1.0,0.0,1.0" text_offset="7,7" text_over_color="1.0,1.0,0.0,1.0" text_selected_color="1.0,1.0,0.0,1.0" text_shade="True" type="button" valign="bottom">
+	</Widget>
+	<Widget flag="not_visible" frame="83,91,41,45" name="beginner_server_button" preset="v5_help_beginnersvr" tooltip="STR_INTERSERVER_SELECT_BUTTON_TOOLTIP" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="124,91,41,45" name="litedown_info_button" preset="v5_help_liteclient" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="1,136,41,45" name="gatha_start_button" preset="help_gatha" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="42,136,41,45" name="account_info_button" preset="v5_help_account_info" tooltip="STR_INDUN_WAIT_DIALOG" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="83,136,41,45" name="new_skill_button" preset="v5_help_new_skill" tooltip="STR_SKILL_LEARN_BUTTON_TOOLTIP" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="124,136,41,45" name="quest_reward_button" preset="v5_help_daily_quest" tooltip="STR_DAILY_QUEST__TOOLTIP" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="1,181,41,45" name="gold_vendor_button" preset="v5_help_goldvendor" tooltip="STR_GOLDVENDOR_DIALOG" type="button">
+	</Widget>
+	<Widget flag="not_visible" frame="42,181,41,45" name="login_event_button" preset="v5_help_attend_event" tooltip="STR_ATTEND_REWARD_UI_POPUP_ICON" type="button">
+	</Widget>
+</Dialog>
