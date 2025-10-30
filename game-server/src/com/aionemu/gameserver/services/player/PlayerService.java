@@ -80,14 +80,15 @@ public class PlayerService {
 	public static void storePlayer(Player player) {
 		PlayerDAO.storePlayer(player);
 		PlayerSkillListDAO.storeSkills(player);
-		PlayerSettingsDAO.saveSettings(player);
-		PlayerQuestListDAO.store(player);
-		AbyssRankDAO.storeAbyssRank(player);
-		PlayerPunishmentsDAO.storePlayerPunishment(player, PunishmentType.PRISON);
-		PlayerPunishmentsDAO.storePlayerPunishment(player, PunishmentType.GATHER);
-		InventoryDAO.store(player);
-		for (House house : player.getHouses())
-			house.save();
+                PlayerSettingsDAO.saveSettings(player);
+                PlayerQuestListDAO.store(player);
+                AbyssRankDAO.storeAbyssRank(player);
+                PlayerPunishmentsDAO.storePlayerPunishment(player, PunishmentType.PRISON);
+                PlayerPunishmentsDAO.storePlayerPunishment(player, PunishmentType.GATHER);
+                InventoryDAO.store(player);
+                PlayerWardrobeDAO.store(player);
+                for (House house : player.getHouses())
+                        house.save();
 		ItemStoneListDAO.save(player);
 		MailDAO.storeMailbox(player);
 		PortalCooldownsDAO.storePortalCooldowns(player);
@@ -114,11 +115,12 @@ public class PlayerService {
 
 		player.setMacros(PlayerMacrosDAO.loadMacros(playerObjId));
 		player.setSkillList(PlayerSkillListDAO.loadSkillList(playerObjId));
-		player.setKnownlist(new KnownList(player));
-		player.setFriendList(FriendListDAO.load(player));
-		player.setBlockList(BlockListDAO.load(playerObjId));
-		player.setTitleList(PlayerTitleListDAO.loadTitleList(playerObjId));
-		player.setPlayerSettings(PlayerSettingsDAO.loadSettings(playerObjId));
+                player.setKnownlist(new KnownList(player));
+                player.setFriendList(FriendListDAO.load(player));
+                player.setBlockList(BlockListDAO.load(playerObjId));
+                player.setTitleList(PlayerTitleListDAO.loadTitleList(playerObjId));
+                player.setWardrobe(PlayerWardrobeDAO.load(player));
+                player.setPlayerSettings(PlayerSettingsDAO.loadSettings(playerObjId));
 		AbyssRankDAO.loadAbyssRank(player);
 		PlayerNpcFactionsDAO.loadNpcFactions(player);
 		MotionDAO.loadMotionList(player);

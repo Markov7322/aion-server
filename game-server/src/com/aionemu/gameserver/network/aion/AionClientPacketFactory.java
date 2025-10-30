@@ -253,7 +253,7 @@ public class AionClientPacketFactory {
 			packets[225] = new PacketInfo<>(CM_RELEASE_OBJECT.class, State.IN_GAME); // [C_CANCEL_USE_HOUSING_OBJECT (CancelUseHousingObjectPacket)]
 			packets[226] = new PacketInfo<>(CM_HOUSE_OPEN_DOOR.class, State.IN_GAME); // [C_USE_HOUSING_DOOR (UseHousingDoorPacket)]
 			// packets[227] = new PacketInfo<>(CM_IN_GAME_SHOP_INFO.class, State.IN_GAME); // [C_REQUEST_WEBNOTIFY_CLEAR (WebNotifyClearPacket)]
-			// packets[228] = [C_HOUSING_REFRESH_TOKEN_REQ (HousingRefreshTokenReqPacket)]
+                        packets[228] = new PacketInfo<>(CM_WARDROBE.class, State.IN_GAME); // [C_WARDROBE]
 			packets[229] = new PacketInfo<>(CM_GF_WEBSHOP_TOKEN_REQUEST.class, State.IN_GAME); // [C_GF_WEBSHOP_TOKEN_REQ (GFWebshopTokenReqPacket)]
 			packets[230] = new PacketInfo<>(CM_SHOW_FRIENDLIST.class, State.IN_GAME); // [C_OFFLINE_BUDDY_LIST (OfflineBuddyList)]
 			// packets[231] = [C_ANSWER_OFFLINE_BUDDY_REQUEST (AnswerOfflineBuddy)]

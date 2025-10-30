@@ -895,6 +895,18 @@ CREATE TABLE `player_titles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
+-- Table structure for `player_wardrobe`
+-- ----------------------------
+DROP TABLE IF EXISTS `player_wardrobe`;
+CREATE TABLE `player_wardrobe` (
+  `player_id` int NOT NULL,
+  `skin_id` int NOT NULL,
+  `unlock_time` bigint NOT NULL,
+  PRIMARY KEY (`player_id`,`skin_id`),
+  CONSTRAINT `player_wardrobe_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- ----------------------------
 -- Table structure for `player_veteran_rewards`
 -- ----------------------------
 DROP TABLE IF EXISTS `player_veteran_rewards`;

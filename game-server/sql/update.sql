@@ -18,3 +18,11 @@ DELETE b FROM broker b LEFT JOIN inventory i ON b.item_pointer = i.item_unique_i
 DELETE FROM inventory WHERE item_id IN (188052318, 188100091, 188100092, 188100093, 188100094);
 -- Rainbow Snake Festival event items
 DELETE FROM inventory WHERE item_id IN (188053672, 188053673, 188053674, 188100257, 188100258, 188100259, 182007171);
+
+CREATE TABLE IF NOT EXISTS `player_wardrobe` (
+        `player_id` int NOT NULL,
+        `skin_id` int NOT NULL,
+        `unlock_time` bigint NOT NULL,
+        PRIMARY KEY (`player_id`,`skin_id`),
+        CONSTRAINT `player_wardrobe_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

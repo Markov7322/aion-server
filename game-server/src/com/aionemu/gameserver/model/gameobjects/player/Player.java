@@ -36,6 +36,7 @@ import com.aionemu.gameserver.model.gameobjects.player.emotion.EmotionList;
 import com.aionemu.gameserver.model.gameobjects.player.motion.MotionList;
 import com.aionemu.gameserver.model.gameobjects.player.npcFaction.NpcFactions;
 import com.aionemu.gameserver.model.gameobjects.player.title.TitleList;
+import com.aionemu.gameserver.model.gameobjects.player.wardrobe.WardrobeList;
 import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
 import com.aionemu.gameserver.model.gameobjects.state.CreatureVisualState;
 import com.aionemu.gameserver.model.gameobjects.state.FlyState;
@@ -114,8 +115,9 @@ public class Player extends Creature {
 	private final Storage[] cabinets = new Storage[StorageType.HOUSE_WH_MAX - StorageType.HOUSE_WH_MIN + 1];
 	private Item usingItem;
 
-	private final AbsoluteStatOwner absStatsHolder;
-	private PlayerSettings playerSettings;
+        private final AbsoluteStatOwner absStatsHolder;
+        private PlayerSettings playerSettings;
+        private WardrobeList wardrobe;
 
 	private PlayerGroup playerGroup;
 	private PlayerAllianceGroup playerAllianceGroup;
@@ -224,11 +226,13 @@ public class Player extends Creature {
 		getController().setOwner(this);
 		moveController = new PlayerMoveController(this);
 
-		setGameStats(new PlayerGameStats(this));
-		setLifeStats(new PlayerLifeStats(this));
-		inGameShop = new InGameShop();
-		absStatsHolder = new AbsoluteStatOwner(this, 0);
-	}
+                setGameStats(new PlayerGameStats(this));
+                setLifeStats(new PlayerLifeStats(this));
+                inGameShop = new InGameShop();
+                absStatsHolder = new AbsoluteStatOwner(this, 0);
+                wardrobe = new WardrobeList();
+                wardrobe.setOwner(this);
+        }
 
 	public boolean isInPlayerMode(PlayerMode mode) {
 		return PlayerActions.isInPlayerMode(this, mode);
@@ -605,13 +609,23 @@ public class Player extends Creature {
 	 * @param playerSettings
 	 *          the playerSettings to set
 	 */
-	public void setPlayerSettings(PlayerSettings playerSettings) {
-		this.playerSettings = playerSettings;
-	}
+        public void setPlayerSettings(PlayerSettings playerSettings) {
+                this.playerSettings = playerSettings;
+        }
 
-	public TitleList getTitleList() {
-		return titleList;
-	}
+        public WardrobeList getWardrobe() {
+                return wardrobe;
+        }
+
+        public void setWardrobe(WardrobeList wardrobe) {
+                this.wardrobe = wardrobe;
+                if (wardrobe != null)
+                        wardrobe.setOwner(this);
+        }
+
+        public TitleList getTitleList() {
+                return titleList;
+        }
 
 	public void setTitleList(TitleList titleList) {
 		this.titleList = titleList;
