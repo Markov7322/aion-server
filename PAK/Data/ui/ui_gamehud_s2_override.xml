@@ -171,7 +171,7 @@
                         <Skin name="v5_hud_radar_wnd">
                         </Skin>
                 </Widget>
-                <Widget frame="205,-12,39,39" name="wardrobe_button_radar" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button">
+                <Widget frame="142,8,39,39" name="wardrobe_button_radar" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button">
                 </Widget>
 		<Widget flag="not_visible" frame="136,22,35,36" name="mail_notice" preset="v5_mail_btn" tooltip="STR_RADAR_DIALOG__TOOLTIP_MAIL_ICON" type="button">
 		</Widget>
