@@ -1464,12 +1464,18 @@
 			</Skin>
 			<Skin name="v5_cash_mail_down" src_image="334,517,35,36" texture="textures/ui/v5_common">
 			</Skin>
-			<Skin name="v5_start_btn_up" src_image="894,314,39,39" texture="textures/ui/v5_common">
-			</Skin>
-			<Skin name="v5_start_btn_over" src_image="936,314,39,39" texture="textures/ui/v5_common">
-			</Skin>
-			<Skin name="v5_start_btn_down" src_image="978,314,39,39" texture="textures/ui/v5_common">
-			</Skin>
+                        <Skin name="v5_start_btn_up" src_image="894,314,39,39" texture="textures/ui/v5_common">
+                        </Skin>
+                        <Skin name="v5_start_btn_over" src_image="936,314,39,39" texture="textures/ui/v5_common">
+                        </Skin>
+                        <Skin name="v5_start_btn_down" src_image="978,314,39,39" texture="textures/ui/v5_common">
+                        </Skin>
+                        <Skin name="v5_wardrobe_btn_up" src_image="852,314,39,39" texture="textures/ui/v5_common">
+                        </Skin>
+                        <Skin name="v5_wardrobe_btn_over" src_image="852,356,39,39" texture="textures/ui/v5_common">
+                        </Skin>
+                        <Skin name="v5_wardrobe_btn_down" src_image="852,398,39,39" texture="textures/ui/v5_common">
+                        </Skin>
 			<Skin name="v5_propet_btn_up" src_image="894,359,39,39" texture="textures/ui/v5_common">
 			</Skin>
 			<Skin name="v5_propet_btn_over" src_image="936,359,39,39" texture="textures/ui/v5_common">
@@ -1746,20 +1752,34 @@
 				<SkinRef main_state="0" name="v5_cash_mail_down" sub_state="down">
 				</SkinRef>
 			</Preset>
-			<Preset name="v5_start_button" type="button">
-				<SkinRef main_state="0" name="v5_start_btn_up" sub_state="up">
-				</SkinRef>
-				<SkinRef main_state="0" name="v5_start_btn_over" sub_state="over">
-				</SkinRef>
-				<SkinRef main_state="0" name="v5_start_btn_down" sub_state="down">
-				</SkinRef>
-				<SkinRef main_state="1" name="v5_start_btn_down" sub_state="up">
-				</SkinRef>
-				<SkinRef main_state="1" name="v5_start_btn_down" sub_state="over">
-				</SkinRef>
-				<SkinRef main_state="1" name="v5_start_btn_down" sub_state="down">
-				</SkinRef>
-			</Preset>
+                        <Preset name="v5_start_button" type="button">
+                                <SkinRef main_state="0" name="v5_start_btn_up" sub_state="up">
+                                </SkinRef>
+                                <SkinRef main_state="0" name="v5_start_btn_over" sub_state="over">
+                                </SkinRef>
+                                <SkinRef main_state="0" name="v5_start_btn_down" sub_state="down">
+                                </SkinRef>
+                                <SkinRef main_state="1" name="v5_start_btn_down" sub_state="up">
+                                </SkinRef>
+                                <SkinRef main_state="1" name="v5_start_btn_down" sub_state="over">
+                                </SkinRef>
+                                <SkinRef main_state="1" name="v5_start_btn_down" sub_state="down">
+                                </SkinRef>
+                        </Preset>
+                        <Preset name="v5_wardrobe_button" type="button">
+                                <SkinRef main_state="0" name="v5_wardrobe_btn_up" sub_state="up">
+                                </SkinRef>
+                                <SkinRef main_state="0" name="v5_wardrobe_btn_over" sub_state="over">
+                                </SkinRef>
+                                <SkinRef main_state="0" name="v5_wardrobe_btn_down" sub_state="down">
+                                </SkinRef>
+                                <SkinRef main_state="1" name="v5_wardrobe_btn_down" sub_state="up">
+                                </SkinRef>
+                                <SkinRef main_state="1" name="v5_wardrobe_btn_down" sub_state="over">
+                                </SkinRef>
+                                <SkinRef main_state="1" name="v5_wardrobe_btn_down" sub_state="down">
+                                </SkinRef>
+                        </Preset>
 			<Preset name="v5_propet_button" type="button">
 				<SkinRef main_state="0" name="v5_propet_btn_up" sub_state="up">
 				</SkinRef>
