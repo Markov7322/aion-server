@@ -182,15 +182,17 @@
 		<Widget flag="not_visible" frame="134,25,35,36" name="cash_mail_notice" preset="v5_cash_mail_btn" tooltip="STR_RADAR_DIALOG__TOOLTIP_CASH_MAIL_ICON" type="button">
 		</Widget>
 	</Dialog>
-	<Dialog flag="not_movable;visible" frame="939,736,183,224" h_pos_align="center" name="radar_dialog" preset="v5_hud_radar_s1" type="dlg_radar" v_pos_align="bottom">
-		<Widget frame="2,45,178,177" name="radar_sight" type="image">
-			<Skin name="v5_hud_radar_sight">
-			</Skin>
-		</Widget>
-		<Widget frame="3,49,177,177" name="radar_wnd" type="image">
-			<Skin name="v5_hud_radar_wnd">
-			</Skin>
-		</Widget>
+        <Dialog flag="not_movable;visible" frame="939,736,183,224" h_pos_align="center" name="radar_dialog" preset="v5_hud_radar_s1" type="dlg_radar" v_pos_align="bottom">
+                <Widget frame="2,45,178,177" name="radar_sight" type="image">
+                        <Skin name="v5_hud_radar_sight">
+                        </Skin>
+                </Widget>
+                <Widget frame="3,49,177,177" name="radar_wnd" type="image">
+                        <Skin name="v5_hud_radar_wnd">
+                        </Skin>
+                </Widget>
+                <Widget frame="72,4,39,39" name="wardrobe_button_radar" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button">
+                </Widget>
 		<Widget flag="active;not_visible" frame="20,192,25,25" name="vendor_notice" type="static">
 			<Skin name="v5_vendor_notice" state="0">
 			</Skin>
