@@ -8,7 +8,7 @@
                 <Skin name="v5_hud_radar_wnd">
                 </Skin>
         </Widget>
-        <Widget frame="72,4,39,39" name="wardrobe_button_radar" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button">
+        <Widget frame="136,8,39,39" name="wardrobe_button_radar" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button">
         </Widget>
 	<Widget flag="active;not_visible" frame="20,192,25,25" name="vendor_notice" type="static">
 		<Skin name="v5_vendor_notice" state="0">
