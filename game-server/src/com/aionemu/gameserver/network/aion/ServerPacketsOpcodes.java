@@ -319,6 +319,7 @@ public class ServerPacketsOpcodes {
 		// addPacketOpcode(301, ); // [S_REP_REGISTER_MONEY_TRADE]
 		addPacketOpcode(302, SM_LEGION_DOMINION_RANK.class); // [S_LEGION_DOMINION_RANKING]
 		addPacketOpcode(303, SM_LEGION_DOMINION_LOC_INFO.class); // [S_LEGION_DOMINION_OWNERSHIP_INFO]
+		addPacketOpcode(304, SM_WARDROBE_INFO.class); // [S_WARDROBE_INFO]
 	}
 
 	static int getOpcode(Class<? extends AionServerPacket> packetClass) {

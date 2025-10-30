@@ -151,7 +151,7 @@
 		</Widget>
 	</Dialog>
 	<Dialog flag="not_movable;visible" frame="967,867,323,93" h_pos_align="center" name="start_dialog" preset="v5_hud_start_s2" type="dlg_start" v_pos_align="bottom">
-                <Widget frame="37,35,39,39" name="wardrobe_button" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button" v_pos_align="bottom">
+		<Widget frame="37,67,39,39" name="wardrobe_button" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button" v_pos_align="bottom">
                 </Widget>
                 <Widget frame="76,35,39,39" name="start_button" preset="v5_start_button" tooltip="STR_START_DIALOG__TOOLTIP_MENU" type="button" v_pos_align="bottom">
                 </Widget>
