@@ -41,6 +41,9 @@ public class CM_WARDROBE extends AionClientPacket {
 
                 switch (action) {
                         case 0:
+                                // The client only opens the wardrobe dialog after we send the
+                                // SM_WARDROBE_INFO response below, so when the wardrobe service is
+                                // not running the button appears to do nothing.
                                 WardrobeService.sendWardrobeInfo(player);
                                 break;
                         case 1:
