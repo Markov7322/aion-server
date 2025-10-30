@@ -162,15 +162,17 @@
 		<Widget frame="153,36,32,33" name="btn_radar_map" preset="v5_map_button" type="button">
 		</Widget>
 	</Dialog>
-	<Dialog flag="not_movable;visible" frame="1087,0,335,198" h_pos_align="right" name="radar_dialog" preset="v5_hud_radar_s2" type="dlg_radar" v_pos_align="top">
-		<Widget frame="152,6,178,177" name="radar_sight" type="image">
-			<Skin name="v5_hud_radar_sight">
-			</Skin>
-		</Widget>
-		<Widget frame="153,10,177,177" name="radar_wnd" type="image">
-			<Skin name="v5_hud_radar_wnd">
-			</Skin>
-		</Widget>
+        <Dialog flag="not_movable;visible" frame="1087,0,335,198" h_pos_align="right" name="radar_dialog" preset="v5_hud_radar_s2" type="dlg_radar" v_pos_align="top">
+                <Widget frame="152,6,178,177" name="radar_sight" type="image">
+                        <Skin name="v5_hud_radar_sight">
+                        </Skin>
+                </Widget>
+                <Widget frame="153,10,177,177" name="radar_wnd" type="image">
+                        <Skin name="v5_hud_radar_wnd">
+                        </Skin>
+                </Widget>
+                <Widget frame="205,-12,39,39" name="wardrobe_button_radar" preset="v5_wardrobe_button" tooltip="STR_START_DIALOG__TOOLTIP_WARDROBE" type="button">
+                </Widget>
 		<Widget flag="not_visible" frame="136,22,35,36" name="mail_notice" preset="v5_mail_btn" tooltip="STR_RADAR_DIALOG__TOOLTIP_MAIL_ICON" type="button">
 		</Widget>
 		<Widget flag="not_visible" frame="136,22,35,36" name="mail_full_notice" preset="v5_mail_full_btn" tooltip="STR_RADAR_DIALOG__TOOLTIP_REDMAIL_ICON" type="button">
